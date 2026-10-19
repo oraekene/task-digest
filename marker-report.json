@@ -1,0 +1,212 @@
+[
+ {
+  "task_id": "b0422",
+  "title": "Update CV",
+  "current": "open",
+  "suggested": "done",
+  "marker": "DONE",
+  "caveat": "latency over intelligence DONE, new third output speed DONE, massively update (then streamline) FAQ ",
+  "line": "overlap DONE (ITS CALLED MARGINAL BEWCS), by domain DONE, latency over intelligence DONE, new third output speed DONE, massively update (then streamline) FAQ SKIP, github uploads for diff differences",
+  "hit": 1.0
+ },
+ {
+  "task_id": "b1738",
+  "title": "Only then manually use job hunting to apply for the TypeSafe job",
+  "current": "open",
+  "suggested": "done",
+  "marker": "DONE",
+  "caveat": "ONLY THEN CAN I MANUALLY USE JOB HUNTING TO APPLY FOR THE TYPESAFE JOB",
+  "line": "ONCE THIS IS DONE, ONLY THEN CAN I MANUALLY USE JOB HUNTING TO APPLY FOR THE TYPESAFE JOB.",
+  "hit": 1.0
+ },
+ {
+  "task_id": "b0157",
+  "title": "Get the Twitter search colab tool working and the new archive scraper formatting files for NotebookLM",
+  "current": "open",
+  "suggested": "done",
+  "marker": "DONE",
+  "caveat": "and Twitter search colab tool (get it working) UPDATE: NEW SCRAPER TO DOWNLOAD ARCHIVE, FORMAT TWITT",
+  "line": "- begin working on Twitter archive downloading DONE, and Twitter search colab tool (get it working) UPDATE: NEW SCRAPER TO DOWNLOAD ARCHIVE, FORMAT TWITTER FILES FOR NOTEBOOKLM",
+  "hit": 0.8
+ },
+ {
+  "task_id": "b1083",
+  "title": "Update Prompt A using the homepage and tab copies",
+  "current": "open",
+  "suggested": "done",
+  "marker": "DONE",
+  "caveat": "",
+  "line": "- prompt to generate the homepage copies: DONE",
+  "hit": 0.75
+ },
+ {
+  "task_id": "b0338",
+  "title": "Abstract the SolarOne design system for reuse on any website",
+  "current": "open",
+  "suggested": "done",
+  "marker": "DONE",
+  "caveat": "",
+  "line": "- create a design system for my website solarone DONE",
+  "hit": 0.67
+ },
+ {
+  "task_id": "b1020",
+  "title": "Adapt my prompt 0/A/B/C process to the Codex setup skills",
+  "current": "open",
+  "suggested": "done",
+  "marker": "done",
+  "caveat": "and done with first website design process using my agents, take my prompt 0,A,B,C process and ask c",
+  "line": "Once codex setup is done, and done with first website design process using my agents, take my prompt 0,A,B,C process and ask codex the best way to adapt it to my codex setup skills",
+  "hit": 0.67
+ },
+ {
+  "task_id": "b1081",
+  "title": "Get the hybrid prompts B and C from Claude",
+  "current": "open",
+  "suggested": "done",
+  "marker": "DONE",
+  "caveat": "(IN THE VARIOUS CLAUDE AND GEMINI AND KIMI CHATS)",
+  "line": "Add to hybrid prompt B: i would need to repeat prompt B for each tab of the website DONE (IN THE VARIOUS CLAUDE AND GEMINI AND KIMI CHATS)",
+  "hit": 0.67
+ },
+ {
+  "task_id": "b0070",
+  "title": "Add a performative-men matching option to the dating app algo",
+  "current": "open",
+  "suggested": "done",
+  "marker": "done",
+  "caveat": "but specifically targeted towards parsing out the profiles that most match the performative traits (",
+  "line": "2. women tend to like performative men (playboys, male feminists, people who say all the things women want to hear and do all the dating things they say in their tons of twitter and tiktok and social ",
+  "hit": 0.6
+ },
+ {
+  "task_id": "b0607",
+  "title": "Build the Savecoins prototype from the design process",
+  "current": "open",
+  "suggested": "done",
+  "marker": "done",
+  "caveat": "then i use the design.md part of the cohesive form in my 3 part design process (skip content) to qui",
+  "line": "- once we are done, then i use the design.md part of the cohesive form in my 3 part design process (skip content) to quickly build a prototype while... ASK WHAT DOCUMENTS FROM THE FULL LIST THAT I NEE",
+  "hit": 0.6
+ },
+ {
+  "task_id": "b1084",
+  "title": "Integrate Framework 2 into the hybrid framework and compare with the Claude framework",
+  "current": "open",
+  "suggested": "done",
+  "marker": "DONE",
+  "caveat": "C. then (a) coalesce (deduplicate) this framework DONE then (b) ask how to integrate this FRAMEWORK ",
+  "line": "After A. coalescing (deduplicating) Framework 1. DONE, and B. (a) comparing to DONE then (b) coalescing (deduplicating) with Framework 2 into hybrid framework DONE, C. then (a) coalesce (deduplicate) ",
+  "hit": 0.6
+ },
+ {
+  "task_id": "b1363",
+  "title": "Add the semantic-search chat to the prioritization engine",
+  "current": "open",
+  "suggested": "done",
+  "marker": "finished",
+  "caveat": "",
+  "line": "important chat to add to my prioritization engine, when i am finished",
+  "hit": 0.6
+ },
+ {
+  "task_id": "b0200",
+  "title": "Fix all suspended accounts",
+  "current": "open",
+  "suggested": "started",
+  "marker": "HALF-DONE",
+  "caveat": "",
+  "line": "- fix all suspended accounts HALF-DONE",
+  "hit": 1.0
+ },
+ {
+  "task_id": "b0202",
+  "title": "Collate the troubleshooting mega-feature PRD",
+  "current": "open",
+  "suggested": "started",
+  "marker": "HALF-DONE",
+  "caveat": "(BRAINSTORMED, JUST COLLATED)",
+  "line": "8. Add troubleshooting mega-feature (whole new product): manually collate the PRD first HALF-DONE (BRAINSTORMED, JUST COLLATED)",
+  "hit": 1.0
+ },
+ {
+  "task_id": "b1036",
+  "title": "Finish installing job-ops",
+  "current": "open",
+  "suggested": "started",
+  "marker": "SEMI DONE",
+  "caveat": "",
+  "line": "1. finish installing job-ops SEMI DONE",
+  "hit": 1.0
+ },
+ {
+  "task_id": "b1906",
+  "title": "Get google plan to work globally",
+  "current": "started",
+  "suggested": "started",
+  "marker": "WORKING",
+  "caveat": "",
+  "line": "2. Get google plan to work globally WORKING",
+  "hit": 1.0
+ },
+ {
+  "task_id": "b0519",
+  "title": "Write down all observations and theories about the big battery problem",
+  "current": "open",
+  "suggested": "started",
+  "marker": "started",
+  "caveat": "when i swapped it to old battery, last few days",
+  "line": "Write down all my observations last few weeks, and my possible theories: of the big battery, when the problem started, when i swapped it to old battery, last few days",
+  "hit": 0.86
+ },
+ {
+  "task_id": "b1448",
+  "title": "Make the whole prioritization noteapp tool end-to-end working",
+  "current": "open",
+  "suggested": "started",
+  "marker": "WORKING",
+  "caveat": "",
+  "line": "whole prioritization noteapp tool end-to-end WORKING",
+  "hit": 0.83
+ },
+ {
+  "task_id": "t072",
+  "title": "Open Hermes desktop and test whether it is working",
+  "current": "open",
+  "suggested": "started",
+  "marker": "working",
+  "caveat": "",
+  "line": "(Optional) Open Hermes and test whether it is working",
+  "hit": 0.83
+ },
+ {
+  "task_id": "b0557",
+  "title": "Finish the Apexpunter IA file",
+  "current": "open",
+  "suggested": "started",
+  "marker": "working",
+  "caveat": "(use nvidia to finish), back to the apexpunter twitter/telegram task list",
+  "line": "Then once i confirm GitHub tool is working (use nvidia to finish), back to the apexpunter twitter/telegram task list",
+  "hit": 0.67
+ },
+ {
+  "task_id": "b1887",
+  "title": "Develop tests and evals comparing AI natural-language search with the semantic search module",
+  "current": "open",
+  "suggested": "started",
+  "marker": "WORKING",
+  "caveat": "",
+  "line": "Which is the better 'semantic' search system (better conceptual search system using AI over the existing lexical tools like file search and grep): the existing way i have been doing it of just asking ",
+  "hit": 0.67
+ },
+ {
+  "task_id": "b0809",
+  "title": "Implement pensions, social security and retirement income in the housing tool",
+  "current": "open",
+  "suggested": "started",
+  "marker": "working",
+  "caveat": "versus pensions and any other social security and government payments (which depend largely on the j",
+  "line": "9. So factoring in the very important issue of pensions, retirement and no longer working, versus pensions and any other social security and government payments (which depend largely on the job type/i",
+  "hit": 0.62
+ }
+]

@@ -1,6 +1,6 @@
-# Open tasks by importance — updated 2026-10-19 14:07
+# Open tasks by importance — updated 2026-10-19 15:55
 
-1. [P1] [money-machine] Map every directory and platform for submitting my projects
+1. [P1] [client-job] Map every directory and platform for submitting my projects
 2. [P1] [money-machine] Compile the master list of project launch tasks
 3. [P1] [money-machine] Repeat the target-market mapping process on every project
 4. [P1] [money-machine] Send quick cold outreach LinkedIn messages using the single template
