@@ -1,0 +1,884 @@
+[
+ {
+  "title": "Add job-hunting strategies (Google Alerts, VC directories, LinkedIn posts, communities) to the Hermes job hunting setup",
+  "quote": "New features to add to the Harmes Agent job hunting (remember all hermes agent job hunting will be added to job-ops)",
+  "source_note": "c88828da943045db8dba77003dd30c73",
+  "source_date": "2026-07-20",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Explicit feature-add for job-ops; strategies detailed in same note."
+ },
+ {
+  "title": "Implement the finalized two-round interview process (no-AI round, AI project round) in job-ops interview tools",
+  "quote": "Round 1: in-person & no AI allowed; test domain expertise and knowledge on the fly Round 2: a project that must be done with AI (impossible to complete without AI)",
+  "source_note": "869a4d5b03d5450390bc75d07614295d",
+  "source_date": "2026-07-21",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Design marked final in note; build it into job-ops."
+ },
+ {
+  "title": "Compare the linked LLM router designs with my eval desktop sticky app approach and pick the best of both",
+  "quote": "TAKE ALL THE LINKS AS SOURCES AND COMPARE TO MY EVAL DESKTOP STICKY APP APPROACH (IN THE CLAUDE CHAT): WHICH IS BETTER, WHAT TO PICK AND CHOOSE FROM BOTH",
+  "source_note": "ab4d33644c1b42a5a4fe2f0891ea5c10",
+  "source_date": "2026-07-21",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit comparison request including free router using auto-router beta techniques."
+ },
+ {
+  "title": "Expand the housing model's period options beyond 5-10 years (20-30, 30-45, all 55 years)",
+  "quote": "Why only 5-10 periods? Why not 20-30, 30-45 year periods or all 55 years at once? How does the 5-10 only limit affect all calculations?",
+  "source_note": "927c4c356def4f09a71b195e020bd23c",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Repeated as item 5 in note 7025ee2f; tool requires the longer periods."
+ },
+ {
+  "title": "Finish the Mathcademy program",
+  "quote": "I must finish Mathcademy program",
+  "source_note": "eae100c536ce403983e58c1136d493d6",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Explicit commitment in note."
+ },
+ {
+  "title": "Add an inflation-adjusted view of the mortgage payment burden over time to the housing model",
+  "quote": "A real (inflation-adjusted) view of \"cost of your mortgage payment over time\" would make this explicit rather than implicit — I'd flag that as a legitimate feature to add.",
+  "source_note": "dae6429e26214ed1ae7af30a4c891b7a",
+  "source_date": "2026-07-22",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Note flags it as a legitimate feature to add; truncated note."
+ },
+ {
+  "title": "Build the two AI bots: Interceptor and the AI relationship bot",
+  "quote": "2 AI bots i will build: interceptor (AI version of the female friends) + AI relationship bot (implementing all the lessons i have learned from both relationships)",
+  "source_note": "90754a28090e40418ce0d8b294371a10",
+  "source_date": "2026-07-22",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "\"i will build\" commitment in phone to-do list."
+ },
+ {
+  "title": "Add last30days and my job, CDPA and other prompts to Claude and ChatGPT",
+  "quote": "add last30days and my 6 job prompts, CDPA, all my other prompts from various Claude chats, to claude and chatgpt",
+  "source_note": "90754a28090e40418ce0d8b294371a10",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit phone to-do item 0."
+ },
+ {
+  "title": "Try connecting Apollo or similar to find people and social accounts for cold DMs",
+  "quote": "See if i can connect apollo or whatever to find people and social media accounts i can send cold dms to: see what claude/chatgpt can do",
+  "source_note": "90754a28090e40418ce0d8b294371a10",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Repeats in ad3bf4e9 (Apollo/exa hiring manager search); enrichment rule in 69468b97."
+ },
+ {
+  "title": "Fix up my profile site to present completed projects and target jobs and gigs",
+  "quote": "Fix up my profile site: give it my base message, tell it my draft thoughts of my general intentions (the kinds of full time jobs and gigs i am looking for)",
+  "source_note": "90754a28090e40418ce0d8b294371a10",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Explicit phone to-do item 2; feeds job and gig outreach."
+ },
+ {
+  "title": "Set up a quick n8n automation to market my automation services (search, reply, quote posts)",
+  "quote": "See if i can set up some quick n8n automation for marketing my automation services. 3 minimum requirements: must be able to SEARCH Relevant posts, must be able to REPLY to posts",
+  "source_note": "90754a28090e40418ce0d8b294371a10",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Repeats in notes 3a0835a9, ad3bf4e9 and 1df17c9c."
+ },
+ {
+  "title": "Build Zillow-style house selection: requirements + budget in, ranked buy vs rent+invest options out",
+  "quote": "Zillow style house selection: set your min house requirements (eg. No of rooms) + budget + all the other parameters we have added (retirement and pensions, savings discipline etc)",
+  "source_note": "0c9791a365964b46b6410162fecac0c8",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Detailed feature spec written out in note, including routing to property platforms."
+ },
+ {
+  "title": "Create a deep, non-gameable psychological savings-discipline test for the housing tool",
+  "quote": "For savings discipline, we will create a separate, very deep psychological test (very non straight forward test, a test where the person has no idea exactly what or how they are being tested",
+  "source_note": "0c9791a365964b46b6410162fecac0c8",
+  "source_date": "2026-07-22",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "\"we will create\" decision in the note."
+ },
+ {
+  "title": "Model job and income insecurity (unemployment risk) using work history, like mortgage lenders do",
+  "quote": "Also need to factor in somehow the concept of job/income insecurity (likelihood of losing your job in the Future, being unemployed for some years) maybe using the user's past work history",
+  "source_note": "0c9791a365964b46b6410162fecac0c8",
+  "source_date": "2026-07-22",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit requirement in the Zillow feature spec."
+ },
+ {
+  "title": "Build and sell the skill add-on packages (job hunting, marketing, freelance, betting, forex, prediction markets)",
+  "quote": "More job hunting strategies as more tested skills for Hermes Agent, sell as add-ons for N20k each. Just go through my bookmarked tweets.",
+  "source_note": "3a0835a9a5c54266aaec7257b4ee87e4",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.4,
+  "why": "Income product line; personal branding and VA packages added in 86bdf655, update packages and email tools in a4dfd505."
+ },
+ {
+  "title": "Fix up my existing projects, then start applying to YC and as many grants and programs as possible",
+  "quote": "Fix up my existing projects, then start applying to YC and as many grants and programs as possible. Can do on phone",
+  "source_note": "3a0835a9a5c54266aaec7257b4ee87e4",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Repeats in 90754a28 (AI token grants)."
+ },
+ {
+  "title": "Share my Telegram and WhatsApp links and add the refreshed website for automation gigs",
+  "quote": "Share my personal telegram both for personal chats and to tag in the group, the group (with new channels for each new line of product), and my WhatsApp for personal chats fr those not on telegram.",
+  "source_note": "3a0835a9a5c54266aaec7257b4ee87e4",
+  "source_date": "2026-07-22",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Also customer Telegram group planned in ad3bf4e9."
+ },
+ {
+  "title": "Retrofit job-ops for scholarship and visa (japa) applications once it is done",
+  "quote": "When done with job-ops, immediate next job is retrofitting it for scholarship and visa (japa) applications respectively",
+  "source_note": "3a0835a9a5c54266aaec7257b4ee87e4",
+  "source_date": "2026-07-22",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Also planned as a 30k scholarship package in 84540d86."
+ },
+ {
+  "title": "Make all projects international from day one (local platform sources, local language translations)",
+  "quote": "All projects: international from day one: local source platforms (eg local ecommerce sites for gift reccomender), local language translations.",
+  "source_note": "3a0835a9a5c54266aaec7257b4ee87e4",
+  "source_date": "2026-07-22",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Standing product decision recorded in note."
+ },
+ {
+  "title": "Explore reports of Hermes, OpenClaw, Codex and Claude Code used for voice marketing calls",
+  "quote": "Need to start exploring all the testimonies and reports by people on twitter and reddit of using Hermes Agent and Openclaw and Codex and Claude Code to make voice marketing and lead-gen calls",
+  "source_note": "3a0835a9a5c54266aaec7257b4ee87e4",
+  "source_date": "2026-07-22",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit \"need to start\" action."
+ },
+ {
+  "title": "Implement refinancing in the housing model",
+  "quote": "If you haven't already implemented these tasks, please implement unless where it is inappropriate or incorrect: 1. Implement Refinancing",
+  "source_note": "7025ee2f77ef4ab5873d8f4791e99ba6",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Also flagged in dae6429e as quantifiable but not yet added."
+ },
+ {
+  "title": "Implement stability, eviction/rent-hike risk and psychological value of owning in the housing tool",
+  "quote": "2. Find a way to implement all these: stability, eviction/rent-hike risk, and psychological value of owning",
+  "source_note": "7025ee2f77ef4ab5873d8f4791e99ba6",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Carried over from 927c4c35; later asked as user-set parameters."
+ },
+ {
+  "title": "Run formal tests (unit-root/ADF) on the 55-year data and build an exact regime classifier from all patterns",
+  "quote": "ensure to run all tests and assessments on the 55 year datas needed to not just guess or approximate but build an exact mathematically accurate regime classifier",
+  "source_note": "7025ee2f77ef4ab5873d8f4791e99ba6",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Requested twice in note; feeds the projection factors."
+ },
+ {
+  "title": "Integrate the Excel workbook into the simulator",
+  "quote": "4. Integrate excel workbook into simulator",
+  "source_note": "7025ee2f77ef4ab5873d8f4791e99ba6",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Explicit implement list item."
+ },
+ {
+  "title": "Split Lagos into regions and use median home prices per region in the housing tool",
+  "quote": "For more accurate data, Can you break apart Lagos into various regions and use the median home prices for each of those regions?",
+  "source_note": "7025ee2f77ef4ab5873d8f4791e99ba6",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Follows the Lagos price correction; includes median rent check."
+ },
+ {
+  "title": "Model insurance, maintenance, HOA and utilities rising over time (own rates, user settings)",
+  "quote": "Concerning all you said about Insurance/maintenance/HOA/utilities rising over time, somehow implement in full. Add user settings for those parameters that require them",
+  "source_note": "7025ee2f77ef4ab5873d8f4791e99ba6",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Raised first in 927c4c35 and dae6429e."
+ },
+ {
+  "title": "Implement pensions, social security and retirement income in the housing tool",
+  "quote": "Concerning all you said about Pensions / Social Security / retirement income, somehow implement in full. Add user settings for those parameters that require them",
+  "source_note": "7025ee2f77ef4ab5873d8f4791e99ba6",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Third implement block item 1."
+ },
+ {
+  "title": "Implement retirement decumulation, sequence-of-returns and inheritance tax modelling",
+  "quote": "2. Concerning all you said about Retirement decumulation / sequence-of-returns / inheritance tax point, somehow implement in full.",
+  "source_note": "7025ee2f77ef4ab5873d8f4791e99ba6",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Third implement block item 2."
+ },
+ {
+  "title": "Add mortgage-interest tax deduction and rent stabilization/control effects to the housing tool",
+  "quote": "rent stabilization/control effects, refinancing, rate locked for life of loan, implement in full.",
+  "source_note": "7025ee2f77ef4ab5873d8f4791e99ba6",
+  "source_date": "2026-07-22",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Quantifiable items from the Read Me list; see also dae6429e."
+ },
+ {
+  "title": "Set up Hermes desktop and mobile (Telegram) and test the free API",
+  "quote": "fully set up hermes desktop and hermes mobile (telegram) - test hermes free api",
+  "source_note": "ad3bf4e942a84456a089892f2a3c5fba",
+  "source_date": "2026-07-23",
+  "tier": 1,
+  "impact": 0.4,
+  "why": "MY MONDAY list, \"do everything by monday\"; foundational for the sold package."
+ },
+ {
+  "title": "Redo my 6-7 job-hunting prompts using the linked threads and integrate them",
+  "quote": "REDO MY 6-7 PROMPTS ACCORDING TO THIS: https://x.com/iam_Uchenna/status/2014293480072167708 (INTEGRATE THEM INTO MY PROMPTS)",
+  "source_note": "ad3bf4e942a84456a089892f2a3c5fba",
+  "source_date": "2026-07-23",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Explicit instruction with both source threads."
+ },
+ {
+  "title": "Build the Hermes job-hunting setup (agents, skills, rules, automated applications capped at 10-20/day)",
+  "quote": "use my 6-7 prompts to set up the above in hermes: job hunting, the full 6-7 prompt gamut, the automated applications. Limit the settings for the package i sell to do only 10-20 applications a day",
+  "source_note": "ad3bf4e942a84456a089892f2a3c5fba",
+  "source_date": "2026-07-23",
+  "tier": 1,
+  "impact": 0.4,
+  "why": "Core of the product he sells; due Monday."
+ },
+ {
+  "title": "Add CV parsing into potential roles to feed job search queries",
+  "quote": "quick tooling for parsing user's CV into potential roles, then using those roles as part of search queries to find jobs",
+  "source_note": "ad3bf4e942a84456a089892f2a3c5fba",
+  "source_date": "2026-07-23",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit Monday list item; includes progressive 1-3 hour query settings."
+ },
+ {
+  "title": "Create the interviewing tool by combining prompt 5 with grill-me-with-docs",
+  "quote": "do a quick combination of prompt 5 with grill-me-with-docs or grill-me or even wayfinder (whichever is most appropriate) to create proper interviewing tool following prompt 5 framework",
+  "source_note": "ad3bf4e942a84456a089892f2a3c5fba",
+  "source_date": "2026-07-23",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit Monday list item."
+ },
+ {
+  "title": "Add an email tracking system to the job pipeline",
+  "quote": "some email tracking system (again, search my GitHub repos skillhubs for what i can quickly set up)",
+  "source_note": "ad3bf4e942a84456a089892f2a3c5fba",
+  "source_date": "2026-07-23",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit Monday list item; check skill repos first."
+ },
+ {
+  "title": "Turn the whole application process into a step-by-step wizard",
+  "quote": "find a way to turn the whole application process (adding job roles, other settings, CV, the links for knowledgegraph, personal interview, etc) into a step by step wizard",
+  "source_note": "ad3bf4e942a84456a089892f2a3c5fba",
+  "source_date": "2026-07-23",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit Monday list item."
+ },
+ {
+  "title": "Package the whole setup into a single licensed tool, record the video and list it on Selar (N30k/$100; N60k/$150 tier)",
+  "quote": "CAN I JUST PACKAGE THE WHOLE THING INTO A SINGLE TOOL THAT EVERYBODY INSTALLS, EVERYTHING ALREADY BUILT IN? CAN BRAND IT WITH MY NAME. ADD LICENSE KEY AND THIS IS ONE WAY TO PREVENT SHARING",
+  "source_note": "ad3bf4e942a84456a089892f2a3c5fba",
+  "source_date": "2026-07-23",
+  "tier": 1,
+  "impact": 0.4,
+  "why": "Income-critical and due Monday; includes manual, video, Selar pricing, file protection, Kimi K3 guidance."
+ },
+ {
+  "title": "Create the N30k tutorial package for all Hermes inbuilt features",
+  "quote": "separate N30k package that is a total tutorial for setting up and using all of Hermes many inbuilt Features for various personal needs and usecases",
+  "source_note": "ad3bf4e942a84456a089892f2a3c5fba",
+  "source_date": "2026-07-23",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Separate income package planned in Monday list."
+ },
+ {
+  "title": "Search my repos and online for more job-hunting skill files, workflows and templates",
+  "quote": "search for more job hunting skill files and workflows and other templates: start by using opencode to search my github repos starting with the skill collections, then manually search online",
+  "source_note": "ad3bf4e942a84456a089892f2a3c5fba",
+  "source_date": "2026-07-23",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit Monday list item."
+ },
+ {
+  "title": "Build the one-tap approve/submit flow: Hermes stops before the final click and pings me in Telegram",
+  "quote": "Hermes does everything up to the final click where it stops and pings me and the user (it already lives in Telegram, which is perfect for this) for one-tap approve/submit",
+  "source_note": "1df17c9c7b2148cabb817f686c3b8146",
+  "source_date": "2026-07-23",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Fully agreed condition for applying Splendor's riskiest tactics."
+ },
+ {
+  "title": "Build complete analytics and self-improvement loops over every job application metric",
+  "quote": "list out eveey single metric possible in job applications and into the full hermes system build complete analytics and full self improvement loops so we fully utilize Hermes self learning ability",
+  "source_note": "1df17c9c7b2148cabb817f686c3b8146",
+  "source_date": "2026-07-23",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Explicit request; metrics list also asked in 477f1659."
+ },
+ {
+  "title": "Implement Hermes agent-curated memory, cross-session recall, cron scheduler and security features at every useful point",
+  "quote": "note exactly all the points where this would be useful and fully implement it into the system (3) \"cross-session recall\" note exactly all the points where this would be useful and fully implement it",
+  "source_note": "1df17c9c7b2148cabb817f686c3b8146",
+  "source_date": "2026-07-23",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Explicit (2)-(5) feature exploitation request."
+ },
+ {
+  "title": "Build the central base/orchestrator that shares self-improvement results across all user nodes",
+  "quote": "it should have a central base, maybe in the central plugin server, that serves as a central database and central orchestrator",
+  "source_note": "1df17c9c7b2148cabb817f686c3b8146",
+  "source_date": "2026-07-23",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Metrics-to-server version in b0a32ab3; question bank coordination in b0a32ab3/9486a062."
+ },
+ {
+  "title": "Migrate the old n8n automations (amara, bougo, aunt ngozi) into Hermes Agent skills/plugins",
+  "quote": "All those n8n automations i was working on last year - amara, bougo, aunt ngozi - redo as Hermes Agent skills/plugins.",
+  "source_note": "1df17c9c7b2148cabb817f686c3b8146",
+  "source_date": "2026-07-23",
+  "tier": 3,
+  "impact": 0.3,
+  "why": "Explicit migration decision with Hermes layers replacing n8n."
+ },
+ {
+  "title": "Check my skills repos for better alternatives to n8n for the social media mod bot before building it",
+  "quote": "But before i use n8n for all these things, check my Skills repos to see if there are skills that would function better, that i could just simply add to Hermes Agent.",
+  "source_note": "1df17c9c7b2148cabb817f686c3b8146",
+  "source_date": "2026-07-23",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit check-first instruction; debate with Claude."
+ },
+ {
+  "title": "Add @ParameterAI branding to my Twitter (name, Telegram/WhatsApp, email, portfolio)",
+  "quote": "Add @ParameterAI to my twitter account, but no website, just my name, telegram and/or whatsapp for personalities user questions and other personal chats, maybe my email, my personal portfolio site",
+  "source_note": "1df17c9c7b2148cabb817f686c3b8146",
+  "source_date": "2026-07-23",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit branding instruction."
+ },
+ {
+  "title": "Package and sell the Hermes setup service (N20k plus costs; repositioned as 'Set up your Virtual Assistant')",
+  "quote": "Hermes setup service: Hermes (for those unable to follow the instructions) 20k + all server/LLM token/setup costs",
+  "source_note": "1df17c9c7b2148cabb817f686c3b8146",
+  "source_date": "2026-07-23",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Repositioned in 67ec83a6 with basic VA capability; pricing compared there."
+ },
+ {
+  "title": "Compare Hermes self-improvement with Autoresearch (or a hybrid) and adopt the winner for the master plan",
+  "quote": "Master Plan: compare between Hermes self improvement and Autoresearch. Which ever is better, use as the self improving system for master plan.",
+  "source_note": "1df17c9c7b2148cabb817f686c3b8146",
+  "source_date": "2026-07-23",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit master plan decision."
+ },
+ {
+  "title": "Convert the full system into an expandable Hermes plugin (obscure internal names, build onboarding)",
+  "quote": "FINAL STAGE (ALONG WITH WHEN I AM TURNING IT INTO A PLUGIN THAT CAN BE UPDATED WITH EXPANSIONS, DOING THE REWRITING OF ALL EMITTED MESSAGES (EVERYTHING A USER SEES) TO OBSCURE ALL INTERNAL TOOL NAMES",
+  "source_note": "477f1659f89e418aa836fcc2a920f9cc",
+  "source_date": "2026-07-26",
+  "tier": 3,
+  "impact": 0.3,
+  "why": "Open-object restructure first, per a4dfd505; permission and settings lists requested in 477f1659."
+ },
+ {
+  "title": "Manually apply for jobs (VA, customer support, low-level roles) every day",
+  "quote": "you are poor and need money quick, the only thing you should have been doing is - manually applying to jobs, all kinds if jobs especially virtual Assistant and customer support, all low level jobs",
+  "source_note": "deda012cc5044e9d908252a870d4b2b3",
+  "source_date": "2026-07-24",
+  "tier": 1,
+  "impact": 0.4,
+  "why": "Note stresses urgent money need; repeats in 90754a28."
+ },
+ {
+  "title": "Apply on Freelancer, Upwork and Fiverr",
+  "quote": "manually applying on freelancer/upwork/fiverr",
+  "source_note": "deda012cc5044e9d908252a870d4b2b3",
+  "source_date": "2026-07-24",
+  "tier": 1,
+  "impact": 0.3,
+  "why": "Part of the stressed money-now list."
+ },
+ {
+  "title": "Apply on Outlier and Mercor",
+  "quote": "manually applying on outlier, mercor",
+  "source_note": "deda012cc5044e9d908252a870d4b2b3",
+  "source_date": "2026-07-24",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Part of the stressed money-now list."
+ },
+ {
+  "title": "Do the web3 security work Mansa showed me",
+  "quote": "manually doing that web3 security mansa tried to show you",
+  "source_note": "deda012cc5044e9d908252a870d4b2b3",
+  "source_date": "2026-07-24",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Listed among the things he should have been doing."
+ },
+ {
+  "title": "Follow omoahaljaba and send cold DMs of what I can do, including VA applications",
+  "quote": "manually following omoahaljaba and sending cold DMs of what you can do and applying for virtual Assistant jobs to everyone",
+  "source_note": "deda012cc5044e9d908252a870d4b2b3",
+  "source_date": "2026-07-24",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Listed among the things he should have been doing."
+ },
+ {
+  "title": "Buy the focus supplements (modafinil, magnesium, iron, zinc) and pay for the most powerful AI models",
+  "quote": "Get modafinil, magnesium iron and zinc for focus Pay for the most powerful AI models, stop using free",
+  "source_note": "deda012cc5044e9d908252a870d4b2b3",
+  "source_date": "2026-07-24",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Note says doing both frees focus for income work; zinc also in eae100c5."
+ },
+ {
+  "title": "Combine the sourcing engine and gift recommender profiling into a hybrid company profiler",
+  "quote": "now i layer on top a 'company research' profiling: the same detailed psychometric profiling i am using in gift recommender",
+  "source_note": "115cdf03744f41b185bc35eb52240547",
+  "source_date": "2026-07-24",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Note says compare then combine into a hybrid for lead gen."
+ },
+ {
+  "title": "Build the interactive demo generator that shows the full workflow for each prospect company",
+  "quote": "Must be completely interactive, the company viewing, interacting with and performing every step and seeing the exact outcomes as they would in the actual tool)",
+  "source_note": "115cdf03744f41b185bc35eb52240547",
+  "source_date": "2026-07-24",
+  "tier": 3,
+  "impact": 0.3,
+  "why": "Spec'd as the demo step of the lead gen pipeline."
+ },
+ {
+  "title": "Make the multi-platform gateway include WhatsApp (Hermes internal connectors first)",
+  "quote": "ensure the **Multi-platform gateway** now also includes WhatsApp (first look for whatever internal whatsapp connector or capabilities Hermes Agent has, then any bundled or optional catalog",
+  "source_note": "477f1659f89e418aa836fcc2a920f9cc",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit short fix in truncated note."
+ },
+ {
+  "title": "Implement automated scheduled backups across the full pipeline using Hermes checkpoints",
+  "quote": "Automated scheduled backup systems across all points of the full pipeline and the full tool, are mandatory.",
+  "source_note": "477f1659f89e418aa836fcc2a920f9cc",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Mandatory per note; cloud backup re-asked as item D in 48c2c2aa."
+ },
+ {
+  "title": "Extend company research to profile company staff and hiring managers for cold DMs",
+  "quote": "Company research will now include the most advanced detailed research on company staff and hiring managers using the mist referenced most preferred data sources",
+  "source_note": "ea74e8683ea24da1bfbf9a432f8709ee",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Linked to Apollo/exa search plan in ad3bf4e9 and the enrichment rule in 69468b97."
+ },
+ {
+  "title": "Integrate the QMD memory bundle to extend the FTS5/BM25 memory and update the project to use it",
+  "quote": "completely integrate this bundle to extend the memory system: https://github.com/tobi/qmd",
+  "source_note": "86bdf6554bee4bbf813b666b84cd696f",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Pending confirmation in 477f1659 (\"Am i still adding Qmd memory?\"); server use in b0a32ab3."
+ },
+ {
+  "title": "Add SearXNG and the tripartite search system (SearXNG, Camoufox) to replace Hermes default search",
+  "quote": "Later i will add SearXNG then my full tripartite search system (searXNG, Camoufox etc) to replace the inbuilt default search system",
+  "source_note": "86bdf6554bee4bbf813b666b84cd696f",
+  "source_date": "2026-07-26",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Stated future plan in note."
+ },
+ {
+  "title": "Crawl all Hermes Agent docs and skill catalogs line by line and use them to optimize the project",
+  "quote": "ANYWHERE I SAY 'CRAWL ALL' I WANT YOU TO A LINE-BY-LINE RECURSIVE READ OF ANY FILE/DIRECTORY AND ALL SIBLING FILES/DIRECTORIES DOWN TO ALL LEVELS",
+  "source_note": "86bdf6554bee4bbf813b666b84cd696f",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Repeated in 477f1659; 84540d86 marks its copy DONE."
+ },
+ {
+  "title": "Curate jobfather's tweets and similar sites into the answer bank structure for application answers",
+  "quote": "Curate all jobfather's tweets for various application and interview questions, find websites that do the same curating answers for all the various application and interview questions",
+  "source_note": "86bdf6554bee4bbf813b666b84cd696f",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Structures application question coverage like CV and cover letter."
+ },
+ {
+  "title": "Integrate last30days as the search function for all search and profiling processes",
+  "quote": "integrating /last30days as the search function for all search processes including for example full user profiling, full company profiling, full hiring manager profiling",
+  "source_note": "48c2c2aa2362462d8fdb313c100d1fe5",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "N20k package plan; profile-scanning version in ad3bf4e9."
+ },
+ {
+  "title": "Generate job search source lists: 100+ job boards, company career pages, and a career-page finder heuristic",
+  "quote": "these are the source lists i need to generate: (a) 100+ job boards collated from twitter (b) the career F500, top 10,000 companies in the world, top 10,000 companies in each country",
+  "source_note": "84540d8665c545c59c7e7f0e62d8a266",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Explicit \"i need to generate\"; company-finding methods also requested."
+ },
+ {
+  "title": "Build the 30k 'how to learn anything' plugin system with demo videos and comparisons",
+  "quote": "NEW 30K package: advanced complex plugin system for 'how to learn anything'",
+  "source_note": "84540d8665c545c59c7e7f0e62d8a266",
+  "source_date": "2026-07-26",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "New package thought of that night; demo videos required."
+ },
+ {
+  "title": "Back up the memory card to the Rotimi hard drive",
+  "quote": "1. Back up mem card to Rotimi hard drive",
+  "source_note": "84540d8665c545c59c7e7f0e62d8a266",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit 4-things list item 1."
+ },
+ {
+  "title": "Install the RAM and verify the machine works",
+  "quote": "2. Switch to my hard drive and add my ram. Ensure it works",
+  "source_note": "84540d8665c545c59c7e7f0e62d8a266",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit 4-things list item 2."
+ },
+ {
+  "title": "Curate all brainstormed projects from every AI chat into zip packages with ordered steps for Opus 5/Kimi K3",
+  "quote": "Go to all my claude, chatgpt, Gemini, deepseek, kimi, grok etc chats, every single account and chat, and curate all my various brainstormed projects together",
+  "source_note": "84540d8665c545c59c7e7f0e62d8a266",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Explicit 4-things list item 3."
+ },
+ {
+  "title": "Do the Claude trial and verify it works",
+  "quote": "4. Then do the claude trial. Ensure it works",
+  "source_note": "84540d8665c545c59c7e7f0e62d8a266",
+  "source_date": "2026-07-26",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit 4-things list item 4."
+ },
+ {
+  "title": "Build the docs crawler and vector knowledgebase, starting with all Hermes Agent docs",
+  "quote": "my docs crawler and vector knowledgebase to completely recursively crawl all the docs of all my github forked repos and tools and packages and websites i use",
+  "source_note": "84540d8665c545c59c7e7f0e62d8a266",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Named first project to complete; feeds redesign of all previous projects."
+ },
+ {
+  "title": "Add automated gift suggestions to the gift recommender (birthdays, life events, holidays, monitored factors)",
+  "quote": "Add to gift recommender: automated suggestions triggered by - birthdays",
+  "source_note": "2bd5ce715ac34c51b46782a55c1414be",
+  "source_date": "2026-07-26",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit feature addition list in note."
+ },
+ {
+  "title": "Implement all remaining non-implemented suggestions from this chat session",
+  "quote": "4. Implement all non-implemented recent suggestions in this chat session",
+  "source_note": "9eb545bfed2c4d40bdb99b6177c5596e",
+  "source_date": "2026-07-26",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Catch-all pending-work item; items 1-3 already DONE."
+ },
+ {
+  "title": "Add sharing and network effects features across every point of the pipeline",
+  "quote": "New features: add in sharing and network effects features across all of the pipeline: in every single possible point of the tool",
+  "source_note": "a4dfd50511c140dca1ffc95dbd3da445",
+  "source_date": "2026-07-26",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit new feature request; update packages and email tools planned in same note."
+ },
+ {
+  "title": "Implement all agreed suggestions; context architect must interview until answers match every output schema",
+  "quote": "So my guess is when the context architect is interviewing, it should ensure to get all details till the complete answer can completely match every single schemas",
+  "source_note": "67ec83a6e73f487887a89ed4caa6357b",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Truncated note; \"implement all of them\" directive for all suggestions."
+ },
+ {
+  "title": "Make Hermes auto-learn each job board's query structure and auto-generate and run search queries per site",
+  "quote": "by itself learn how each website's query structure works, and craft the correct search query for each website and proceed to execute the search query and search the website all by itself?",
+  "source_note": "67ec83a6e73f487887a89ed4caa6357b",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Asked across 2a/2b for the 100+ job board list."
+ },
+ {
+  "title": "Add deterministic schema-conformance crosschecks to every pipeline stage output, with redo on failure",
+  "quote": "should every single stage in the full process have a similar deterministic (eg. Programmatic, script based) check for every output to ensure it strictly confirms to its schema?",
+  "source_note": "67ec83a6e73f487887a89ed4caa6357b",
+  "source_date": "2026-07-26",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Asked for every skill file; expected via Hermes checkpoints/hooks."
+ },
+ {
+  "title": "Verify every point of Splendor's thread is integrated into the keyword, resume, cover letter and ATS skills",
+  "quote": "was every single relevant component, item and point in Splendor's thread FULLY and COMPLETELY integrated into this skill, with no single relevant point skipped?",
+  "source_note": "67ec83a6e73f487887a89ed4caa6357b",
+  "source_date": "2026-07-26",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Repeated per skill file; list skipped points."
+ },
+ {
+  "title": "Make cover letter hooks use quick company research",
+  "quote": "A fairly quick research (so it doesn't use too much time or tokens) about the company's general details, new items on the company etc, and it can then form the positive hook from this research?",
+  "source_note": "67ec83a6e73f487887a89ed4caa6357b",
+  "source_date": "2026-07-26",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Proposed for the cover letter formula reference file."
+ },
+ {
+  "title": "Feed every user metric to the central server and build an admin dashboard; use metrics as marketing proof",
+  "quote": "every single user metric collected, feeds back to server. This also means a simple dashboard i can use to at once look at every single detail of every single user.",
+  "source_note": "b0a32ab3605e456db5a44fa82edb9112",
+  "source_date": "2026-07-27",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Comprehensive metrics list also requested in 477f1659."
+ },
+ {
+  "title": "Coordinate all question bank research on the server using full QMD memory",
+  "quote": "All question bank research is coordinated by server",
+  "source_note": "b0a32ab3605e456db5a44fa82edb9112",
+  "source_date": "2026-07-27",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Also planned in 9486a062 (central base for question bank crawling)."
+ },
+ {
+  "title": "Naturalise the tool's own conversations with users (humanizer skills plus self-improvement on tone and style)",
+  "quote": "we have used humanizer to naturalise outgoing content, we also need to naturalise internal content: how the tool converses with the users.",
+  "source_note": "b0a32ab3605e456db5a44fa82edb9112",
+  "source_date": "2026-07-27",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Exploit all Hermes humanizing capabilities; learn user over first weeks."
+ },
+ {
+  "title": "Build the auto-trial marketing flow (week-3 add-on trial, then newsletter upsell reminders)",
+  "quote": "for those who buy the N30k initial set-up, the use that for the first 2 weeks. Then by the third week they have an automatic trial of all the addon packages, for a week.",
+  "source_note": "b0a32ab3605e456db5a44fa82edb9112",
+  "source_date": "2026-07-27",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit marketing design in note."
+ },
+ {
+  "title": "Crosscheck and integrate the best user-suggested cold outreach and email-finding methods into the pipeline",
+  "quote": "FIRST CROSSCHECK THE PRACTICALITY OF EACH SUGGESTED METHOD, THEN SELECT THOSE YOU THINK ARE GOOD ENOUGH TO BE INTEGRATED INTO THE FULL PIPELINE/TOOL",
+  "source_note": "69468b9738214698af62e8b98b94a1cb",
+  "source_date": "2026-07-27",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Includes Cynthia Ozumba methods; email-finding comparison re-asked in 2dc4e6c0."
+ },
+ {
+  "title": "Build the adversarial objection-handling process and complete follow-up systems for cold pitches and applications",
+  "quote": "Also fully applying this process to complete follow up systems for both cold pitches and job applications (the follow up cold dms, cold emails, cover letters)",
+  "source_note": "21eeec2119f548b5b8d57ed24aebd773",
+  "source_date": "2026-07-28",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Adversarial addition plus follow-ups; full tool flagged for wider application."
+ },
+ {
+  "title": "Collect security resources (vibecode security threads, vulnerability collections) and lock down the plugin",
+  "quote": "super secure the plugin. Lock it down completely. The most advanced encryption and other techniques. Techniques that it can never be reverse engineered even with Claude Fable of GPT 5.6",
+  "source_note": "21eeec2119f548b5b8d57ed24aebd773",
+  "source_date": "2026-07-28",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Explicit security list items 1-5."
+ },
+ {
+  "title": "Expand the self-improvement loop to cover every artifact, output, metric and setting (not only skills)",
+  "quote": "every single thing that is possible to change or replace or be newly added and therefore can be optimized and improved, list them all out and feed into the self improvement loop",
+  "source_note": "21eeec2119f548b5b8d57ed24aebd773",
+  "source_date": "2026-07-28",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Also re-asked as item C in 48c2c2aa."
+ },
+ {
+  "title": "Build improved versions of every O*NET Center tool into Job-ops",
+  "quote": "side note: create better, advanced, more intuitive, more practical versions of every single tool listed here https://www.onetcenter.org/tools.html to be included in Job-ops",
+  "source_note": "21eeec2119f548b5b8d57ed24aebd773",
+  "source_date": "2026-07-28",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit side-note build request."
+ },
+ {
+  "title": "Execute the merge blueprint: fold addendum assets into job-hunting-upgraded-2",
+  "quote": "Here is the complete architectural plan and step-by-step blueprint for merging the addendum assets directly into job-hunting-upgraded-2 (job_hunting_skill).",
+  "source_note": "5bc794b462734a8aa579aecc4c3fa9c3",
+  "source_date": "2026-07-28",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Merge first requested in 477f1659 and 86bdf655; conform to base schema per 21eeec21."
+ },
+ {
+  "title": "Verify and complete the user-set output templates system (3 ways, 2 modes) for every artifact",
+  "quote": "Has this system shared below, been completely built for every single artifact across the full package and tool",
+  "source_note": "2dc4e6c01e9a4f94bd0a4be4d3125712",
+  "source_date": "2026-07-28",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Templates requested in 0f89b9e3 and 21eeec21; re-asked here."
+ },
+ {
+  "title": "Add user-supplied API key support for all paid people-search and enrichment providers",
+  "quote": "have you completely added the ability for users to submit their api keys to connect all the paid finder/people-search APIs so they can use all the paid services as they like",
+  "source_note": "2dc4e6c01e9a4f94bd0a4be4d3125712",
+  "source_date": "2026-07-28",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Part of the second-hybrid re-ask list."
+ },
+ {
+  "title": "Re-answer and fully implement the location-effects handling across the pipeline",
+  "quote": "THE QUESTION ON LOCATION AND ALL IT AFFECTS, NEED TO REANSWER IT AND FULLY IMPLEMENT IT",
+  "source_note": "2dc4e6c01e9a4f94bd0a4be4d3125712",
+  "source_date": "2026-07-28",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Explicit re-answer and implement instruction."
+ },
+ {
+  "title": "Make all tool interactions soft, starting with greetings and small talk",
+  "quote": "AFTER MERGING 1. All interactions are soft and start with greetings and small talk",
+  "source_note": "cc2d3ef97f384616b8d33685aa361174",
+  "source_date": "2026-07-29",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit post-merge behaviour rule."
+ },
+ {
+  "title": "Design the Quick mode: a fast-money pipeline with cold approaches and lax matching for quick gigs",
+  "quote": "I just want us to brainstorm a \"Quick mode\". Its not fully defined or structured so j want us to discuss and help refine these ideas into a well structured design.",
+  "source_note": "cc2d3ef97f384616b8d33685aa361174",
+  "source_date": "2026-07-29",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Notes stress he is broke; refine ideas into a structured design."
+ },
+ {
+  "title": "Apply the self-improvement loop to security (track new vulns and prompt injections, patch constantly)",
+  "quote": "Full self improvement system will also apply to all security and encryption: always discovering new vulns, new prompt injections, exploits etc, and constantly patching or suggesting patches.",
+  "source_note": "cc2d3ef97f384616b8d33685aa361174",
+  "source_date": "2026-07-29",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit post-merge rule."
+ },
+ {
+  "title": "Build the freelance-platform target needs research system (Upwork listings to granular needs and service offers)",
+  "quote": "build out the full complete system (including the feature set both mapping put target needs in granular detail, and drafting multiple service suggestions",
+  "source_note": "cc2d3ef97f384616b8d33685aa361174",
+  "source_date": "2026-07-29",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Retrieve old Claude chat prompt for it (same note item 5)."
+ },
+ {
+  "title": "Build the user voice customization for all artifacts except the CV (writing samples from submitted profiles)",
+  "quote": "allow users submit any social media account, profile, blog, portfolio or any other url or artifact and it finds and extracts writing samples and uses them to customize the user's voice",
+  "source_note": "cc2d3ef97f384616b8d33685aa361174",
+  "source_date": "2026-07-29",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Humanizer/style package also in 48c2c2aa; templates item in 21eeec21."
+ }
+]

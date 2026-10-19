@@ -1,0 +1,560 @@
+[
+  {
+    "title": "Finish the pending xbrowser task",
+    "quote": "Finish this in xbrowser tomorrow",
+    "source_note": "b2d9df32a83c467e9b60181b5731f56f",
+    "source_date": "2026-04-10",
+    "tier": 2,
+    "impact": 0.1,
+    "why": "Explicit deferred action; details live in the linked Claude chat."
+  },
+  {
+    "title": "Build the friendship/anti-loneliness agent MVP as an agent-skills file",
+    "quote": "First MVP: doing it as an agent-skills file in openclaw or hermes",
+    "source_note": "dbbfc3fde56e487ba251848999b88eef",
+    "source_date": "2026-04-10",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "New revenue idea backed by the YC example; MVP scoped by the note."
+  },
+  {
+    "title": "Add the Suggestiveness Catcher to the PR tool",
+    "quote": "So a feature where you give it all your secrets, all your life details, and it highlights all your tweets that could be suggestive or expository for you alone, for your context",
+    "source_note": "b6d7b0e99df443959372f4f214d9a0c9",
+    "source_date": "2026-04-10",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Active PR tool feature; real-time draft checker design in b5566362e2ca4772805f12b95697a65d."
+  },
+  {
+    "title": "Build the corporate installation page with requirements typeform and call booking",
+    "quote": "a simple open-source style typeform to fill for ascertaining requirements linked to any of my spare email addresses). Also add a section for booking calls",
+    "source_note": "d8efb19e6e814f7b8f5c1a3c71089cd7",
+    "source_date": "2026-04-10",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Copy for this page in 4af76caed40b4484bae0222f8cc445d3; part of the SolarOne build e0f43cdc2ebe4bdaa4f7ecec4de850c0."
+  },
+  {
+    "title": "Build the footer contact page marked not done",
+    "quote": "Copy: TAB 5 Rotimi page & TAB 4 Calculator, Contact page (at footer, not done yet) & Payment flow",
+    "source_note": "d8efb19e6e814f7b8f5c1a3c71089cd7",
+    "source_date": "2026-04-10",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Note explicitly flags the contact page as not done."
+  },
+  {
+    "title": "Build the SolarOne website skeleton and all pages from the hybrid architecture prompts",
+    "quote": "Your mission is to build the foundational \"Skeleton\" codebase for the SolarOne web application using Next.js, Tailwind CSS, and the SolarSizer Pro SDK.",
+    "source_note": "e0f43cdc2ebe4bdaa4f7ecec4de850c0",
+    "source_date": "2026-04-10",
+    "tier": 2,
+    "impact": 0.4,
+    "why": "Main income project; finish-solar repeated in c20456d8af8d4b949eed1e60f4b378fb; copy sources: 331ba30524a24bf0865b50c059acc98a, de43d8d4207b420f8c2f4911d1aa763b, 4af76caed40b4484bae0222f8cc445d3, d8efb19e6e814f7b8f5c1a3c71089cd7."
+  },
+  {
+    "title": "Resurrect the open-source install-and-deploy service for clients",
+    "quote": "Resurrecting my old idea to install and deploy opensource apps for people and companies",
+    "source_note": "4abc22120a164127910545faeeb9bcc3",
+    "source_date": "2026-04-11",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Revived business idea with a full 5-step flow; no dated window."
+  },
+  {
+    "title": "Build the personal index and search tool for AI chats and notes",
+    "quote": "I want to create a personal index and search tool for my (a) AI chats and (b) personal notes",
+    "source_note": "ed6b3560381c46579b4a77ade6af2478",
+    "source_date": "2026-04-12",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Core tooling goal; also referenced in 5e305d0a305f495598336062118e8e6d."
+  },
+  {
+    "title": "Produce the final architecture, data flow and requirements for the memory system",
+    "quote": "Put everything we have discussed together into the final detailed granular complete system architecture, data flow and functional requirements",
+    "source_note": "bba8b5e352e24232a4a95a01b7308816",
+    "source_date": "2026-04-12",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Consolidation step for the Agentic Segmentation system before building."
+  },
+  {
+    "title": "Design the SolarSizer 'I want to buy AC' electronics sizing module",
+    "quote": "\"I want to buy AC\" New module for sizing electronics one can buy.",
+    "source_note": "613e25ec8b1e43ee934b30e69ab0be81",
+    "source_date": "2026-04-12",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "New SolarSizer feature outlined with open design questions."
+  },
+  {
+    "title": "Build the industry-wide outreach AI agent from the pool-installation concept",
+    "quote": "Build a product (AI Agent) around this, performing broad (infinite) research on any industry, on any need",
+    "source_note": "d9e97f3a9dd04851956ae73475b565db",
+    "source_date": "2026-04-14",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Lead-gen product idea; note says it first needs the full list of services I provide."
+  },
+  {
+    "title": "Write the three condensed 5-Whys system prompts",
+    "quote": "i need condensed but granularly detailed advanced system prompts of 5-whys that i can use in any AI chat",
+    "source_note": "d9e97f3a9dd04851956ae73475b565db",
+    "source_date": "2026-04-14",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Requested for full run, abstraction-only and research-only phases."
+  },
+  {
+    "title": "Modify the nothing-ever-happens bot: default No, arbitrage filter, port to faster language",
+    "quote": "Keep it as it is, but modify it to default No unless there is very strong evidence of a yes.",
+    "source_note": "d9e97f3a9dd04851956ae73475b565db",
+    "source_date": "2026-04-14",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Prediction market builder repeated in c20456d8af8d4b949eed1e60f4b378fb."
+  },
+  {
+    "title": "Build the writing agent skill for voice and structure",
+    "quote": "Writing Agent Skill / Automation i will start with",
+    "source_note": "c1320aa85f9e4413b72f96a48000b155",
+    "source_date": "2026-04-14",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "First piece of the content system; reference skill at getlago/inside-lago-voice-skill."
+  },
+  {
+    "title": "Add graceful storage-full alerts to the SolarSizer SDK app",
+    "quote": "Error Handling: add \"Storage Full\" alerts that will gracefully warn you if your browser limit is reached, rather than crashing the app",
+    "source_note": "2db6399176b44b829d6cad41d1ef22f0",
+    "source_date": "2026-04-14",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit add request to stop app crashes when browser storage fills."
+  },
+  {
+    "title": "Refine save logic so 'Result saved' shows only after a successful write",
+    "quote": "Success Alerts: refine the save logic so that the \"Result saved\" message only appears if the data was successfully written to your browser's storage",
+    "source_note": "2db6399176b44b829d6cad41d1ef22f0",
+    "source_date": "2026-04-14",
+    "tier": 2,
+    "impact": 0.1,
+    "why": "Small UX fix; a specific warning is needed when storage is full."
+  },
+  {
+    "title": "Add a Clear All Logs button in the Logs tab (Developer mode)",
+    "quote": "Clear Logs Button: add a new \"Clear All Logs\" button in the Logs tab (visible in Developer mode) so you can manually free up space if needed",
+    "source_note": "2db6399176b44b829d6cad41d1ef22f0",
+    "source_date": "2026-04-14",
+    "tier": 2,
+    "impact": 0.1,
+    "why": "Explicit add request to let users free storage manually."
+  },
+  {
+    "title": "Add admin profit-margin percentages to the SolarSizer hardware catalog",
+    "quote": "admin can set a percentage (%) profit margin for various hardware categories and product types (labels), and these are applied on the final prices calculated in the results",
+    "source_note": "bcada37865d44604b0acd0cb70ddfada",
+    "source_date": "2026-04-14",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Seller-facing feature; central-DB behavior questioned in 1521baaa620c45eba594c88f33b71ec0."
+  },
+  {
+    "title": "Produce formatted catalog data for manual upload (labels, powerstations, internet)",
+    "quote": "please give me the perfectly formated data i need to manually upload to update all the afformentioned pages, and where and how exactly to manually upload them",
+    "source_note": "bcada37865d44604b0acd0cb70ddfada",
+    "source_date": "2026-04-14",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Redo strictly from copy tabs 1-3 per 1521baaa620c45eba594c88f33b71ec0."
+  },
+  {
+    "title": "Fix SolarSizer admin import/export buttons (internet tab, catalog, profiles)",
+    "quote": "Fix issue: No import and export buttons on internet tab (page)",
+    "source_note": "1521baaa620c45eba594c88f33b71ec0",
+    "source_date": "2026-04-15",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Also items 3 and 4: no export on product catalog; profiles export broken."
+  },
+  {
+    "title": "Fix SolarSizer PDF exports and profit-margin fields",
+    "quote": "Fix issue: in the pdf export of The hardware database, it should be named 'Complete Product Catalog' and it should also include the new powerstations column",
+    "source_note": "1521baaa620c45eba594c88f33b71ec0",
+    "source_date": "2026-04-15",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Also items 7-11: empty profit fields, custom labels, table order, units column, bridge-gap schedules."
+  },
+  {
+    "title": "Add Powerstations/Kits/Full Results toggle to the SolarSizer calculator",
+    "quote": "For the calculator page, add a button to toggle between powerstations, kits or full results.",
+    "source_note": "1521baaa620c45eba594c88f33b71ec0",
+    "source_date": "2026-04-15",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "User-facing feature with a guide line for students and young professionals."
+  },
+  {
+    "title": "Research combining multiple inverters and multiple batteries in one setup",
+    "quote": "what are all the concerns one has to be aware of, with connecting multiple inverters together in the same setup?",
+    "source_note": "1521baaa620c45eba594c88f33b71ec0",
+    "source_date": "2026-04-15",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Ask-Claude request covering inverters and the repeated battery question."
+  },
+  {
+    "title": "Fix the supabase.sql operator error (uuid = text)",
+    "quote": "Failed to run sql query: ERROR: 42883: operator does not exist: uuid = text",
+    "source_note": "a87364181aac4a76b3afe9dd123ddf5b",
+    "source_date": "2026-04-15",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Blocks running the updated supabase.sql schema."
+  },
+  {
+    "title": "Add profile-analysis tag filters to the revealed preferences dating app",
+    "quote": "toggles to turn or/tag field to add tags to limit search results to only, detects via deep analysis of their profiles these types",
+    "source_note": "1764aaa2cd3e41d68e498cdf357c83c6",
+    "source_date": "2026-04-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit feature request with tags like FWBs, sex workers, long-term seekers."
+  },
+  {
+    "title": "Add autoresearch as a default in the Hermes Agent setup",
+    "quote": "Autoresearch i add as default to my hermes agent setup",
+    "source_note": "9b48e391f7b440e9bc96aedc29cbcae4",
+    "source_date": "2026-04-19",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Also apply everywhere per 1764aaa2cd3e41d68e498cdf357c83c6; how-to still open."
+  },
+  {
+    "title": "Abstract the SolarOne design system for reuse on any website",
+    "quote": "abstract it (so it can be used for any website eg. Solar sizer)",
+    "source_note": "3acbe32b7dfe43859e63971f266e02a8",
+    "source_date": "2026-04-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Design system for SolarOne is done; abstraction remains open."
+  },
+  {
+    "title": "Run the 8-subagent cleanup and ruff on the Telegram trading bot",
+    "quote": "Run this first then the ruff linter on telegram trading bot before i begin to try any other code review stuff",
+    "source_note": "c603404e6a2d4d7db95db35b2c383068",
+    "source_date": "2026-04-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Prerequisite before any other code review work on the bot."
+  },
+  {
+    "title": "Download Viktoroddy's design tutorial videos",
+    "quote": "Download all of Viktoroddy's videos on twitter/youtube (advanced video website AI design tutorials)",
+    "source_note": "4c7e3e65acf44989a079c84054e00223",
+    "source_date": "2026-04-16",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Study material for AI website design."
+  },
+  {
+    "title": "Record and publish the 2-3 hour Codex setup video",
+    "quote": "Making a 2-3 hour video explaining whole setup, will be on YouTube on Sunday",
+    "source_note": "02246e10-9bf3-4c43-8734-2914e07926ad",
+    "source_date": "2026-04-18",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Committed publish day; the setup content is already in place."
+  },
+  {
+    "title": "Research AI voice models and NotebookLM podcast pipeline for the audiobook product",
+    "quote": "Find the best AI audio models first, for both tasks (voice training & audio reading)",
+    "source_note": "ee1186793d44479fabd73fdb8210ebcc",
+    "source_date": "2026-04-18",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Includes the NotebookLM deep-dive request in 6d3b4a3e9cc14d03a1590b8a0aa6ad8e."
+  },
+  {
+    "title": "Build the AI benchmarking sticker tool (4 components)",
+    "quote": "1. The 4 components of my AI benchmarking sticker tool\n- the desktop sticker (and all the UI)\n- the automatic evaluator system, for the multiple AI architectures and domains",
+    "source_note": "6d3b4a3e9cc14d03a1590b8a0aa6ad8e",
+    "source_date": "2026-04-19",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Full build request repeated in b6d7b0e99df443959372f4f214d9a0c9, 1764aaa2cd3e41d68e498cdf357c83c6, ee1186793d44479fabd73fdb8210ebcc, 4ab0bf2e-3bb8-4102-b540-e1d43f7e76c3, c20456d8af8d4b949eed1e60f4b378fb."
+  },
+  {
+    "title": "Test the Stitch design system by breaking the prompts into parts",
+    "quote": "use the design system stitch created, break  the prompts down into parts to see if it would replicate them better, quick tutorial video on stitch",
+    "source_note": "c20456d8af8d4b949eed1e60f4b378fb",
+    "source_date": "2026-04-19",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "This-morning test of whether Stitch can reproduce the prompts from the design system."
+  },
+  {
+    "title": "Build the Retatrutide website quickly after finishing SolarOne",
+    "quote": "my personal stuff: finish solar (stitch, final website) then quick reatritude website then the marketing/content system",
+    "source_note": "c20456d8af8d4b949eed1e60f4b378fb",
+    "source_date": "2026-04-19",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Sequenced after the SolarOne website in the 3-month day plan."
+  },
+  {
+    "title": "Build the content system: rant capture, writing, podcasts, radio",
+    "quote": "MY CONTENT SYSTEM\n- ai voice input system for 2 reasons\n   + First a ton of my rantings: for one year of just my ranting, to catch all my voice",
+    "source_note": "c20456d8af8d4b949eed1e60f4b378fb",
+    "source_date": "2026-04-19",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Full pipeline from rant capture to interactive podcast radio; expects an ASMR voice model search."
+  },
+  {
+    "title": "Revise the trading bot final plan with the 2 tailoring edits",
+    "quote": "Find trading bot final plan. 2 edits:\n- do not try to tailor hermer agent to it or just 'combine': tailor IT to Hermes agent",
+    "source_note": "12f2cb4b685c4486835fa555f67a977d",
+    "source_date": "2026-04-20",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Both directions must be tested separately instead of combining."
+  },
+  {
+    "title": "Create a rubric mapping projects to RL vs DSPy/GEPA vs autoresearch",
+    "quote": "1. create an advanced rubric to asses my projects and determine when i need which\n2. apply to (and include in, as part of the product) one of these in every single project i work on",
+    "source_note": "d66388f0-d513-4a5e-8acd-595e733aac74",
+    "source_date": "2026-04-20",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "The note also asks to include one self-improvement method in every project."
+  },
+  {
+    "title": "Design the crypto hack tool and collate a 1000-hack corpus",
+    "quote": "first fully design the tool\nthen collate all the tweets, reddit posts, discord & telegram messages and post-op analysis on at least 1000 crypto hacks in the last 3-5 years",
+    "source_note": "d66388f0-d513-4a5e-8acd-595e733aac74",
+    "source_date": "2026-04-20",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Then feed the corpus in to rank risk types, crosscheck prevention and tune gaps."
+  },
+  {
+    "title": "Add RLM as the memory module in the Hermes agent",
+    "quote": "RLM (another default addition to my hermes agent (as the memory module) along with autoresearch)",
+    "source_note": "d1bc2cd4d01a44b8bfe48ddd4081e884",
+    "source_date": "2026-04-21",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Long-term memory for AI chats; DSPy+RLM required, details in 9890556b63b544c78ac75d3bd0a922a8."
+  },
+  {
+    "title": "Compare RLMs to my AI chat parser",
+    "quote": "TASK: COMPARING RLMs TO MY AI CHAT PARSER.\n- ARE THEY THE SAME?\n- DO THEY DO THE SAME THING OR THINGS?",
+    "source_note": "d1bc2cd4d01a44b8bfe48ddd4081e884",
+    "source_date": "2026-04-21",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Question of role overlap with filesystem-based agentic search and my chat chunking."
+  },
+  {
+    "title": "Create the learning-plan skill.md and system prompt",
+    "quote": "Create a skill.md and a system prompt, with a lot of the info set up already. That way anyone can add them to their llm environment and have the starting point set up",
+    "source_note": "ab45ad55f81f45259692b2a5a2a852a6",
+    "source_date": "2026-04-21",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Learning-plan generator to reuse in the home education startup."
+  },
+  {
+    "title": "Add The Algorithm into the 5-Whys/CDPA system",
+    "quote": "The Algorithm (include in 5-Whys/CDPD????)",
+    "source_note": "03cffec58bae44678e4719811f45b5ee",
+    "source_date": "2026-04-22",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "War-room question list to fold into the CDPA prompt (question marked open)."
+  },
+  {
+    "title": "Audit every search-needing tool against the AhmadOsman search stack",
+    "quote": "So look at every tool i have designed that needs search, look at the initial tech stack i had for them, and compare to this tech stack (start with AhmadOsman's stack)",
+    "source_note": "5e305d0a305f495598336062118e8e6d",
+    "source_date": "2026-04-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Covers job hunting agents, bookmark search tool, sourcing engine, solarsizer scraper and more."
+  },
+  {
+    "title": "Add UptimeRobot or Cloudflare/Supabase services to all deploys",
+    "quote": "Add uptimerobot to all my deploys and megaupload websites\n\nOr rather add cloudflare backend and database and file storage OR supabase",
+    "source_note": "3d542559c98a42d8a2c38f0f22a6d83f",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Uptime monitoring plus storage stack decision for every deployed site."
+  },
+  {
+    "title": "Replace Crawl4AI with Scrapling in every scraper",
+    "quote": "colab tool general scraper, docs scraper, GitHub scraper, PR tool and Twitter delete tool, Openclaw scraper, any scraper: replace crawl4AI with Scrapling (solve that headache of changing tags)",
+    "source_note": "3d542559c98a42d8a2c38f0f22a6d83f",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Also copy Scrapling code into the PR tool starting with the tweet-delete feature."
+  },
+  {
+    "title": "Find bird-cli forks or full access and adapt it",
+    "quote": "now that bird-cli is private: (1) check reddit for any public forks or saved repo code of it (2) how do i get acess to the full fucntions to be able to ask AI to adapt it to my usecase?",
+    "source_note": "3d542559c98a42d8a2c38f0f22a6d83f",
+    "source_date": "2026-04-24",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Twitter scraping fallback now that bird-cli is closed."
+  },
+  {
+    "title": "Move all script runs from Colab to the Google Cloud VM",
+    "quote": "because I have always constantly been having issues with running scripts in colab, stop running them in colab, start running them in my Google Cloud VM",
+    "source_note": "3d542559c98a42d8a2c38f0f22a6d83f",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Proven on the Twitter archive download; window OS and resumable downloads needed."
+  },
+  {
+    "title": "Add save/share anonymized load profiles to SolarSizer",
+    "quote": "New feature for solarsizer: ability to save and share load profiles (anonymized) or combined single profiles of categories",
+    "source_note": "3d542559c98a42d8a2c38f0f22a6d83f",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Open question on the fastest auth system to collect creator metadata."
+  },
+  {
+    "title": "Find South Western Ontario aggregators of trades companies first",
+    "quote": "Very important focus: Organisations that aggregate these companies:\nChambers of commerce\nBusiness improvement associations\nDO THIS FIRST",
+    "source_note": "72cd37cd0bb64a77bbf9ca42ccafe97d",
+    "source_date": "2026-04-24",
+    "tier": 1,
+    "impact": 0.4,
+    "why": "Seun's confidential sourcing engine; note marks this as DO THIS FIRST."
+  },
+  {
+    "title": "Write the Seun sourcing crawler code",
+    "quote": "Getting data off these sources (hardest part): likely crawling: use the same prompt I used in the Claude sonnet report, to do a detailed comparison between these options:",
+    "source_note": "72cd37cd0bb64a77bbf9ca42ccafe97d",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.4,
+    "why": "Comparison done (Cloudflare, Firecrawl, Scrapling + browser automation); code still not written."
+  },
+  {
+    "title": "Finish the Seun enrichment: owners, managers, contacts, free-tier services",
+    "quote": "Once data is out, for the rest of the app: incl enrichment, owners/managers and their contacts, all data on company etc:",
+    "source_note": "72cd37cd0bb64a77bbf9ca42ccafe97d",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Enrichment marked PARTIAL; use the two saved lead-gen methodologies first."
+  },
+  {
+    "title": "Run the Seun PRD and Antigravity task breakdown, then AI Studio",
+    "quote": "take it all into Gemini pro trial to do a chat back and forth using the same functional requirements then prd template I use in aistudio, then task breakdown using Antigravity's Ralph task tool",
+    "source_note": "72cd37cd0bb64a77bbf9ca42ccafe97d",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Copy the stack from old AI Studio chats, likely TanStack starting with the mentor app."
+  },
+  {
+    "title": "Add Unbrowse to OpenClaw and the Twitter PR tool",
+    "quote": "Unbrowse: lightweight browser automation scraping agent\n\nNew tool addition (both to openclaw and to twitter PR tool): (https://x.com/getFoundry/status/2018751025520513391)",
+    "source_note": "3cf936e6-ca59-4433-9294-8c21c4ce799e",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Repeated with usage method and skill file details in 349bbf9846c6488dbeb9c15276fa4a14."
+  },
+  {
+    "title": "Add writing-style and de-slopify filters to the TR content automation",
+    "quote": "All writing, after being generated by TR complex content automation, passes through two final filters (I don't know what order would be most effective)",
+    "source_note": "349bbf9846c6488dbeb9c15276fa4a14",
+    "source_date": "2026-04-24",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Order of the two filters is still undecided."
+  },
+  {
+    "title": "Combine everything into the final detailed Clawdbot setup guide",
+    "quote": "Combine all into a final, detailed setup guide (important: of these initial step, decide which stay in base setup and which go into advanced integrations)",
+    "source_note": "7e76a0db40ce46d5b02fe5cbca0a6a88",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Splits notes into base setup versus advanced integrations before selling installs."
+  },
+  {
+    "title": "Build the Clawdbot onboarding form plus invoice and payment flow",
+    "quote": "Quick form to fill out all the information I need from user, takes to invoice page and plus payment link. Automatically sends invoice and payment receipt",
+    "source_note": "7e76a0db40ce46d5b02fe5cbca0a6a88",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Stitch for the website and a GitHub repo typeform replacement for the workflow form."
+  },
+  {
+    "title": "Set up marketing reply and lead-gen bots from the clawdhub",
+    "quote": "Don't overthink the marketing, just find any marketing agents/skills in the clawdhub and set them up. Key are reply bots and lead-gen (dm sending) bots",
+    "source_note": "7e76a0db40ce46d5b02fe5cbca0a6a88",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "First marketing step for the Clawdbot install business."
+  },
+  {
+    "title": "Whitelist Amara's bot as the Personal Assistant bot",
+    "quote": "For Amara: Whitelist the bot. Call it our own Personal Assistant bot.",
+    "source_note": "7e76a0db40ce46d5b02fe5cbca0a6a88",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.1,
+    "why": "One of the first three free-tier customers (mine, Amara, Rotimi)."
+  },
+  {
+    "title": "Scrape all of Upwork for jobs I could do if I upskill",
+    "quote": "Scrape all of upwork, find the ones i can best do (based on my current skills) if i upskill",
+    "source_note": "b82fe3db5b5d4cc389244a86dd818a3c",
+    "source_date": "2026-04-24",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Feed for the freelancing automation arm of job hunting."
+  },
+  {
+    "title": "Define myself fully from all my notes (job-hunting stage 4)",
+    "quote": "stage 4: i first have to go through all my note to fully define myself",
+    "source_note": "b82fe3db5b5d4cc389244a86dd818a3c",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Prerequisite for automating job hunting and freelancing strategies."
+  },
+  {
+    "title": "Build the automated job applier and related agent skills",
+    "quote": "Job hunting:\n- that automated job applier\n- my prompts as an agent\n- many other (at least 5-6 agent skill files) from openclaw, claude-code etc (start with my github then twitter bookmarks)",
+    "source_note": "b82fe3db5b5d4cc389244a86dd818a3c",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Job-hunting tasks repeated in c20456d8af8d4b949eed1e60f4b378fb and b5566362e2ca4772805f12b95697a65d."
+  },
+  {
+    "title": "Build the workflow-automation seller one-pager website",
+    "quote": "quick workflow automation seller one pager website: cursory search through my notes and twitter bookmarks before i build it (just find and copy one strategy), will build the full one later",
+    "source_note": "b82fe3db5b5d4cc389244a86dd818a3c",
+    "source_date": "2026-04-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Selling gift recommender, adadvisor and solarsizer workflow automations."
+  }
+]

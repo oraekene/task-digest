@@ -1,0 +1,767 @@
+[
+  {
+    "title": "Build the NAICS 7-trait scoring table in the Sourcing Engine",
+    "quote": "you will create a database table where every potential NAICS code is scored against your 7 criteria",
+    "source_note": "dde165f62ae843a39f254fd0befcfd31",
+    "source_date": "2026-03-20",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Core filter layer: only 7/7 codes reach aggregator search; blueprint variants in notes 82af81948fd046819a3ba1af59aab004, c8fa4360ff3d477bad3c185a0da813dc, da4d1ff1a44647d4a77fc8d22331341a."
+  },
+  {
+    "title": "Try clawflows workflow builder before native lobsterflow",
+    "quote": "Quick workflows I can start with + an easy workflow builder",
+    "source_note": "cd3a0ac593cf43e585b664c29c8c5b91",
+    "source_date": "2026-03-21",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Explicit order of tool use for starting workflows."
+  },
+  {
+    "title": "Take the beyondvibecode course and learn vibecoding properly",
+    "quote": "Properly learn vibecoding and finally start vibecoding apps quickly",
+    "source_note": "f81bfdcaa57449cb8c6be05f22fe951e",
+    "source_date": "2026-03-21",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Priced course judged worth it; speeds app building."
+  },
+  {
+    "title": "Spend a month turning scripts into products with frontends, pinned on GitHub and profile site",
+    "quote": "Start turning all my scripts into products with frontends and (a) pinning them as GitHub repos (b) updating them on personal profile site",
+    "source_note": "f81bfdcaa57449cb8c6be05f22fe951e",
+    "source_date": "2026-03-21",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit month block for productization."
+  },
+  {
+    "title": "Turn products, AI chats and saved notes into blogs",
+    "quote": "Start turning all products & AI chats (& saved notes) into blogs",
+    "source_note": "f81bfdcaa57449cb8c6be05f22fe951e",
+    "source_date": "2026-03-21",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Second half of the same month block plan."
+  },
+  {
+    "title": "Research which APIs and steps Google Maps can replace in the Sourcing Engine",
+    "quote": "what are all the APIs and steps that Google Maps can replace?",
+    "source_note": "f81bfdcaa57449cb8c6be05f22fe951e",
+    "source_date": "2026-03-21",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Feeds the lead gen data layer of the Seun engine."
+  },
+  {
+    "title": "Build the Omni-Sourcing Engine zero-backend orchestrator with an IndexedDB browser brain",
+    "quote": "This is the technical blueprint for the \"Omni-Sourcing Engine.\" This system is designed as a Zero-Backend Orchestrator",
+    "source_note": "da4d1ff1a44647d4a77fc8d22331341a",
+    "source_date": "2026-03-22",
+    "tier": 2,
+    "impact": 0.4,
+    "why": "Master blueprint for Seun sourcing; other blueprint notes: 82af81948fd046819a3ba1af59aab004, c8fa4360ff3d477bad3c185a0da813dc, d7d2aeb6345a421487c9982e859023d7, 9ee9ea0dc59a459fbd42c7bb07db6ec9, 112b52f2debc43feb2e8f0df182fe78d."
+  },
+  {
+    "title": "Scrape TSSA and MCAO directories to build the initial Ontario target list",
+    "quote": "Access the \"Registered Fuels Contractors\" and \"Elevating Device Contractors\" directories.",
+    "source_note": "82af81948fd046819a3ba1af59aab004",
+    "source_date": "2026-03-22",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Level 1 and 2 execution for Ontario; named as the automation next step."
+  },
+  {
+    "title": "Write the O*NET Physicality Index script for AI-resistance scoring",
+    "quote": "Python Script: Physicality Index",
+    "source_note": "c8fa4360ff3d477bad3c185a0da813dc",
+    "source_date": "2026-03-22",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Quantifies Trait 7 for the sourcing filter; script draft included."
+  },
+  {
+    "title": "Run the multi-database sweep for $7M+ Ontario private companies",
+    "quote": "Run searches across multiple commercial databases simultaneously. No single source is complete.",
+    "source_note": "112b52f2debc43feb2e8f0df182fe78d",
+    "source_date": "2026-03-22",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Phase 2 wide net in the private company identification system."
+  },
+  {
+    "title": "Build the X/Twitter bookmark processing pipeline (repair, dedupe, enrich, chunk)",
+    "quote": "## System Design: X/Twitter Bookmark Processing Pipeline",
+    "source_note": "895663da9f2c4dc488c41ce21b768017",
+    "source_date": "2026-03-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Full pipeline design ready to implement."
+  },
+  {
+    "title": "Automate the five proxy signal checks for revenue and headcount estimation",
+    "quote": "For each geographically confirmed candidate, execute all five proxy signal checks simultaneously:",
+    "source_note": "d7d2aeb6345a421487c9982e859023d7",
+    "source_date": "2026-03-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Stage 13 of the Seun engine; near-identical copy in note 9ee9ea0dc59a459fbd42c7bb07db6ec9."
+  },
+  {
+    "title": "Search past chats for deterministic measurement methods for the comparison tool",
+    "quote": "go through my past chats for wherever I brainstormed the ways to deterministically",
+    "source_note": "589ac83ae35b45bb83ea11e2155ccb5b",
+    "source_date": "2026-03-24",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Needed to make the comparison tool scoring deterministic."
+  },
+  {
+    "title": "Make 5-Whys the premium engine of the gift recommender",
+    "quote": "4th place to apply 5-whys: gift recommender.",
+    "source_note": "589ac83ae35b45bb83ea11e2155ccb5b",
+    "source_date": "2026-03-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Premium feature decision; fix follow-up in note 974cf0809d7444a3adbe72941cafbc05."
+  },
+  {
+    "title": "Add the deanonymizer abilities to the Twitter PR tool",
+    "quote": "Add the LLM deanonymizer paper's abilities to the twitter PR tool",
+    "source_note": "589ac83ae35b45bb83ea11e2155ccb5b",
+    "source_date": "2026-03-24",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Feature idea, target user unknown yet."
+  },
+  {
+    "title": "Promote the GitHub search tool by auditing top open source projects for improvements",
+    "quote": "Promotion for the GitHub search tool",
+    "source_note": "589ac83ae35b45bb83ea11e2155ccb5b",
+    "source_date": "2026-03-24",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Marketing play tied to the GitHub search tool."
+  },
+  {
+    "title": "Read 5-Whys research to improve the 5-Whys process",
+    "quote": "Can I read research on 5-whys to see if I can improve the 5-whys process?",
+    "source_note": "589ac83ae35b45bb83ea11e2155ccb5b",
+    "source_date": "2026-03-24",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Self-improvement of the flagship 5-Whys system."
+  },
+  {
+    "title": "Set up the full 7-day week system from idea to marketing",
+    "quote": "In 3 months: have fully set up my 7 day week system from idea to marketing",
+    "source_note": "313dba5ee094407aa2647a10de6bf191",
+    "source_date": "2026-03-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Self-set 3 month deadline with day-by-day breakdown."
+  },
+  {
+    "title": "Set up UptimeRobot pinging to keep all startup sites active",
+    "quote": "Set up Uptime to constantly ping all my startups to keep the sites active",
+    "source_note": "24614aeaf8eb4b0fb6e697ff0b8746c5",
+    "source_date": "2026-03-24",
+    "tier": 1,
+    "impact": 0.2,
+    "why": "Note stresses IMPORTANT: UPTIME; concrete uptimerobot setup step in note fb43da6d2f104104b28f13ce722f4b36."
+  },
+  {
+    "title": "Use 5-Why with NotebookLM to mine bookmarks for new solutions when building",
+    "quote": "Whenever building an app or brainstorming an idea: take it to notebooklm, use 5-why to find potential New solutions in my Twitter/GitHub bookmarks",
+    "source_note": "e59ca7d167294aa79e33b8f25061f09c",
+    "source_date": "2026-03-26",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Stated recurring practice to adopt."
+  },
+  {
+    "title": "Finish the thread on using the GitHub comparison tool to analyze job applicants",
+    "quote": "complete thread on using GitHub comparison tool to read and analyze job applicant's GitHub profiles:",
+    "source_note": "efc6227f914c4f71a15982cecf833371",
+    "source_date": "2026-03-26",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Item 1 of the note's explicit list."
+  },
+  {
+    "title": "Replace all Tauri implementations with Electrobun and give the AI the full docs",
+    "quote": "Replace everything (including all Tauri implementations) with Electrobun",
+    "source_note": "efc6227f914c4f71a15982cecf833371",
+    "source_date": "2026-03-26",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit replacement decision across apps."
+  },
+  {
+    "title": "Build the 'why does this matter, to me' analogy-rewriter Chrome extension",
+    "quote": "'why does this matter, to me' tool: chrome extension that",
+    "source_note": "efc6227f914c4f71a15982cecf833371",
+    "source_date": "2026-03-26",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Defined spec: rewrites analogies to the user's profile; item 3."
+  },
+  {
+    "title": "Add the Council of Advisors addon to the coach builder tool",
+    "quote": "New addon feature for coach builder tool",
+    "source_note": "efc6227f914c4f71a15982cecf833371",
+    "source_date": "2026-03-26",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Defined addon: route a goal to top coach agents; item 4."
+  },
+  {
+    "title": "Redesign coach training as node-based workflows, then port it to the prediction market builder",
+    "quote": "Once this works, implement it into the prediction market strategy builder solely for letting users train financial models",
+    "source_note": "efc6227f914c4f71a15982cecf833371",
+    "source_date": "2026-03-26",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Two-stage plan in item 5."
+  },
+  {
+    "title": "Add batch PDF-to-markdown conversion to the colab crawler and convert stored PDFs",
+    "quote": "Add to colab crawler: convert PDFs (in batches) into clean markdown.",
+    "source_note": "efc6227f914c4f71a15982cecf833371",
+    "source_date": "2026-03-26",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Item 6, concrete pipeline addition."
+  },
+  {
+    "title": "Write the marketing proposal for Aunt Ngozi (layers.com and service chaining parts)",
+    "quote": "Marketing proposal for aunt ngozi (and it's 2 parts: layers.com part, chaining services together part):",
+    "source_note": "efc6227f914c4f71a15982cecf833371",
+    "source_date": "2026-03-26",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Named client deliverable at the top of the note."
+  },
+  {
+    "title": "Run the remaining agent comparison write-ups (workflow builders, VA platforms, coding agents)",
+    "quote": "Against other coding agents (Claude code, Opencode, Pi agent,",
+    "source_note": "b3f0583de9c6417593390f32f3d5d817",
+    "source_date": "2026-03-26",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Claw and Hermes comparisons already DONE, SENT; these three remain."
+  },
+  {
+    "title": "Compare the old 5-Whys system against the new Abstraction Laddering system side by side",
+    "quote": "I want to fully compare them side by side",
+    "source_note": "b3f0583de9c6417593390f32f3d5d817",
+    "source_date": "2026-03-26",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit request to list prompts, architecture and data flow of both systems."
+  },
+  {
+    "title": "Redo the OpenClaw deep dive from scratch including all claw variants and managed templates",
+    "quote": "Yes, redo the analysis from scratch, following your suggestions.",
+    "source_note": "cd762a864f85411d9ed64666d521a41a",
+    "source_date": "2026-03-26",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit redo instruction; answer managed-template question before batch 1."
+  },
+  {
+    "title": "Create the four scenario workbook comparing every assistant configuration and plan",
+    "quote": "Now I want you to create a detailed workbook of each scenario",
+    "source_note": "cd762a864f85411d9ed64666d521a41a",
+    "source_date": "2026-03-26",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Workbook spec given in the note."
+  },
+  {
+    "title": "Use the GitHub search tool as an agentic code review system measuring token efficiency",
+    "quote": "Would be to use it as an agentic coding review system eg. Checking how effectively tokens are being used",
+    "source_note": "e296597cfa37491ba3635d263a1f7a7e",
+    "source_date": "2026-03-26",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Stated use case once the code review system is complete."
+  },
+  {
+    "title": "Go through every app and add 5-Whys only where it naturally fits",
+    "quote": "Go through them and carefully look for positions where they can be integrated.",
+    "source_note": "362f7c8814fe4febb4142042a08765df",
+    "source_date": "2026-03-26",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit instruction: do not force it."
+  },
+  {
+    "title": "Build out the cold DM strategy (targets, access, and message content)",
+    "quote": "Cold DM strategy (and labels of the corresponding PDF files)",
+    "source_note": "a2348ac90df1452f8914e462e85c4810",
+    "source_date": "2026-03-27",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Three-part to-do structure listed in the note."
+  },
+  {
+    "title": "Install and configure the pi-agent on the Oracle cloud",
+    "quote": "- install it on my oracle cloud",
+    "source_note": "7b478ebc5a1547ec8455a8f00d85d30f",
+    "source_date": "2026-03-27",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit install step; stack details in note 7b478ebc5a1547ec8455a8f00d85d30f."
+  },
+  {
+    "title": "Auto-improve unit, integration and E2E tests written by the coding agents",
+    "quote": "apply it to everything, including in this case, auto improving the unit, integration and E2E tests my",
+    "source_note": "7b478ebc5a1547ec8455a8f00d85d30f",
+    "source_date": "2026-03-27",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Same apply-it-to-everything pattern as 5-Whys."
+  },
+  {
+    "title": "Set up the Oracle phone-accessible agent stack with backups and the davinci job applier",
+    "quote": "the davinci job applier (replaces that old one)",
+    "source_note": "7b478ebc5a1547ec8455a8f00d85d30f",
+    "source_date": "2026-03-27",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Full stack defined: openclaw/telegram, coding agent via tailscale, cloudflare backups, davinci replacement."
+  },
+  {
+    "title": "Add simple schedules (time ranges and notifications) to the to-do app",
+    "quote": "simple schedules (time ranges on tasks, and notifications)",
+    "source_note": "d117a2048b1141b08ecfc669aa6724f0",
+    "source_date": "2026-03-27",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Feature 1 of 5 in the to-do app list."
+  },
+  {
+    "title": "Add the 'best-before' expiring task type to the to-do app",
+    "quote": "'best-before': user can set a date and time the task must be completed before",
+    "source_note": "d117a2048b1141b08ecfc669aa6724f0",
+    "source_date": "2026-03-27",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Feature 2; optional but specified."
+  },
+  {
+    "title": "Design the to-do app prioritization system (AI starred, drag ordered)",
+    "quote": "some system for prioritization: my opinions so counter-argue them where appropriate",
+    "source_note": "d117a2048b1141b08ecfc669aa6724f0",
+    "source_date": "2026-03-27",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Asks for counter arguments and a composed final design."
+  },
+  {
+    "title": "Add voice input to the to-do app",
+    "quote": "very very important: handling voice inputs (users should be able to just talk to the app)",
+    "source_note": "d117a2048b1141b08ecfc669aa6724f0",
+    "source_date": "2026-03-27",
+    "tier": 1,
+    "impact": 0.2,
+    "why": "Note stresses 'very very important'."
+  },
+  {
+    "title": "Fix the Google authentication failure on the Render deployment",
+    "quote": "But now whenever with render, it gives authentication failed, why",
+    "source_note": "29c172fa4bc1486f9b0f92b032b5d706",
+    "source_date": "2026-03-28",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Active login bug; config and redirects included in note."
+  },
+  {
+    "title": "Get the Twitter search colab tool working and the new archive scraper formatting files for NotebookLM",
+    "quote": "Twitter search colab tool (get it working)",
+    "source_note": "974cf0809d7444a3adbe72941cafbc05",
+    "source_date": "2026-03-28",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Half of the day assigned to this; archive download itself is DONE."
+  },
+  {
+    "title": "Have Sonnet extended break down all steps needed for the Seun task",
+    "quote": "on one side ask Sonnet extended to breakdown all the steps I need for the task",
+    "source_note": "974cf0809d7444a3adbe72941cafbc05",
+    "source_date": "2026-03-28",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit other half of the day task."
+  },
+  {
+    "title": "Search the Twitter likes archive for lead, enrich, gtm and google maps process keywords",
+    "quote": "do quick search through Twitter archive (for now, my likes) for 'lead' 'enrich' 'gtm' 'google maps' and other keywords",
+    "source_note": "974cf0809d7444a3adbe72941cafbc05",
+    "source_date": "2026-03-28",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Feeds example processes into the Seun task."
+  },
+  {
+    "title": "Test the $20 Claude plan and a $10 alibaba/minimax/kimi plan before buying codex",
+    "quote": "i think first test the $20 claude and $10-3 alibaba/minimax/kimi plan to see how good their apis are",
+    "source_note": "974cf0809d7444a3adbe72941cafbc05",
+    "source_date": "2026-03-28",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Cost decision before committing to codex or synth."
+  },
+  {
+    "title": "Create and send the invoice to Seun",
+    "quote": "create and send invoice to Seun",
+    "source_note": "fb43da6d2f104104b28f13ce722f4b36",
+    "source_date": "2026-03-29",
+    "tier": 1,
+    "impact": 0.4,
+    "why": "Income-critical Sunday cleanup task; invoice chat also in note c12d49d2b7e340799826f7f06f0b052b."
+  },
+  {
+    "title": "Call Alex and send him voice notes",
+    "quote": "call Alex, send him voice notes",
+    "source_note": "fb43da6d2f104104b28f13ce722f4b36",
+    "source_date": "2026-03-29",
+    "tier": 1,
+    "impact": 0.2,
+    "why": "Explicit Sunday cleanup task."
+  },
+  {
+    "title": "Fix all suspended accounts handling in the Seun app",
+    "quote": "fix all suspended accounts",
+    "source_note": "fb43da6d2f104104b28f13ce722f4b36",
+    "source_date": "2026-03-29",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "First bug item in the Sunday cleanup list."
+  },
+  {
+    "title": "Fix the invoice quantity fields so every digit can be deleted",
+    "quote": "Fix quantity Fields to allow the user be able to delete every digit",
+    "source_note": "fb43da6d2f104104b28f13ce722f4b36",
+    "source_date": "2026-03-29",
+    "tier": 2,
+    "impact": 0.1,
+    "why": "Bug fix; quantity error also reported in note 1fa222ef34934f308ea064fab7580702."
+  },
+  {
+    "title": "Remove the 'export json' button on calculator results but keep its code for APIs",
+    "quote": "Remove 'export json' button on calculator results but leave all its code as that will be used for API endpoints later",
+    "source_note": "fb43da6d2f104104b28f13ce722f4b36",
+    "source_date": "2026-03-29",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Simple UI removal with code retention note."
+  },
+  {
+    "title": "Research and update generator costs with current Nigerian prices",
+    "quote": "Generator costs iused are too low. We need to get the current actual prices in Nigeria for these generator types. Please research and update",
+    "source_note": "fb43da6d2f104104b28f13ce722f4b36",
+    "source_date": "2026-03-29",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Data accuracy fix in the solar calculator."
+  },
+  {
+    "title": "Add hours-per-day and fuel-price fields to the generator comparison table",
+    "quote": "add fields on comparison table to allow the user indicate number of hours running generator a day",
+    "source_note": "fb43da6d2f104104b28f13ce722f4b36",
+    "source_date": "2026-03-29",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Defaults kept at 6 hours and N1,100 fuel price."
+  },
+  {
+    "title": "Add a PDF download button to the comparison table",
+    "quote": "add a download button on comparison table. It should export to PDF format",
+    "source_note": "fb43da6d2f104104b28f13ce722f4b36",
+    "source_date": "2026-03-29",
+    "tier": 2,
+    "impact": 0.1,
+    "why": "Explicit export feature request."
+  },
+  {
+    "title": "Build the combined Troubleshoot tab as its own page in the solar sizer",
+    "quote": "Add a new tab button in black titled 'Troubleshoot'",
+    "source_note": "3c1f383dae9d4d63be5b2b630ae111f7",
+    "source_date": "2026-03-29",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Whole new different app per the note title; tab also defined in note 712f171f44974f1d8dbe7a77883c7e46."
+  },
+  {
+    "title": "Advance the sound manager app to automatic audio mixing for studios and live events",
+    "quote": "Advance this app to automatic audio mixing: disabled, studios (Tv studios, TV shows, film studios, talk shows etc), music studios (song mixing,",
+    "source_note": "8bd35dc37d884850b5f554e82252b629",
+    "source_date": "2026-03-29",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Feature direction for the sound app."
+  },
+  {
+    "title": "Work out surround sound handling across mono, stereo, 5.1 and 7.1 outputs",
+    "quote": "does it properly handle surround sound? How does it handle surround sound?",
+    "source_note": "8bd35dc37d884850b5f554e82252b629",
+    "source_date": "2026-03-29",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Question to frame properly with industry standard terms."
+  },
+  {
+    "title": "Add mandatory offline mode to the sound manager app",
+    "quote": "Offline mode (mandatory)",
+    "source_note": "8bd35dc37d884850b5f554e82252b629",
+    "source_date": "2026-03-29",
+    "tier": 1,
+    "impact": 0.2,
+    "why": "Marked mandatory in the note."
+  },
+  {
+    "title": "Generalize Mark Essien's solar strategy into the trait-agnostic Smart Usage engine",
+    "quote": "Analyze this user's strategy below and abstract the intent to the most trait agnostic understanding, understand that deeply, then reconstitute it",
+    "source_note": "3682dee326e24eb39151e15f5befdce7",
+    "source_date": "2026-03-30",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit ask to reconstitute the strategy into a general purpose logic system for solar sizer."
+  },
+  {
+    "title": "Revert solar sizer PSH values to Gemini's or a midpoint",
+    "quote": "i think my PSH values are too small",
+    "source_note": "3682dee326e24eb39151e15f5befdce7",
+    "source_date": "2026-03-30",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit correction after observing real generation numbers."
+  },
+  {
+    "title": "Add the Essien 'best setup within my budget' tool as its own tab",
+    "quote": "New essien tool: big enough to be an individual tab (page) on its own",
+    "source_note": "e89547ae626d4d5c88de1b4d079dc15e",
+    "source_date": "2026-03-30",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Premium feature; usage based one-time payment business model per note."
+  },
+  {
+    "title": "Add intermittent pulsing options to load profile time ranges",
+    "quote": "load profile time ranges: not just single time ranges but ability to add intermittent pulsing eg. Every 5 mins, 15 mins, 1 hour within so so time range",
+    "source_note": "e89547ae626d4d5c88de1b4d079dc15e",
+    "source_date": "2026-03-30",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Detail feeding the Essien tool; also time shifting and splitting questions."
+  },
+  {
+    "title": "Implement the Smart Usage Strategy Engine module in the solar sizer",
+    "quote": "Smart Usage Strategy Engine",
+    "source_note": "0d159f784577495cbdb6b4d4370277b4",
+    "source_date": "2026-03-31",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Five-layer energy choreography framework; sit next to best priced setup output."
+  },
+  {
+    "title": "Add a simple three-tab user guide to the top of solar sizer",
+    "quote": "Add to the top of solar sizer somehow in a way that still maintain modern design principles",
+    "source_note": "712f171f44974f1d8dbe7a77883c7e46",
+    "source_date": "2026-03-31",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Guide for Calculator, Consult or Strategy, and Troubleshoot tabs."
+  },
+  {
+    "title": "Merge framework 1 and framework 2 into one integrated strategy framework",
+    "quote": "combine and consolidate all both frameworks into a complete integrated framework",
+    "source_note": "712f171f44974f1d8dbe7a77883c7e46",
+    "source_date": "2026-03-31",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "No item skipped from either framework; used as consultant and as blackout risk suggestion tool with one-click apply."
+  },
+  {
+    "title": "Build the MVP simple mode of the strategy mega feature first",
+    "quote": "MVP version is simple mode, advanced mode is the full thing",
+    "source_note": "712f171f44974f1d8dbe7a77883c7e46",
+    "source_date": "2026-03-31",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Scope decision for rollout order."
+  },
+  {
+    "title": "Add the structured device behavior data model to the strategy engine",
+    "quote": "The best way to support the smart usage strategy engine is to give each device a structured behavior profile, not just a watt rating.",
+    "source_note": "463dbc01e036480da1884b5dfd14ec2d",
+    "source_date": "2026-03-31",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Specs, behavior, flexibility, inertia, environment, measured and internal battery fields with confidence levels."
+  },
+  {
+    "title": "Implement the client project flow from functional requirements to n8n development",
+    "quote": "functional requirements -> prd -> task list -> comprehensive user journey mapping -> interactive prototypes",
+    "source_note": "954966eff83447aca896a2a4b5f57dae",
+    "source_date": "2026-03-31",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Flow ends with n8n development via claude code or cursor plus testing and error logs."
+  },
+  {
+    "title": "Build the 50/50 app feature set (groups, splits, balances, multi-currency)",
+    "quote": "Additions to 50/50 app",
+    "source_note": "f815cebf0330470ca10029ea7349ac4d",
+    "source_date": "2026-03-31",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Full wishlist captured: groups, expenses, debts, receipts, charts, offline mode."
+  },
+  {
+    "title": "Copy Suniqon features into the solar sizer tool",
+    "quote": "Copy features from this to add to solar sizer tool: https://www.3appes.com/portfolio/suniqon/",
+    "source_note": "d2a532933a33424dbd992c4843a10142",
+    "source_date": "2026-03-31",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Explicit reference copy request."
+  },
+  {
+    "title": "Adopt the standard stack for every software built (Hermes base, autoresearch/DSPy step, 5-Whys)",
+    "quote": "EVERY SOFTWARE I BUILD MUST INCLUDE:",
+    "source_note": "b70fa3502b3543c091b910faecd6cc5c",
+    "source_date": "2026-03-31",
+    "tier": 1,
+    "impact": 0.3,
+    "why": "Stated MUST standard; also fixes main Oracle agent list."
+  },
+  {
+    "title": "Research when to use Auto-research versus DSPy",
+    "quote": "Research: when exactly to use 'Auto-research versus Dspy'",
+    "source_note": "b70fa3502b3543c091b910faecd6cc5c",
+    "source_date": "2026-03-31",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit research question for the standard stack."
+  },
+  {
+    "title": "Write the 5-Whys functional requirements as a full agent framework",
+    "quote": "create concise functional requirements for the final most current version of the 5-why application",
+    "source_note": "88eca776d92f4a77bf97c92e26b8b34d",
+    "source_date": "2026-04-01",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Detailed agent-skills folder spec and two toggles given in note."
+  },
+  {
+    "title": "Use 5-Whys twice in the therapy app (retrieval and synthetic data generation)",
+    "quote": "Use 5-whys in the therapy app twice",
+    "source_note": "88eca776d92f4a77bf97c92e26b8b34d",
+    "source_date": "2026-04-01",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Applied to analysis step and to RL training data generation."
+  },
+  {
+    "title": "Apply 5-Whys to synthetic data generation for every LLM RL training run",
+    "quote": "in fact, apply 5-whys to the synthetic data generation step of every single LLM (RL based) model training I do",
+    "source_note": "88eca776d92f4a77bf97c92e26b8b34d",
+    "source_date": "2026-04-01",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit generalization beyond the therapy app."
+  },
+  {
+    "title": "A/B test 5-Whys outputs against current designs with friends",
+    "quote": "do A-B testing with friends: give them multiple pairs of outputs in succession",
+    "source_note": "88eca776d92f4a77bf97c92e26b8b34d",
+    "source_date": "2026-04-01",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Gift recommender, therapy app and everything; see if 5-Whys is really better."
+  },
+  {
+    "title": "Build the nude-photo head-blur overlay app",
+    "quote": "background app (runs in the background) that functions as an overlay over a phone",
+    "source_note": "88eca776d92f4a77bf97c92e26b8b34d",
+    "source_date": "2026-04-01",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "New app idea: intercept and blur or crop head before any share or upload."
+  },
+  {
+    "title": "Decide the final agent harness base by comparing Claude code, Opencode, Hermes, OpenClaw and Pi-agent",
+    "quote": "Claude code versus Opencode versus Hermes Agent versus OpenClaw (and many add-ons) versus Pi-agent",
+    "source_note": "d7bab56de9464bc5bf5ad4d94b4db978",
+    "source_date": "2026-04-01",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Foundational base for all apps decision."
+  },
+  {
+    "title": "Host a bot that regularly logs into free tier accounts to keep them alive",
+    "quote": "Host this, use it to regularly log into my free tier accounts I create, so I never lose them",
+    "source_note": "4707f90ee4ec41caaff46043514d43bc",
+    "source_date": "2026-04-01",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Prevents losing free tier accounts."
+  },
+  {
+    "title": "Update the CV and profile website with new sites and Google Drive links",
+    "quote": "Next task: update my CV and Profile Website: both add my new websites and update the mega.nz links to the same files on Google Drive",
+    "source_note": "4707f90ee4ec41caaff46043514d43bc",
+    "source_date": "2026-04-01",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Marked 'Next task'; devpost account update also pending."
+  },
+  {
+    "title": "Run the 10k errand list (extension, wire, oil, charging port, food)",
+    "quote": "fix extension wire (both 7k)",
+    "source_note": "b025df1f9cdc4ef2a043672ffe2c7ade",
+    "source_date": "2026-04-02",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Concrete budget errand list in note."
+  },
+  {
+    "title": "Buy 3 months of data and a gift for Amara from the 250k list",
+    "quote": "3 months of data (27k)",
+    "source_note": "b025df1f9cdc4ef2a043672ffe2c7ade",
+    "source_date": "2026-04-02",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Budget item list; gift for Amara 3k."
+  },
+  {
+    "title": "Build the AI token usage developer productivity measurement tool",
+    "quote": "Measurement of AI token usage: Developer Productivity using AI",
+    "source_note": "1fa222ef34934f308ea064fab7580702",
+    "source_date": "2026-04-02",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "For interviews and companies; three parts A, B and C with PRD and links."
+  },
+  {
+    "title": "Ship mobile apps download-ready from the websites before paid store accounts",
+    "quote": "Even before I pay for the Android and Apple developer accounts, create my mobile apps and users download them from the websites",
+    "source_note": "60169d79ed8f429ca383931847dc9490",
+    "source_date": "2026-04-02",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Stated mobile app strategy."
+  },
+  {
+    "title": "Build and deploy the VoltKinetic solar business website from the prepared UI code",
+    "quote": "submit this and the picture, to AIstudio to build the website and deploy it to netlify/vercel/render",
+    "source_note": "e8644f61f1d9410dac738f2c46da738a",
+    "source_date": "2026-04-02",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Full HTML and image supplied in note for AIstudio build."
+  }
+]

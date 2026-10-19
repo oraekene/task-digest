@@ -1,0 +1,1028 @@
+[
+  {
+    "title": "Build the GitHub search tool",
+    "quote": "Still build my GitHub search tool for other things, but when I am looking for skills to upgrade Antigravity or Opencode or my coding IDE, start here",
+    "source_note": "8c0813e676604a87b657be05f98cd1cb",
+    "source_date": "2026-03-01",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit 'still build' intent; skillsmp only covers skills browsing."
+  },
+  {
+    "title": "Expand the prioritization agent to the whole Gbera use case",
+    "quote": "My 'prioritization' skill/agent for my colab search tools/openclaw, can be expanded to handle the whole Gbera usecase",
+    "source_note": "8c0813e676604a87b657be05f98cd1cb",
+    "source_date": "2026-03-01",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Stated expansion of the prioritization skill."
+  },
+  {
+    "title": "Create proxy metrics from the sourcing search entities",
+    "quote": "He still hasn't sent me the sourcing ideology so I can start creating the proxy metrics for them from the search entities below",
+    "source_note": "a388ae72c2a94af580f576f84ff561ad",
+    "source_date": "2026-03-01",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Blocked on the sourcing ideology, then proxy metrics are the next step."
+  },
+  {
+    "title": "Set up OpenRouter + LangFuse observability for OpenClaw",
+    "quote": "use OpenRouter (easy observability), and export your API calls to LangFuse (free plan)",
+    "source_note": "4ecd0955f7ba4411b6aa16b31bc34b06",
+    "source_date": "2026-03-03",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Recommended mandatory observability setup."
+  },
+  {
+    "title": "Run the four deep-research dossiers for human profiling",
+    "quote": "PROFILES: 4 deep researches for\n- Cambridge analytica\n- Facebook and social media\n- ad targeting companies",
+    "source_note": "2a5738a64bf247d0b682a822199c7381",
+    "source_date": "2026-03-03",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Four research areas listed (Cambridge Analytica, Facebook, ad targeting, SRI)."
+  },
+  {
+    "title": "Revamp the gift recommender scoring system",
+    "quote": "going to revamp the scoring system anyway: the new steps, adding in deep contextual acts-of-service suggestions, better issue categorization",
+    "source_note": "2a5738a64bf247d0b682a822199c7381",
+    "source_date": "2026-03-03",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Same revamp debated in e9054259 (new scoring pathway)."
+  },
+  {
+    "title": "Fix gift chat truncation to drop oldest messages, not newest",
+    "quote": "is truncating chat uploads. It shouldn't do that. And even if it has to, it should not truncate from the top but from the bottom.",
+    "source_note": "2a5738a64bf247d0b682a822199c7381",
+    "source_date": "2026-03-03",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Bug: recency weighting is backwards."
+  },
+  {
+    "title": "Verify the gift recommender crawls jiji.ng for lowest prices",
+    "quote": "is it crawling jiji.ng? If it's not, how is it knowing the lowest price on each search page?",
+    "source_note": "2a5738a64bf247d0b682a822199c7381",
+    "source_date": "2026-03-03",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Open question on price source."
+  },
+  {
+    "title": "Fix gift suggestions to always use the highest scoring issue",
+    "quote": "it doesn't always use the highest scoring issue for gift suggestions",
+    "source_note": "2a5738a64bf247d0b682a822199c7381",
+    "source_date": "2026-03-03",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Bug in suggestion selection."
+  },
+  {
+    "title": "Add a button for gift suggestions on other mentioned issues",
+    "quote": "there should be a button to get gift suggestions on other mentioned issues if the user so pleases",
+    "source_note": "2a5738a64bf247d0b682a822199c7381",
+    "source_date": "2026-03-03",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Requested UI feature."
+  },
+  {
+    "title": "Perfect product page linking and prices for gift ordering",
+    "quote": "perfecting product page linking and price is necessary for moving to ordering on the website (off which we will be taking percentages)",
+    "source_note": "2a5738a64bf247d0b682a822199c7381",
+    "source_date": "2026-03-03",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Blocks the ordering revenue phase."
+  },
+  {
+    "title": "Build the vendor gift-curation consultant plugin",
+    "quote": "will create a plugin for vendors that acts like a customer consultant on their behalf",
+    "source_note": "2a5738a64bf247d0b682a822199c7381",
+    "source_date": "2026-03-03",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Vendor-side plugin following the solarsizer playbook."
+  },
+  {
+    "title": "Test powering 12V fans and routers from powerbanks via pin-to-USB cords",
+    "quote": "I already was hacking powering my 12v USB fans and Routers using 12v and 18v powerbanks and simple 12v pin to USB cords (need to test)",
+    "source_note": "5c9c52c1823e43da84bd89bbcd122192",
+    "source_date": "2026-03-03",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Note explicitly says 'need to test'."
+  },
+  {
+    "title": "Adopt the Nano-Banana image-first UI generation process",
+    "quote": "Use Nano-Banana with advanced prompts to first generate the image of the UIs, then use that process to have AI design the actual UI",
+    "source_note": "f6f49da77d8549899731784a7ad8c1cb",
+    "source_date": "2026-03-03",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Replaces the browser-automation UI approach."
+  },
+  {
+    "title": "Train a model on the 200 African writer series for Nigerian style",
+    "quote": "use this to train a model for writing in nigerian/african style",
+    "source_note": "5e72512c-7b80-4922-bf09-9145047b010c",
+    "source_date": "2026-03-03",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit training intent."
+  },
+  {
+    "title": "Build an African history dataset from the history books",
+    "quote": "take the history books and use as part of database to train a model on african history",
+    "source_note": "5e72512c-7b80-4922-bf09-9145047b010c",
+    "source_date": "2026-03-03",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Second explicit training intent in same note."
+  },
+  {
+    "title": "Implement full trace logging for all agents",
+    "quote": "see record of all 10,000 agents, implement full tracing (trace logging)",
+    "source_note": "d0d31c3b-3c22-4322-bd03-692a82e863e4",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit engineering task."
+  },
+  {
+    "title": "Get the Twitter scraper working in AI Studio",
+    "quote": "get the quick twitter scraper to work in aistudio",
+    "source_note": "d0d31c3b-3c22-4322-bd03-692a82e863e4",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "March plan repeats it: 'Ensure Twitter crawler works' (9e60119b)."
+  },
+  {
+    "title": "Start the Twitter archive CLI-based download",
+    "quote": "start twitter archive CLI baed download",
+    "source_note": "d0d31c3b-3c22-4322-bd03-692a82e863e4",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit task, never marked done."
+  },
+  {
+    "title": "Map SRI/Big 5 research into a deterministic profile taxonomy",
+    "quote": "get the SRI, BIg 5 and other research papers directly and try to map every single detail from them into an actual structured code/taxonomy for determistic creation of profiles",
+    "source_note": "d0d31c3b-3c22-4322-bd03-692a82e863e4",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Step 1 of the four AdAdvisor source steps."
+  },
+  {
+    "title": "Ground the engagement/conversion simulation in collated real guides",
+    "quote": "improve the current deterministic calcuation system by using both the papers above and all my bookmarked twitter/reddit/youtube/discord viral marketing campaign guides",
+    "source_note": "d0d31c3b-3c22-4322-bd03-692a82e863e4",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Step 2 of the four AdAdvisor source steps."
+  },
+  {
+    "title": "Build the detailed ad-guide generation skill from collated guides",
+    "quote": "ask aistudio to turn them into a detailed skill/system prompt/workflow (not summarised but complex with every single step and branch) for generating the guides",
+    "source_note": "d0d31c3b-3c22-4322-bd03-692a82e863e4",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Step 3: collate 100-200 guides into a skill."
+  },
+  {
+    "title": "Build the modular viral marketing tab UI",
+    "quote": "used them to guide the development of all the UI features on the frontend",
+    "source_note": "d0d31c3b-3c22-4322-bd03-692a82e863e4",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Step 4: modular UI for categorized strategies."
+  },
+  {
+    "title": "Switch AdAdvisor to free AI APIs (OpenRouter or kilo.ai minimax)",
+    "quote": "change AI api: try out openrouter's free models. or use kilo.ai's minimax. search for other free apis",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Open item in latest AdAdvisor list."
+  },
+  {
+    "title": "Add beginner wizard page explaining each AdAdvisor input",
+    "quote": "wizard page (lots of beginner, non experienced explantion on each input, the reason for it, and one or two detailed but simple to under real usecases to demonstrate and example valid range of values)",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Listed open item."
+  },
+  {
+    "title": "Fix psychographic agent profiles not showing on Netlify",
+    "quote": "in netlify version the psychographic agent profiles don't show",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Bug."
+  },
+  {
+    "title": "Add back the save guide button",
+    "quote": "add back 'save guide' button",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.1,
+    "why": "Small regression fix."
+  },
+  {
+    "title": "Add portfolio folders, tags and search to AdAdvisor analyses",
+    "quote": "portfolio folders of multiple analyses for different campaigns, ability to tag analysis outputs, search bar to search btween analyses or portfolio folders, by title or by tags",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Feature request."
+  },
+  {
+    "title": "Add user account authentication and settings pages",
+    "quote": "user account authentication, optional: user profile and user settings pages",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Optional feature."
+  },
+  {
+    "title": "Add granular creator/influencer detail inputs to AdAdvisor",
+    "quote": "for now, start with a few key creator detail inputs. First ask the question: which parts of the ad guide do details of the creator, matter?",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Creator details feed the deterministic guide."
+  },
+  {
+    "title": "Let users add custom video style and script templates",
+    "quote": "users should be able to add in their own style/script templates/skill files/example scripts, whatever",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Modularity request (6b)."
+  },
+  {
+    "title": "Redesign AdAdvisor UI via AI Studio design pass",
+    "quote": "run adadvisor through a design prompt/process in aistudio to redesign UI",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Listed open item."
+  },
+  {
+    "title": "Add ROAS budget switcher to the prediction market chart",
+    "quote": "prediciton market chart: button to switch between each of all 4 budgets (ROAS multiples)",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.1,
+    "why": "Small feature."
+  },
+  {
+    "title": "Speed up AdAdvisor app performance",
+    "quote": "app peformance: speed up",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Listed open item."
+  },
+  {
+    "title": "Add industry-standard PDF report exports to AdAdvisor",
+    "quote": "optional: redesign report exports to also include industry standard formatted pdf formats",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Optional export format."
+  },
+  {
+    "title": "Auto-populate CPM and other inputs via crawling and APIs",
+    "quote": "cpm and the other input details ADVANCED: use crawling, online apis to automatically get the input details",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Advanced automation item."
+  },
+  {
+    "title": "Add per-ROAS download buttons and fix export bundling",
+    "quote": "add the download full report button to each of the ROAS cards",
+    "source_note": "5a9ea366-c740-4706-88ce-0861acb4a731",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Open part of item 3 (the XXXXX question)."
+  },
+  {
+    "title": "Make the prediction market strategy builder capable of replicating the quant tutorial",
+    "quote": "Prediction market strategy builder should be advanced enough to allow a user replicate all this",
+    "source_note": "ef5e7bd17aa245d5aaf224513a665132",
+    "source_date": "2026-03-04",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Advance the strategy builder to match the tutorial's techniques."
+  },
+  {
+    "title": "Pay the one-time $25 Google developer fee to start deploying apps",
+    "quote": "NEXT PAY NEXT MONTH: GOOGLE DEVELOPER FEE: ONE TIME $25 AND I CAN IMMEDIATELY START DEPLOYING MY APPS",
+    "source_note": "5953e56bc4a94cebb6233d9a39a1dbf8",
+    "source_date": "2026-03-04",
+    "tier": 1,
+    "impact": 0.4,
+    "why": "Pay next month; unblocks app deployment."
+  },
+  {
+    "title": "Find free video APIs to automate the video generation process",
+    "quote": "find free video APIs to try to automate the video gen process",
+    "source_note": "5953e56bc4a94cebb6233d9a39a1dbf8",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Faceless-video automation path."
+  },
+  {
+    "title": "Load open-source video, audio and image models plus ComfyUI workflows in Colab if the pro trial expired",
+    "quote": "If my pro trial has expired, load opensource video, audio and image models and comfyUI workflows in google colab",
+    "source_note": "5953e56bc4a94cebb6233d9a39a1dbf8",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Fallback when free APIs fail."
+  },
+  {
+    "title": "Fix the telegram bot in AI Studio using the repo and old chats",
+    "quote": "Take my code/GitHub repo for the telegram bot, take all my old chats and notes for the features, into AIstudio and use it to quickly fix the bot",
+    "source_note": "5953e56bc4a94cebb6233d9a39a1dbf8",
+    "source_date": "2026-03-04",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Quick fix path with AI Studio."
+  },
+  {
+    "title": "Rebuild the jiji webscraper for the solar site with scrapling",
+    "quote": "Rebuild the jiji webscraper for solar site, with scrapling library",
+    "source_note": "7b48e0be89094446868b991242afb03d",
+    "source_date": "2026-03-05",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Supports the solar site price data."
+  },
+  {
+    "title": "Implement the Tinder-style match presentation with tailored reasons",
+    "quote": "Only after a user matches with potential matches (i.e 'swipes right') does it then automatically send the tailored messages",
+    "source_note": "f26f5fcfcff146b486a90abc8bc22fba",
+    "source_date": "2026-03-06",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "New dating app flow step: present matches before sending messages."
+  },
+  {
+    "title": "Set up the product video creation tools this month",
+    "quote": "Need to set these up (for creating my product videos)",
+    "source_note": "780a836c-52f0-4563-825f-8aafdd714fb2",
+    "source_date": "2026-03-07",
+    "tier": 1,
+    "impact": 0.4,
+    "why": "Labelled the next immediate task this march."
+  },
+  {
+    "title": "Search bookmarks, Reddit and GitHub for advanced Perplexity Computer setup material",
+    "quote": "Search through my Twitter bookmarks, Reddit and Github for anything on Perplexity, Perplexity Computer (advanced skills, prompts, templates, settings, agents etc. anything for an advanced setup)",
+    "source_note": "97203ccb440544bd9d6e4446968a25f1",
+    "source_date": "2026-03-07",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Prep for the Virtual Assistant setup."
+  },
+  {
+    "title": "Finalize solar site requirements with Gemini or Kimi, then generate PRD and tasks in AI Studio",
+    "quote": "give all my notes to Gemini or Kimi to finalize on initial requirements, then follow the dnim prompts to generate PRD and even tasks with aistudio",
+    "source_note": "29c04fedfc5e4904a46ef129671b0227",
+    "source_date": "2026-03-07",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "March plan also lists: finish solar site (9e60119b)."
+  },
+  {
+    "title": "Build the solar one-page site in AI Studio with OPay transfer, receipts and delivery section",
+    "quote": "Add my opay bank account for bank transfer on a payments page (don't want paystack complexity)",
+    "source_note": "29c04fedfc5e4904a46ef129671b0227",
+    "source_date": "2026-03-07",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Two simple products; slashed to 250k with wait-list."
+  },
+  {
+    "title": "Build the personal installation one-pager with three estimate packages",
+    "quote": "3rd page for personal installation one pager using Rotimi",
+    "source_note": "29c04fedfc5e4904a46ef129671b0227",
+    "source_date": "2026-03-07",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Uses open-source typeform and pay/consult buttons."
+  },
+  {
+    "title": "Deploy the solar site to Vercel following the saved instructions",
+    "quote": "note the instructions I followed to deploy it to vercel, copy and paste in solar chat to deploy the same way",
+    "source_note": "29c04fedfc5e4904a46ef129671b0227",
+    "source_date": "2026-03-07",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Reuse the coaching website deployment order."
+  },
+  {
+    "title": "Reconfirm every instrument and strategy description with fetched sources",
+    "quote": "reconfirm every instrument description and list and web_fetch every single source (press release, announcement, annual report, new coverage) for each instrument and strategy listed",
+    "source_note": "e69f61c7-0467-48d5-8640-6d55a4fe502d",
+    "source_date": "2026-03-07",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Avoid blending details or attributes across vehicles."
+  },
+  {
+    "title": "Verify every fund criterion against term sheets or investor presentations",
+    "quote": "`web_fetch` the term sheets or investor presentations of each and every fund to accurately note every single one of their criteria",
+    "source_note": "e69f61c7-0467-48d5-8640-6d55a4fe502d",
+    "source_date": "2026-03-07",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "No inferred criteria without sources."
+  },
+  {
+    "title": "Add the product catalog with wattages and images to the solar calculator",
+    "quote": "add set of products with their wattages: images to brands to their individual wattages",
+    "source_note": "4bfdc90ce16c42e2a9e0597df44a7387",
+    "source_date": "2026-03-10",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Copied from the itelsolar calculator."
+  },
+  {
+    "title": "Mark in-stock and out-of-stock products in the solar calculator",
+    "quote": "noting in stock and out of stock products, and never mentioning our of stock products",
+    "source_note": "4bfdc90ce16c42e2a9e0597df44a7387",
+    "source_date": "2026-03-10",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Hides out-of-stock items with a restock deadline instead."
+  },
+  {
+    "title": "Improve the product scraper to scrape product listings for shop owners",
+    "quote": "improve my product scraper to scrape product listings for shop owners",
+    "source_note": "4bfdc90ce16c42e2a9e0597df44a7387",
+    "source_date": "2026-03-10",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "First step of the new ecommerce paradigm."
+  },
+  {
+    "title": "Auto-categorize added products and fill their card details with AI",
+    "quote": "use AI to automatically categorizing all added products (and also auto fill in all other products card details",
+    "source_note": "4bfdc90ce16c42e2a9e0597df44a7387",
+    "source_date": "2026-03-10",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Reverse image/name search for card details."
+  },
+  {
+    "title": "Build the auto-generated product calculator system",
+    "quote": "calculator for everything: uses AI agent to automatically create a new calculator for everything",
+    "source_note": "4bfdc90ce16c42e2a9e0597df44a7387",
+    "source_date": "2026-03-10",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Dynamic per-category calculators from real human discussions."
+  },
+  {
+    "title": "Run autoresearch optimization on all my apps",
+    "quote": "Autoresearch works even better for optimizing any piece of software. make an auto folder, add program.md and bench script, make a branch and let it rip",
+    "source_note": "f3df61ceeabf4456b80706a5cd3a8c8c",
+    "source_date": "2026-03-11",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Generic optimization method across apps."
+  },
+  {
+    "title": "Mine PLC financial reports for a non-core line item above 10bn to build a business on",
+    "quote": "download all PLCs financial reports. Look for their revenue line items. Pick any non-core line item that makes more than 10bn.",
+    "source_note": "0ad92b87851745e6bf8493f90f8a5c8c",
+    "source_date": "2026-03-11",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Startup idea strategy for Nigeria."
+  },
+  {
+    "title": "Execute the savings plan: save 1.25m across March to July",
+    "quote": "March, April, May, June, July: save 1.25m.",
+    "source_note": "32aa6cbf1bd845cb857a3423fe116f50",
+    "source_date": "2026-03-11",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Funds the August solar panel and repairs."
+  },
+  {
+    "title": "Build the Reddit crawler/scraper from the /.json thread guide",
+    "quote": "use as a guide to create the reddit crawler/scraper",
+    "source_note": "3345b6687d874bcb853eed74c5508a3a",
+    "source_date": "2026-03-12",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Feed thread JSON into the LLM to find app gaps."
+  },
+  {
+    "title": "Run the smaug fetch until two consecutive runs return the same count",
+    "quote": "If it still caps out, run again with an even higher number. Keep going until two consecutive runs return the same count",
+    "source_note": "452769a8-6d13-4330-b6af-adf7aefabe55",
+    "source_date": "2026-03-12",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Complete the full bookmarks download on AWS."
+  },
+  {
+    "title": "Set up the GitHub scraper on the AWS server and download its output",
+    "quote": "Step 1 — Upload files via FileZilla",
+    "source_note": "452769a8-6d13-4330-b6af-adf7aefabe55",
+    "source_date": "2026-03-12",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Repos markdown output for the search stack."
+  },
+  {
+    "title": "Do a deep comparison of superpowers versus Context-Engineering",
+    "quote": "Do a deep comparison:\n\nhttps://github.com/obra/superpowers versus Context-Engineering",
+    "source_note": "9c1228c85875492ca67446d381bd6170",
+    "source_date": "2026-03-13",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Informs the agent stack skill choices."
+  },
+  {
+    "title": "Add the OpenClaw RL piece to the AI therapy app",
+    "quote": "final mandatory peice of the AI therapy app (and optional peice of all my other apps based on openclaw infrstructure)",
+    "source_note": "659fe402-f9d6-460c-bc66-408a85a6e9eb",
+    "source_date": "2026-03-13",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Mandatory final piece of the therapy app."
+  },
+  {
+    "title": "Evaluate MiroFish-Offline for the dating app profiling system",
+    "quote": "Might have already perfectly implemented the advanced profiling system I wanted to build for my dating app",
+    "source_note": "8e0b4624d35a49209a8cf41ee1ec344c",
+    "source_date": "2026-03-15",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Potential ready-made profiling implementation."
+  },
+  {
+    "title": "Turn the whole Twitter download system into a webapp",
+    "quote": "Then Turn the whole Twitter download system (archive, bookmarks) into a webapp",
+    "source_note": "284800d07bd2464c95120318de609dcf",
+    "source_date": "2026-03-15",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Deliverable of the notebooklm quick versions."
+  },
+  {
+    "title": "Ask the GitHub notebooklm for the best skills for the opencode orchestration stack",
+    "quote": "ask the github notebooklm that i want to set up my opencode agent orchestration stack",
+    "source_note": "284800d07bd2464c95120318de609dcf",
+    "source_date": "2026-03-15",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Covers multi-agent SDLC components; includes n8n MCP test."
+  },
+  {
+    "title": "Collate skills.md files and prompts into advanced search prompt templates for notebooklm",
+    "quote": "Need to collate all the *skills.md files, advanced context engineering templates, *agentic search skills and CLI tools, and internal advanced prompts used in RAG tools",
+    "source_note": "284800d07bd2464c95120318de609dcf",
+    "source_date": "2026-03-15",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Quick incomplete versions of the full search tooling."
+  },
+  {
+    "title": "Add a performative-men matching option to the dating app algo",
+    "quote": "i need to include this in the matching algo eg. along with the rvealed preferences, visual algo and stated preferences option, this could become a new option",
+    "source_note": "284800d07bd2464c95120318de609dcf",
+    "source_date": "2026-03-15",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Targeted profiling for performative traits."
+  },
+  {
+    "title": "Build the TikTok price comparison overlay app",
+    "quote": "overlay app that detects the products in the videos and shows their Temu, AliExpress, Amazon, Shein etc Prices (with links to order)",
+    "source_note": "b0835050bd1042d2a8124865c9f7b4ed",
+    "source_date": "2026-03-16",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Companion to the overlay reviews app."
+  },
+  {
+    "title": "Extend the GitHub scraper to readmes and text files and handle duplicates",
+    "quote": "Extend GitHub scraper: all internal readmes and all text/non code files (eg. Txt, .MD etc. this is important for crawling skill files in repos)",
+    "source_note": "305d4889cff8442dbe470869fcea16ea",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Needed for crawling skill files; check starred/forked duplicates."
+  },
+  {
+    "title": "Add match-mode options (revealed plus stated preferences) to the dating app",
+    "quote": "user can choose whether to match on (a) revealed preferences (the profile) + stated preferences (as in the person must also match their initial user inputs as like with Tinder)",
+    "source_note": "305d4889cff8442dbe470869fcea16ea",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Five combination options listed for user choice."
+  },
+  {
+    "title": "Research parsing sexual preferences and prowess from advanced profiling",
+    "quote": "are there ways to, from the advanced profiling (a) parse people's sexual preferences. Their actual, deepest, detailed report of their sexual preferences",
+    "source_note": "305d4889cff8442dbe470869fcea16ea",
+    "source_date": "2026-03-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Dating feature open question."
+  },
+  {
+    "title": "Build the talking-stage bot that flags when you are not wanted",
+    "quote": "Need to build a bot that reads all your conversations with talking stage and immediately tells you when you are not wanted. Constantly analysing your conversations for quick pivots",
+    "source_note": "305d4889cff8442dbe470869fcea16ea",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Conversation analysis with quick pivots."
+  },
+  {
+    "title": "Add marriage-stage competency matching (Husband Competency Taxonomy and tests)",
+    "quote": "An important inclusion in this is the Husband Competency Taxonomy (find a wife version too)",
+    "source_note": "305d4889cff8442dbe470869fcea16ea",
+    "source_date": "2026-03-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Match highest profile and competency scores for marriage-minded users."
+  },
+  {
+    "title": "Redesign the matching algo as a modifiable modular workflow",
+    "quote": "I will redesign it like a workflow so then it can be modified the way Claude-code, cowork, openclaw, AI agent workflows are modified",
+    "source_note": "305d4889cff8442dbe470869fcea16ea",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Users can build custom algos; multiple running via orchestration."
+  },
+  {
+    "title": "Add customizable opening-message skills to the dating app",
+    "quote": "customizable skills for the opening message part (people can tailor the messages to their style)",
+    "source_note": "305d4889cff8442dbe470869fcea16ea",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Modularity rule applied to messaging."
+  },
+  {
+    "title": "Build the sharing marketplace with a deep-dived ranking system",
+    "quote": "Marketplace to share everything (with some sort of rating/ranking system: not just the basic stars system",
+    "source_note": "305d4889cff8442dbe470869fcea16ea",
+    "source_date": "2026-03-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Ranking metrics to be chosen by analysis, not stars."
+  },
+  {
+    "title": "Make the relationship-maintenance workflow fully customizable",
+    "quote": "also customize the relationship maintenance feature: following the same modular workflow based system as the matching algorithm",
+    "source_note": "305d4889cff8442dbe470869fcea16ea",
+    "source_date": "2026-03-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Users can replace Gottman workflow with their own methodology."
+  },
+  {
+    "title": "Add the dating app advanced profiling techniques to the AI therapist app",
+    "quote": "Add the advanced profiling techniques from the dating app, to the AI therapist app",
+    "source_note": "305d4889cff8442dbe470869fcea16ea",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Tailors solution presentation to the user's profile."
+  },
+  {
+    "title": "Load the GitHub readmes into a quick notebooklm",
+    "quote": "Quick GitHub (to notebooklm)",
+    "source_note": "9e60119bf7ec46679c3c8a94ac0cf786",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "March list item under quick notebooklm."
+  },
+  {
+    "title": "Load quick notes and temp files into a quick notebooklm",
+    "quote": "Quick notes (txt, notepad++ temp files, simple notes) to notebooklm",
+    "source_note": "9e60119bf7ec46679c3c8a94ac0cf786",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "March list item under quick notebooklm."
+  },
+  {
+    "title": "Finish the Opencode setup (free API, Ralph, context engineering, skills)",
+    "quote": "Opencode setup (free API, Ralph, context engineering, maybe Ryan Carson or Iannutall's skills: NO USE SUPERPOWER SKILLS",
+    "source_note": "9e60119bf7ec46679c3c8a94ac0cf786",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Merged with the GitHub notebooklm request (284800d0); no superpower skills."
+  },
+  {
+    "title": "Search notebooklm for complete OpenClaw setup guides, for myself then Seun",
+    "quote": "use Twitter and notes notebooklm to search for complete advanced setup guide(s) on Openclaw (for myself, then for seun)",
+    "source_note": "9e60119bf7ec46679c3c8a94ac0cf786",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "March plan item."
+  },
+  {
+    "title": "Build openclaw marketing bots and complete the subscription feature",
+    "quote": "openclaw marketing bots (for apps. Complete subscription feature and design edges)",
+    "source_note": "9e60119bf7ec46679c3c8a94ac0cf786",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "After OpenClaw setup; covers design edges."
+  },
+  {
+    "title": "Start manual job applications and cold DMs via threads",
+    "quote": "manual Job application and cold DMs (starting with threads) then full automation (via openclaw skills or open/claude-code workflows or n8n)",
+    "source_note": "9e60119bf7ec46679c3c8a94ac0cf786",
+    "source_date": "2026-03-16",
+    "tier": 1,
+    "impact": 0.4,
+    "why": "Income-critical; sole goal now is make money (085aee03)."
+  },
+  {
+    "title": "Segment gift pain points into at most 3 or 4",
+    "quote": "the pain points segmentation are too much. The model/logic should be smarter to accurately segment them into 3, 4 maximum",
+    "source_note": "e9054259-8d56-4b30-a395-6fbc87cf58d6",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Gift recommender change request."
+  },
+  {
+    "title": "Show soft human gift descriptions while logging technical ones in the backend",
+    "quote": "log all these curent technical descriptions in th backend for me the developer, but show only the human soft nautural descriptions on the frontend",
+    "source_note": "e9054259-8d56-4b30-a395-6fbc87cf58d6",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Prevents competitors copying the logic."
+  },
+  {
+    "title": "Move the 'api calls saved' details to backend logs and remove the frontend bar",
+    "quote": "what does the 'api calls saved' mean? log the details of the bar for each user request in the backend for me the develoer, but remove it completely on the frontend",
+    "source_note": "e9054259-8d56-4b30-a395-6fbc87cf58d6",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.1,
+    "why": "Gift recommender change request."
+  },
+  {
+    "title": "Diagnose the 2-5 minute gift generation time",
+    "quote": "why does it take so long to generate a result (2-5 minutes each time)?",
+    "source_note": "e9054259-8d56-4b30-a395-6fbc87cf58d6",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Diagnose only, do not implement a fix yet (backend logs supplied)."
+  },
+  {
+    "title": "Set developer default search and NVIDIA API keys, drop user keys",
+    "quote": "i no longer want users using their own brave search and nvidia api keys, i as the developer want to set the app's default keys",
+    "source_note": "e9054259-8d56-4b30-a395-6fbc87cf58d6",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Users just log in and use the app."
+  },
+  {
+    "title": "Track and catalog when a gift pain point is solved",
+    "quote": "knowing when a pain point has been solved (and cataloging that)",
+    "source_note": "e9054259-8d56-4b30-a395-6fbc87cf58d6",
+    "source_date": "2026-03-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Gift app addition."
+  },
+  {
+    "title": "Map pain points from public profiles and social media instead of chats",
+    "quote": "mapping out pain points from available public profile (especially social media) not chats",
+    "source_note": "e9054259-8d56-4b30-a395-6fbc87cf58d6",
+    "source_date": "2026-03-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Gift app addition."
+  },
+  {
+    "title": "Implement the cost-effective satiation scoring system",
+    "quote": "some way of defining, quantifying, measuring then ranking satiation in strict relevance/relation to the recipient's context",
+    "source_note": "e9054259-8d56-4b30-a395-6fbc87cf58d6",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "New scoring pathway; overlaps the revamp in 2a5738a6."
+  },
+  {
+    "title": "Detect what the user already has or does and suggest it for pain points",
+    "quote": "knowing more about you, to know what you can already do and have, so that when the best solution for a pain point is something you already do or already have, it suggests it to you",
+    "source_note": "e9054259-8d56-4b30-a395-6fbc87cf58d6",
+    "source_date": "2026-03-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Avoids suggesting redundant gifts."
+  },
+  {
+    "title": "Run the deep assistant-agent comparison (features plus scenario workbook)",
+    "quote": "Attached are the GitHub links to 2 personal Assistant agents. I want to do a detailed deepdive comparison between them to see which is best for my usecase",
+    "source_note": "e25bbbedc2c64c7d8191c7c8631cf1d9",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Use case: best executive-assistant-level agent; sonnet extended thinking."
+  },
+  {
+    "title": "Run the remaining three tool comparisons (claw copies, hostings, automation vs IDE vs agents)",
+    "quote": "Automation apps like n8n or zapier VERSUS AI IDEs like Claude code or Opencode or codex or pi-agent",
+    "source_note": "e25bbbedc2c64c7d8191c7c8631cf1d9",
+    "source_date": "2026-03-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Items 2-4 of the comparison list; search bookmarks."
+  },
+  {
+    "title": "Collate links from all notes into the ultimate setup guide",
+    "quote": "Start collating all the links, in all my notes, to create the complete, ultimate setup guide",
+    "source_note": "e25bbbedc2c64c7d8191c7c8631cf1d9",
+    "source_date": "2026-03-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Part B of the comparison prompt; skills collation also in 284800d0."
+  },
+  {
+    "title": "Add the logs, metrics, traces rule to all agent skill files",
+    "quote": "Add to all my Claude code Opencode agents skills files: ALWAYS INCLUDE",
+    "source_note": "a0f63e663a7b4e9caa72b78c2072a4cb",
+    "source_date": "2026-03-18",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Logs tell what happened, metrics how often, traces why."
+  },
+  {
+    "title": "Automate the skill-file audit on every new skill file",
+    "quote": "Always run this on every skill file, and have it run automatically and periodically too (on every newly created skill file)",
+    "source_note": "495dfd041f8c44d8829d03c1791c390d",
+    "source_date": "2026-03-18",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Mandatory companion of the openclaw workflow builder."
+  },
+  {
+    "title": "Start the workflow builder from the linked fundamental guide",
+    "quote": "Thr fundamental way to build workflows (start here for creating my workflow builder)",
+    "source_note": "f4a7f1971b904bf1bf3ceb7d02c3c8bf",
+    "source_date": "2026-03-19",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Start here per the note."
+  },
+  {
+    "title": "Find the company and industry taxonomy for the sourcing engine",
+    "quote": "I want you to find company and/or industry taxonomy",
+    "source_note": "3829943be411433e9e1dd13a7c1fae11",
+    "source_date": "2026-03-19",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "First step of the sourcing engine task."
+  },
+  {
+    "title": "Integrate OpenAI and Anthropic automation reports into the AI-resistance trait",
+    "quote": "openAI, Anthropic and other papers and yearly reports on jobs that can be automated by AI and how much AI will affect jobs. Please find these reports and decide if they need to be integrated",
+    "source_note": "3829943be411433e9e1dd13a7c1fae11",
+    "source_date": "2026-03-19",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Trait 7 refinement for the sourcing engine."
+  },
+  {
+    "title": "Detail the NAICS to NOC/SOC to O*NET methodology",
+    "quote": "Methodology: You map NAICS (Industry) → NOC/SOC (Occupations) → O*NET Tasks: explain this in more detail",
+    "source_note": "3829943be411433e9e1dd13a7c1fae11",
+    "source_date": "2026-03-19",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Methodology write-up request."
+  },
+  {
+    "title": "Find all essential-services lists and collections in North America",
+    "quote": "find and list all other lists and collections of essential services in North America",
+    "source_note": "3829943be411433e9e1dd13a7c1fae11",
+    "source_date": "2026-03-19",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Trade bodies, governments, academic sources."
+  },
+  {
+    "title": "Deep search for better capital-intensity methodologies",
+    "quote": "Are there better methodologies we can apply? Do a deep search into orthodox and the most unorthodox sources for the most current up to date research on this",
+    "source_note": "3829943be411433e9e1dd13a7c1fae11",
+    "source_date": "2026-03-19",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Better than NAICS plus StatsCan capital ratio."
+  },
+  {
+    "title": "Focus the sourcing engine on finding owner contacts",
+    "quote": "Most important focus: Find the people who work in them/linked to them",
+    "source_note": "3829943be411433e9e1dd13a7c1fae11",
+    "source_date": "2026-03-19",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Owner contact first; managers when owner unreachable."
+  },
+  {
+    "title": "Export and combine the Gemini and Claude sourcing source chats",
+    "quote": "NOW I NEED TO EXPORT BOTH THE GEMINI AND CLAUDE CHATS, CAREFULLY READ THEM, AND COMBINE THEM TOGETHER",
+    "source_note": "a43d69ec0daf4d638807061dfca5ada3",
+    "source_date": "2026-03-20",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Prerequisite for the full data source map."
+  },
+  {
+    "title": "Red-team each Gemini data source suggestion",
+    "quote": "I want you red team each line item and decide which of the Gemini suggestions are not valid, and which gemini suggestions may be valid",
+    "source_note": "a43d69ec0daf4d638807061dfca5ada3",
+    "source_date": "2026-03-20",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Validate the Gemini source list before use."
+  },
+  {
+    "title": "Deep dive on what changes by geography",
+    "quote": "Do a deep dive on this: \"What specifically changes by geography\"",
+    "source_note": "a43d69ec0daf4d638807061dfca5ada3",
+    "source_date": "2026-03-20",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicitly requested for the second Claude chat."
+  },
+  {
+    "title": "List all data sources per step with prices and free tiers",
+    "quote": "List out all the data sources for each step and each sub step, and their prices",
+    "source_note": "a43d69ec0daf4d638807061dfca5ada3",
+    "source_date": "2026-03-20",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Includes free tiers and free alternatives for each source."
+  },
+  {
+    "title": "Decide if scraping and browser automation are required for the sources",
+    "quote": "What of scraping and browser automation? Will these be required for sources?",
+    "source_note": "a43d69ec0daf4d638807061dfca5ada3",
+    "source_date": "2026-03-20",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Open question on sourcing engine implementation."
+  },
+  {
+    "title": "Apply to the Google form by tomorrow",
+    "quote": "Apply by tomorrow",
+    "source_note": "76f2d6566ebb4a7aa17fd758c1d31e83",
+    "source_date": "2026-03-20",
+    "tier": 1,
+    "impact": 0.4,
+    "why": "Deadline stated in the note."
+  }
+]

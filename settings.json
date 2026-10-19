@@ -1,0 +1,6 @@
+{
+  "use_deadlines": false,
+  "auto_extract": true,
+  "notify_top": 3,
+  "read_only": true
+}

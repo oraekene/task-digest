@@ -1,0 +1,1199 @@
+[
+  {
+    "title": "Set up the AI-powered science replication model this evening",
+    "quote": "Set up this evening:\nhttps://x.com/inherent_labs/status/2088290794092298655",
+    "source_note": "8288f9ac1d5a49b49b3e1cef4af25abf",
+    "source_date": "2026-08-15",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Same-evening setup request for a new model test."
+  },
+  {
+    "title": "Build the complete archetype taxonomy for the actor visual fit system",
+    "quote": "Concerning Archetype Visual Fit: \"Build the taxonomy first. The industry\" can you build out the complete taxonomy?",
+    "source_note": "548415281f124c5bbee5e7e07ad3f8ab",
+    "source_date": "2026-08-15",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit request to produce the full taxonomy."
+  },
+  {
+    "title": "Generate deep fix techniques for Factor H general visual appeal",
+    "quote": "Concerning Factor H: General visual appeal: can we apply the same hard, deep thinking, to generate the techniques we generated to fix \"Problem 3\"",
+    "source_note": "548415281f124c5bbee5e7e07ad3f8ab",
+    "source_date": "2026-08-15",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit ask for six-fix-level depth."
+  },
+  {
+    "title": "Generate deep fix techniques for the serious problem",
+    "quote": "Concerning \"Now the serious problem, and it's not a minor one\", can we also apply the same hard, deep thinking, to generate the techniques we generated to fix \"Problem 3\"",
+    "source_note": "548415281f124c5bbee5e7e07ad3f8ab",
+    "source_date": "2026-08-15",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Same depth requested as the Problem 3 fixes."
+  },
+  {
+    "title": "Implement all growth-engineer line items into SolarOne Marketer",
+    "quote": "IMPLEMENT ALL OF THESE INTO SOLARONE MARKETER. for each line item search through my old notes and bookmarks and reddit posts where someone broke that item or set of items down into granular PRACTICAL",
+    "source_note": "b726c3517a2d4cb0a2c92ca4bef0712c",
+    "source_date": "2026-08-16",
+    "tier": 2,
+    "impact": 0.4,
+    "why": "Major product build with explicit implementation directive."
+  },
+  {
+    "title": "Finish the DeepSeek debugging with a before/after comparison",
+    "quote": "THIS MORNING: GLM SETUP. THEN TRY TO FINISH DEEPSEEK DEBUGGING\n- export out the debugging chat",
+    "source_note": "05af8873343a43fd916cd915efa6388c",
+    "source_date": "2026-08-16",
+    "tier": 2,
+    "impact": 0.4,
+    "why": "Blocks the after-deepseek-fixes version; same-day priority."
+  },
+  {
+    "title": "Add separate minimum intelligence sliders for the brainstorm and execution tables",
+    "quote": "Secondly i think there should be two minimum intelligence sliders: one for brainstorming models (the brainstormimg table), another for execution models (the execution table)",
+    "source_note": "05af8873343a43fd916cd915efa6388c",
+    "source_date": "2026-08-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit design change for the plan-ranking tool."
+  },
+  {
+    "title": "Fix the ranking math so the most intelligent model does not exclude itself",
+    "quote": "We need a way of calculating the final table rankings so the most intelligent model, which becomes the fulcrum against which all others are computed against, does not exclude itself",
+    "source_note": "2ec751aa29414d7a9661c0125739dee5",
+    "source_date": "2026-08-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Core ranking bug; zero deltas divide incorrectly."
+  },
+  {
+    "title": "Investigate why many models have infinity ratio values",
+    "quote": "(2) Why do so many of the models have ratio values of infinity? Why are many models with infinity ratio scores?",
+    "source_note": "2ec751aa29414d7a9661c0125739dee5",
+    "source_date": "2026-08-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Open debugging question on the ranking output."
+  },
+  {
+    "title": "Fix the table sorting and add sort-by-any-column",
+    "quote": "how is it sorted? The sort of both tables seems random. Sort them. Maybe also add the ability to sort by any column",
+    "source_note": "8252795b08614fa1a302235f9a83a8d0",
+    "source_date": "2026-08-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Sort regression also described in note 7d0f9fdf (old versions sorted by ratio)."
+  },
+  {
+    "title": "Solve the negative ratio ranking so the cost-effective model is not sunk to the bottom",
+    "quote": "because all the ratio numbers are minus compared to the fake deepseek v5 model, the fake deepseek v5 would be ranked at the bottom instead of it being at the top",
+    "source_note": "7d0f9fdf69a94032b7ebd0dc6e8d0c28",
+    "source_date": "2026-08-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Ranking correctness for negative deltas."
+  },
+  {
+    "title": "Fix table styling so only labels, picks, reference and floored models keep colors",
+    "quote": "Only the labels (eg. 'dominated' 'pick' 'reference' amongst others) retain their colors and current formatting.",
+    "source_note": "8252795b08614fa1a302235f9a83a8d0",
+    "source_date": "2026-08-16",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "UI polish item in the explicit fix list."
+  },
+  {
+    "title": "Add a note explaining what a 'dominated' model means",
+    "quote": "if this already isn't present, add a note for what 'dominated' model means",
+    "source_note": "8252795b08614fa1a302235f9a83a8d0",
+    "source_date": "2026-08-16",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Documentation request."
+  },
+  {
+    "title": "Add separate floor sliders for brainstorm and execution tiers",
+    "quote": "a different floor slider for each of brainstorm and execution tier, so that for example setting a floor value on brainstorm tier does not affect the execution tier",
+    "source_note": "8252795b08614fa1a302235f9a83a8d0",
+    "source_date": "2026-08-16",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit feature fix."
+  },
+  {
+    "title": "Add fields to keep the picks or select your own brainstorm and execution models",
+    "quote": "add fields for both brainstorm and execution tiers for users to either stick with the picks, or select the execution and brainstorm models of their choice",
+    "source_note": "8252795b08614fa1a302235f9a83a8d0",
+    "source_date": "2026-08-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "User override feature request."
+  },
+  {
+    "title": "Factor actor aging into every part of the casting tool pipeline",
+    "quote": "We have to fully, completely factoring this in in every single part, component and aspect of the whole world end-to-end pipeline, the full tool.",
+    "source_note": "0d4ce57d74ca4e02ad9292857838b1e6",
+    "source_date": "2026-08-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit end-to-end requirement for the casting tool."
+  },
+  {
+    "title": "Find all sites like Refero that host DESIGN.md collections",
+    "quote": "Find all the other sites like Refero that host collections of Design.md",
+    "source_note": "e4507036382b428ea5167b7e0b2c104d",
+    "source_date": "2026-08-16",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Explicit research request."
+  },
+  {
+    "title": "Research how automation experts estimate token usage of unbuilt workflows",
+    "quote": "how do automationexperts estimate potential token usage of tasks (down to the step by step usage breakdowns) when they have not yet built the workflows?",
+    "source_note": "3b5eb747b446410cafdab12d8383957d",
+    "source_date": "2026-08-17",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit research step for the AI spend tool."
+  },
+  {
+    "title": "Add all plans and providers plus a crawler that keeps them updated",
+    "quote": "ADD MORE PLANS AND PROVIDERS. ADD A CRAWLER THAT REGULARLY SEARCHES NEW, AND UPDATES EXISTING PLANS AD PROVIDERS",
+    "source_note": "3b5eb747b446410cafdab12d8383957d",
+    "source_date": "2026-08-17",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Repeated in notes aa497234, e8335b6b, d5892a84 and 6842ec5c (Orca plan add)."
+  },
+  {
+    "title": "Build the IDE plugin that tracks monthly usage against the chosen mix",
+    "quote": "FINAL: a plugin in the IDE that monitors your activities over that month to ensure you stick to that mix (and warns you when you are exceeding it).",
+    "source_note": "3b5eb747b446410cafdab12d8383957d",
+    "source_date": "2026-08-17",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Later-stage feature marked FINAL."
+  },
+  {
+    "title": "Build the corporate eval feature that ranks the cheapest sufficient provider plans",
+    "quote": "FINAL FEATURE FOR CORPORATES: eval their tasks across all top picks across all plans across all providers: they first get quality scores (either based on their eval criteria eg. Various scoring 0-70",
+    "source_note": "3b5eb747b446410cafdab12d8383957d",
+    "source_date": "2026-08-17",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Enterprise monetization feature; later work."
+  },
+  {
+    "title": "Add task and project labels, averages and toggles to the spend tool",
+    "quote": "add a new label - task or project label: label all the sessions that cover the completion of one task or project end-to-end under the task/project label name and task/project category",
+    "source_note": "3b5eb747b446410cafdab12d8383957d",
+    "source_date": "2026-08-17",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Major spec for the AI spend strategy tool."
+  },
+  {
+    "title": "Add all benchmarks and a toggle to switch the intelligence column",
+    "quote": "New add to bestmodelpicker: add all the hundreds of benchmarks, and a toggle to switch the intelligence column to all of ArtificialAnalysis various benchmarks",
+    "source_note": "6842ec5c0d1b4ac0b701a4f82aa51340",
+    "source_date": "2026-08-17",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Flagged as very important for enterprise uses."
+  },
+  {
+    "title": "Combine the evals-skills approach with Matt Schumer's tool",
+    "quote": "The solution to my eval problem\n\nhttps://hamel.dev/blog/posts/evals-skills/\n\nhttps://github.com/ai-evals-course/evals-skills\n\nCombine with that matt schumer tool:",
+    "source_note": "8cdd4e667ba9499ea631483eca998d04",
+    "source_date": "2026-08-18",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit combination task for evals."
+  },
+  {
+    "title": "Rewrite all setting and parameter descriptions in plain language",
+    "quote": "- use that googe develoer docs thing to fix all teh writing. basically i want in straight forward, straight to the point, easy to understand language",
+    "source_note": "a0898aa7811341c48d695ad30ae79a5f",
+    "source_date": "2026-08-18",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit copy fix request for the tool UI."
+  },
+  {
+    "title": "Add brainstorm runs table with a token-per-run override",
+    "quote": "new runs table in section 4 for brainstorm models: shows total runs possible by either the existing turns * token/turns system, or you can override with a total token/run system",
+    "source_note": "a0898aa7811341c48d695ad30ae79a5f",
+    "source_date": "2026-08-18",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit feature addition."
+  },
+  {
+    "title": "Add the two paid comparisons: best mix among plans and best plan for a model",
+    "quote": "comparison one (paid): best model mix amongst best plan\n- comparison two (paid): select a model (or model mix) and see the best plan",
+    "source_note": "a0898aa7811341c48d695ad30ae79a5f",
+    "source_date": "2026-08-18",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Paid features decided and needing implementation."
+  },
+  {
+    "title": "Check whether the infinity slider and execution floor slider are redundant",
+    "quote": "- are the infinity slider and execution floor slider redundant copies of the same function?",
+    "source_note": "a0898aa7811341c48d695ad30ae79a5f",
+    "source_date": "2026-08-18",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Design question to resolve in the tool."
+  },
+  {
+    "title": "Build GitHub-pia to run the usecase/best-option/hybrid process across systems",
+    "quote": "Build GitHub-pia to also be able to perform this process.\nApply to the search/discovery system.",
+    "source_note": "f69dc03174a4402284cde42b65fc0363",
+    "source_date": "2026-08-18",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit build directive; also applied to learning, memory and ICP systems."
+  },
+  {
+    "title": "Perfect job-hunting's codebase component mapping for applications and outreach",
+    "quote": "If this feature doesn't exist or isn't perfectly built, to perfect it, do i need to implement the LLM Kaparthy-Wikis projects?",
+    "source_note": "f69dc03174a4402284cde42b65fc0363",
+    "source_date": "2026-08-18",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Feature gap the note asks to close."
+  },
+  {
+    "title": "Add deep user profiling to the Twitter tool's semantic search",
+    "quote": "Fir individual users of twitter tool, for the semantic search feature, add the deep advanced profiling of gift reccomender to deep profile users on top of whatever detail they ask",
+    "source_note": "f69dc03174a4402284cde42b65fc0363",
+    "source_date": "2026-08-18",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit feature add."
+  },
+  {
+    "title": "Build a system to track viral tweets early, before they go viral",
+    "quote": "how exactly to track viral tweets early (ideally before they go viral)",
+    "source_note": "f69dc03174a4402284cde42b65fc0363",
+    "source_date": "2026-08-18",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "One of the two final things the note names to solve."
+  },
+  {
+    "title": "Build the final advanced ICP mapping and targeting system",
+    "quote": "build out the most advanced system (which would be our final system) for advanced perfect ICP mapping and targeting",
+    "source_note": "f69dc03174a4402284cde42b65fc0363",
+    "source_date": "2026-08-18",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Final system to be reused across every project."
+  },
+  {
+    "title": "Ensure the Twitter tool can perform every step of the account-building guide",
+    "quote": "how to build an account and make money online_ensure twitter tool has the capabilities to perform every single step",
+    "source_note": "aa497234-395d-4ebe-a0be-1d1c393ab7cb",
+    "source_date": "2026-08-18",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit capability check tied to a bookmarked guide."
+  },
+  {
+    "title": "Redesign bestmodelpicker so it does not look AI-made",
+    "quote": "everything i have built so far as at 17182026, is free (just do redesign to not look AI, ad the hundreds of various plans and the crawler that constanty updates all the plans)",
+    "source_note": "aa497234-395d-4ebe-a0be-1d1c393ab7cb",
+    "source_date": "2026-08-18",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Redesign also requested in note b7474802."
+  },
+  {
+    "title": "Add the one-time payment system for the paid features",
+    "quote": "- main payment system would be one time use (i think this is a one time product people would only use once to determine the plan/best model mix they want and then just keep using that",
+    "source_note": "aa497234-395d-4ebe-a0be-1d1c393ab7cb",
+    "source_date": "2026-08-18",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Monetization decision the note says to implement."
+  },
+  {
+    "title": "Add Threads then Instagram support to the Twitter tool",
+    "quote": "* Next is threads (to target American Market)\n* Then IG",
+    "source_note": "4bb127fa2a21437d8e527d523e9b1b9c",
+    "source_date": "2026-08-18",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Next roadmap steps for the Twitter tool."
+  },
+  {
+    "title": "Add image generation abilities to the Twitter tool for IG",
+    "quote": "*Then image generation abilities (mostly for IG)",
+    "source_note": "4bb127fa2a21437d8e527d523e9b1b9c",
+    "source_date": "2026-08-18",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Phase 2 roadmap item."
+  },
+  {
+    "title": "Read old notes and Twitter bookmarks for UGC/influencer marketing guides and optimise",
+    "quote": "Then start reading all my old notes and twitter bookmarks for all the Ugc/Organic/Influencer marketing guides and start optimising",
+    "source_note": "4bb127fa2a21437d8e527d523e9b1b9c",
+    "source_date": "2026-08-18",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit optimisation loop in the roadmap."
+  },
+  {
+    "title": "Try the locally hosted Colab video setup for TikTok",
+    "quote": "Then try out that my colab locally hosted video setup. If it works its what i will use for Tiktok",
+    "source_note": "4bb127fa2a21437d8e527d523e9b1b9c",
+    "source_date": "2026-08-18",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Phase 2 roadmap item."
+  },
+  {
+    "title": "Buy the $50 iPhone for US market targeting",
+    "quote": "Then buy $50 Iphone for US market targeting",
+    "source_note": "4bb127fa2a21437d8e527d523e9b1b9c",
+    "source_date": "2026-08-18",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Phase 2 purchase for US targeting."
+  },
+  {
+    "title": "Build the full Remotion product video tool",
+    "quote": "Then the full remotion product video tool (separate tool but a few features would be bundled here)",
+    "source_note": "4bb127fa2a21437d8e527d523e9b1b9c",
+    "source_date": "2026-08-18",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Phase 3 roadmap item."
+  },
+  {
+    "title": "Add full trace analysis and export of every generated output",
+    "quote": "Full Trace analysis (all showing at each step the input content, the actions, and the output contents, so we can trace the exact effects the action had) and external export of every single generated",
+    "source_note": "8f9186b0c1724ebca43e7cb739c00187",
+    "source_date": "2026-08-19",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Feature requirement stated at the top of the note."
+  },
+  {
+    "title": "Add deep intention mapping to the VC/high-value person analysis",
+    "quote": "my negotiation tool already tells me how to negotiate but i need to know exactly what i will be negotiating about",
+    "source_note": "8f9186b0c1724ebca43e7cb739c00187",
+    "source_date": "2026-08-19",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Extension of the negotiation and profiling tool."
+  },
+  {
+    "title": "Move backups to a remote location",
+    "quote": "Backup should be to a remote location",
+    "source_note": "f1987797a3eb4226885d005835198500",
+    "source_date": "2026-08-19",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Data safety requirement."
+  },
+  {
+    "title": "Make salary and other settings per region",
+    "quote": "Salary and other settings should be done per region",
+    "source_note": "f1987797a3eb4226885d005835198500",
+    "source_date": "2026-08-19",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Repeated in note 08982470518b (multi-region traits and salary)."
+  },
+  {
+    "title": "Fix the Telegram system messages so only a few show",
+    "quote": "fix a lot of the system messages streamed in the telegram (they shouldn't show, only a few things should show)",
+    "source_note": "f1987797a3eb4226885d005835198500",
+    "source_date": "2026-08-19",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Polish fix in the numbered list."
+  },
+  {
+    "title": "Fix the wrong email parsing (phone number and email address)",
+    "quote": "Fix the wrong email parsing (wrong phone number, wrong email address)",
+    "source_note": "f1987797a3eb4226885d005835198500",
+    "source_date": "2026-08-19",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Data correctness bug in the job pipeline."
+  },
+  {
+    "title": "Fix and improve computer use form filling with the Browser Use 3.0 CLI",
+    "quote": "Can we improve browser use using the new inbuilt Browser-Use CLI (add the link to the list of changes: ). Either way, we need to do whatever to fix/improve computer use",
+    "source_note": "f1987797a3eb4226885d005835198500",
+    "source_date": "2026-08-19",
+    "tier": 2,
+    "impact": 0.4,
+    "why": "Repeated in notes 08982470518b and d13c7617; forms were misfilled on the Sproxil application."
+  },
+  {
+    "title": "Run plain Hermes browser-use tests and an autoresearch loop until it is fixed",
+    "quote": "I NEED TO DO A SHIT NUMBER OF RUNS OF BROWSER USE OF JUST THE PLAIN HERMES AGENT (NO JOB HUNTING) TO DETERMINE HOW WELL HERMES BROWSER USE WORKS",
+    "source_note": "f1987797a3eb4226885d005835198500",
+    "source_date": "2026-08-19",
+    "tier": 1,
+    "impact": 0.4,
+    "why": "Marked IMMEDIATE in caps; blocks the job pipeline."
+  },
+  {
+    "title": "Go through bookmarks and follows for website-to-API and browser automation tools",
+    "quote": "Also go through all my bookmarks and follows to find all those tweets on tools that turn websites into apis and every tweet on browser automation.",
+    "source_note": "f1987797a3eb4226885d005835198500",
+    "source_date": "2026-08-19",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Research collection task."
+  },
+  {
+    "title": "Run the full smoke test, wipe and reinstall pipeline test regimen",
+    "quote": "smoke tests first, then random job form tests, then compeletly wipe backlog and full pipeline 5 times",
+    "source_note": "f1987797a3eb4226885d005835198500",
+    "source_date": "2026-08-19",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit verification procedure; includes wipe/reinstall and 3-5 days of consistent runs."
+  },
+  {
+    "title": "Look through the whole project for places where Hermes agent hooks fit",
+    "quote": "Look through the whole project and find any points where hermes agent hooks might be good fit (plugging a gap, as a better implementation of am existing system or process, etc)",
+    "source_note": "f1987797a3eb4226885d005835198500",
+    "source_date": "2026-08-19",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Improvement survey."
+  },
+  {
+    "title": "Do a total clean and fresh reinstall of the skills bundle",
+    "quote": "When i first installed the skills bundle did it do a full onboarding process? Do a total clean then Redo a fresh install of the skills bundle",
+    "source_note": "f1987797a3eb4226885d005835198500",
+    "source_date": "2026-08-19",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Possible cause of browser-use confusion."
+  },
+  {
+    "title": "Add the alerts and notifications system to bestmodelpicker",
+    "quote": "new feature for bestmodelpicker: alerts and notifications. on device and sent to telegram etc: when new plans and new inclusions or changes happen that make your usage cost cheaper",
+    "source_note": "f1987797a3eb4226885d005835198500",
+    "source_date": "2026-08-19",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Repeated with detail in note e8335b6b; tied to the plans updater."
+  },
+  {
+    "title": "Build the free tier hunter feature for the costing system",
+    "quote": "because free tiers are constantly changing so much, make free tier addition to the costing system a seperate feature maybe called free tier hunter",
+    "source_note": "f1987797a3eb4226885d005835198500",
+    "source_date": "2026-08-19",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Separate feature the note names."
+  },
+  {
+    "title": "Use bookmarked site-building tweets as keywords to find more tutorials",
+    "quote": "with the prompts/tutorials they followed and/or the design.mds they used (all the website tutorials i have bookmarked so far). Use bookmarked tweets as keywords to find more tweets",
+    "source_note": "f1987797a3eb4226885d005835198500",
+    "source_date": "2026-08-19",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Research expansion task for site building."
+  },
+  {
+    "title": "Add optional average daily token fields for execution and brainstorm models",
+    "quote": "Execution models input fields: average per turn (existing), number of turn per month for execution alone (existing - used for its separate table in section 4), average daily (new)",
+    "source_note": "e8335b6b551e428f999b0cf3e416078f",
+    "source_date": "2026-08-20",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit optional field addition."
+  },
+  {
+    "title": "Show compact budget-coverage tables for the top brainstorm and execution picks",
+    "quote": "answer the question of if that model can fully cover both the total monthly usage of brainstorming and execution",
+    "source_note": "e8335b6b551e428f999b0cf3e416078f",
+    "source_date": "2026-08-20",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit addition to the best suggestions top bar."
+  },
+  {
+    "title": "Deep dive how user inputs are translated into eval datasets",
+    "quote": "Do a very detailed, very granular deep dive into exactly how the user inputs are translated by the system into the detailed eval datasets",
+    "source_note": "31718168308a41218951436ed838b419",
+    "source_date": "2026-08-20",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit design task for the skill evaluator."
+  },
+  {
+    "title": "Solve helping workers quickly create eval datasets from their tasks",
+    "quote": "The only final hurdle to solve is helping workers quickly create eval datasets out of their tasks",
+    "source_note": "31718168308a41218951436ed838b419",
+    "source_date": "2026-08-20",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Final hurdle identified by the note."
+  },
+  {
+    "title": "Write the implementation plan, ADR set and CONTEXT.md per the build list",
+    "quote": "Implementation plan / ADR set / CONTEXT.md per the §8 build list",
+    "source_note": "d104d6220981406fb1f267db5c08a002",
+    "source_date": "2026-08-21",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Next build step for the skill evaluator product."
+  },
+  {
+    "title": "Build the free-stack deployment runbook tool as both a product and a skill",
+    "quote": "A PRODUCT I WILL SHIP, BUT I WOULD ALSO LIKE A VERSION OF IT IN THE FORMAT OF A SKILL",
+    "source_note": "5091689ee4af49058acf1ab329a5eac1",
+    "source_date": "2026-08-21",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit product decision in the free-for-dev runbook idea."
+  },
+  {
+    "title": "Make the runbook emit actual IaC (Terraform/Compose) from the final stack",
+    "quote": "Do you want the runbook to go one step further and emit actual IaC (Terraform/Compose) from the final stack? YES IT SHOULD GO ONE STEP FURTHER",
+    "source_note": "5091689ee4af49058acf1ab329a5eac1",
+    "source_date": "2026-08-21",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit scope extension approved."
+  },
+  {
+    "title": "Use qmd fully for the tool's ingestion and retrieval system",
+    "quote": "I WOULD LIKE TO FULLY USE https://github.com/tobi/qmd ALL ITS CAPABILITIES",
+    "source_note": "5091689ee4af49058acf1ab329a5eac1",
+    "source_date": "2026-08-21",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit technology choice."
+  },
+  {
+    "title": "Explore autonomous tech-stack improvement using pi-autoresearch",
+    "quote": "IS IT PRACTICALLY POSSIBLE TO ADD A FEATURE WHERE THE TOOL/SKILL AUTONOMOUSLY IMPROVES THE USER'S TECH STACK AND APPLICATION DESIGN (OVER MULTIPLE CYCLES) TO IMPROVE ITS EFFICIENCY",
+    "source_note": "5091689ee4af49058acf1ab329a5eac1",
+    "source_date": "2026-08-21",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Open question flagged; uses pi-autoresearch."
+  },
+  {
+    "title": "Build the Reddit sales system for Hermes",
+    "quote": "Reddit sales system for hermes (later adapt it to that chioma's reddit job hunting system)",
+    "source_note": "153ce410ca4945e2bf6c3caf41aa5064",
+    "source_date": "2026-08-21",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit new system with a later adaptation noted."
+  },
+  {
+    "title": "Add the bookmarked methods to the cold outreach bot",
+    "quote": "Some additional methods to the cold outreach bot",
+    "source_note": "61416649b65f4b52bfba0683ccd49dd9",
+    "source_date": "2026-08-21",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit heading; the methods sit in the linked tweets."
+  },
+  {
+    "title": "Work on the slideshow video platform, then search bookmarks for free video tutorials",
+    "quote": "Work on this slideshow video platform first, then search for all \"free video\" tutorials in my bookmarks (as next step)",
+    "source_note": "61416649b65f4b52bfba0683ccd49dd9",
+    "source_date": "2026-08-21",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit sequence in the note."
+  },
+  {
+    "title": "Turn the dating/relationship rants into YouTube and TikTok stories",
+    "quote": "Then turn all the dating wails i have been wailing over the last few days, into youtube stories",
+    "source_note": "61416649b65f4b52bfba0683ccd49dd9",
+    "source_date": "2026-08-21",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Repeated in note d78ae0fb (Amara rants into micro-romance stories)."
+  },
+  {
+    "title": "Turn the Telegram send and receive fixes into patches and upstream PRs",
+    "quote": "Take every single patch that has been created and modification made in the whole chat session, into upstream PRs for main hermes agent repo",
+    "source_note": "08982470518b4144bbe7f60d4627f3d7",
+    "source_date": "2026-08-22",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit follow-up after the Telegram send/receive fixes."
+  },
+  {
+    "title": "Turn the reply statements into clickable buttons",
+    "quote": "3. Turn thr reply statements into buttons users just click instead of having to type",
+    "source_note": "08982470518b4144bbe7f60d4627f3d7",
+    "source_date": "2026-08-22",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "UX feature request."
+  },
+  {
+    "title": "Fix the ready application flow and apply the remaining suggested fixes",
+    "quote": "Those X X X suggestion fixes, and the suggestion of using Browser Use CLI to fix the computer and browser use, and issues with the ready application (didn't actually complete it).",
+    "source_note": "08982470518b4144bbe7f60d4627f3d7",
+    "source_date": "2026-08-22",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Unfinished flow; overlaps the browser-use fixes."
+  },
+  {
+    "title": "Do a deep grill/QA session to fix the too-lax scoring system",
+    "quote": "doing a deep grill-me and/or qa deep testing session to really crosscheck and test the scoring system to fix it (it is too lax, scores are too high)",
+    "source_note": "08982470518b4144bbe7f60d4627f3d7",
+    "source_date": "2026-08-22",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit fix for scoring quality."
+  },
+  {
+    "title": "Sort out the starbank: what it needs and how to populate it",
+    "quote": "sorting out the starbank (what does it need at the moment? Does it need to be populated? How would it be populated?)",
+    "source_note": "08982470518b4144bbe7f60d4627f3d7",
+    "source_date": "2026-08-22",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Open question to resolve."
+  },
+  {
+    "title": "Add unlazy and port the Matt Pocock skills to Hermes agent",
+    "quote": "Add to opencode, hermes agent and every setup: https://github.com/Leonxlnx/unlazy, matt pocock skills: turn all relevant claude code instructions into hermes agent versions",
+    "source_note": "08982470518b4144bbe7f60d4627f3d7",
+    "source_date": "2026-08-22",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Tooling setup task."
+  },
+  {
+    "title": "Build the lash out preventer variant of the PR tool for messaging platforms",
+    "quote": "Variant of pr tool for whtsapp and all otehr messagign platforms: lash out preventer (prevent the stupid mistake i did with amara",
+    "source_note": "6c3e30e5ca844a8cadc13173d3bfbc74",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Detailed spec for a planned tool variant."
+  },
+  {
+    "title": "Expand the all-messages collector with tiered notifications and a nuclear option",
+    "quote": "expanding the all messages collector notifications tools:\n- different levels of notification systems the more urgent the contact is",
+    "source_note": "6c3e30e5ca844a8cadc13173d3bfbc74",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Detailed feature spec."
+  },
+  {
+    "title": "Copy Stanley's features into the Twitter tool",
+    "quote": "copy all its features into my twitter tool: https://x.getstanley.ai/welcome?ref=start",
+    "source_note": "6c3e30e5ca844a8cadc13173d3bfbc74",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit copy instruction."
+  },
+  {
+    "title": "Make the casting tool fully language agnostic for cross-language casting",
+    "quote": "Casting tool: casting across languages: are all the features and functions and components and systems and parameters of the full tool completely language agnostic",
+    "source_note": "6c3e30e5ca844a8cadc13173d3bfbc74",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit check for global talent discovery."
+  },
+  {
+    "title": "Apply the casting tool's measurement approach to analysing porn movies",
+    "quote": "Applying the fullness of that casting tool to analysing (measuring) porn movies: all the comments on porn sites are viewer meaurement gold.",
+    "source_note": "6c3e30e5ca844a8cadc13173d3bfbc74",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit application task; guides creators within budget."
+  },
+  {
+    "title": "Set up TikTok accounts with Hotmail addresses instead of phone numbers",
+    "quote": "stting up tiktok accounts using hotmail instead of phone numbers: https://x.com/guillemcraft/status/2086712400871399471",
+    "source_note": "6c3e30e5ca844a8cadc13173d3bfbc74",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Cheaper setup method; domain forwarding also linked."
+  },
+  {
+    "title": "Collate all graph tools and evaluate them for job-hunting-hermes and the Twitter tool",
+    "quote": "First collate all the graph tools i have both bookmarked in my tweets and forked in github. Then against each one, ask if there are anyways the project benefits from it?",
+    "source_note": "7f0b37962c54494aa35f84f8416f3a67",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Research and evaluation task."
+  },
+  {
+    "title": "Map every function in your projects and classify content-generating vs search-and-comment",
+    "quote": "Map out every single minute function in my projects (all features and other functions, every single tiny one and every single usecase for each function",
+    "source_note": "7f0b37962c54494aa35f84f8416f3a67",
+    "source_date": "2026-08-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Foundation for the Twitter tool automation system."
+  },
+  {
+    "title": "Research how semantic search works across tools and design its Twitter tool implementation",
+    "quote": "how exactly does semantic search currently work on all search tools (eg. Exa.ai, Searxng and those collection lists of all search providers",
+    "source_note": "7f0b37962c54494aa35f84f8416f3a67",
+    "source_date": "2026-08-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Key mechanism for the Twitter tool."
+  },
+  {
+    "title": "Add per-section search queries, personas and pairs to the Twitter tool UI",
+    "quote": "each section/function/feature should allow you make and add individual search queries, personas, and search-query-and-persona-pairs, limits for paying tiers",
+    "source_note": "7f0b37962c54494aa35f84f8416f3a67",
+    "source_date": "2026-08-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Detailed UI spec."
+  },
+  {
+    "title": "Build the workflow builder with two grilling agents plus a judge on preset constraints",
+    "quote": "create two agents on the same project (or three with a judge agent to two other agents), one grills the other and goes through all other processes to develop the workflow",
+    "source_note": "7f0b37962c54494aa35f84f8416f3a67",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Workflow builder aspect of the AI automation pitcher."
+  },
+  {
+    "title": "Build the separate full pitch variant of job hunting",
+    "quote": "i will a separate distinct full pitch variant of job hunting",
+    "source_note": "7f0b37962c54494aa35f84f8416f3a67",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit new variant decision."
+  },
+  {
+    "title": "Build the open-ended money making opportunity search system",
+    "quote": "A final job hunting variant for a general, dynamic, open ended boundless \"money making opportunity\" search system",
+    "source_note": "7f0b37962c54494aa35f84f8416f3a67",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit final variant."
+  },
+  {
+    "title": "Build the AI hedge fund using the bookmarked open-source Grok bots",
+    "quote": "AI hedge fund using Grok bots (use the open source versions i have bookmarked)",
+    "source_note": "b7474802bb5d43dab084691bc1e4fba3",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit build item."
+  },
+  {
+    "title": "Dump all of Cody Schneider's tweets into Hermes agent until each is implemented",
+    "quote": "Take all of @codyschneider's tweets and just dump them into hermes agent (till each is fully implemented)",
+    "source_note": "b7474802bb5d43dab084691bc1e4fba3",
+    "source_date": "2026-08-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit implementation directive."
+  },
+  {
+    "title": "Add dynamic top bars showing the most used AI plans",
+    "quote": "some way of measuring the most used AI plans so they are listed as the top bars and rest of plans are selected via dropdown. this means the plans listed at the top bar are constantly dynamic changing",
+    "source_note": "b7474802bb5d43dab084691bc1e4fba3",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "bestmodelpicker feature list item."
+  },
+  {
+    "title": "Add a section with top picks plus second to fifth best picks",
+    "quote": "some section that lists the top picks for both rbainstorm and execution, alogn with their second, third, fourth, fifth best picks",
+    "source_note": "b7474802bb5d43dab084691bc1e4fba3",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "bestmodelpicker feature list item."
+  },
+  {
+    "title": "Create a hosted tool to extract all bookmarks with fieldtheory-cli and qmd",
+    "quote": "CREATE TOOL TO HOST THIS https://github.com/afar1/fieldtheory-cli TO QUICKLY EXTRACT ALL MY BOOKMARKS. ADVANCE IT WITH FULL QMD",
+    "source_note": "b7474802bb5d43dab084691bc1e4fba3",
+    "source_date": "2026-08-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Caps directive; enables the bookmark research tasks."
+  },
+  {
+    "title": "Do the prediction market teardown and rebuild",
+    "quote": "prediction market teardown and rebuild: current repo + current opencode chat",
+    "source_note": "b7474802bb5d43dab084691bc1e4fba3",
+    "source_date": "2026-08-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Today list item."
+  },
+  {
+    "title": "Deep debug Twitter A and test every button and feature",
+    "quote": "we are going to do a deep debug, then we are going to test every single button and feature against the full plans to see exactly what they do",
+    "source_note": "b7474802bb5d43dab084691bc1e4fba3",
+    "source_date": "2026-08-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Today list item."
+  },
+  {
+    "title": "Merge Twitter A and B, add all new features, and link job-hunter-plugin with the Twitter tool",
+    "quote": "then (1) merge twitter A + B (2) go through my notes and add all the new features (3) finally getting job-hunter-plugin and twitter tool to work together",
+    "source_note": "b7474802bb5d43dab084691bc1e4fba3",
+    "source_date": "2026-08-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Today list follow-up sequence."
+  },
+  {
+    "title": "Go through the solarsizer commits to test and solve all the problems",
+    "quote": "solarsizer (finally go through all the commits to test and solve all the problems)",
+    "source_note": "b7474802bb5d43dab084691bc1e4fba3",
+    "source_date": "2026-08-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Tomorrow list item."
+  },
+  {
+    "title": "Run the hostile red team analysis of the industry sourcing engine",
+    "quote": "- hostile, adversarial red team analysis of industry sourcin engine: existing opencode if there is any",
+    "source_note": "b7474802bb5d43dab084691bc1e4fba3",
+    "source_date": "2026-08-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Tomorrow list item with the chats to add."
+  },
+  {
+    "title": "Red-team strip the gift recommender spec using Ox Alpha",
+    "quote": "first use ox alpha to do hostile, adversarial red team stripping of the current qwen spec (the full qwen chat session + the exported spec document)",
+    "source_note": "b7474802bb5d43dab084691bc1e4fba3",
+    "source_date": "2026-08-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Tomorrow list item."
+  },
+  {
+    "title": "Build the batch social network graph scraping feature for the dating app",
+    "quote": "Batch number: can scrape all your dms, or followers, or people you follow, or build a detailed social network graph of all your interactions",
+    "source_note": "d8d39b35-7bf1-4e85-a4e7-58b99e24a28d",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Advanced feature 3 spec."
+  },
+  {
+    "title": "Add semantic search as a third ingestion option in the Twitter tool",
+    "quote": "twitter tool: the semantic search layer will feed (the inputs) into the ingstion phase of the targeted dual-ingestion strategy. so it would be the third ingstion option after these first 2",
+    "source_note": "d8d39b35-7bf1-4e85-a4e7-58b99e24a28d",
+    "source_date": "2026-08-23",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit integration decision."
+  },
+  {
+    "title": "Add the option to route tweets to third-party API or inbuilt content responses",
+    "quote": "option to deterministically or semntically select: what tweet content needs my third party api input from the job hunter plugin",
+    "source_note": "d8d39b35-7bf1-4e85-a4e7-58b99e24a28d",
+    "source_date": "2026-08-23",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit Twitter tool option."
+  },
+  {
+    "title": "Create rules separating personal-account and corporate-account content types",
+    "quote": "TWITTER TOOL: rules for (automatically determining personal-account-okay content types versus corporate account only content types",
+    "source_note": "d8d39b35-7bf1-4e85-a4e7-58b99e24a28d",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Explicit rules task."
+  },
+  {
+    "title": "Note all the current reinforcement learning and AI model training companies",
+    "quote": "NOTE ALL THE CURRENT REINFORCEMENT LEARNING AND AI MDELT RAINING COMPANIES",
+    "source_note": "d8d39b35-7bf1-4e85-a4e7-58b99e24a28d",
+    "source_date": "2026-08-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Leads toward the cheap model training tool idea."
+  },
+  {
+    "title": "Back up appdata/job-hunter and install the CLI before the RAM upgrade",
+    "quote": "Backup appdata/job-hunter\nInstall CLI with prompt",
+    "source_note": "7f302aeea33b458f9b61fa66d06232c8",
+    "source_date": "2026-08-24",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Steps in the laptop RAM swap procedure."
+  },
+  {
+    "title": "Build job-hunter-plugin add-on packages from Victoria's and Omoalhaja's tweets and Telegram posts",
+    "quote": "1. Multiple add-on packages from victoria's tweets\n2. Multiple add-on packages from omoalhaja's tweets and all the pists in his telegram channel",
+    "source_note": "91a21b1473a64929976a04a11a55d060",
+    "source_date": "2026-08-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit package list for job-hunter."
+  },
+  {
+    "title": "Build a job-hunter add-on package covering the RemoteReady job-search tips",
+    "quote": "An add-on package covering all these jobready tips below (plus the screenshots and all the questions of the survey:",
+    "source_note": "91a21b1473a64929976a04a11a55d060",
+    "source_date": "2026-08-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit; the package must cover every suggestion and the survey questions."
+  },
+  {
+    "title": "Build the research-papers app with a proactive Hermes-style agent",
+    "quote": "Build into knowledgebase chatbot, then hermes/openclaw style asistant with cron, proactive (always watching, self triggered) agent like grokbot",
+    "source_note": "20d02e3ea5ca4c9abf6087c7b44ed8c2",
+    "source_date": "2026-08-24",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit build step in the research-paper app idea."
+  },
+  {
+    "title": "Solve when to mark voice user input as done for streaming voice models",
+    "quote": "solving the problem of when user input stops/when to mark user input as done and when to start processing then responding",
+    "source_note": "6e50579ac6cd4c049d68e4d9fb53b68f",
+    "source_date": "2026-08-25",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Named problem to solve."
+  },
+  {
+    "title": "Use skill evaluator to extract design details from app design directories",
+    "quote": "skillevaluator to pick best skill for detailed extracting design.md of ...., also going through all my bookmarked lists of app design directories (like mobbin or even dribble etc)",
+    "source_note": "6e50579ac6cd4c049d68e4d9fb53b68f",
+    "source_date": "2026-08-25",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Method decision for app design."
+  },
+  {
+    "title": "Acquire and index complete social profile data on a billion-plus people",
+    "quote": "buy all social profiles in the world: social profiles and profile data, ad targeting, etc, from all the legal platforms and dark web sources",
+    "source_note": "6e50579ac6cd4c049d68e4d9fb53b68f",
+    "source_date": "2026-08-25",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Repeated in note 5a7a8224 (broker and leak data for the dating app)."
+  },
+  {
+    "title": "Add matchmaker customization extensions to the dating app",
+    "quote": "Matchmaker customizations extensions: what are every single dimension, every single parameter, flag, slider, setting that matchmakers can (a) modify (b) delete",
+    "source_note": "5a7a8224fad844c9b20113e0d8516c9e",
+    "source_date": "2026-08-25",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit extension spec."
+  },
+  {
+    "title": "Add all 80+ languages with local norms and translation to the dating app",
+    "quote": "All languages: on top of the existing customization to local norms and cultural practices and cultural biases, using whatever is the currently benchmark ranked best small sized llm translator(s)",
+    "source_note": "5a7a8224fad844c9b20113e0d8516c9e",
+    "source_date": "2026-08-25",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit localization spec."
+  },
+  {
+    "title": "Add memes, jokes and sarcasm content types to the Twitter tool",
+    "quote": "it would also add these three content: (1) memes and memeing (text contents that reads like memes) (2) funny jokes (funny quips) (3) sarcasm (next set of features to build into twitter tool)",
+    "source_note": "5a7a8224fad844c9b20113e0d8516c9e",
+    "source_date": "2026-08-25",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Flagged as the next features to build for the Twitter tool."
+  },
+  {
+    "title": "Expand the matching tool to co-founders and business partners",
+    "quote": "Expand to matching anyone: co-founders, business partners, etc. key to understand: the dimensions (and their weightings) that matter, are different for every usecase",
+    "source_note": "5a7a8224fad844c9b20113e0d8516c9e",
+    "source_date": "2026-08-25",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit expansion with mapping first."
+  },
+  {
+    "title": "Adapt the creative writing systems to the dating app's narrative functions",
+    "quote": "Take all the same complex creative writing systems of my other tools - blogging tool and analogy translator, script writer",
+    "source_note": "5a7a8224fad844c9b20113e0d8516c9e",
+    "source_date": "2026-08-25",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit adaptation task."
+  },
+  {
+    "title": "Turn the dating tool into AI boyfriends and girlfriends",
+    "quote": "turn the tool to AI Boyfriends/Girlfriends: since it can map out the perfect matches for people, it can reverse engineer this to design the perfect boyfriend",
+    "source_note": "5a7a8224fad844c9b20113e0d8516c9e",
+    "source_date": "2026-08-25",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit final product direction."
+  },
+  {
+    "title": "Fix the transitivity and statelessness issues, then implement the APIM extensions",
+    "quote": "1. FIRST FIX THE TRASITIVITY AND STATELESSNESS ISSUES\n2. THEN USE THE TRANSAITIVITY FIXES TO FULLY FIX AND IMPLEMENT THE APIM EXTENSIONS",
+    "source_note": "cf0b0978300d4a5dacf263b5986523ff",
+    "source_date": "2026-08-25",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Major issue; repeated in note 8c84c767."
+  },
+  {
+    "title": "Allow multiple social accounts and extend the network graph for small accounts",
+    "quote": "Also allow users submit in all their multiple social media accounts, also some users have small social media accounts with few followers which can all be finished scanning",
+    "source_note": "cf0b0978300d4a5dacf263b5986523ff",
+    "source_date": "2026-08-25",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit input feature."
+  },
+  {
+    "title": "Build the Tinder scoring add-on as a chrome extension/mobile accessibility tool",
+    "quote": "tinder lists all its suggestions: as a profile is loaded into view, it quickly runs an analysis and scores the profile, if they would be good for you or not",
+    "source_note": "cf0b0978300d4a5dacf263b5986523ff",
+    "source_date": "2026-08-25",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit add-on spec."
+  },
+  {
+    "title": "Turn the project ideas into services instead of software products",
+    "quote": "Turn all your project ideas into services",
+    "source_note": "d588eda60b8f460e854a828fbef8fb5a",
+    "source_date": "2026-08-25",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Positioning decision with the automation agency example and retainer pricing."
+  },
+  {
+    "title": "Style the dating app like playful astrology/pop dating apps but with real science",
+    "quote": "Style it copying everything of the astrology and pop dating apps: the cute names, all the cute tags, flower designs, languages etc.",
+    "source_note": "d588eda60b8f460e854a828fbef8fb5a",
+    "source_date": "2026-08-25",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit design direction for the dating app."
+  },
+  {
+    "title": "Start automation agency outreach now with Hermes-sourced customers",
+    "quote": "just ask hermes to come up with something finding potential automation customers for me on twitter and threads and IG, then just use that summary i wrote for amara as my cold outreach",
+    "source_note": "d588eda60b8f460e854a828fbef8fb5a",
+    "source_date": "2026-08-25",
+    "tier": 1,
+    "impact": 0.4,
+    "why": "Income path; note says not to wait for the apps to be finished."
+  },
+  {
+    "title": "Launch the retatrutide site quickly using GLM 5.3",
+    "quote": "Just use GLM 5.3 to create a quick website (or just click and copy any of its examples) to launch the reatrutide site",
+    "source_note": "d588eda60b8f460e854a828fbef8fb5a",
+    "source_date": "2026-08-25",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit quick-launch instruction; site still pending in note b7474802."
+  },
+  {
+    "title": "Do the exhaustive PRISMA-style search for all pattern library entries",
+    "quote": "I want you to do an exhausting search for patterns for the pattern library guiding the AI Judge, of all remaining unsearched areas following the PRISMA-style review system.",
+    "source_note": "8c84c767e1a046f38b101b711bc58ec7",
+    "source_date": "2026-08-26",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Research task for the AI judge pattern library; also raised in note 27a9757e."
+  },
+  {
+    "title": "Add thousands of romantic writing samples to the writing system",
+    "quote": "add thousands of romantic writing samples: fanfics and wattpads most especially (at least 60-70% of the cohort), romance novels, romance blogs etc for writing style",
+    "source_note": "8c84c767e1a046f38b101b711bc58ec7",
+    "source_date": "2026-08-26",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit writing system expansion for the dating app."
+  },
+  {
+    "title": "Build the four core dating app v2 components",
+    "quote": "four core components: the narrative style questionnaire input system (also borrows the same writing systems)",
+    "source_note": "8c84c767e1a046f38b101b711bc58ec7",
+    "source_date": "2026-08-26",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Version 2 component list built from the separate chats."
+  },
+  {
+    "title": "Find and collate all free AI API sources to test bestmodelpicker's discovery engine",
+    "quote": "MORE FREE AI APIs. (Find all tweets like these. Collate all the sources. Use to test and eval the bestmodelpicker dynamic discovery engine and scrapers)",
+    "source_note": "86245367379e4e558e675484ef0a128f",
+    "source_date": "2026-08-26",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit research and testing directive."
+  },
+  {
+    "title": "Complete the Phase 1 interview flow with stakeholder identification",
+    "quote": "Complete Phase 1 interview flow with stakeholder identification",
+    "source_note": "86245367379e4e558e675484ef0a128f",
+    "source_date": "2026-08-26",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit completion item."
+  },
+  {
+    "title": "Add /last30days to Hermes agent",
+    "quote": "Add /last30days to hermes agent",
+    "source_note": "30256d8343454815a28c99fa57fa4891",
+    "source_date": "2026-08-26",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit setup item."
+  },
+  {
+    "title": "Experiment with replicating launch videos using Hyperframes",
+    "quote": "How many more launch videos can i perfectly replicate with hyperframes (going to do a lot of experiments in Hermes-agent)",
+    "source_note": "30256d8343454815a28c99fa57fa4891",
+    "source_date": "2026-08-26",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit experiment plan."
+  },
+  {
+    "title": "Run the waterfall chat-session comparison process to merge dating app versions",
+    "quote": "pick two full chat sessions and all their associated files. Have the AI find all the relevant mattpocock skills to perform a deep, line-by-line comparison to decide which implementations are better",
+    "source_note": "30256d8343454815a28c99fa57fa4891",
+    "source_date": "2026-08-26",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit consolidation process with grill-me and to-specs."
+  }
+]

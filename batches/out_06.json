@@ -1,0 +1,1271 @@
+[
+  {
+    "title": "Structure the domain expertise step in the IA process",
+    "quote": "A missing step in my IA process was the domain expertise section (for mapping the User flows and even also the screen loops).",
+    "source_note": "e6b4a8bc53cc412cb87beb3c95c34d1c",
+    "source_date": "2026-06-04",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Fixes a noted IA gap; feeds the four-part design process."
+  },
+  {
+    "title": "Build tool-based generators for the Mermaid map and labels",
+    "quote": "Mermaid map should be created with a tool, not AI",
+    "source_note": "e6b4a8bc53cc412cb87beb3c95c34d1c",
+    "source_date": "2026-06-04",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Decided tooling approach; labels also tool-driven if possible."
+  },
+  {
+    "title": "Set up the cloud server so coding works from the phone",
+    "quote": "continue coding on my phone (all projects now moved from laptop to the cloud server, all desktop IDEs now works off the cloud server)",
+    "source_note": "dbbc0e1dd8b442e7b402fa383e087509",
+    "source_date": "2026-06-04",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "June priority block; Termux/Tailscale route in eca82ae73f8d4f829717a1e6fabc5e9e."
+  },
+  {
+    "title": "Polish the existing websites",
+    "quote": "Finish up (polish) the existing websites",
+    "source_note": "dbbc0e1dd8b442e7b402fa383e087509",
+    "source_date": "2026-06-04",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "If-time-left June task; repeated in e6dd410a8d6b4a1c8229bd33fc8c6298."
+  },
+  {
+    "title": "Update the CV and all other profiles",
+    "quote": "update CV and all other profiles to ensure up to date",
+    "source_note": "dbbc0e1dd8b442e7b402fa383e087509",
+    "source_date": "2026-06-04",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "July task; same cleanup asked in e6dd410a8d6b4a1c8229bd33fc8c6298."
+  },
+  {
+    "title": "Apply to every grant, VC and funding program",
+    "quote": "apply for every single grant, VC, funding program",
+    "source_note": "dbbc0e1dd8b442e7b402fa383e087509",
+    "source_date": "2026-06-04",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Income-critical July plan; AI token grants on the next line."
+  },
+  {
+    "title": "Finish the complete knowledgebase search system",
+    "quote": "finally finish my complete total knowledgebase search system (connecting and parsing every single data from every single data source that i create)",
+    "source_note": "dbbc0e1dd8b442e7b402fa383e087509",
+    "source_date": "2026-06-04",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Closes the July plan; long-running foundation project."
+  },
+  {
+    "title": "Restore SolarSizer from the last sane pre-Cloudflare version",
+    "quote": "last sane version of solar sizer (the last version deployed on render before the new commit deployed on cloudflare).",
+    "source_note": "b16bd5ad-5227-4cd2-80f2-26cf61825e60",
+    "source_date": "2026-06-04",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Recovery pointers gathered; also queued in e6dd410a8d6b4a1c8229bd33fc8c6298."
+  },
+  {
+    "title": "Develop the complete labelling system design",
+    "quote": "Can we proceed with the Labelling System Design? I would like us to develop the complete labellings.",
+    "source_note": "6953f22f0bb84edb989da7a9323b34f5",
+    "source_date": "2026-06-05",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit request opening the note; needed for the IA labelling pass."
+  },
+  {
+    "title": "Audit all Twitter access tools and pick the best",
+    "quote": "analyze the github repos of all tools that access Twitter, decide on the best option",
+    "source_note": "6953f22f0bb84edb989da7a9323b34f5",
+    "source_date": "2026-06-05",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Clearest version; audit also in de17fca5b2964c4794c9134b188f5a6b and 12b266b37d6d4993bd3df59c94521d8d."
+  },
+  {
+    "title": "Find or crawl a punter Telegram archive to catalogue bet formats",
+    "quote": "Find some online telegram archive (of punters channels) or see if i can use my bot to quickly crawl it myself.",
+    "source_note": "6953f22f0bb84edb989da7a9323b34f5",
+    "source_date": "2026-06-05",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Telegram half of the Apexpunter scraping arm."
+  },
+  {
+    "title": "Collect a punter Twitter archive to catalogue bet formats",
+    "quote": "Find some online twitter archive (of punters). Use this to note all the different ways they post their bets",
+    "source_note": "6953f22f0bb84edb989da7a9323b34f5",
+    "source_date": "2026-06-05",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Twitter half of the scraping arm; archive renewal in 697c6d9c45224e319c06b60bd14d7f47."
+  },
+  {
+    "title": "Set up continuous autoresearch on newly crawled betting data",
+    "quote": "set up an extra autoresearch feature that keeps improving based on the new betting data that is crawled in continously by the scraping arm",
+    "source_note": "6953f22f0bb84edb989da7a9323b34f5",
+    "source_date": "2026-06-05",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Keeps features improving as data lands; test loop in 697c6d9c45224e319c06b60bd14d7f47."
+  },
+  {
+    "title": "Add last30days as a mandatory opencode research skill",
+    "quote": "either way add /last30days to my opencode skills as a research skills, one that mostly functions as a mandatory additional research skill on top of all the other existign research skills",
+    "source_note": "6953f22f0bb84edb989da7a9323b34f5",
+    "source_date": "2026-06-05",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit request; supports the research trifecta."
+  },
+  {
+    "title": "Build a commits and PR watcher for chosen repos and accounts",
+    "quote": "system that goes beyond finding new repos to watching for new commits/PRs in (a) the repos you specifiy (b) all repos owned, starred, forked by the accounts you specify",
+    "source_note": "6953f22f0bb84edb989da7a9323b34f5",
+    "source_date": "2026-06-05",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Alpha idea from the ZCash example; add to the GitHub intel tool."
+  },
+  {
+    "title": "Create the company-valuation strategy builder",
+    "quote": "company-valuation-and-frankly-all-PE-IB-and-Finance-usecases strategy builder",
+    "source_note": "6953f22f0bb84edb989da7a9323b34f5",
+    "source_date": "2026-06-05",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Extends strategy builders into finance verticals."
+  },
+  {
+    "title": "Explore the AI music label build",
+    "quote": "Use AI to create all the music: instrumentals, background vocals etc. Artiste just records on their phone.",
+    "source_note": "6953f22f0bb84edb989da7a9323b34f5",
+    "source_date": "2026-06-05",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Long-range idea; first artiste named (Jenny)."
+  },
+  {
+    "title": "Add a monthly budget input to freeaifinder",
+    "quote": "change the input/output box to a monthly budget (or just add beside it): tool should automatically break down the user's budget to input/output cost",
+    "source_note": "6953f22f0bb84edb989da7a9323b34f5",
+    "source_date": "2026-06-05",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Concrete feature for the core routing tool."
+  },
+  {
+    "title": "Factor caching into the freeaifinder cost calculator",
+    "quote": "Factoring in caching and all the other ways AI model apis can save money (i have come across a number of articles discussing this) into the cost calculator",
+    "source_note": "6953f22f0bb84edb989da7a9323b34f5",
+    "source_date": "2026-06-05",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Cost accuracy improvement for the calculator."
+  },
+  {
+    "title": "Add token budget scaling to the token cost plan",
+    "quote": "Thr concept of token budget scaling as a measure of performance. It achieves two things:",
+    "source_note": "6953f22f0bb84edb989da7a9323b34f5",
+    "source_date": "2026-06-05",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "New addition to the full token cost management plan."
+  },
+  {
+    "title": "Fix the codex setup",
+    "quote": "Fix codex",
+    "source_note": "18f4b5b6cce24145831527c76c2b0da0",
+    "source_date": "2026-06-05",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Standalone first line; unblocks the Apexpunter twitter/telegram work."
+  },
+  {
+    "title": "Finish the Apexpunter IA file",
+    "quote": "Finish the IA file claude: which frankly would be the only file i would use for the apexpunter redesign",
+    "source_note": "18f4b5b6cce24145831527c76c2b0da0",
+    "source_date": "2026-06-05",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Single file driving the redesign; Robinhood and design.mds not needed."
+  },
+  {
+    "title": "Install the chat saver in codex to export chat history",
+    "quote": "Get that chat saver i was trying to install in codex, to work (to see if it can save my full chat history and traces from opencode into the project folder",
+    "source_note": "18f4b5b6cce24145831527c76c2b0da0",
+    "source_date": "2026-06-05",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Enables full history transferability to codex."
+  },
+  {
+    "title": "Find the Gemini chat on the PMSB node-system rationale",
+    "quote": "Need to find that (Gemini?) chat where i really expanded on why prediction market strategy builder (PMSB) has to use a node system",
+    "source_note": "8524a5da4ee74330befd241577e8ed03",
+    "source_date": "2026-06-05",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Recover the reasoning before crosschecking nodes."
+  },
+  {
+    "title": "Crosscheck the AI nodes in the current PMSB implementation",
+    "quote": "Help critically guide the crosschecking of the AI nodes and other AI features in the current implementation of PMSB",
+    "source_note": "8524a5da4ee74330befd241577e8ed03",
+    "source_date": "2026-06-05",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit ask; also learn hooks and skill-file components."
+  },
+  {
+    "title": "Define PMSB positioning against other AI sports betting platforms",
+    "quote": "The fundamental differentiator, positioning of prediction market strategy builder against other AI sports betting platforms",
+    "source_note": "8524a5da4ee74330befd241577e8ed03",
+    "source_date": "2026-06-05",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Positioning decision pending for the product."
+  },
+  {
+    "title": "Determine how to convert Jobops into a job hunting strategy builder",
+    "quote": "Use it to determine how to convert Jobops into a job/gig hunting strategy builder",
+    "source_note": "8524a5da4ee74330befd241577e8ed03",
+    "source_date": "2026-06-05",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Feeds the job app strategy layer; cold DM and tips examples to be gathered."
+  },
+  {
+    "title": "Audit 150+ skill files and MCP servers against recommended agents",
+    "quote": "take the article and ask opencode to look through all my 150+ skill files and mcp servers and find if i already have corollary skills/agents for the agents he reccomended",
+    "source_note": "4775fe94-1c55-4cb8-bad5-f7fc5c26f231",
+    "source_date": "2026-06-06",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Opencode-slim article follow-up; avoids duplicate builds."
+  },
+  {
+    "title": "Evaluate vibeproxy as the router plugin foundation",
+    "quote": "https://github.com/automazeio/vibeproxy might form the foundation of my router plugin. apart from API also allows the use of subscriptions",
+    "source_note": "4775fe94-1c55-4cb8-bad5-f7fc5c26f231",
+    "source_date": "2026-06-06",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Subscriptions should join the freeaifinder comparisons too."
+  },
+  {
+    "title": "Complete the four-part design stack",
+    "quote": "complete my 4 design stack: UI-design.mds (the one everyone works on), information architecture (just follow the process i used for this punter website), marketing system",
+    "source_note": "d5a2208124d9413c8e75d5035d0b72e5",
+    "source_date": "2026-06-06",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Canonical entry; components charted in e6b4a8bc53cc412cb87beb3c95c34d1c."
+  },
+  {
+    "title": "Make freeaifinder answer the best free model question",
+    "quote": "Keep working on and fixing freeaifinder till it can immediately answer thus question: what is the best (most intelligent) free model that has consistent fast tk/s",
+    "source_note": "d5a2208124d9413c8e75d5035d0b72e5",
+    "source_date": "2026-06-06",
+    "tier": 2,
+    "impact": 0.4,
+    "why": "Impact 0.4; every project needs free consistent AI APIs; also 315ae6f2b940495e8ba2a6390d3f4148 and e6dd410a8d6b4a1c8229bd33fc8c6298."
+  },
+  {
+    "title": "Map which projects need search and research functionality",
+    "quote": "sentiment search through my notes for every single project, idea, app i am working on that may need some form of search and/or research functionality",
+    "source_note": "d5a2208124d9413c8e75d5035d0b72e5",
+    "source_date": "2026-06-06",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Trifecta components get assigned per project afterwards."
+  },
+  {
+    "title": "Compare the research trifecta against the Industry Sourcing Engine",
+    "quote": "How would this search/research trifecta differ from the deep research system i built for industry sourcing engine? Do a very deep comparison between both.",
+    "source_note": "d5a2208124d9413c8e75d5035d0b72e5",
+    "source_date": "2026-06-06",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Then compare the winner to the small-business leads system."
+  },
+  {
+    "title": "Make the research trifecta nodes of the prediction market builder",
+    "quote": "Make the research trifecta - /last30days, pi-autoresearch, 5-whys - as nodes in prediction market builder",
+    "source_note": "d5a2208124d9413c8e75d5035d0b72e5",
+    "source_date": "2026-06-06",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Single nodes or split into sub-component nodes; architecture task."
+  },
+  {
+    "title": "Build the price comparison overlay tool",
+    "quote": "quickly implement that price comparison overlay tool i shared on twitter (like all my other ideas, key challenge is my crawl/web-access stack)",
+    "source_note": "d5a2208124d9413c8e75d5035d0b72e5",
+    "source_date": "2026-06-06",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Crawl stack is the gating dependency."
+  },
+  {
+    "title": "Build the AI personal talent agent for working people",
+    "quote": "I want to build an AI powered personal 'talent agent' for every working career person",
+    "source_note": "cac5ab90e8ca45a091760b941916c6dd",
+    "source_date": "2026-06-06",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Long-range vision; brainstorm architecture and specs first."
+  },
+  {
+    "title": "Integrate the Industry Sourcing Engine into the negotiation tool",
+    "quote": "my Industry sourcing engine is ver advanced and might be better than the /last30days and 5-whys components, and should be integrated into the negotiations tool",
+    "source_note": "fe2fee90ecb043599ca2fecf2f08ec34",
+    "source_date": "2026-06-07",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Explicit integration decision."
+  },
+  {
+    "title": "Map all the places the negotiation tool can be used",
+    "quote": "All the places negotiation tool can be used",
+    "source_note": "fe2fee90ecb043599ca2fecf2f08ec34",
+    "source_date": "2026-06-07",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Use cases span salary talks, vendors, freelancers, creatives."
+  },
+  {
+    "title": "Add the core-needs overlay to all projects",
+    "quote": "Make it s default overlay: apart from passing all my projects through network effects, also pass all of them through this overlay: segment all the core needs the project meets",
+    "source_note": "fe2fee90ecb043599ca2fecf2f08ec34",
+    "source_date": "2026-06-07",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Core needs become the positioning points for marketing."
+  },
+  {
+    "title": "Expose customisation points in the trifecta for the negotiation app",
+    "quote": "can all the research trifecta components (last30days, PDCDR/5-whys, pi autoresesrch) expose all the points where parameters can be set, user inputs, prompts, skill files",
+    "source_note": "e3f2396f696b4ed4aa9e2ee3ee160bf9",
+    "source_date": "2026-06-09",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Power users customise; same ask follows for Job-ops."
+  },
+  {
+    "title": "Brainstorm Job-ops onboarding themes with progressive disclosure",
+    "quote": "exercise a very long brainstorming session with AI to then massively expand and create the near-infinite number of themes the AI can ask in the user onboarding",
+    "source_note": "e3f2396f696b4ed4aa9e2ee3ee160bf9",
+    "source_date": "2026-06-09",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Combine career DNA framework with prompt 5; delayed questions later."
+  },
+  {
+    "title": "Expose all customisation points in Job-ops",
+    "quote": "expose all other points where parameters can be set, user inputs, prompts, skill files, all points of any type of customisations, so power users can customise those points themselves",
+    "source_note": "e3f2396f696b4ed4aa9e2ee3ee160bf9",
+    "source_date": "2026-06-09",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Mirrors the trifecta customisation ask."
+  },
+  {
+    "title": "Add file-extension selection to the GitHub crawler menu",
+    "quote": "allow user select all file extensions they want from the extensions list, and add more custom file types",
+    "source_note": "e3f2396f696b4ed4aa9e2ee3ee160bf9",
+    "source_date": "2026-06-09",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Menu 10 command enhancement."
+  },
+  {
+    "title": "Buy the remaining items: USB cable, earphones, pastries, drink",
+    "quote": "What's left: usb cable, earpod (along the way) pastries (at the junction) drink (at the junction) then go home",
+    "source_note": "3298872a205a4df49bf5398b0f9d8b58",
+    "source_date": "2026-06-10",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Explicit leftover list closing the errand note."
+  },
+  {
+    "title": "Extract design.md files for Apexpunter and GitHub pia",
+    "quote": "find the best skill file for parsing out design.md from any site, use the skills i decide on to extract the design.mds that i would use both on apexpunter and Github pia",
+    "source_note": "697c6d9c45224e319c06b60bd14d7f47",
+    "source_date": "2026-06-10",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Depends on the GitHub notebooklm skill search."
+  },
+  {
+    "title": "Build the punter wins and losses dataset from the tweet archive",
+    "quote": "run the tool to identify all bets and parse them into the wins/loses table data i need (basically the type in that excel spreadsheet)",
+    "source_note": "697c6d9c45224e319c06b60bd14d7f47",
+    "source_date": "2026-06-10",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Concord pipeline; archive task in 6953f22f0bb84edb989da7a9323b34f5."
+  },
+  {
+    "title": "Run pi-autoresearch to test and improve Apexpunter features",
+    "quote": "run pi-autoresearch on it to (a) test if the existing features actually work (actually accurately track winning punters and predict winning tickets",
+    "source_note": "697c6d9c45224e319c06b60bd14d7f47",
+    "source_date": "2026-06-10",
+    "tier": 2,
+    "impact": 0.4,
+    "why": "Impact 0.4; flagship autoresearch loop, then feature improvements."
+  },
+  {
+    "title": "Brainstorm all workplace and career needs as product categories",
+    "quote": "all the other things-to-do, decisions, tasks, goals, needs etc in workplaces, career, working life, professional life, professions, corporate etc. each of this becomes a new product category",
+    "source_note": "8d1f0135-93d7-41b6-80c8-1d7e5c7c1516",
+    "source_date": "2026-06-10",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "First trifecta use case; expands the negotiation-app roadmap."
+  },
+  {
+    "title": "Search GitHub for information architecture skill-file alternatives",
+    "quote": "search my github to see if there are any information-architecture skill-file alternatives",
+    "source_note": "de17fca5b2964c4794c9134b188f5a6b",
+    "source_date": "2026-06-10",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Night task on claude; pick the IA guide to use."
+  },
+  {
+    "title": "Map new nodes for the almost-winning tracking system",
+    "quote": "map out all new nodes i need to add for a full \"he was so close\" tracking system",
+    "source_note": "de17fca5b2964c4794c9134b188f5a6b",
+    "source_date": "2026-06-10",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Check existing node coverage first; tail-tipster features are the start."
+  },
+  {
+    "title": "Define when work becomes a node, strategy, skill or hook",
+    "quote": "When should a skill be made a node and a skill be made a strategy?",
+    "source_note": "de17fca5b2964c4794c9134b188f5a6b",
+    "source_date": "2026-06-10",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Core architecture question the note keeps returning to."
+  },
+  {
+    "title": "Deep dive last30days to learn what makes it special",
+    "quote": "do a very deep, very critical deep dive to deeply understand how it works (what makes it special? what makes it better than just a \"research last 30 days\" prompt?)",
+    "source_note": "de17fca5b2964c4794c9134b188f5a6b",
+    "source_date": "2026-06-10",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Then decide its role against 5-whys and pi-autoresearch."
+  },
+  {
+    "title": "Kick off Savecoins with draft plan, research and demo",
+    "quote": "read mansa document and make first notes, find my old savecoin notes, write my initial draft product plan",
+    "source_note": "5123626ebc284cfd80470ca6a5a32ae5",
+    "source_date": "2026-06-10",
+    "tier": 2,
+    "impact": 0.4,
+    "why": "Impact 0.4; morning kickoff task; full plan in e6dd410a8d6b4a1c8229bd33fc8c6298 and 386151c9e1c1487c8c81bd16df46629d."
+  },
+  {
+    "title": "Send the inverter battery to Lagos for warranty",
+    "quote": "send my inveter battery to Lagos for waranty",
+    "source_note": "5123626ebc284cfd80470ca6a5a32ae5",
+    "source_date": "2026-06-10",
+    "tier": 1,
+    "impact": 0.3,
+    "why": "DESPERATELY NEED list item."
+  },
+  {
+    "title": "Buy a new laptop battery",
+    "quote": "and a new laptop battery. this bad one is why the laptop is overheating",
+    "source_note": "5123626ebc284cfd80470ca6a5a32ae5",
+    "source_date": "2026-06-10",
+    "tier": 1,
+    "impact": 0.3,
+    "why": "DESPERATELY NEED; the current battery causes overheating."
+  },
+  {
+    "title": "Buy new clothes",
+    "quote": "new clothes (shirts, shorts, maybe boxers)",
+    "source_note": "5123626ebc284cfd80470ca6a5a32ae5",
+    "source_date": "2026-06-10",
+    "tier": 1,
+    "impact": 0.2,
+    "why": "DESPERATELY NEED list item."
+  },
+  {
+    "title": "Order the three-pack attitude spray from Lagos",
+    "quote": "the three pack of the attitude spray from lagos (so i can get free delivery)",
+    "source_note": "5123626ebc284cfd80470ca6a5a32ae5",
+    "source_date": "2026-06-10",
+    "tier": 1,
+    "impact": 0.2,
+    "why": "DESPERATELY NEED; free delivery with the pack."
+  },
+  {
+    "title": "Buy more data months to reach four months total",
+    "quote": "1+ more months of data for total of 4 months (N11k)",
+    "source_note": "5123626ebc284cfd80470ca6a5a32ae5",
+    "source_date": "2026-06-10",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Listed buying item with price."
+  },
+  {
+    "title": "Find a carpenter for the nets",
+    "quote": "find carpenter for nets",
+    "source_note": "5123626ebc284cfd80470ca6a5a32ae5",
+    "source_date": "2026-06-10",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Later list item."
+  },
+  {
+    "title": "Find the solar person to mount the panel on the roof",
+    "quote": "go to behind the shopping mart to find the solar person to solidy panel on roof",
+    "source_note": "5123626ebc284cfd80470ca6a5a32ae5",
+    "source_date": "2026-06-10",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Later list item behind the shopping mart."
+  },
+  {
+    "title": "Make printing-press the default first crawler step",
+    "quote": "IT MIGHT BECOME DEFAULT PART OF MY CRAWLER PACKAGE WHERE FOR ANY SITE IT WANTS TO ACCESS IT FIRST PRINTS OUT THE CLI",
+    "source_note": "5123626ebc284cfd80470ca6a5a32ae5",
+    "source_date": "2026-06-10",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Try before SearXNG, Scrapling and Camoufox on repeatedly visited sites."
+  },
+  {
+    "title": "Build a pipeline to extract annotations from saved PDFs",
+    "quote": "how to extract all my notes from my saved pdfs",
+    "source_note": "623f3795-df40-4395-a819-de60e389f2b3",
+    "source_date": "2026-06-11",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "str is the annotation field; Sumatra export page noted."
+  },
+  {
+    "title": "Create competitor analysis and market research skill files",
+    "quote": "competitor analysis: compete deep maping of a competitor",
+    "source_note": "623f3795-df40-4395-a819-de60e389f2b3",
+    "source_date": "2026-06-11",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Three skill files planned; MRR projections tie to the ACES process."
+  },
+  {
+    "title": "Build pitchdeck, financial plan and demo from the 17 docs",
+    "quote": "put into the deepseek chats to create teh content for each slide + use that content to quickly create the pitchdeck using one of the powerpoint skills",
+    "source_note": "83f2a4a852c74c46b324f6783ae0ccf4",
+    "source_date": "2026-06-13",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Savecoins deliverables; tech stack addition noted."
+  },
+  {
+    "title": "Replicate the model-fusion calculator for freeaifinder",
+    "quote": "build a new calculator engine for it and maybe take it further by building an automated pi-autoresearch system for immediately benchmarking all the many infinite combinations of models",
+    "source_note": "27b94a8b627b4cf6bc26754006614959",
+    "source_date": "2026-06-14",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Also planned as a new feature for the router plugin."
+  },
+  {
+    "title": "Finish merging the combined Savecoins notes into the documents",
+    "quote": "I NEED TO EITHER EDIT EXISITNG DOCUMENTS WITH THE COMBINED NOTE, OR CREATE ANEW",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Semi-done step; then combine new notes with the cohesive form."
+  },
+  {
+    "title": "Build a list of 100+ Nigerian fintech competitors",
+    "quote": "first define a complete list of every single Nigerian used p2p, savings & investment, fintech, transactions, crypto, dollar and dollar card, international transfers, etc app",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "At least 100 required; feeds the competitor analysis run."
+  },
+  {
+    "title": "Run the competitor analysis across all 100+ competitors",
+    "quote": "select the best design.md and competitor analysis tool/advanced skill files then run it against each of the 100 competitors",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Uses GitHub search in notebooklm to pick the tools."
+  },
+  {
+    "title": "Find unique gaps by comparing the cohesive form to each competitor",
+    "quote": "do a detailed one-on-one comparison between the cohesive form we defined and each of every 100 competitors' analysis report and design.md to find our unique gaps",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Identifies features no other app does."
+  },
+  {
+    "title": "Revise the cohesive form again around the unique gaps",
+    "quote": "those traits would then be our primary marketing and selling focus (primary features, driver of our operations and where we direct resources, etc)",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Third revision; gaps become the marketing focus."
+  },
+  {
+    "title": "Run the ACES marketing process for Savecoins",
+    "quote": "then go to chatgpt, take my marketing prompts (process) i used for ACES, and repeat it for savecoins using the cohesive form documents i had just created as inputs",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Combine ACES prompts with the Solarone content system and viral guides."
+  },
+  {
+    "title": "Build the Savecoins prototype from the design process",
+    "quote": "i use the design.md part of the cohesive form in my 3 part design process (skip content) to quickly build a prototype",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Prototype then guides marketing, USP and operations."
+  },
+  {
+    "title": "Set up the NotebookLM operations manager",
+    "quote": "i will call this the smallest simplest cheapest operations manager.",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Then a Hermes agent subsumes the 16 documents."
+  },
+  {
+    "title": "Build the business pack of per-document skills",
+    "quote": "Bundle everything together as the business pack (start & run your business).",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Find the best individual skill for each of the 16-18 documents."
+  },
+  {
+    "title": "Revisit the 201 automated business plan idea",
+    "quote": "going to revisit my 201 automated business plan idea, this time seeing what features can be achoeved with AI",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Weekly market data from jiji.ng and other sources."
+  },
+  {
+    "title": "Use models.dev as the base source for freeaifinder",
+    "quote": "models.dev (github) as base source for freeaifinder",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Data source decision for the core tool."
+  },
+  {
+    "title": "Build the lawyer citation verifier",
+    "quote": "ask the AI to ensure to reference every case it sites. Then simple script to compare the cited number or url against some legal compendium.",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Simple script option noted in the note."
+  },
+  {
+    "title": "Make new chats search my notes before answering",
+    "quote": "instead of starting on the website, i start here first. When i ask a question, it first searches through my notes to find the best ways and methodologies i highlighted",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Fall back to general answers only when notes have nothing."
+  },
+  {
+    "title": "Adopt the human-simulation methodology for simulating people",
+    "quote": "it is a methodology for mimicing humans. so in any situation i need to mimic other humans",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Basis for savecoins research gaps, audience simulation and roleplay; arxiv 2510.08338."
+  },
+  {
+    "title": "Use skillsbench to solve skill-file selection",
+    "quote": "use this tool as the basis to solve my problem of millions of skill files, thousand of variants for each task/topic, how do i decide the best one to choose",
+    "source_note": "386151c9e1c1487c8c81bd16df46629d",
+    "source_date": "2026-06-14",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "github.com/benchflow-ai/skillsbench named as the basis."
+  },
+  {
+    "title": "Build quick benchmarks for comparing models across tools",
+    "quote": "VERY IMPORTANT i start building my own quick benchmarks for quickly benchmarking quality between opencode models and all the other AI chat tools i use",
+    "source_note": "315ae6f2b940495e8ba2a6390d3f4148",
+    "source_date": "2026-06-16",
+    "tier": 1,
+    "impact": 0.3,
+    "why": "VERY IMPORTANT phrase; decides when to use what and reduces claude limits."
+  },
+  {
+    "title": "Build the opportunity cost AI bot",
+    "quote": "An AI bot that helps eople calculate opportunity cost: whether it is a loss or an investment, by modelling the possible future using advanced quant and modelling techniques",
+    "source_note": "315ae6f2b940495e8ba2a6390d3f4148",
+    "source_date": "2026-06-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Product idea with prioritization formulas sketched."
+  },
+  {
+    "title": "Repeat the notebooklm GitHub searches in opencode",
+    "quote": "Repeat all notebooklm github search in opencode. Infact repeat all the notebooklm notebooks in opencode",
+    "source_note": "315ae6f2b940495e8ba2a6390d3f4148",
+    "source_date": "2026-06-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Compare result quality against notebooklm."
+  },
+  {
+    "title": "Add lite-llm routers to all top AI IDEs",
+    "quote": "i have not yet added the lite-llm routers to codex, opencode, Antigravity, droid, commandcode, cursor and all the other top AI IDEs",
+    "source_note": "315ae6f2b940495e8ba2a6390d3f4148",
+    "source_date": "2026-06-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Use any model API including free tiers in each IDE."
+  },
+  {
+    "title": "Run the competitive analysis in both claude and opencode to compare",
+    "quote": "Even the competitive analysis, i will run it in both claude and opencode to compare which is better.",
+    "source_note": "315ae6f2b940495e8ba2a6390d3f4148",
+    "source_date": "2026-06-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Test whether opencode avoids the claude limits."
+  },
+  {
+    "title": "Extract all skill files from curated-list repos' linked locations",
+    "quote": "i want to access and extract all the skill files listed in all the directories",
+    "source_note": "76709fd8-5b7d-498a-ac74-e3c16b4e9046",
+    "source_date": "2026-06-16",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "First goal; lessons feed the gap-repo extraction goal."
+  },
+  {
+    "title": "Run a recursive search to fill the CFS reasoning gaps",
+    "quote": "Using the source papers as seeds, do a very far and wide recursive search, in all orthodox and unorthodox sources, to find all related research to help fill un these remaining gaps",
+    "source_note": "ac98526d8b7f452793ff9e2f70a2ba28",
+    "source_date": "2026-06-16",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Three open questions from 6ec0dc13-4e45-4515-8ea1-dd0cf025d52a."
+  },
+  {
+    "title": "Set up the pdf-extract to notebooklm pipeline for Chinese literature",
+    "quote": "(Set up a pdf-extract->notebooklm pipeline for this)",
+    "source_note": "37cf5d2fcd8c49e6b0d431fd102d5856",
+    "source_date": "2026-06-18",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Track the last year of Chinese open-source literature; high alpha."
+  },
+  {
+    "title": "Check recent Twitter bookmarks for the second startup idea",
+    "quote": "(Check my recent twitter bookmarks within this week)",
+    "source_note": "85ee08354d6546d0a2b436e3c02bad7a",
+    "source_date": "2026-06-19",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Second startup slot beside the AI token spend startup."
+  },
+  {
+    "title": "Make GitHub-pia a working tool",
+    "quote": "Matt pocuck's skills as default + my other tools i have created: constraints-grill, tech-stack etc (and all the steps defined)",
+    "source_note": "0d2bd8ee4df54bd5b5b41430da2b1757",
+    "source_date": "2026-06-19",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Consolidates pia work; also in fd3022c1cfd546548bc7c17246cffa90, 18f4b5b6cce24145831527c76c2b0da0, d5a2208124d9413c8e75d5035d0b72e5, 697c6d9c45224e319c06b60bd14d7f47."
+  },
+  {
+    "title": "Build the Reatrutide website",
+    "quote": "Content system: calculator that replies to posts with best cheapest combo for their needs",
+    "source_note": "35d02676ead3414494957bfd9fadff54",
+    "source_date": "2026-06-20",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Goal is cheapest direct supply; marketing copy from 543fae7447334dffa48facd6933bfdeb."
+  },
+  {
+    "title": "Make constraints-grilling plug and play with any PRD skill",
+    "quote": "Needs to be plug and play for any prd skill file (should automatically call and use the user's installed prd/planning/task-list skill files",
+    "source_note": "84e33b5e7adc451bba5a43c9b70e6a25",
+    "source_date": "2026-06-20",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Last unresolved constraints checklist item; also e4f0771600f24f088899972b785c7202."
+  },
+  {
+    "title": "Create the budget-tiered tech stack list",
+    "quote": "Tech stack list: create a detailed list of all stack items (languages, deploy aka infra etc) for primarily various budgets, then secondarily various project types",
+    "source_note": "84e33b5e7adc451bba5a43c9b70e6a25",
+    "source_date": "2026-06-20",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Three usage modes; can start from the personal stack."
+  },
+  {
+    "title": "Recreate the 17 documents in minimax",
+    "quote": "to recreate the 17 documents in both (a) deepseek DONE and (b) minimax in opencode",
+    "source_note": "84e33b5e7adc451bba5a43c9b70e6a25",
+    "source_date": "2026-06-20",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Deepseek side done; feeds the minimax competitor analysis."
+  },
+  {
+    "title": "Find positioning skills and define the positioning document",
+    "quote": "i have done competitive analysis, but i need to use the results to define the positioning document, find positioning skill files",
+    "source_note": "84e33b5e7adc451bba5a43c9b70e6a25",
+    "source_date": "2026-06-20",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Part of the idea-to-funding pipeline sketched in the note."
+  },
+  {
+    "title": "Build the Taleb and Spitznagel AI consultant bot",
+    "quote": "turn into a very advanced AI consultant bot",
+    "source_note": "84e33b5e7adc451bba5a43c9b70e6a25",
+    "source_date": "2026-06-20",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Include concepts as strategy builder nodes; Universa material."
+  },
+  {
+    "title": "Upgrade the pia analysis arm with Matt Pocuck's skills",
+    "quote": "for the pia intelligence (analysis) part, i might just modify Matt Pocuck's skills (+ modified versions of my constraints and tech stack grilling skills)",
+    "source_note": "84e33b5e7adc451bba5a43c9b70e6a25",
+    "source_date": "2026-06-20",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Full repos must be downloaded for deep analysis; also asked in e3f2396f696b4ed4aa9e2ee3ee160bf9."
+  },
+  {
+    "title": "Create the per-document system for the 17 documents",
+    "quote": "For each of the 17 default documents A-Q (and i may need to add more, or a system to add more on demand based on the type of project)",
+    "source_note": "9d301e8d2f3b47fdb64be3f44838cf66",
+    "source_date": "2026-06-20",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Skill file plus process plus estimation system; constraints doc first."
+  },
+  {
+    "title": "Do a line-by-line analysis of the Savecoins notes",
+    "quote": "Line by line analysis of the notes (i think a lot of features were missed)",
+    "source_note": "1482c656a24e4f18bffd179dec5277a3",
+    "source_date": "2026-06-20",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Then ripple new features into all other documents."
+  },
+  {
+    "title": "Revise the competitive analysis prompting process",
+    "quote": "Revise the whole competitive analysis prompting process: all the places that would be made tighter",
+    "source_note": "1482c656a24e4f18bffd179dec5277a3",
+    "source_date": "2026-06-20",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Score all files in a table, rank top 5, combine line by line."
+  },
+  {
+    "title": "Explore business brokering with the sourcing agent",
+    "quote": "my sourcing agent is perfect at finding these small businesses and other entrepreneurs and businesses to sell them to (or buiding my own directory)",
+    "source_note": "1482c656a24e4f18bffd179dec5277a3",
+    "source_date": "2026-06-20",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "12-15% deal commissions; 6M businesses for sale."
+  },
+  {
+    "title": "Abstract the sourcing engine for any industry",
+    "quote": "I need to ablate and abstract the sourcing engine to be modifiable by the user to search for any type of industry and company in the same very detailed granular detail",
+    "source_note": "97028ec5e7f04c47849cd531fce977ec",
+    "source_date": "2026-06-21",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Conditions the job-hunting use; also e6dd410a8d6b4a1c8229bd33fc8c6298 and 395ff148f61242bc9d08227c3ea4fb90."
+  },
+  {
+    "title": "Test the limits of the Trait-to-Node translation matrix",
+    "quote": "test the limits of the Trait-to-Node translation matrix (3:30pm)",
+    "source_note": "395ff148f61242bc9d08227c3ea4fb90",
+    "source_date": "2026-06-21",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Scheduled test; validates the matrix."
+  },
+  {
+    "title": "Review the Industry Sourcing Engine v1 and its source papers",
+    "quote": "See if you fully parse the rationale and reasonings behind the processes and systems that were defined in v1. Then See if there any learnings to take or any changes to make",
+    "source_note": "395ff148f61242bc9d08227c3ea4fb90",
+    "source_date": "2026-06-21",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Before further engine changes."
+  },
+  {
+    "title": "Make Job-ops prompts and flow modular",
+    "quote": "Make editing all prompts and parameters possible, then Modular (can deconstruct the default step-by-step flow itself and completely create your own aka can create any flow you want.",
+    "source_note": "395ff148f61242bc9d08227c3ea4fb90",
+    "source_date": "2026-06-21",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Where Hermes gets fully integrated."
+  },
+  {
+    "title": "Use the advanced writing component for Job-ops writing tasks",
+    "quote": "Special mention: the advanced writing component for all writing tasks like answering essay questions or sending cold dms (take from any of my other projects)",
+    "source_note": "395ff148f61242bc9d08227c3ea4fb90",
+    "source_date": "2026-06-21",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Reuse the writing capability from other projects."
+  },
+  {
+    "title": "Add a self-hosting cost formula to freeaifinder",
+    "quote": "an example of a formula i can add to freeaifinder for evaluating open source models and costs of self hosting for companies",
+    "source_note": "73be6f1242b94c7781a65cc40db3bd39",
+    "source_date": "2026-06-21",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Hardware price tiers noted in the note."
+  },
+  {
+    "title": "Get Job-ops auto-application and 6 prompts working",
+    "quote": "Job hunting first (let me just at least get the auto application and 6 prompts to start working effectively then i can move on)",
+    "source_note": "12b266b37d6d4993bd3df59c94521d8d",
+    "source_date": "2026-06-22",
+    "tier": 2,
+    "impact": 0.4,
+    "why": "Impact 0.4; stated income hope; also 0f880d33864b433787b8a38cc64ecf55, dbbc0e1dd8b442e7b402fa383e087509 and e6dd410a8d6b4a1c8229bd33fc8c6298."
+  },
+  {
+    "title": "Set the Job-ops pricing tiers",
+    "quote": "N9,000 Nigerian market: 100 applications a day, 6 prompts editable (maybe allow access to the prompts marketplace)",
+    "source_note": "12b266b37d6d4993bd3df59c94521d8d",
+    "source_date": "2026-06-22",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Free and enterprise tiers sketched around it."
+  },
+  {
+    "title": "Collect the Job-ops marketing materials",
+    "quote": "look for all other claude chats and search downloads for every single content document i may have generated",
+    "source_note": "12b266b37d6d4993bd3df59c94521d8d",
+    "source_date": "2026-06-22",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Amara plan, solar content chat and two twitter threads as inputs."
+  },
+  {
+    "title": "Decide if GitHub-pia is still needed given codex",
+    "quote": "Do i still need Github-pia since Opencode (codex, claude-code, Antigravity, droid, openclaw, hermes-agent etc) is already there?",
+    "source_note": "12b266b37d6d4993bd3df59c94521d8d",
+    "source_date": "2026-06-22",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Either find the distinct advantage or use codex over the extract."
+  },
+  {
+    "title": "Review civilization simulation games for script writer world building",
+    "quote": "i am thinking of also adding to it a thorough review/analysis of the full details of the mechanics of all civilization simulation games",
+    "source_note": "b67e1732de6d4b808946cdb83be9c508",
+    "source_date": "2026-06-22",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Best-rated games from gamer and technical discussions."
+  },
+  {
+    "title": "Verify the opencode revert and find yesterday's first prompt",
+    "quote": "scroll up to try to find the very first prompt/change i made yesterday",
+    "source_note": "25c3ff297f1e45e38ff11549f17273c0",
+    "source_date": "2026-06-23",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "The revert may not have restored all file changes."
+  },
+  {
+    "title": "Fix or flush the sprayer bottle",
+    "quote": "yet somehow it still doesn't work. I will flush it in water but after that I don't know what else to do",
+    "source_note": "25c3ff297f1e45e38ff11549f17273c0",
+    "source_date": "2026-06-23",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "All known mistakes avoided; next step is flushing."
+  },
+  {
+    "title": "Sort out the two inverter settings",
+    "quote": "Have to sort out the two settings on the inverter: for reading lithium battery, for setting AC current to pass through inverter first",
+    "source_note": "25c3ff297f1e45e38ff11549f17273c0",
+    "source_date": "2026-06-23",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Lithium reading and AC pass-through settings."
+  },
+  {
+    "title": "Add reuse-check first to brainstorming and PRD skills",
+    "quote": "Whenever i express a need or am brainstorming a new feature, it should first search through all my personal projects and saved github repos if there are any existing implementations",
+    "source_note": "e4f0771600f24f088899972b785c7202",
+    "source_date": "2026-06-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Use pia analysis to pick the best implementation; stop reinventing."
+  },
+  {
+    "title": "Find out how skill scoring works and rebuild it",
+    "quote": "I don't trust it, might need to work out my own logic/system",
+    "source_note": "e4f0771600f24f088899972b785c7202",
+    "source_date": "2026-06-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Ends in deterministic mapping of fitting job roles."
+  },
+  {
+    "title": "Build the learning plan feature from skill gaps",
+    "quote": "The feature for mapping out learning plan based on skill gaps highlighted by previous feature that maps out the most frequent skill requirements for a desired job role versus your current status",
+    "source_note": "e4f0771600f24f088899972b785c7202",
+    "source_date": "2026-06-23",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Sources: Coursera RAG, learning-plan repo, career stories; last30days for recency."
+  },
+  {
+    "title": "Make the grilling skill research instead of asking when appropriate",
+    "quote": "Thinking of implementing that thing Ryan said about /last30days as part of grilling skill, where instead of always asking you, sometimes it does a deep research instead.",
+    "source_note": "e4f0771600f24f088899972b785c7202",
+    "source_date": "2026-06-23",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "The skill must learn when to ask and when to research."
+  },
+  {
+    "title": "Build my own MathAcademy",
+    "quote": "BUILDING MY OWN MATHACADEMY",
+    "source_note": "e4f0771600f24f088899972b785c7202",
+    "source_date": "2026-06-23",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Long-range learning product idea."
+  },
+  {
+    "title": "Fix the typst resume export to include project links and sections",
+    "quote": "still not yet as good as base resume (still doesn't ge out the project links, or the achievements or certifications section, but i will work on this later)",
+    "source_note": "5fe92114-1a40-4411-9b72-33d120b1ab12",
+    "source_date": "2026-06-23",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Likely custom fields; typst beats base otherwise."
+  },
+  {
+    "title": "Integrate Hermes self-learning capacities into projects",
+    "quote": "New self learning capacities to integrate from hermes agent",
+    "source_note": "34117115476e45d09e7fa4f48c491361",
+    "source_date": "2026-06-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Upskill repo and the new learning skill noted."
+  },
+  {
+    "title": "Make tool call repair present in every project",
+    "quote": "What is tool call repair in Hermes Agent, how exactly does it work, and how do i ensure it is always fully included in any project i do?",
+    "source_note": "34117115476e45d09e7fa4f48c491361",
+    "source_date": "2026-06-24",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Understand it first, then standardize it."
+  },
+  {
+    "title": "Build the Duolingo for socializing bot",
+    "quote": "Need to build an AI bot for helping people practice socialising. For all situations across all cultures and regions. Call it Duolingo for Socializing.",
+    "source_note": "0f880d33864b433787b8a38cc64ecf55",
+    "source_date": "2026-06-24",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Test-based learning with simulated characters."
+  },
+  {
+    "title": "Add random-time knowledge tests to all learning tools",
+    "quote": "every learning related, learning adjacent tool (eg. Therapy, language, academic, self development, consulting etc) should have/be an ai bot",
+    "source_note": "0f880d33864b433787b8a38cc64ecf55",
+    "source_date": "2026-06-24",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Unprepared-moment testing; repractice after failures."
+  },
+  {
+    "title": "Replicate the cheap Claude token feature in freeaifinder",
+    "quote": "Replicate this feature completely in Freeaifinder",
+    "source_note": "543fae7447334dffa48facd6933bfdeb",
+    "source_date": "2026-06-25",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "China talk article and HN thread as references."
+  },
+  {
+    "title": "Add upswing component-sourcing strategies to the strategy builder",
+    "quote": "able to create strategies that take an industry or product on an upswing, find all its substituents & other components it needs/relies on",
+    "source_note": "543fae7447334dffa48facd6933bfdeb",
+    "source_date": "2026-06-25",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Use industry sourcing to name the specific upswing industries."
+  },
+  {
+    "title": "Build the automated marketing system",
+    "quote": "Then marketing system - because everything i build will need to be marketed",
+    "source_note": "e6dd410a8d6b4a1c8229bd33fc8c6298",
+    "source_date": "2026-06-25",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Queued after job hunting; also in dbbc0e1dd8b442e7b402fa383e087509 and d5a2208124d9413c8e75d5035d0b72e5."
+  },
+  {
+    "title": "Build the 100 job website corpus for the auto-applier",
+    "quote": "For each, it should find at least 10 differently structured job applications (pages)",
+    "source_note": "e6dd410a8d6b4a1c8229bd33fc8c6298",
+    "source_date": "2026-06-25",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Get DOM, markdown and screenshot per application."
+  },
+  {
+    "title": "Collect 100 company career pages for the crawler",
+    "quote": "For company's individual career pages, find at least 100 companies. Get up to 50 application pages for each company.",
+    "source_note": "e6dd410a8d6b4a1c8229bd33fc8c6298",
+    "source_date": "2026-06-25",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Show the crawler every application page type."
+  },
+  {
+    "title": "Buy a spray bottle under N1,500 at the malls",
+    "quote": "look for any thing in a container with a spray cover at or under N1,500, buy it out of the N6,000",
+    "source_note": "e6dd410a8d6b4a1c8229bd33fc8c6298",
+    "source_date": "2026-06-25",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Konwei and Roban mall walk; flex and screenguard budgeted."
+  },
+  {
+    "title": "Build the full AI consultancy website",
+    "quote": "Then finally the full AI consultancy website: finalize the definition of all the services i offer, pushing it mostly by the projects i have completed.",
+    "source_note": "e6dd410a8d6b4a1c8229bd33fc8c6298",
+    "source_date": "2026-06-25",
+    "tier": 3,
+    "impact": 0.3,
+    "why": "Service suite listed in 0d2bd8ee4df54bd5b5b41430da2b1757; tack on marketing."
+  },
+  {
+    "title": "Evaluate codex and opencode automation for Job-ops applications",
+    "quote": "why don't i just connect job-ops to codex? Job-ops stores and provides codex all the CV details and codex just figures out how to execute and complete the applications.",
+    "source_note": "ef76334f-246c-4939-a055-cd3884e19ee3",
+    "source_date": "2026-06-27",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Codex run is 50% faster per the quoted post; try opencode too."
+  },
+  {
+    "title": "Try the Hermes Mixture of Agents feature",
+    "quote": "Nous Research just dropped MOA (Mixture of Agents) presets inside Hermes Agent.",
+    "source_note": "ef76334f-246c-4939-a055-cd3884e19ee3",
+    "source_date": "2026-06-27",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Reference models plus aggregator; hopeful open-source path."
+  },
+  {
+    "title": "Evaluate salaryindex as a negotiation tool data source",
+    "quote": "this might have already solved my negotiation tool usecase (do i still need to build it)?",
+    "source_note": "ef76334f-246c-4939-a055-cd3884e19ee3",
+    "source_date": "2026-06-27",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Nigerian slice of the 190-country salary data need."
+  },
+  {
+    "title": "Install Hermes desktop and audit installed coding tools",
+    "quote": "check if i have hermes, if i do then install hermes desktop so i can start usign the free models on it and start practicing using personal assistant",
+    "source_note": "f501e8f1-19e3-4019-9b73-8691140f3e3c",
+    "source_date": "2026-06-29",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Also check claude code CLI; goal is cloud-backed Hermes desktop."
+  },
+  {
+    "title": "Export the writing style from social media, emails and chats",
+    "quote": "(so integrate/export and immediately create writing style)",
+    "source_note": "f501e8f1-19e3-4019-9b73-8691140f3e3c",
+    "source_date": "2026-06-29",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Enables style-personalised outputs."
+  },
+  {
+    "title": "Add provider quality verification to freeaifinder",
+    "quote": "constantly testing intelligence and other qualities between providers is likely the next critical feature i am adding to freeaifinder (would have to factor into the final scores)",
+    "source_note": "f501e8f1-19e3-4019-9b73-8691140f3e3c",
+    "source_date": "2026-06-29",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Kimi vendor verifier approach; validates self-hosting guides; consultancy use."
+  },
+  {
+    "title": "Study and copy Hermes web search and crawling",
+    "quote": "Web Search & Crawling on Hermes Agent (understand it, copy it)",
+    "source_note": "9fc8c559c2c3428bb695872db4fd0ac8",
+    "source_date": "2026-06-30",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "For industry sourcing, 5-whys, job hunting and all crawl-based tools."
+  },
+  {
+    "title": "Map delfrasco's industry, tasks and AI-agent needs",
+    "quote": "Use industry sourcing engine to map all the job titles and skills used in this industry",
+    "source_note": "9fc8c559c2c3428bb695872db4fd0ac8",
+    "source_date": "2026-06-30",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Then merge into the sourcing engine; expand to customer monitoring."
+  },
+  {
+    "title": "Retrofit Job-ops for assessing job applicants",
+    "quote": "job-ops: retrofitted for assessing job applicants (using my advanced scoring system + OSINT powered souped up job applicant intelligence and deep profile building",
+    "source_note": "9fc8c559c2c3428bb695872db4fd0ac8",
+    "source_date": "2026-06-30",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Offer for delfrasco; the same scoring system reused."
+  }
+]

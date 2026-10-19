@@ -1,0 +1,272 @@
+[
+  {
+    "title": "Set up the loop using twitter scraper and personal_context to kick things off",
+    "quote": "THEN USE TWITTER_SCRAPER + PERSONAL_CONTEXT TO SET UP THE LOOP TO KICK THINGS OFF",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Caps-stressed kickoff of the business-finding loop."
+  },
+  {
+    "title": "Search my notes and personal_context for all things I can offer, including cold-email additions",
+    "quote": "for the cold emails we have been using only my projects under what to offer, but based on thr expanded domains, are there also any things in my notes i can concretely add under what to offer?",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Merged with the note's search item 1; feeds cold-email offers."
+  },
+  {
+    "title": "Search twitter bookmarks for all ways to find business to offer what I can do",
+    "quote": "2. All the ways to find business to offer what i can do/sell: twitter bookmarks",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit numbered search in the note's list."
+  },
+  {
+    "title": "Search twitter bookmarks for all ways of making money",
+    "quote": "3. All the ways of making money (alternative query: all the money making opportunities): twitter bookmarks",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit numbered search on money-making opportunities."
+  },
+  {
+    "title": "Decide whether personal_context needs a regularly updated wiki and pick a cheap tool",
+    "quote": "When a search is initiated in personal_context, what are all the exact files it looks at first? are they consistently updated? should i instead make them a wiki of my personal_context folder",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Marked WORKING; exploration of a cheap self-updating wiki."
+  },
+  {
+    "title": "Build the 'where you should be in your career' flashcards test into the full job-ops platform",
+    "quote": "NEW job-hunting interview feature; \"where you should be in your career\" flashcards test",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Caps-marked to go into the full job-ops platform."
+  },
+  {
+    "title": "Finish formalizing and installing the semantic search system in twitter_scraper and as a shared module",
+    "quote": "- finish formalizing and installing my 'semantic search' system both in twitter_scraper, and as a general search module/skill-bundle/plugin every tool can use",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Quick task list item; shared search layer for all tools."
+  },
+  {
+    "title": "Finish finalizing the Obsidian smart-connections system with my Gemini pro plan",
+    "quote": "- finish finalizing the obsidian smart-connections system (using my Gemini pro plan inside it) for quick REAL semantic search.",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Quick task list item for quick real semantic search."
+  },
+  {
+    "title": "Add the follow-up system to the cold email tool",
+    "quote": "Cold email needs a follow-up system (i will give you the one from omoalhaja workshop).",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Income-critical gap in the cold-email pipeline."
+  },
+  {
+    "title": "Add Gmail sending to the cold email tool so 'send' actually sends",
+    "quote": "Also i think we should just add google gmail sending (google cli or Google workspace connector) seems it seems like it would be easy to add.",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Easy add; lets the control plane actually send emails."
+  },
+  {
+    "title": "Brainstorm and define the rollback system for the automated protocol",
+    "quote": "(lets brainstorm this feature to better define it, or suggest if you have a better system all together)",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Open design request for when users dislike the final artifact."
+  },
+  {
+    "title": "Develop tests and evals comparing AI natural-language search with the semantic search module",
+    "quote": "Let us develop detailed tests and evals to comprehensive compare them WORKING",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Marked WORKING; compares the two search systems."
+  },
+  {
+    "title": "Investigate why today's hiring_bookmarks search returned far fewer tweets",
+    "quote": "The first hiring_bookmarks search got a lot of tweets, the one i ran today got much fewer, why?",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Open debugging question on the hiring search output."
+  },
+  {
+    "title": "Check whether the cold-email tool covers an 'invent your role' feature and add the tweet list",
+    "quote": "Is there any existing system for an 'invent your role' feature? Or does the cold-email tool as it is already cover this need",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 3,
+    "impact": 0.1,
+    "why": "Open question; dump the linked tweet list in if a feature exists."
+  },
+  {
+    "title": "Audit opportunity_desk and cold-email against the suraj_sharma14 guide tweet steps",
+    "quote": "Use this tweet https://x.com/suraj_sharma14/status/2109139429486919815 as a guide to ensure all its steps are fully covered both on the opportunity_desk and cold-email ends",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Explicit coverage check across both tools."
+  },
+  {
+    "title": "Build a tool mapping product features into A/B real-life scenarios for IP-safe pitching",
+    "quote": "Build a tool that just maps this across your whole product/project. Great way to pitch product without technicals, also great way to market/promote product",
+    "source_note": "cb8f8817b7a84e1783987bbd2f17f494",
+    "source_date": "2026-10-11",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "New pitching and marketing method to implement."
+  },
+  {
+    "title": "Deep-read fork_readmes and personal_context for existing niche-combination and localisation work",
+    "quote": "in C:\\Users\\rotim\\Documents\\cloudflare scrapers\\fork_readmes and C:\\Users\\rotim\\Videos\\personal_context to find all exsting work or discussions or mentions on",
+    "source_note": "b9d977ec-f965-421a-8e64-4db07c629eee",
+    "source_date": "2026-10-12",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Marked WORKING; feeds the niche-combination and localisation systems."
+  },
+  {
+    "title": "Use the job-hunting app as engine for a real-life career simulation game",
+    "quote": "i was ging to start with job-hunting powering a real life careeer game simulator. i was thinking it was just a side idea, but now i realise why this idea is so important:",
+    "source_note": "b9d977ec-f965-421a-8e64-4db07c629eee",
+    "source_date": "2026-10-12",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Sim-game market insight during the Nigeria game wave."
+  },
+  {
+    "title": "Read the 12-forms distillation chat and compare it with my ahpas and decision-engine systems",
+    "quote": "read that chat, then do a deep comparion of it against my current ahpas and decision-engine distillation systems",
+    "source_note": "b9d977ec-f965-421a-8e64-4db07c629eee",
+    "source_date": "2026-10-12",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Open comparison request from a new Claude discussion."
+  },
+  {
+    "title": "Compare OpenAI's generative UI to my openclaw desktop app design and borrow ideas",
+    "quote": "do deep comparisons to my own initial design for my openclaw desktop app: are stills till any advantages my design still has, are there areas and functions where their implementation does it better?",
+    "source_note": "b9d977ec-f965-421a-8e64-4db07c629eee",
+    "source_date": "2026-10-12",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Explicit compare-and-borrow request after OpenAI shipped it."
+  },
+  {
+    "title": "Replace the embedding models in QMD and Obsidian with EmbeddingGemma 2",
+    "quote": "replace my embedding models in both QMD and Obsidian with this: https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+    "source_note": "d8793771-efb7-494a-b732-0dbb6f5089e8",
+    "source_date": "2026-10-12",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Direct upgrade instruction for two core tools."
+  },
+  {
+    "title": "Deep-compare the FeedHive AI slop detector with my cold-email writing system",
+    "quote": "do a deep comparison between it and my writing-filter-pangram-humanizer based system in cold email: all individual points where its better, all individual points where its worse",
+    "source_note": "425b6b3b-e082-4a4a-ad2c-6e5e3041160b",
+    "source_date": "2026-10-12",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Decides whether to swap my cold-email writing quality loop."
+  },
+  {
+    "title": "Compile the new games strategy for me and Rotimi's game studio",
+    "quote": "combine this with lagoslife and all the new games that have been coming out of Nigeria, plus my tweet on the 4-5 few factors that make viral money making games",
+    "source_note": "425b6b3b-e082-4a4a-ad2c-6e5e3041160b",
+    "source_date": "2026-10-12",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Strategy compile amid the Nigeria games wave."
+  },
+  {
+    "title": "Apply the Fork-and-Flush technique to my Autoresearch agents",
+    "quote": "important improvement on Autoresearch:\n\nhttps://x.com/DimitrisPapail/status/2109661202733212136",
+    "source_note": "d044e880-a138-4bd1-b51d-d35f8de6a9de",
+    "source_date": "2026-10-12",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Flagged as an important improvement to my Autoresearch."
+  },
+  {
+    "title": "Build the ultimate search tooling stack with last30days, science search, grilling and QMD",
+    "quote": "ULTIMATE ADDITION TO SEARCH TOOLING\n/last30days (as the 'current' up-to-date search mechanism to ensure it always searches teh most up-to-date knowledge on the subject)",
+    "source_note": "d044e880-a138-4bd1-b51d-d35f8de6a9de",
+    "source_date": "2026-10-12",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Design note combining all my search sources."
+  },
+  {
+    "title": "Integrate freellmapi into the IDEs and use it as the API endpoint for all my AI apps",
+    "quote": "both integrate it first into the IDEs and use as my api endpoint for all my AI apps (currently using nvidia nim because opencode and hermes free tiers don't work as apis only work in their IDEs).",
+    "source_note": "607c724a-05b1-4ee1-8856-f3dde9e24411",
+    "source_date": "2026-10-12",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Free endpoints to replace the current NIM setup."
+  },
+  {
+    "title": "Build bestmodelpicker on top of freellmapi as a benchmark-based auto-router",
+    "quote": "simply build my bestmodelpicker on top of it (or integrate them together) as an auto-router that picks models based on the artificial analysis scores and other benchmarks",
+    "source_note": "607c724a-05b1-4ee1-8856-f3dde9e24411",
+    "source_date": "2026-10-12",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Idea in the same note; routes models by benchmark scores."
+  },
+  {
+    "title": "Fix the hermes agent and use its free tier as a coding alternative to opencode",
+    "quote": "3. fix hermes agent and use its free tier: as replacement for antgravity and new coding alternative to opencode",
+    "source_note": "607c724a-05b1-4ee1-8856-f3dde9e24411",
+    "source_date": "2026-10-12",
+    "tier": 2,
+    "impact": 0.2,
+    "why": "Numbered task in the free-endpoints list."
+  },
+  {
+    "title": "Finish getting my Google pro plan working in both opencode and hermes",
+    "quote": "4. finish getting my google pro plan to work in both opencode and hermes",
+    "source_note": "607c724a-05b1-4ee1-8856-f3dde9e24411",
+    "source_date": "2026-10-12",
+    "tier": 2,
+    "impact": 0.3,
+    "why": "Paid plan currently unusable; finish the integration."
+  },
+  {
+    "title": "Combine the two Google threads into the japa/immigration consulting AI agent sessions",
+    "quote": "combine these google thread (discussed the concepts that are emebedded for ech country, and semantically matched to user's stated interests, preferences and profiled personal traits)",
+    "source_note": "607c724a-05b1-4ee1-8856-f3dde9e24411",
+    "source_date": "2026-10-12",
+    "tier": 3,
+    "impact": 0.2,
+    "why": "Merge country and residency threads into the japa agent chats."
+  }
+]

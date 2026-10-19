@@ -1,0 +1,1028 @@
+[
+ {
+  "title": "Add a tag system to the skill comparison tool",
+  "quote": "Add Tag system (can be used for multiple levels. one of them is source tags: being able to view the page for only Openclaw skills",
+  "source_note": "99c0ce4bc2cf4a57840c17077cb803c8",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit feature item 1 in the final skill comparison tool list."
+ },
+ {
+  "title": "Compare individual skills, not just repos, in the skill comparison tool",
+  "quote": "Comparing individual skills (not just repos, as it currently does which is why it needs the representative files)",
+  "source_note": "99c0ce4bc2cf4a57840c17077cb803c8",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Numbered to-do item 6 for the skill comparison tool."
+ },
+ {
+  "title": "Add the Chrome extension that injects skill scores and suggests better skills",
+  "quote": "Chrome Extension: wherever skills are mentioned or displayed eg. Skills directories,  github repos etc, it uses content scripts to inject the score for that skill for its usecase domain to the frontend",
+  "source_note": "99c0ce4bc2cf4a57840c17077cb803c8",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Numbered to-do item 5 for the skill comparison tool."
+ },
+ {
+  "title": "Add the security review system to the skill comparison tool",
+  "quote": "Later on add a detailed complex security review system to accurately check for intentionally malicious or insecurely built skill and other files",
+  "source_note": "99c0ce4bc2cf4a57840c17077cb803c8",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Numbered item 7, marked later work."
+ },
+ {
+  "title": "Adapt my prompt 0/A/B/C process to the Codex setup skills",
+  "quote": "Once codex setup is done, and done with first website design process using my agents, take my prompt 0,A,B,C process and ask codex the best way to adapt it to my codex setup skills",
+  "source_note": "99c0ce4bc2cf4a57840c17077cb803c8",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Conditional future step written as an instruction."
+ },
+ {
+  "title": "Add BCP for pain management and healing to the reatrutide website",
+  "quote": "Add to reatrutide website: BCP for pain management and healing",
+  "source_note": "99c0ce4bc2cf4a57840c17077cb803c8",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Direct content-add instruction for the peptide site."
+ },
+ {
+  "title": "Build the full peptide tracker as the first consulting feature",
+  "quote": "the first feature of this would be the complete full peptide tracker. see an example of a detailed peptide tracker: https://www.mypepprotocol.app/",
+  "source_note": "99c0ce4bc2cf4a57840c17077cb803c8",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Planned feature once the website gets going."
+ },
+ {
+  "title": "Pass CDP (5-whys) through Codex for harsh red teaming and improvement",
+  "quote": "Pass CDP (5-whys) through Codex: use it to aggressive red teaming and very harsh criticism, the harshest as possible, to completely improve it",
+  "source_note": "99c0ce4bc2cf4a57840c17077cb803c8",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "CDP is a core tool in his workflows; explicit red-team instruction."
+ },
+ {
+  "title": "Retry linking Codex to a free OpenAI-compatible model via FreeAIFinder",
+  "quote": "use my freeaifinder and the opensource codex repo (and maybe that chatgpt chat of codex providers) to try to link codex to any free top openai compatible api from my freeaifinder TRIED INITIALLY, DIDN'T WORK, TRY AGAIN LATER",
+  "source_note": "c3766c81a1744c1daebf86fa3eeeb0a0",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicitly marked try again later, cost-saving setup item."
+ },
+ {
+  "title": "Install Hermes agent and compare it with OpenClaw",
+  "quote": "install hermes agent\n    + ask AI if cloudflare or oracle would be better\n    + do the initial install\n    + collate then one by one feed it all my openclaw/hermes/assistant setup and optimisation notes to determine which i cnan include in hermes setup",
+  "source_note": "c3766c81a1744c1daebf86fa3eeeb0a0",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Repeated in d0be280a (install both, then compare performance and ease of use); core agent stack."
+ },
+ {
+  "title": "Crosscheck that every global skill actually works in OpenCode",
+  "quote": "crosscheck if all the global skills are actually working in opencode: test each skill to ensure if its available and if it works as expected",
+  "source_note": "c3766c81a1744c1daebf86fa3eeeb0a0",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit verification step for the OpenCode setup."
+ },
+ {
+  "title": "Give DeepSeek and Claude the SKILL (2).md and new combined HTML to design the OpenCode intelligence page",
+  "quote": "So task now is give Deepseek same 'SKILL (2).md' with 'opencode_intelligence_single_page_with_faq (3).html'  to see its design. probably do the same with claude keneoralosi@gmail.com too",
+  "source_note": "c3766c81a1744c1daebf86fa3eeeb0a0",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Open task labeled 'task now' in the FreeAIFinder design notes."
+ },
+ {
+  "title": "Consolidate and deduplicate every provider and model list, then finish the Claude list versions",
+  "quote": "gather every single list i generated from deep, chatgpt, claude, gemini, kimi etc and deduplicate to unique providers (very important) and each of all their individual models",
+  "source_note": "c3766c81a1744c1daebf86fa3eeeb0a0",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Marked LATER, still outstanding for freeaifinder."
+ },
+ {
+  "title": "Extract transcripts from the Codex/OpenCode tutorial videos and apply their settings",
+  "quote": "take the Riley full tutorial videos of codex (and maybe another), take another full tutorial for opencode, then either (1) dump videos directly in codex/opencode or (2) find an free AI tool to get out the full transcripts",
+  "source_note": "c3766c81a1744c1daebf86fa3eeeb0a0",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit pending setup item."
+ },
+ {
+  "title": "Finish installing SpecStory on both Codex and OpenCode",
+  "quote": "ensure to finish installing of specstory on both codex and opencode",
+  "source_note": "c3766c81a1744c1daebf86fa3eeeb0a0",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Also listed in 58eb7c28 (go back to adding and ensuring specstory works)."
+ },
+ {
+  "title": "Find skills or plugins for product launch videos",
+  "quote": "will need to find something (skills, plugins) for product launch videos",
+  "source_note": "c3766c81a1744c1daebf86fa3eeeb0a0",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit future-self request."
+ },
+ {
+  "title": "Master Hermes Agent skill creation end to end",
+  "quote": "i need to deep research and completely master Hermes Agent Skill Creation ability: every single file, function, feature etc. i need to master exactly how it works",
+  "source_note": "c3766c81a1744c1daebf86fa3eeeb0a0",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Skill development is central to his projects; explicit mastery goal."
+ },
+ {
+  "title": "Build the deeper FreeAIFinder app",
+  "quote": "FIRST MINIMUM VALUE VERSION DONE AS FREEAIFINDER.NETLIFY.APP, BUT DEEPER APP STILL NEEDS TO BE BUILT",
+  "source_note": "c3766c81a1744c1daebf86fa3eeeb0a0",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit outstanding build beyond the MVP."
+ },
+ {
+  "title": "Sort out the Google and Amazon account issues",
+  "quote": "sort out google and amazon account issues",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "First item in the side tasks list, still open."
+ },
+ {
+  "title": "Begin the deploy-by-deploy SolarSizer SDK comparison to merge working features",
+  "quote": "begin the careful comparison of each deploy of solarsizersdk: rollback to each github ID, check the feature that don't work",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Detailed outstanding plan to recover working functionality in a flagship product."
+ },
+ {
+  "title": "Finish installing job-ops",
+  "quote": "finish installing job-ops SEMI DONE",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Marked semi done, main job hunting task list."
+ },
+ {
+  "title": "Turn the personal job prompts into an automated job-hunting workflow or agent",
+  "quote": "turn my personal job prompts into an automated workflow that is integrated as part of a different version of job-ops (along with my completed automated application version)",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Also in 002e95da (OpenCode skills version) and 2a6feb3f (Antigravity agent harness)."
+ },
+ {
+  "title": "Search GitHub for other job hunting agents, skills and workflows",
+  "quote": "search (my) github (and github in general) for other job application/job hunting agent-skills, AI agents, workflows, other files",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Also in 002e95da item 7."
+ },
+ {
+  "title": "Start applying the cold DM guides one by one",
+  "quote": "5. then start applying the cold dm twitter guides one by one",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Income-critical path repeated in 002e95da (manual applications from the guides)."
+ },
+ {
+  "title": "Look for AI-powered architectural drawing tools, skills and tutorials for Claude Code",
+  "quote": "LOOK FOR AI POWERED ARCHITECTURAL TOOLS, ARCHITECTURE SKILLS AND TUTORIALS ONC REATIGN ARCHITECTURAL DRAWINGS WITH CLAUDE CODE/COWORK",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "All-caps directive in the note."
+ },
+ {
+  "title": "Determine if edgeupdate can be safely disabled",
+  "quote": "FIND A WAY TO DISABLE THIS SERVICE: edgeupdate",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Follow-up line in the same note asks whether DoSvc can also be safely disabled."
+ },
+ {
+  "title": "Redesign SolarSizer, gift recommender and adadvisor, and finish the AI therapist backend",
+  "quote": "redesign solarsizer\nredesign gift reccomender\nredesign adadvisor\nfinish backend of, then redesign AI therapist",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit redesign to-do list in the note."
+ },
+ {
+  "title": "Write first-version AI-generated case study articles for the projects",
+  "quote": "write case study article on solarsizer: first version AI generated",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Repeated lines cover solar business, gift recommender, adadvisor and freeaifinder."
+ },
+ {
+  "title": "Update CV, clean the GitHub and refresh portfolio links",
+  "quote": "update CV\nupdate and clean Github\nupdate and clean links in portfolio (tab one is now my projects, tab 2 is AI)",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Directly supports the active job hunt."
+ },
+ {
+  "title": "Finish the job autoapplier feature and run it on the hosted Oracle app",
+  "quote": "finish job autoapplier feature, integrate it into hosted oracle app, BEGIN automated job hunting",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Also in 002e95da (install the job hunting bot on AWS or Oracle to run in background)."
+ },
+ {
+  "title": "Begin the prediction market strategy builder",
+  "quote": "BEGIN prediction market strategy builder",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Also in 2a6feb3f (prediction market GUI) and 7dbf6294 (redo the unfuck)."
+ },
+ {
+  "title": "Copy out everything important from the two 5-whys input prompts via Claude",
+  "quote": "ask clude to copy out everything important it thinks it saw in the two input prompts",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit action under IMPORTANT ADDITIONAL CREATIVE PROMPT SEARCH TO 5-WHYS."
+ },
+ {
+  "title": "Ask Codex to safely optimise the system (space, apps, settings, hangs)",
+  "quote": "ask codex for optimising my system: optimsiing space, apps, settings etc, dealing with hanging and making my system faster, etc. Need to ensure to first know how to do this safely",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit request to a future session."
+ },
+ {
+  "title": "Decide my defaults: languages, packages, deployment stacks and payment plans",
+  "quote": "i need to decide on what my defaults are: what my default programming languages are (eg. typescript, Go, rust), what my default packages and libraries and plugins and api services are, what my default deployment stacks and payment plans are (free tier), etc",
+  "source_note": "58eb7c28-89da-464c-a7ab-6f7b5cac0026",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Listed as an after-all-these decision task with a suggested first step."
+ },
+ {
+  "title": "Collate the virtual assistant tweet strategies and implement them on job sites one by one",
+  "quote": "Collate all the strategies in the tweets one by one\n\nThe begin manually implementing them on job sites (Google Jobs, Simplify-jobs, Picks from GitHub repo jobsite collections, others) with prompts one by one",
+  "source_note": "4415c10e5c8e4521ba38569eeb12d15d",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit step sequence for the first job keyword search."
+ },
+ {
+  "title": "Create job-search skills and agents from the implemented strategies",
+  "quote": "Then begin creating skills and agents for them, one by one",
+  "source_note": "4415c10e5c8e4521ba38569eeb12d15d",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Third phase of the same note's plan."
+ },
+ {
+  "title": "Build the PR Chrome extension and its Android overlay harness for the Google hackathon",
+  "quote": "PR chrome extension's Android overlay harness (& Google hackathon application)",
+  "source_note": "2a6feb3f0f4f45ed92334f896415444b",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Hackathon has a submission window; listed in both calendar sections."
+ },
+ {
+  "title": "Complete the TEF application",
+  "quote": "TEF application",
+  "source_note": "2a6feb3f0f4f45ed92334f896415444b",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Application with an external window, from the miscellaneous list."
+ },
+ {
+  "title": "Finish Aunty Ngozi's n8n automations",
+  "quote": "quickly finish Aunty Ngozi n8n automations",
+  "source_note": "2a6feb3f0f4f45ed92334f896415444b",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit finish request for someone else's deliverables."
+ },
+ {
+  "title": "Build the Twitter search Chrome extension",
+  "quote": "Twitter search chrome extension",
+  "source_note": "2a6feb3f0f4f45ed92334f896415444b",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Listed project in the daily calendar sections."
+ },
+ {
+  "title": "Build the tax evasion chatbot",
+  "quote": "Tax evasion chatbot",
+  "source_note": "2a6feb3f0f4f45ed92334f896415444b",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Listed project in the miscellaneous calendar section."
+ },
+ {
+  "title": "Build the GitHub search tool",
+  "quote": "GitHub search tool",
+  "source_note": "2a6feb3f0f4f45ed92334f896415444b",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Listed project; the full GitHub search system is referenced in 99c0ce4b."
+ },
+ {
+  "title": "Finish the crypto telegram bot",
+  "quote": "Finish crypto telegram bot",
+  "source_note": "2a6feb3f0f4f45ed92334f896415444b",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit finish item in the main calendar section."
+ },
+ {
+  "title": "Start solar business marketing: social media, website, then price comparison bot and solar chatbot",
+  "quote": "solar social media, then quickly website, then deep dives on product price comparison bot, and solar consultant chatbot",
+  "source_note": "2a6feb3f0f4f45ed92334f896415444b",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Matches 58eb7c28 (BEGIN part 2: building solar business marketing)."
+ },
+ {
+  "title": "Build the social media marketing automations",
+  "quote": "Social media marketing automations",
+  "source_note": "2a6feb3f0f4f45ed92334f896415444b",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Listed project in the main calendar section."
+ },
+ {
+  "title": "Create the Threads account",
+  "quote": "create Threads account. Start here",
+  "source_note": "fc3d822e91db469c8299bcd8a8ae18e0",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.1,
+  "why": "Marked Start here; also in 002e95da laptop list."
+ },
+ {
+  "title": "Begin marketing video generation with VEO 3.1 for the startups",
+  "quote": "LATER: begin work on generating marketing videos using VEO3.1\n- search bookmarks for UGC and ADS guides and advanced json prompts",
+  "source_note": "fc3d822e91db469c8299bcd8a8ae18e0",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit later-phase work with concrete first steps."
+ },
+ {
+  "title": "Set up a Gemini Pro trial on another account and warm a TikTok account",
+  "quote": "setup Gemini pro trial on another account\n- follow the guides one by one for setting up and warming Tiktok account",
+  "source_note": "fc3d822e91db469c8299bcd8a8ae18e0",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Prep steps for the VEO 3.1 marketing videos."
+ },
+ {
+  "title": "Finish the final QMD version of the Twitter bookmark scraper (Smaug)",
+  "quote": "Twitter bookmark searching: finally set up Chatgpt Guide for Twitter bookmarking scraper (using Smaug) till its running. TRYING. UPDATE: FIRST VERSION WORKING (FINAL QMD VERSION NOT COMPLETE)",
+  "source_note": "d0be280aee3c4a2cb049de713275c9b0",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicitly not complete; feeds the bookmark pipeline used everywhere."
+ },
+ {
+  "title": "Complete the lead gen email enrichment task",
+  "quote": "Lead gen enrichment task is by Sunday morning",
+  "source_note": "d0be280aee3c4a2cb049de713275c9b0",
+  "source_date": "2026-08-11",
+  "tier": 1,
+  "impact": 0.3,
+  "why": "Deadline stated (Sunday morning) and it is client-facing work."
+ },
+ {
+  "title": "Run the next Aistudio prompt: Max Charging Current and DC System Voltage checks",
+  "quote": "NEXT PROMPT Max Charging Current Check, along with the DC System Voltage Check (making sure 24V inverters only get 24V battery banks) (check if this was included)",
+  "source_note": "773206a3-79d4-4233-950b-de4ec29e532a",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit next action in the solar calculator prompt sequence."
+ },
+ {
+  "title": "Verify the blackout risk warning system and revisit the blackout risk prompts",
+  "quote": "step 0; confirm that Severe warning/blackout risk warning system works and works accurately",
+  "source_note": "773206a3-79d4-4233-950b-de4ec29e532a",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Step 0 review also asks whether the advice gives the exact blackout hour."
+ },
+ {
+  "title": "Modify the 24hr cache to start from measured net recharge instead of a full battery at 6pm",
+  "quote": "step 0: modify 24hr cache to not start with full battery at 6pm by default, but actually measure net recharge through the day and determine starting battery charge level by 6pm",
+  "source_note": "773206a3-79d4-4233-950b-de4ec29e532a",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Listed as a step 0 calculator accuracy fix."
+ },
+ {
+  "title": "Let signed-in calculator users store profiles, devices, analyses and quotes",
+  "quote": "step 0: allow users (who sign in to the vendor's site where teh calculator is embeded, or to the calculator site itself as standalone) have profiles. that store everything - their devices, previous analyses and quotes",
+  "source_note": "773206a3-79d4-4233-950b-de4ec29e532a",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Step 0 feature item in the calculator backlog."
+ },
+ {
+  "title": "Build the supplier crawler that auto-populates the hardware database",
+  "quote": "step 1: crawler for crawling either specific supply sites vendors add, or all of the internet, for product sellers (with all the search and crawl filters vendors can set) to autopopulate the hardware tab",
+  "source_note": "773206a3-79d4-4233-950b-de4ec29e532a",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Numbered step 1 in the same feature list."
+ },
+ {
+  "title": "Find a comprehensive repository of devices and wattages for quick add",
+  "quote": "step 2: find some massive encompassine repsitory of every single electronic device and their wattage, so users can just select their devices and it automatically populates the wattage",
+  "source_note": "773206a3-79d4-4233-950b-de4ec29e532a",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Numbered step 2 in the same feature list."
+ },
+ {
+  "title": "Build the vendor settings system: ranges, saved themes, marketplace and chat plugin",
+  "quote": "step 3: 4 sub steps\n   - turn every single possible input into vendor settings of ranges\n   - the 'budget' 'premium' other settings will now shift to be saved themes of vendor settings",
+  "source_note": "773206a3-79d4-4233-950b-de4ec29e532a",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Step 3 also covers a shared settings marketplace and an ecommerce chat plugin."
+ },
+ {
+  "title": "Add setup longevity metrics and the setup comparison feature",
+  "quote": "Then add 2 new features\n- new metrics/details: setup longevity: this is especially important because of the issues of modified sine wave inverters and lead acid batteries",
+  "source_note": "773206a3-79d4-4233-950b-de4ec29e532a",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Second feature is pros/cons comparison between one solar setup and another."
+ },
+ {
+  "title": "Search Twitter bookmarks for cold DM and job hunting guides and note the phone-friendly ones",
+  "quote": "Start searching notebooklm Twitter CAN'T  WORK IN PHONE, SEARCH ON TWITTER INSTEAD bookmarks for cold DM and job hunting guides, note the guides I can do from my phone",
+  "source_note": "002e95da6eec48589fa5ed54c43cf808",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Also blocked attempt in fc3d822e (not working easily in NotebookLM)."
+ },
+ {
+  "title": "Start the blog using a GitHub AI writing tool plus the wdtmtm tool",
+  "quote": "MY BLOG: Pick any advanced AI writing tool from GitHub + my wdtmtm tool (quickly start my blog, no perfect conditions)",
+  "source_note": "002e95da6eec48589fa5ed54c43cf808",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit quick-start instruction, no perfect conditions required."
+ },
+ {
+  "title": "Ask Amara to teach me her cold DM and opportunity finding strategies on Threads",
+  "quote": "ask amara to teach me her cold dm and opportunity finding strategies on thread",
+  "source_note": "002e95da6eec48589fa5ed54c43cf808",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit request in the laptop-return task list."
+ },
+ {
+  "title": "Look into the Outlier thing and registering accounts abroad",
+  "quote": "look into the whole outlier thing and registering accounts abroad",
+  "source_note": "002e95da6eec48589fa5ed54c43cf808",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit research item in the laptop-return task list."
+ },
+ {
+  "title": "Collate and rate the fastest agentic coding approaches from Twitter bookmarks",
+  "quote": "will search my twitter bookmarks to collate, read, compare then rate the fastest agentic coding approaches",
+  "source_note": "002e95da6eec48589fa5ed54c43cf808",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Marked later on, goal is one-shot whole apps at full quality."
+ },
+ {
+  "title": "Add plug-and-play ports to the external batteries including the generator wire outlet",
+  "quote": "then discuss with them to add our generator wire outlet port, to use our inverter with the whole house (and supercede installation). THIS IS KEY SELLER 1",
+  "source_note": "6abefd544b6c44fb9e7d429cd7659db1",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Note stresses this as key seller 1; multi-port panel cable is part of the same block."
+ },
+ {
+  "title": "Work on product modularity",
+  "quote": "later on work on modularity. THIS IS KEY SELLER 2",
+  "source_note": "6abefd544b6c44fb9e7d429cd7659db1",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Marked as key seller 2 but later work."
+ },
+ {
+  "title": "Switch the BMS to a Bluetooth model synced to a single display",
+  "quote": "change the bms to anyone that has a Bluetooth connection like the jk, so with your phone you can see battery capacity and such. Sync both charge capacitor and battery together to a single bluetooth display, all within the cost budget",
+  "source_note": "6abefd544b6c44fb9e7d429cd7659db1",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Concrete product change in the benefits notes."
+ },
+ {
+  "title": "Get the hybrid prompts B and C from Claude",
+  "quote": "Remember to get hybrid prompts B and C from Claude",
+  "source_note": "04f3bb8d9016481cb7eefb0734bc9a0c",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit reminder line in the solar website notes."
+ },
+ {
+  "title": "Rework the solar website prices, raising tab 1 and 2 by N5-12k and increasing tab 3",
+  "quote": "1. Edit all the prices: for all the tab 1 and tab 2 prices are correct, but they are low. So note that they are early bird discount prices and add N5-N12k on each of them (depending in the product)",
+  "source_note": "9b9084a9847c4a089548ab657c05119a",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Margin-based price rework is also required in d0240a1c."
+ },
+ {
+  "title": "Update Prompt A using the homepage and tab copies",
+  "quote": "ask AI to use the ideas (in homepage copy) & homepage copies (in homepage copies) & sample of the tab copies (in tab copies), to vastly update the prompt",
+  "source_note": "9b9084a9847c4a089548ab657c05119a",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit next step in the Improve Prompt A note."
+ },
+ {
+  "title": "Integrate Framework 2 into the hybrid framework and compare with the Claude framework",
+  "quote": "then (b) ask how to integrate this FRAMEWORK 2 into hybrid framework (deduplication), then D. Compare it to Claude framework (framework 3) to get the ultra final hybrid framework",
+  "source_note": "40feefecc69d4cc78aed3625772ee03f",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Steps Cb and D of the solar brainstorming task chain, still open."
+ },
+ {
+  "title": "Generate the final feature spec, database schema and validation rules for the Strategy Engine",
+  "quote": "E. generate the final full feature spec, database schema plus backend validation rules for the Smart Usage Strategy Engine.",
+  "source_note": "40feefecc69d4cc78aed3625772ee03f",
+  "source_date": "2026-08-11",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Final lettered step of the note's task chain for the SolarSizer feature."
+ },
+ {
+  "title": "Generate card details, articles, comparison articles and hardware JSON from the tab specs",
+  "quote": "use specs in tabs 1 and 2 first generate card details, then full individual articles, then comparison articles, then regenerate in solarsizer hardware json format the solar calculator fields",
+  "source_note": "d0240a1c4c8b4454b91e20ddc5557c5a",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit content generation chain for the solar website."
+ },
+ {
+  "title": "Add lead-acid support with warnings and comparison table, plus powerstation handling to the calculator",
+  "quote": "Note Solar calculator additions: (a) button to include lead acid, huge warning when you want to switch on button, huge warning in card details for any results including lead acid",
+  "source_note": "d0240a1c4c8b4454b91e20ddc5557c5a",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Item (b) of the same instruction covers powerstations as one unit."
+ },
+ {
+  "title": "Create the average Nigerian personas and load them on the home page",
+  "quote": "take the average personas i will create and load them on home page (immediately at bottom of top section) for users to select their closest persona and see quick product suggestions",
+  "source_note": "d0240a1c4c8b4454b91e20ddc5557c5a",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit home page feature in the website notes."
+ },
+ {
+  "title": "Create the mobile app for the solar business",
+  "quote": "ADDITION: SINCE I WILL BE GETTING MY ANDROID DEVELOPER LICENSE, CREATE MOBILE APP FOR SOLAR BUSINESS",
+  "source_note": "d0240a1c4c8b4454b91e20ddc5557c5a",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "All-caps addition to the website notes."
+ },
+ {
+  "title": "Research how Twitter-crawling agents, memory and knowledgebase systems work and compare them to RAG",
+  "quote": "how all these systems handle parsing responses from a corpus of data AKA (a) how do they all compare to RAG (b) how do they all compare to AI knowledgebase tools",
+  "source_note": "1f54fbcadecc4806af49a2f5691355f9",
+  "source_date": "2026-08-11",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Research brief to a future self covering crawlers, memory, knowledge graphs and compaction."
+ },
+ {
+  "title": "Red team the whole job-hunting pipeline using the Hermes browser docs",
+  "quote": "Use this to reassess and reanalyze and red team the whole job-hunting pipeline: https://hermes-agent.nousresearch.com/docs/user-guide/features/browser",
+  "source_note": "c90f5a07f2c64227bc1f94d09dfa3e27",
+  "source_date": "2026-08-13",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit directive to simplify the process with better implementations."
+ },
+ {
+  "title": "Turn all the Hermes fixes into a patch shipped with the skills bundle",
+  "quote": "What are all the fixes you did to hermes? how do we turn it into a patch that is delivered and installed along with the skills bundle?",
+  "source_note": "c90f5a07f2c64227bc1f94d09dfa3e27",
+  "source_date": "2026-08-13",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Verification also required in 6c5f4405 (check the patch includes all Hermes fixes)."
+ },
+ {
+  "title": "Determine what causes the Cloudflare 120s timeouts and sidestep them",
+  "quote": "What do we do about cloudflare's 120s timeouts: what keeps causing it, why are all the points it is needed, and can we sidestep it entirely?",
+  "source_note": "c90f5a07f2c64227bc1f94d09dfa3e27",
+  "source_date": "2026-08-13",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Listed as a repeating problem to fix in the pipeline review."
+ },
+ {
+  "title": "Gather at least 10 recently bookmarked opportunity-type tweets",
+  "quote": "Gather at least 10 of the various opportunity like tweets i have come across (& bookmarked)in the recent weeks",
+  "source_note": "c90f5a07f2c64227bc1f94d09dfa3e27",
+  "source_date": "2026-08-13",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit gathering request."
+ },
+ {
+  "title": "Add technical blogs as a source type to all my projects",
+  "quote": "TECHNICAL BLOGS (OF ALL STARTUPS AND TECH COMPANIES ARE A VERITABLE SOURCE TYPE I SHOULD BE ADDING TO ALL MY PROJECTS",
+  "source_note": "c90f5a07f2c64227bc1f94d09dfa3e27",
+  "source_date": "2026-08-13",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "All-caps future-self instruction in the note."
+ },
+ {
+  "title": "Ship all job-hunting cron jobs as installable blueprints",
+  "quote": "four jobs already ship as blueprints (declared in the skill's own frontmatter, one-tap install) and five don't — and per the audit in memory, 18 of 22 cron jobs aren't shipping as installable blueprints at all",
+  "source_note": "613f600b066b42a3ba2caa619d8a338a",
+  "source_date": "2026-08-13",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Note explicitly says we need to fix this issue in job hunting; 18 of 22 missing."
+ },
+ {
+  "title": "Implement the agreed job-hunting upgrades from the Q19-Q23 review",
+  "quote": "Q19 - Job-to-be-done engine: i fully agree",
+  "source_note": "3e6ff284428f4f419d653e9735523e5a",
+  "source_date": "2026-08-13",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Fully agreed: job-to-be-done engine, dynamic ranking, runaway-session guardrail, MCP session tracing, durability math."
+ },
+ {
+  "title": "Integrate every Weave piece that fits PIA",
+  "quote": "Include and integrate Every single Weave piece that is a Fit for PIA: all direct fits, meta fits and partial fits",
+  "source_note": "3e6ff284428f4f419d653e9735523e5a",
+  "source_date": "2026-08-13",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit decision to integrate; follow-up in 7dbf6294 asks to pull as much from Weave as possible."
+ },
+ {
+  "title": "Build the Twitter reply pipeline: seed creators, semantic and viral search, analysis, 6-phase writing",
+  "quote": "- 150 seed creator + semantic search + viral search + rest of discovery system, finds the tweets",
+  "source_note": "3e6ff284428f4f419d653e9735523e5a",
+  "source_date": "2026-08-13",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Section B lays out the pipeline steps to implement, then output responses and replies."
+ },
+ {
+  "title": "Expand job hunting's user testimonial monitoring with the Twitter tool's discovery system",
+  "quote": "Aggressively expand the social monitoring capability of the user testimonials feature of job hunting with the full semantic, viral and discovery capabilities of twitter tool.",
+  "source_note": "3e6ff284428f4f419d653e9735523e5a",
+  "source_date": "2026-08-13",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Starts with Aggressively, a clear expansion directive."
+ },
+ {
+  "title": "Produce the full red team reports on the concepts and the current implementation",
+  "quote": "1. Red team the conceptual ideas, the domain model, the approaches and assumptions discussed in the chat sessions",
+  "source_note": "7dbf6294293d4895a9b2038e3814b0f3",
+  "source_date": "2026-08-13",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Item 3 of the same list also requires red teaming the current implementation against plans."
+ },
+ {
+  "title": "Completely rearchitect the codebase from the ground up using /grill-me-with-docs",
+  "quote": "Completely Rearchitect codebase from ground up using /grill-me-with-docs and the full red team reports",
+  "source_note": "7dbf6294293d4895a9b2038e3814b0f3",
+  "source_date": "2026-08-13",
+  "tier": 2,
+  "impact": 0.3,
+  "why": "Explicit numbered step 4 that depends on the red team reports."
+ },
+ {
+  "title": "Redesign, spec and implement all previously declined items",
+  "quote": "All the things it declined to implement (that you now disagree with), please completely (re)design, spec then implement them",
+  "source_note": "7dbf6294293d4895a9b2038e3814b0f3",
+  "source_date": "2026-08-13",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Numbered step 5 in the same plan."
+ },
+ {
+  "title": "Strengthen platform_extractor.py repo selection criteria using /last30days",
+  "quote": "Also strengthen (improve) the existing repo selection criteria in platform_extractor.py using the full capabilities and features and logic of /last30days (first find and fully ingest the github repo).",
+  "source_note": "7dbf6294293d4895a9b2038e3814b0f3",
+  "source_date": "2026-08-13",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit improvement request in the Q16 answer."
+ },
+ {
+  "title": "Redo the prediction market unfuck and job-hunting pipeline fixes in fresh chats with the new models",
+  "quote": "Redo prediction market unfuck with deepseek 4 pro/kimi k3, redo job hunting pipeline fixes in new fresh chat",
+  "source_note": "7dbf6294293d4895a9b2038e3814b0f3",
+  "source_date": "2026-08-13",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit redo instruction after switching model picks."
+ },
+ {
+  "title": "Set up my bot to send cold outreach messages for Amara",
+  "quote": "Set up my bot to be sending cold outreach messages for Amara",
+  "source_note": "7dbf6294293d4895a9b2038e3814b0f3",
+  "source_date": "2026-08-13",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Direct setup request at the end of the note."
+ },
+ {
+  "title": "Fix the job-hunting backup cron so snapshots are encrypted",
+  "quote": "Cron 'backup.sh' failed: Script exited with code 2 stderr: WARNING: BACKUP_GPG_RECIPIENT unset — snapshot is unencrypted",
+  "source_note": "a8f3748264624318a545e6060bda9aa1",
+  "source_date": "2026-08-13",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Failing cron with an unencrypted backup warning from the job hunting system."
+ },
+ {
+  "title": "Do a deep dive on all Firecrawl features and identify which are free",
+  "quote": "So many crawling and search features, i need to do a deep dive on all the firecrawl features and especially which are free. Firecrawl might end up becoming my free 'cloudflare' for search and scraping",
+  "source_note": "a7e85e32632b4c5fa3c1d9c210f344fb",
+  "source_date": "2026-08-14",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit deep dive request with a stated strategic use."
+ },
+ {
+  "title": "Extend Job-Ops sourcing to AI-resistant and physical-interaction jobs",
+  "quote": "Use Industry Sourcing Engine (applied to jab taxonomy) to find all jobs (not businesses, jobs) that are AI resistant or require physical interactions or resistant to certain policies",
+  "source_note": "a7e85e32632b4c5fa3c1d9c210f344fb",
+  "source_date": "2026-08-14",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Question form, but it maps a concrete new search filter for job-ops."
+ },
+ {
+  "title": "Fix the app 2 template currency conversion and tighten the scoring",
+  "quote": "app 2 template\ncurrency conversion is wrong\ntighten the scoring (it is too liberal)",
+  "source_note": "6c5f4405-073f-43b1-84af-bd6a03df9622",
+  "source_date": "2026-08-14",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Concrete bug and tuning request in the job-hunting app notes."
+ },
+ {
+  "title": "Buy around 12 more domain names and finish the Bachs setup",
+  "quote": "Tomorrow: buy as many dev domains as possible, finish bachs setup (once i get that url or domain thing finally working)",
+  "source_note": "6c5f4405-073f-43b1-84af-bd6a03df9622",
+  "source_date": "2026-08-14",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Count comes from 26f4b707 (NEED TO BUY LIKE 12 MORE)."
+ },
+ {
+  "title": "Send Rotimi N75k to help with the LLC registration",
+  "quote": "Rotimi: break 75k send him money to help do LLC registration.",
+  "source_note": "6c5f4405-073f-43b1-84af-bd6a03df9622",
+  "source_date": "2026-08-14",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Explicit money transfer for business registration."
+ },
+ {
+  "title": "Ask DeepSeek to build a lightweight Hermes that runs only on free models",
+  "quote": "Ask deepseek to build lightweight version that can successfully run on free models only, then go back to notes and finish up all final tasks.",
+  "source_note": "6c5f4405-073f-43b1-84af-bd6a03df9622",
+  "source_date": "2026-08-14",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Conditional on the Hermes patch running stably for 5 days."
+ },
+ {
+  "title": "Implement the bookmarked social-search idea in the job hunter",
+  "quote": "implement this in job hunter: either s part of the social search features, or as a seperate add-on:",
+  "source_note": "6c5f4405-073f-43b1-84af-bd6a03df9622",
+  "source_date": "2026-08-14",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Direct implement directive referencing a saved tweet."
+ },
+ {
+  "title": "Add Microsoft partner directory sourcing to the job hunter",
+  "quote": "I researched Microsoft partners and applied to several. You can also find a list at https://microsoftpartners.microsoft.com/abs/Partner-Directories/",
+  "source_note": "6c5f4405-073f-43b1-84af-bd6a03df9622",
+  "source_date": "2026-08-14",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Prefixed in the note as an addition to the job hunter."
+ },
+ {
+  "title": "Find MengTo's website tutorials and the other bookmarked tutorials",
+  "quote": "find all his tutorials https://x.com/MengTo/status/2088117711868227765 and other tutorials like these that i have bookmarked. i am going to be making amazing websites",
+  "source_note": "6c5f4405-073f-43b1-84af-bd6a03df9622",
+  "source_date": "2026-08-14",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit find request for website building reference."
+ },
+ {
+  "title": "Find good portfolio templates for the job hunter",
+  "quote": "Find good portfolio templates for job hunter",
+  "source_note": "07db6c9191d44dd7b99845511b2a18d3",
+  "source_date": "2026-08-14",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "The whole note is this imperative task plus a link."
+ },
+ {
+  "title": "Model OpenCode Go usage limits and how long the $60 models last for the job-hunting runs",
+  "quote": "define my (or a reasonable) limit of brainstorming tokens aka number of questions/requests you can ask before moving to planning and executing (the $15 models)",
+  "source_note": "deead818d14a4461b5de87a9500a0610",
+  "source_date": "2026-08-14",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "Item 2 of the same instruction asks how long the models last for the crons and pipeline runs."
+ },
+ {
+  "title": "Build the tweet virality pre-check and rewriter from the Twitter algorithm",
+  "quote": "Can the system be reversed to create an advanced algorithm, heuristic, filter for making tweets viral, or ensuring drafted tweet meets all the criteria to be viral before posting, and rewriting tweets to meet all the requirements",
+  "source_note": "deead818d14a4461b5de87a9500a0610",
+  "source_date": "2026-08-14",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Question form; ties to the saved x-algorithm in caddb2c9 and powers his Twitter tool."
+ },
+ {
+  "title": "Look for all harness benchmarks for FreeAIFinder",
+  "quote": "now harness engineering is popular, look for all harness benchmarks",
+  "source_note": "deead818d14a4461b5de87a9500a0610",
+  "source_date": "2026-08-14",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit search request for the model-ranking tool."
+ },
+ {
+  "title": "Extract all agent chat sessions using the ai-data-extraction repo",
+  "quote": "Use this to extract all my agent chat sessions",
+  "source_note": "a8262a0e598c47d8b0c2c6d7e2b58c65",
+  "source_date": "2026-08-14",
+  "tier": 3,
+  "impact": 0.2,
+  "why": "Explicit extraction task; the corpus feeds his search and memory projects."
+ },
+ {
+  "title": "Send Amara the money for her birthday phone flex repair",
+  "quote": "3k for whatever (phone flex repair) [send to amara for birthday]",
+  "source_note": "1298a96a1c68485e993501eb65d4e87c",
+  "source_date": "2026-08-15",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Unchecked line in the budget list."
+ },
+ {
+  "title": "Try Cloudflare Email before Unosend",
+  "quote": "**BEFORE UNOSEND TRY CLOUDFLARE EMAIL FIRST**",
+  "source_note": "1298a96a1c68485e993501eb65d4e87c",
+  "source_date": "2026-08-15",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Bolded instruction in the budget note."
+ },
+ {
+  "title": "Transfer the six GoDaddy domains to Cloudflare",
+  "quote": "ACTUAL: N13k FOR 6 DOMAIN NAMES ON GODADDY (TO BE TRANSFERRED TO CLOUDFLARE)",
+  "source_note": "1298a96a1c68485e993501eb65d4e87c",
+  "source_date": "2026-08-15",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Marked as still to be transferred."
+ },
+ {
+  "title": "Pay the Android app developer fee",
+  "quote": "35k $25 Android app developer fee",
+  "source_note": "1298a96a1c68485e993501eb65d4e87c",
+  "source_date": "2026-08-15",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Unmarked pending spend item in the budget list."
+ },
+ {
+  "title": "Compare Unosend, Resend, Sendgrid, Mailgun and Postmark with the marketing usecases",
+  "quote": "Unosend\nResend\nSendgrid\nMailgun\nPostmark\n* Compare them, based on these usecases:",
+  "source_note": "1298a96a1c68485e993501eb65d4e87c",
+  "source_date": "2026-08-15",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit comparison request driven by the organic marketing guides."
+ },
+ {
+  "title": "Copy everything from xpilot.ink for the Twitter marketing tool",
+  "quote": "https://xpilot.ink/ RIP OFF EVERYTHING FOR MY TWITTER TOOL (THE MARKETING ONE)",
+  "source_note": "fae93efd-d6cc-436d-b039-c79af522aa55",
+  "source_date": "2026-08-15",
+  "tier": 2,
+  "impact": 0.2,
+  "why": "All-caps directive for the Twitter marketing tool."
+ },
+ {
+  "title": "Add opportunity cost calculation to the renter tool",
+  "quote": "add to my renter tool for determining where best to rent (would likey merge this with rent versus buy): a way to calcuate opportunity cost",
+  "source_note": "c7497fae-cbd0-45ac-a9db-c8d03b8214f0",
+  "source_date": "2026-08-15",
+  "tier": 3,
+  "impact": 0.1,
+  "why": "Explicit add request, likely merged with rent versus buy."
+ }
+]

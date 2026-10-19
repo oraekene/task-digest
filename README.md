@@ -1,0 +1,125 @@
+# Task digest — from Simplenote
+
+What this is: a daily morning digest of your most important tasks, and one stable
+reference list of every open task ordered by importance. Tasks come from your
+Simplenote notes. A scheduled job refreshes the notes, rebuilds the digest, and
+shows a notification on this laptop at 7am.
+
+## The pipeline
+
+The scheduled job runs `run_daily.ps1`, which does these steps in order.
+
+1. `gate.py` proves nothing here can write to Simplenote. If it fails, the run stops.
+2. `get_token.py` reads the Simplenote desktop app token from local storage.
+3. `sync_notes.py` pulls notes from the Simperium cloud into `notes.db` and
+   lists what changed in `pending_changes.json`.
+4. `dump_notes.py` copies the changed notes to `pending_notes.json`.
+5. `opencode run` reads `extract_prompt.md` and writes `tasks_new.json`.
+6. `merge_pending.py` adds those tasks to `tasks.json`, dropping duplicates.
+7. `tracker.py` scores, ranks, and renders `digest-YYYY-MM-DD.md` and `list.md`.
+8. `notify.ps1` shows the top tasks as a Windows toast with the run status.
+
+If step 5 fails, the toast says how many notes need extraction and the rest of
+the run continues, so you always get yesterday's digest plus a clear signal.
+
+## The console
+
+`python console.py` opens a local page at `http://127.0.0.1:8765/` with four
+tabs: tasks, digest, settings, and log. Use it to search and filter tasks,
+change status, tier, impact or category, switch settings, rebuild the digest,
+and start the morning pipeline by hand. It refuses to unlock read only.
+
+## Categories
+
+Every task carries one category, and the category sets a tier and an impact
+floor. A category only ever raises priority. It never demotes a task, and it
+skips tasks already marked stale. The labels are incoming-promised, client-job,
+money-machine, blocks-work, health-safety, legal-account, outgoing-due,
+incoming-window, promise, to-save, new-opportunity, and none. The full table is
+in `categories.py` and in `batches/EXTRACT.md`.
+
+## Settings
+
+`settings.json` holds every switch. Change one with:
+
+```
+python tracker.py config                  # show all
+python tracker.py config use_deadlines true
+python tracker.py config auto_extract false
+```
+
+- `read_only` must stay true. `gate.py` fails the run if it is not.
+- `use_deadlines` turns on date-based urgency. Off means age drives urgency.
+- `auto_extract` turns the headless extraction step on or off.
+- `notify_top` sets how many tasks the toast shows.
+
+## Commands
+
+The scheduled task runs this every morning. You can also run it by hand:
+
+```
+pwsh -NoProfile -ExecutionPolicy Bypass -File run_daily.ps1
+```
+
+Run only one step:
+
+```
+.venv\Scripts\python.exe sync_notes.py    # incremental note sync
+python tracker.py digest                  # rebuild digest and list
+python tracker.py rank                    # print ranked open tasks
+```
+
+Backfill tools, run only when notes were re-batched:
+
+```
+.venv\Scripts\python.exe batch_notes.py   # split unmined notes into batches
+.venv\Scripts\python.exe merge_out.py     # merge subagent output into tasks.json
+.venv\Scripts\python.exe demote_stale.py  # push untouched old tasks down a tier
+.venv\Scripts\python.exe inspect_out.py   # check a batch output file
+.venv\Scripts\python.exe categorize_dump.py   # split tasks for classification
+.venv\Scripts\python.exe categorize_apply.py  # apply category labels
+```
+
+## Files
+
+- `tasks.json` — the single reference list. The agent edits it, never the scripts.
+- `notes.db` — SQLite copy of all notes.
+- `pending_changes.json` — notes added, updated, or deleted in the last sync.
+- `digest-YYYY-MM-DD.md` — one file per morning.
+- `list.md` — every open task, most important first.
+- `batches/` — backfill working files. `EXTRACT.md` holds the extraction rules.
+- `categories.py` — one table of categories, tiers and impact floors.
+- `console.py` — the local graphical console.
+- `logs/run_daily.log` — morning run log.
+- `.token` — your Simplenote access token. Do not share this file.
+
+## How scoring works
+
+The score comes from the prioritization engine spec (specs 01 and 03).
+Tier weight is 100, 50, 25, or 12 for P1, P2, P3, P4. A deadline adds urgency,
+otherwise age adds urgency up to 0.5. Impact adds 0 to 0.5. Higher score ranks
+first. Ties go to the oldest task, so new tasks do not leapfrog older important
+ones. Any open task older than 45 days drops one tier, because it was not acted
+on. Change a task's `tier` or `impact` in `tasks.json` to move it.
+
+## Key facts
+
+- Simplenote cloud API base: `https://api.simperium.com/1/chalk-bump-f49`
+- Auth header: `X-Simperium-Token`. The token rotates, so `get_token.py` runs first.
+- The desktop app is a Microsoft Store app, package
+  `22490Automattic.Simplenote_9h07f78gwnchp`.
+- `api.simplenote.com` no longer exists. The Simperium API is the live path.
+- Scheduled task name: `TaskDigest Morning`, daily at 07:00, start when
+  available if the laptop was asleep.
+- Hermes has its own cron (`%LOCALAPPDATA%\hermes\cron\jobs.json`) with Telegram
+  delivery. A Hermes job can send this digest to Telegram later.
+
+## Not done yet
+
+- Backfilled tiers are provisional. Review `list.md` and correct the top of it.
+- Backfill covers notes modified since 2026-03-01. Older notes are not mined.
+- Deduplication compares titles by words, so rare phrasings can slip through.
+- `scan_markers.py` is advisory only. It lists DONE and WORKING lines for a
+  human to check, because pattern matching reads "when i am done" as DONE.
+- Categories were assigned by a language model in eight batches. Spot check
+  `list.md` and correct any label in the console.

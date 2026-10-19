@@ -1,0 +1,13 @@
+.venv/
+notes.db
+.token
+pending_changes.json
+pending_notes.json
+tasks_new.json
+batches/batch_*.json
+logs/
+candidates.md
+extraction_cache.json__pycache__/
+cat_in_*.json
+cat_out_*.json
+*.tmp
