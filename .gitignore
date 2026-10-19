@@ -13,5 +13,7 @@ cat_in_*.json
 cat_out_*.json
 audit_in_*.json
 audit_out_*.json
+jev_cache.json
+jev-check.json
 *.tmp
 sticky.json

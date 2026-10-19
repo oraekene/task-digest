@@ -6,6 +6,7 @@ primary record of completion state. Writes nothing to Simplenote.
 Usage: python merge_pending.py
 """
 import json
+import os
 import pathlib
 import re
 
@@ -65,6 +66,18 @@ def main() -> int:
     settings = json.loads((HERE / "settings.json").read_text(encoding="utf-8")) if (HERE / "settings.json").exists() else {}
     use_deadlines = bool(settings.get("use_deadlines", False))
     fresh = json.loads(NEW.read_text(encoding="utf-8"))
+    jev = {}
+    need_cat = [t for t in fresh if FIELDS.issubset(t) and (t.get("category") or "none") == "none"]
+    key = os.environ.get("TYPESAFE_API_KEY", "").strip()
+    if need_cat and key:
+        try:
+            import jev_categorize
+
+            for i, t in enumerate(need_cat):
+                t["id"] = f"tmp{i:03d}"
+            jev = jev_categorize.classify(need_cat, key, jev_categorize.load_cache())
+        except Exception as e:  # noqa: BLE001 - Jev must never block the merge
+            print(f"jev skipped: {type(e).__name__}: {e}")
     added = dupes = 0
     n = sum(1 for t in tasks if t["id"].startswith("b"))
     for t in fresh:
@@ -79,6 +92,7 @@ def main() -> int:
         seen.add(key)
         status = t.get("status") or "open"
         caveat = t.get("caveat") or ""
+        category = jev.get(t.get("id"), {}).get("category") or t.get("category") or "none"
         task = {
             "id": f"b{n + 1:04d}",
             "title": t["title"],
@@ -91,7 +105,7 @@ def main() -> int:
             "deadline": t.get("deadline") or None,
             "first_seen": t["source_date"],
             "completed": t["source_date"] if status == "done" else None,
-            "category": t.get("category") or "none",
+            "category": category,
             "why": (t.get("why", "") + (f" | caveat: {caveat}" if caveat else "")).strip(" |"),
         }
         categories.apply(task, use_deadlines=use_deadlines)

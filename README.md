@@ -68,6 +68,14 @@ money-machine, blocks-work, health-safety, legal-account, outgoing-due,
 incoming-window, promise, to-save, new-opportunity, and none. The full table is
 in `categories.py` and in `batches/EXTRACT.md`.
 
+When `TYPESAFE_API_KEY` is set, `merge_pending.py` asks Jev (Typesafe System
+One, a cheap hosted classifier) to label each new task that arrived as none, so
+new notes are categorised without an agent run. `python jev_categorize.py
+check [N]` compares Jev against the current labels on a sample and writes
+`jev-check.json`. The first sample agreed 40 percent: Jev is more conservative
+and says none where the agent saw an income asset, so the existing labels were
+left alone and Jev only handles new tasks.
+
 ## Settings
 
 `settings.json` holds every switch. Change one with:
