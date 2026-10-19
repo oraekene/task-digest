@@ -36,8 +36,12 @@ follow it. The automatic list is frozen at the first digest of the day, so
 finishing a task does not shuffle the list under your fingers.
 
 The advisory tab shows every completion marker found in your notes, with the
-note line as proof. Apply sets the suggested state. Rescan rebuilds the report.
-The report stays advisory: nothing changes until you press Apply.
+note line as proof. It also shows the findings of the state audit: a full pass
+where an agent rereads every note against the tasks extracted from it and
+proposes state changes with a quoted evidence line. Each row carries a source
+pill (marker or audit) and a confidence. Apply sets the suggested state. Rescan
+rebuilds the marker report; the audit is rebuilt by hand. Everything stays
+advisory: nothing changes until you press Apply.
 
 ## The sticky note
 
@@ -110,6 +114,8 @@ Backfill tools, run only when notes were re-batched:
 .venv\Scripts\python.exe inspect_out.py   # check a batch output file
 .venv\Scripts\python.exe categorize_dump.py   # split tasks for classification
 .venv\Scripts\python.exe categorize_apply.py  # apply category labels
+.venv\Scripts\python.exe audit_dump.py        # split all notes for the state audit
+.venv\Scripts\python.exe audit_apply.py       # merge audit batch output
 ```
 
 ## Files
@@ -123,9 +129,13 @@ Backfill tools, run only when notes were re-batched:
 - `batches/` — backfill working files. `EXTRACT.md` holds the extraction rules.
 - `categories.py` — one table of categories, tiers and impact floors.
 - `console.py` — the local graphical console.
-- `sticky.py` — the always-on-top note.
+- `sticky.py` — the small desktop paper note. It is not always on top by
+  default; the pin link raises it above other windows when you want that.
 - `today.json` — today's focus choice: automatic, shuffled, or picked.
-- `marker-report.md` and `marker-report.json` — the advisory state report.
+- `marker-report.md` and `marker-report.json` — the marker scan report.
+- `audit_prompt.md`, `audit_dump.py`, `audit_apply.py`, `audit-report.json` —
+  the full note-by-note state audit: dump notes with their tasks, run one agent
+  per batch against the prompt, then merge. Output is advisory, like markers.
 - `logs/run_daily.log` — morning run log.
 - `.token` — your Simplenote access token. Do not share this file.
 

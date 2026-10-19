@@ -77,10 +77,11 @@ def parse_date(value):
     return date.fromisoformat(value[:10])
 
 
-def score(task: dict) -> float:
+def score(task: dict, settings: dict | None = None) -> float:
+    settings = settings if settings is not None else load_settings()
     tier = int(task.get("tier") or 2)
     tier_weight = 100 / 2 ** (tier - 1)
-    deadline = parse_date(task.get("deadline")) if load_settings()["use_deadlines"] else None
+    deadline = parse_date(task.get("deadline")) if settings["use_deadlines"] else None
     if deadline:
         urgency = 1 / (max((deadline - TODAY).days, 0) + 1)
     else:
@@ -90,10 +91,11 @@ def score(task: dict) -> float:
     return tier_weight * (1 + urgency + impact)
 
 
-def ranked_open(tasks: dict) -> list[dict]:
+def ranked_open(tasks: dict, settings: dict | None = None) -> list[dict]:
+    settings = settings if settings is not None else load_settings()
     open_tasks = [t for t in tasks["tasks"] if t.get("status") in ("open", "started")]
     open_tasks.sort(
-        key=lambda t: (-score(t), parse_date(t.get("first_seen")) or TODAY, t["id"])
+        key=lambda t: (-score(t, settings), parse_date(t.get("first_seen")) or TODAY, t["id"])
     )
     return open_tasks
 

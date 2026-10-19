@@ -1,0 +1,380 @@
+[
+ {
+  "task_id": "b0037",
+  "title": "Add per-ROAS download buttons and fix export bundling",
+  "current": "open",
+  "suggested": "done",
+  "evidence": "add download buttons to the ad guide pop out pages DONE",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0084",
+  "title": "Finish the Opencode setup (free API, Ralph, context engineering, skills)",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "I already started this discussion on notebooklm",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0097",
+  "title": "Run the deep assistant-agent comparison (features plus scenario workbook)",
+  "current": "open",
+  "suggested": "done",
+  "evidence": "Hermes versus Openclaw DONE",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0142",
+  "title": "Run the remaining agent comparison write-ups (workflow builders, VA platforms, coding agents)",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "Against workflow builders CURRENT",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0157",
+  "title": "Get the Twitter search colab tool working and the new archive scraper formatting files for NotebookLM",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "begin working on Twitter archive downloading DONE, and Twitter search colab tool (get it working)",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0200",
+  "title": "Fix all suspended accounts",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "fix all suspended accounts HALF-DONE",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0202",
+  "title": "Collate the troubleshooting mega-feature PRD",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "8. Add troubleshooting mega-feature (whole new product): manually collate the PRD first HALF-DONE (BRAINSTORMED, JUST COLLATED)",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0209",
+  "title": "Change the remaining calculator exports to PDF format",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "'generate report' button in results modal, should export in PDF DONE",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0358",
+  "title": "Move all script runs from Colab to the Google Cloud VM",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "no longer use Colab which is what I used to use, now use Google Cloud VM",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0360",
+  "title": "Find South Western Ontario aggregators of trades companies first",
+  "current": "open",
+  "suggested": "done",
+  "evidence": "find these sources for the filtered industries = yata DONE",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0362",
+  "title": "Finish the Seun enrichment: owners, managers, contacts, free-tier services",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "all the services (mentioned in the guides), their free tiers, and if they don't have, find alternatives with free tiers PARTIAL",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0429",
+  "title": "Adopt the new test stack (skill to test cases; Chrome MCP E2E; GUI route tests)",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "building my test stack and seeing 80% less maintenance with this",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0468",
+  "title": "Adapt the automated search tool to find underserved niches (ads, cold DMs)",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "I began working on an automated search tool that i should adapt to be able to easily find all these niches",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0566",
+  "title": "Make freeaifinder answer the best free model question",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "Keep working on and fixing freeaifinder till it can immediately answer thus question: what is the best (most intelligent) free model that has consistent fast tk/s",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0601",
+  "title": "Finish merging the combined Savecoins notes into the documents",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "then following the same document structure created earlier, combine the new notes with this cohesive form ... SEMI DONE",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0656",
+  "title": "Fix the typst resume export to include project links and sections",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "current update fix of typst is better than the original typst including adding a skills section",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0718",
+  "title": "Make Hermes Agent the default scaffold for all projects",
+  "current": "open",
+  "suggested": "done",
+  "evidence": "Hermes Agent is now my new default app scaffold",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b0882",
+  "title": "Build the who-to-outreach system mapping offers to markets and channels",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "1. Cold outreach: ask if these things already exist in the full package: WORKING",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1036",
+  "title": "Finish installing job-ops",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "1. finish installing job-ops SEMI DONE",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1037",
+  "title": "Turn the personal job prompts into an automated job-hunting workflow or agent",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "3. create opencode agent automated workflow version (with skills and workflows and all that) SEMI-DONE",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1063",
+  "title": "Finish the final QMD version of the Twitter bookmark scraper (Smaug)",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "UPDATE: FIRST VERSION WORKING (FINAL QMD VERSION NOT COMPLETE)",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1189",
+  "title": "Write the implementation plan, ADR set and CONTEXT.md per the build list",
+  "current": "open",
+  "suggested": "done",
+  "evidence": "Apply all the above and hand back corrected versions of both docs DONE",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1332",
+  "title": "Run the first job application run and apply to all open PM roles",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "FRIRT JOB APPLCIATIN RUN I AM DOING: APPLY TO ALL OF THEM",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1376",
+  "title": "Build the break-the-ice starter system with the screen watcher",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "So since this was mentioned, i was also building a \"break the ice\" conversation starter suggestion system, based on the profiling",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1414",
+  "title": "Complete the narrative extension questions before repair features",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "(I HAVE ASKED MOST BUT NOT ALL OF THESE QUESTIONS, CROSSCHECK FIRST)",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1533",
+  "title": "Merge the v1 and v2 AHPAS specs into the hybrid v2.0 core and planning outputs, replacing the older GLM v1",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "current output: Ahpas hybrid core specification v2.0, Ahpas hybrid planning mode delta specification v2.0 (no thorough crosscheck passes done yet)",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1641",
+  "title": "Find and map the best researched frameworks for the full CFT Sequence inputs",
+  "current": "open",
+  "suggested": "done",
+  "evidence": "the CFT Sequence (all steps and substeps in Step 0 and Step 1 of the sequence) is used to fill in every item of the expanded scorecard DONE",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1642",
+  "title": "Expand the Matzner Test deal-screening scorecard until it is exhaustive",
+  "current": "open",
+  "suggested": "done",
+  "evidence": "every item of the expanded scorecard DONE",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1703",
+  "title": "Finish setting up the Gemini Pro account in opencode",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "current chat for setting up gemini pro account in opencode (NOT YET FINISHED)",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1704",
+  "title": "Finish the bandwidthguard internet management chat",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "current chat for managing my internet (current badwidthguard) (NOT YET FINISHED)",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1717",
+  "title": "Export full application pages as markdown or text, individually on WhatsApp and as a one-click zip",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "REMAINING JOB ALERTS SITE - WORKING",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1718",
+  "title": "Package application pages by category and sort source platforms by category, with deadline query operators",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "REMAINING JOB ALERTS SITE - WORKING",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1719",
+  "title": "Add a quick calendar module on the control plane with combined deadline warnings to WhatsApp",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "REMAINING JOB ALERTS SITE - WORKING",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1720",
+  "title": "Put jev into the search query system so queries are semantic instead of boolean",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "REMAINING JOB ALERTS SITE - WORKING",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1721",
+  "title": "Redesign the job alerts control plane with the emilkowalski plugin and reorder the information architecture",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "REMAINING JOB ALERTS SITE - WORKING",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1722",
+  "title": "Write a fast calculator for total estimated messages, limited by the provider usage limit",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "REMAINING JOB ALERTS SITE - WORKING",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1723",
+  "title": "Add application tracking with no authentication, or a very simple Google authentication setup",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "REMAINING JOB ALERTS SITE - WORKING",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1724",
+  "title": "Port the job scoring system and prompts from job hunting into the job alerts site",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "REMAINING JOB ALERTS SITE - WORKING",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1787",
+  "title": "Build the self-contained network monitor desktop app with codex, wireguard and proactive diagnosis",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "the last component left to add is initiiate",
+  "confidence": "medium",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1880",
+  "title": "Decide whether personal_context needs a regularly updated wiki and pick a cheap tool",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "do i need to design/add a regularly updated wiki, and if so which tool would i use that wouldn't require expensive LLM (maybe jev or script based)? WORKING",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1917",
+  "title": "Add sticky note functionality to daily digest",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "also add sticky note (so there is persistence) WORKING",
+  "confidence": "high",
+  "source": "audit"
+ },
+ {
+  "task_id": "b1918",
+  "title": "Add shuffle button to tier one tasks in daily digest",
+  "current": "open",
+  "suggested": "started",
+  "evidence": "tasks (for days when i don't feel like using what's on the first presented list) with third option to open and select from the tier one tasks, those that i want on the stick note WORKING",
+  "confidence": "medium",
+  "source": "audit"
+ }
+]

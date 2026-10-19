@@ -60,6 +60,11 @@ def state():
     tasks = read_json(TASKS, {"tasks": []})["tasks"]
     ranked = tracker.ranked_open({"tasks": tasks})
     advisory = read_json(HERE / "marker-report.json", [])
+    for row in advisory:
+        row.setdefault("source", "marker")
+    for row in read_json(HERE / "audit-report.json", []):
+        advisory.append(row)
+    advisory.sort(key=lambda r: (r.get("confidence") == "high", r.get("source") == "audit"), reverse=True)
     return {
         "tasks": ranked,
         "counts": {
@@ -401,11 +406,16 @@ function renderAdvisory() {
   $("#adv-count").textContent = rows.length + " suggestions";
   $("#adv-rows").innerHTML = rows.map(e => {
     const current = live[e.task_id] || e.current;
+    const why = e.line !== undefined
+      ? escapeHtml(e.line) + (e.caveat ? " <em>(" + escapeHtml(e.caveat) + ")</em>" : "")
+      : escapeHtml(e.evidence || "");
+    const tag = e.marker !== undefined ? e.marker : (e.confidence || "") + " " + (e.source || "");
+    const src = e.source || "marker";
     return `
     <tr>
       <td>${escapeHtml(e.title)}</td>
-      <td class="why">${escapeHtml(e.line)}${e.caveat ? " <em>(" + escapeHtml(e.caveat) + ")</em>" : ""}</td>
-      <td>${e.suggested} <span class="pill">${escapeHtml(e.marker)}</span></td>
+      <td class="why">${why}</td>
+      <td>${e.suggested} <span class="pill">${escapeHtml(tag)}</span> <span class="pill">${src}</span></td>
       <td>${current}</td>
       <td><button data-adv="${e.task_id}" data-set="${e.suggested}">Apply</button></td>
     </tr>`;

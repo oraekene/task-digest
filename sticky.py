@@ -10,6 +10,7 @@ import json
 import pathlib
 import subprocess
 import sys
+import threading
 import tkinter as tk
 import webbrowser
 from datetime import date
@@ -44,7 +45,12 @@ def set_status(task_id, status):
             task["completed"] = date.today().isoformat() if status == "done" else None
             break
     write_tasks(data)
-    subprocess.run([sys.executable, "tracker.py", "digest"], cwd=HERE, capture_output=True)
+    threading.Thread(
+        target=lambda: subprocess.run(
+            [sys.executable, "tracker.py", "digest"], cwd=HERE, capture_output=True
+        ),
+        daemon=True,
+    ).start()
 
 
 def load_geometry():
@@ -59,7 +65,7 @@ class Sticky(tk.Tk):
     def __init__(self):
         super().__init__()
         self.overrideredirect(True)
-        self.attributes("-topmost", True)
+        self.attributes("-topmost", False)
         self.configure(bg=EDGE)
         w, h, x, y = load_geometry()
         self.geometry(f"{w}x{h}+{x}+{y}")

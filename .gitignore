@@ -7,8 +7,11 @@ tasks_new.json
 batches/batch_*.json
 logs/
 candidates.md
-extraction_cache.json__pycache__/
+extraction_cache.json
+__pycache__/
 cat_in_*.json
 cat_out_*.json
+audit_in_*.json
+audit_out_*.json
 *.tmp
 sticky.json
