@@ -32,7 +32,8 @@ digest, and start the morning pipeline by hand. It refuses to unlock read only.
 The tasks tab also chooses the day's focus. Tick tier 1 tasks and press Use
 checked, press Shuffle tier 1 for a random pick, or press Automatic to rank by
 score. The choice is stored in `today.json` and the digest and sticky note
-follow it.
+follow it. The automatic list is frozen at the first digest of the day, so
+finishing a task does not shuffle the list under your fingers.
 
 The advisory tab shows every completion marker found in your notes, with the
 note line as proof. Apply sets the suggested state. Rescan rebuilds the report.
@@ -40,9 +41,12 @@ The report stays advisory: nothing changes until you press Apply.
 
 ## The sticky note
 
-`pythonw sticky.py` opens an always-on-top note with the same picks as the
-digest. Each pick has Done, Started, and Open buttons. Shuffle, Console, and
-Refresh sit at the bottom. It refreshes itself every minute.
+`pythonw sticky.py` opens a borderless yellow note with the same picks as the
+digest. Tick a task to mark it done; the line stays for the day with a strike
+through it. Right-click a task to mark it started or open. Drag the top strip
+to move the note, drag the bottom right corner to resize, and use the small
+top links for shuffle, console, pin, and close. Position and size are saved in
+`sticky.json`. It refreshes itself every minute.
 
 ## Start at login
 

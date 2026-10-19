@@ -11,3 +11,4 @@ extraction_cache.json__pycache__/
 cat_in_*.json
 cat_out_*.json
 *.tmp
+sticky.json

@@ -111,15 +111,33 @@ def save_today(data: dict) -> None:
     TODAY_FILE.write_text(json.dumps(data, indent=2), encoding="utf-8")
 
 
+def snapshot_auto(tasks: dict, n: int = 7) -> None:
+    """Freeze the automatic top picks for today, so completed ones stay visible."""
+    choice = load_today()
+    if choice.get("date") == TODAY.isoformat() and choice.get("ids"):
+        return
+    ids = [t["id"] for t in ranked_open(tasks)[:n]]
+    save_today({"date": TODAY.isoformat(), "mode": "auto", "ids": ids})
+
+
 def today_picks(tasks: dict, n: int = 7) -> tuple[list[dict], str]:
     """Return the focus list and how it was chosen: auto, shuffle, or manual."""
     ranked = ranked_open(tasks)
     choice = load_today()
-    if choice.get("date") == TODAY.isoformat() and choice.get("mode") in ("shuffle", "manual"):
-        by_id = {t["id"]: t for t in ranked}
-        picks = [by_id[i] for i in choice.get("ids", []) if i in by_id]
+    if choice.get("date") == TODAY.isoformat() and choice.get("ids"):
+        all_by_id = {t["id"]: t for t in tasks["tasks"]}
+        picks = []
+        for task_id in choice["ids"]:
+            task = all_by_id.get(task_id)
+            if not task:
+                continue
+            if task.get("status") in ("open", "started"):
+                picks.append(task)
+            elif task.get("status") == "done" and task.get("completed") == TODAY.isoformat():
+                picks.append(task)
         if picks:
-            return picks, choice["mode"]
+            return picks, choice.get("mode") or "auto"
+    snapshot_auto(tasks, n)
     return ranked[:n], "auto"
 
 
@@ -154,7 +172,11 @@ def cmd_candidates(args) -> int:
 
 
 def wip(task: dict) -> str:
-    return " [started]" if task.get("status") == "started" else ""
+    if task.get("status") == "started":
+        return " [started]"
+    if task.get("status") == "done":
+        return " [done]"
+    return ""
 
 
 def label(task: dict) -> str:
