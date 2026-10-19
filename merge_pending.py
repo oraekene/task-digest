@@ -62,6 +62,8 @@ def main() -> int:
         conn_titles[nid] = (first.strip().splitlines()[0][:70] if first.strip() else "")
 
     seen = {norm(t["title"]) for t in tasks}
+    settings = json.loads((HERE / "settings.json").read_text(encoding="utf-8")) if (HERE / "settings.json").exists() else {}
+    use_deadlines = bool(settings.get("use_deadlines", False))
     fresh = json.loads(NEW.read_text(encoding="utf-8"))
     added = dupes = 0
     n = sum(1 for t in tasks if t["id"].startswith("b"))
@@ -91,7 +93,7 @@ def main() -> int:
             "category": t.get("category") or "none",
             "why": (t.get("why", "") + (f" | caveat: {caveat}" if caveat else "")).strip(" |"),
         }
-        categories.apply(task, use_deadlines=t.get("use_deadlines", False))
+        categories.apply(task, use_deadlines=use_deadlines)
         tasks.append(task)
         n += 1
         added += 1
