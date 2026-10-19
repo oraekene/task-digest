@@ -17,6 +17,7 @@ Scoring (from the Prioritization Engine spec, specs 01/03):
 import argparse
 import json
 import pathlib
+import random
 import re
 import sqlite3
 import sys
@@ -26,6 +27,7 @@ HERE = pathlib.Path(__file__).parent
 TASKS = HERE / "tasks.json"
 NOTES_DB = HERE / "notes.db"
 SETTINGS = HERE / "settings.json"
+TODAY_FILE = HERE / "today.json"
 TODAY = date.today()
 
 DEFAULTS = {"use_deadlines": False, "auto_extract": True, "notify_top": 3, "read_only": True}
@@ -96,6 +98,31 @@ def ranked_open(tasks: dict) -> list[dict]:
     return open_tasks
 
 
+def load_today() -> dict:
+    if TODAY_FILE.exists():
+        try:
+            return json.loads(TODAY_FILE.read_text(encoding="utf-8"))
+        except ValueError:
+            pass
+    return {"date": TODAY.isoformat(), "mode": "auto", "ids": []}
+
+
+def save_today(data: dict) -> None:
+    TODAY_FILE.write_text(json.dumps(data, indent=2), encoding="utf-8")
+
+
+def today_picks(tasks: dict, n: int = 7) -> tuple[list[dict], str]:
+    """Return the focus list and how it was chosen: auto, shuffle, or manual."""
+    ranked = ranked_open(tasks)
+    choice = load_today()
+    if choice.get("date") == TODAY.isoformat() and choice.get("mode") in ("shuffle", "manual"):
+        by_id = {t["id"]: t for t in ranked}
+        picks = [by_id[i] for i in choice.get("ids", []) if i in by_id]
+        if picks:
+            return picks, choice["mode"]
+    return ranked[:n], "auto"
+
+
 def cmd_candidates(args) -> int:
     conn = sqlite3.connect(NOTES_DB)
     seen = set()
@@ -144,23 +171,61 @@ def cmd_rank(args) -> int:
     return 0
 
 
+def cmd_shuffle(args) -> int:
+    tasks = load_tasks()
+    ranked = ranked_open(tasks)
+    tier_one = [t for t in ranked if t.get("tier") == 1]
+    pool = tier_one if len(tier_one) >= args.n else ranked
+    picks = random.sample(pool, min(args.n, len(pool)))
+    save_today({"date": TODAY.isoformat(), "mode": "shuffle", "ids": [t["id"] for t in picks]})
+    for task in picks:
+        print(f"{task['id']}  {task['title'][:80]}")
+    return 0
+
+
+def cmd_pick(args) -> int:
+    tasks = load_tasks()
+    open_ids = {t["id"] for t in ranked_open(tasks)}
+    bad = [i for i in args.ids if i not in open_ids]
+    if bad:
+        print("not open: " + ", ".join(bad))
+        return 1
+    save_today({"date": TODAY.isoformat(), "mode": "manual", "ids": args.ids})
+    print(f"{len(args.ids)} picks saved for {TODAY.isoformat()}")
+    return 0
+
+
+def cmd_auto(args) -> int:
+    save_today({"date": TODAY.isoformat(), "mode": "auto", "ids": []})
+    print("focus list back to automatic")
+    return 0
+
+
 def render_digest(tasks: dict, top_n: int = 7) -> str:
     ranked = ranked_open(tasks)
+    picks, mode = today_picks(tasks, top_n)
+    picked = {t["id"] for t in picks}
     today = TODAY.isoformat()
     lines = [f"# Morning digest — {today}", ""]
-    if ranked:
-        lines.append(f"## Today's focus ({min(top_n, len(ranked))})")
+    if picks:
+        lines.append(f"## Today's focus ({len(picks)})")
         lines.append("")
-        for i, task in enumerate(ranked[:top_n], 1):
+        if mode == "shuffle":
+            lines.append("Shuffled from tier 1.")
+            lines.append("")
+        elif mode == "manual":
+            lines.append("Your own picks.")
+            lines.append("")
+        for i, task in enumerate(picks, 1):
             dl = f" — due {task['deadline']}" if task.get("deadline") else ""
             src = f" (from note: {task['source_title'][:60]})" if task.get("source_title") else ""
             mar = wip(task)
             lines.append(f"{i}. {task['title']}{mar}{label(task)}{dl}{src}")
         lines.append("")
-    rest = ranked[top_n: top_n + 25]
-    lines.append(f"## Next up ({len(rest)} of {len(ranked) - top_n})")
+    rest = [t for t in ranked if t["id"] not in picked][:25]
+    lines.append(f"## Next up ({len(rest)} of {len(ranked) - len(picks)})")
     lines.append("")
-    for i, task in enumerate(rest, top_n + 1):
+    for i, task in enumerate(rest, len(picks) + 1):
         dl = f" — due {task['deadline']}" if task.get("deadline") else ""
         lines.append(f"{i}. {task['title']}{dl}")
     lines.append("")
@@ -214,6 +279,14 @@ def main() -> int:
     p.set_defaults(fn=cmd_config)
     p = sub.add_parser("digest")
     p.set_defaults(fn=cmd_digest)
+    p = sub.add_parser("shuffle")
+    p.add_argument("--n", type=int, default=7)
+    p.set_defaults(fn=cmd_shuffle)
+    p = sub.add_parser("pick")
+    p.add_argument("ids", nargs="+")
+    p.set_defaults(fn=cmd_pick)
+    p = sub.add_parser("auto")
+    p.set_defaults(fn=cmd_auto)
     args = parser.parse_args()
     return args.fn(args)
 

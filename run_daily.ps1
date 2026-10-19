@@ -10,11 +10,23 @@ $settings = Get-Content -LiteralPath (Join-Path $here 'settings.json') -Raw | Co
 
 function Note($msg) { "$(Get-Date -Format 'HH:mm:ss') $msg" | Add-Content -LiteralPath $log }
 
+$lock = Join-Path $logDir 'run.lock'
+if ((Test-Path $lock) -and ((Get-Date) - (Get-Item -LiteralPath $lock).LastWriteTime).TotalMinutes -lt 30) {
+    Note 'another run is active, stopping'
+    exit 0
+}
+Set-Content -LiteralPath $lock -Value (Get-Date -Format o)
+
 "=== $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') run start ===" | Add-Content -LiteralPath $log
 
 $gate = & $py (Join-Path $here 'gate.py') 2>&1
 Note "gate: $gate"
-if ($LASTEXITCODE -ne 0) { Note 'gate failed, stopping'; & (Join-Path $here 'notify.ps1') -Status 'Read-only gate failed'; exit 1 }
+if ($LASTEXITCODE -ne 0) {
+    Note 'gate failed, stopping'
+    Remove-Item -LiteralPath $lock -ErrorAction SilentlyContinue
+    & (Join-Path $here 'notify.ps1') -Status 'Read-only gate failed'
+    exit 1
+}
 
 & $py (Join-Path $here 'get_token.py') *>> $log
 & $py (Join-Path $here 'sync_notes.py') *>> $log
@@ -47,5 +59,23 @@ if ($changed -gt 0 -and $settings.auto_extract) {
 }
 
 & $py (Join-Path $here 'tracker.py') digest *>> $log
+
+$stamp = Join-Path $logDir 'last_success.txt'
+Get-Date -Format 'yyyy-MM-dd' | Set-Content -LiteralPath $stamp
+
+try {
+    git -C $here add tasks.json list.md today.json marker-report.md marker-report.json 'digest-*.md' 2>> $log
+    git -C $here diff --cached --quiet 2>> $log
+    if ($LASTEXITCODE -ne 0) {
+        git -C $here commit -q -m "Daily digest $(Get-Date -Format 'yyyy-MM-dd')" 2>> $log
+        Note 'daily commit made'
+    }
+    git -C $here push -q 2>> $log
+    if ($LASTEXITCODE -eq 0) { Note 'pushed' } else { Note 'push failed, will retry at login' }
+} catch {
+    Note "git step failed: $_"
+}
+
 & (Join-Path $here 'notify.ps1') -Status $status
+Remove-Item -LiteralPath $lock -ErrorAction SilentlyContinue
 "=== $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') run end ===" | Add-Content -LiteralPath $log

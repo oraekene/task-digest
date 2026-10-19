@@ -24,10 +24,32 @@ the run continues, so you always get yesterday's digest plus a clear signal.
 
 ## The console
 
-`python console.py` opens a local page at `http://127.0.0.1:8765/` with four
-tabs: tasks, digest, settings, and log. Use it to search and filter tasks,
-change status, tier, impact or category, switch settings, rebuild the digest,
-and start the morning pipeline by hand. It refuses to unlock read only.
+`python console.py` opens a local page at `http://127.0.0.1:8765/` with five
+tabs: tasks, digest, advisory, settings, and log. Use it to search and filter
+tasks, change status, tier, impact or category, switch settings, rebuild the
+digest, and start the morning pipeline by hand. It refuses to unlock read only.
+
+The tasks tab also chooses the day's focus. Tick tier 1 tasks and press Use
+checked, press Shuffle tier 1 for a random pick, or press Automatic to rank by
+score. The choice is stored in `today.json` and the digest and sticky note
+follow it.
+
+The advisory tab shows every completion marker found in your notes, with the
+note line as proof. Apply sets the suggested state. Rescan rebuilds the report.
+The report stays advisory: nothing changes until you press Apply.
+
+## The sticky note
+
+`pythonw sticky.py` opens an always-on-top note with the same picks as the
+digest. Each pick has Done, Started, and Open buttons. Shuffle, Console, and
+Refresh sit at the bottom. It refreshes itself every minute.
+
+## Start at login
+
+The scheduled task `TaskDigest Login` runs `login_start.ps1` at logon. It waits
+for the internet, so a login before the network is ready does not lose the
+morning run. If no run succeeded today, it runs one, pushes any waiting
+commits, then starts the console and the sticky note.
 
 ## Categories
 
@@ -67,6 +89,12 @@ Run only one step:
 .venv\Scripts\python.exe sync_notes.py    # incremental note sync
 python tracker.py digest                  # rebuild digest and list
 python tracker.py rank                    # print ranked open tasks
+python tracker.py shuffle --n 7           # random tier 1 focus for today
+python tracker.py pick b0123 b0456        # choose the focus by id
+python tracker.py auto                    # focus back to the score order
+python console.py                         # the console
+pythonw sticky.py                         # the sticky note
+python scan_markers.py                    # rebuild the advisory report
 ```
 
 Backfill tools, run only when notes were re-batched:
@@ -82,7 +110,8 @@ Backfill tools, run only when notes were re-batched:
 
 ## Files
 
-- `tasks.json` — the single reference list. The agent edits it, never the scripts.
+- `tasks.json` — the single reference list. The merge, console, and sticky note
+  edit it; the sync scripts never do.
 - `notes.db` — SQLite copy of all notes.
 - `pending_changes.json` — notes added, updated, or deleted in the last sync.
 - `digest-YYYY-MM-DD.md` — one file per morning.
@@ -90,6 +119,9 @@ Backfill tools, run only when notes were re-batched:
 - `batches/` — backfill working files. `EXTRACT.md` holds the extraction rules.
 - `categories.py` — one table of categories, tiers and impact floors.
 - `console.py` — the local graphical console.
+- `sticky.py` — the always-on-top note.
+- `today.json` — today's focus choice: automatic, shuffled, or picked.
+- `marker-report.md` and `marker-report.json` — the advisory state report.
 - `logs/run_daily.log` — morning run log.
 - `.token` — your Simplenote access token. Do not share this file.
 
@@ -111,6 +143,10 @@ on. Change a task's `tier` or `impact` in `tasks.json` to move it.
 - `api.simplenote.com` no longer exists. The Simperium API is the live path.
 - Scheduled task name: `TaskDigest Morning`, daily at 07:00, start when
   available if the laptop was asleep.
+- Scheduled task name: `TaskDigest Login`, at logon, waits for the internet.
+- The morning run commits `tasks.json`, `list.md`, the digest, the reports and
+  `today.json`, then pushes. If offline, it commits only and the login task
+  retries the push.
 - Hermes has its own cron (`%LOCALAPPDATA%\hermes\cron\jobs.json`) with Telegram
   delivery. A Hermes job can send this digest to Telegram later.
 

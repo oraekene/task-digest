@@ -68,8 +68,9 @@ def main() -> int:
     added = dupes = 0
     n = sum(1 for t in tasks if t["id"].startswith("b"))
     for t in fresh:
-        if not FIELDS.issuperset(t):
-            print(f"skipping malformed entry: {str(t)[:80]}")
+        if not FIELDS.issubset(t):
+            missing = ", ".join(sorted(FIELDS - set(t)))
+            print(f"skipping malformed entry ({missing}): {str(t)[:60]}")
             continue
         key = norm(t["title"])
         if not key or key in seen or is_dupe(t["title"], tasks):
