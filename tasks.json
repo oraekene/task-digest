@@ -773,7 +773,8 @@
       "impact": 0.3,
       "deadline": null,
       "first_seen": "2026-10-13",
-      "completed": "2026-10-13"
+      "completed": "2026-10-13",
+      "category": "none"
     },
     {
       "id": "d002",
@@ -786,7 +787,8 @@
       "impact": 0.2,
       "deadline": null,
       "first_seen": "2026-10-13",
-      "completed": "2026-10-13"
+      "completed": "2026-10-13",
+      "category": "none"
     },
     {
       "id": "d003",
@@ -799,7 +801,8 @@
       "impact": 0.2,
       "deadline": null,
       "first_seen": "2026-10-15",
-      "completed": "2026-10-15"
+      "completed": "2026-10-15",
+      "category": "none"
     },
     {
       "id": "b0001",
