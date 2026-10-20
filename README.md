@@ -45,12 +45,15 @@ advisory: nothing changes until you press Apply.
 
 ## The sticky note
 
-`pythonw sticky.py` opens a borderless yellow note with the same picks as the
-digest. Tick a task to mark it done; the line stays for the day with a strike
-through it. Right-click a task to mark it started or open. Drag the top strip
-to move the note, drag the bottom right corner to resize, and use the small
-top links for shuffle, console, pin, and close. Position and size are saved in
-`sticky.json`. It refreshes itself every minute.
+`pythonw sticky.py` opens a warm paper note with the same picks as the digest.
+Each task is one line, and a long title ends in an ellipsis, so shuffling never
+clips or stacks rows. Click a line to tick it done; the line stays for the day,
+greyed. Right-click a line to mark it started or open. Drag anywhere to move
+the note, drag the bottom right corner to resize, and scroll when the note is
+shorter than the list. The small top links are shuffle, console, pin, and close.
+The note is not always on top: the pin link raises it above other windows, and
+it lifts itself above the desktop when you show the desktop. Position and size
+are saved in `sticky.json`. It refreshes itself every minute.
 
 ## Start at login
 
@@ -68,8 +71,9 @@ money-machine, blocks-work, health-safety, legal-account, outgoing-due,
 incoming-window, promise, to-save, new-opportunity, and none. The full table is
 in `categories.py` and in `batches/EXTRACT.md`.
 
-When `TYPESAFE_API_KEY` is set, `merge_pending.py` asks Jev (Typesafe System
-One, a cheap hosted classifier) to label each new task that arrived as none, so
+When `TYPESAFE_API_KEY` is set, or `.jev_key` next to the scripts holds the
+key, `merge_pending.py` asks Jev (Typesafe System One, a cheap hosted
+classifier) to label each new task that arrived as none, so
 new notes are categorised without an agent run. `python jev_categorize.py
 check [N]` compares Jev against the current labels on a sample and writes
 `jev-check.json`. The first sample agreed 40 percent: Jev is more conservative
@@ -146,6 +150,8 @@ Backfill tools, run only when notes were re-batched:
   per batch against the prompt, then merge. Output is advisory, like markers.
 - `logs/run_daily.log` — morning run log.
 - `.token` — your Simplenote access token. Do not share this file.
+- `.jev_key` — your Jev (Typesafe) API key, used only when `TYPESAFE_API_KEY`
+  is not set. Do not share this file.
 
 ## How scoring works
 

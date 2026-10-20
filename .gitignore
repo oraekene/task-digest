@@ -17,3 +17,4 @@ jev_cache.json
 jev-check.json
 *.tmp
 sticky.json
+.jev_key

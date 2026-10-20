@@ -69,6 +69,8 @@ def main() -> int:
     jev = {}
     need_cat = [t for t in fresh if FIELDS.issubset(t) and (t.get("category") or "none") == "none"]
     key = os.environ.get("TYPESAFE_API_KEY", "").strip()
+    if not key and (HERE / ".jev_key").exists():
+        key = (HERE / ".jev_key").read_text(encoding="utf-8").strip()
     if need_cat and key:
         try:
             import jev_categorize

@@ -50,6 +50,14 @@ INSTRUCTION = (
 )
 
 
+def api_key() -> str:
+    key = os.environ.get("TYPESAFE_API_KEY", "").strip()
+    if key:
+        return key
+    path = HERE / ".jev_key"
+    return path.read_text(encoding="utf-8").strip() if path.exists() else ""
+
+
 def load_cache() -> dict:
     if CACHE.exists():
         return json.loads(CACHE.read_text(encoding="utf-8"))
@@ -124,9 +132,9 @@ def classify(tasks: list, key: str, cache: dict) -> dict:
 
 
 def main() -> int:
-    key = os.environ.get("TYPESAFE_API_KEY", "").strip()
+    key = api_key()
     if not key:
-        print("TYPESAFE_API_KEY is not set; nothing done")
+        print("no TYPESAFE_API_KEY and no .jev_key file; nothing done")
         return 1
     mode = sys.argv[1] if len(sys.argv) > 1 else "check"
     data = json.loads((HERE / "tasks.json").read_text(encoding="utf-8"))
