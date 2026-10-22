@@ -24,16 +24,19 @@ the run continues, so you always get yesterday's digest plus a clear signal.
 
 ## The console
 
-`python console.py` opens a local page at `http://127.0.0.1:8765/` with five
-tabs: tasks, digest, advisory, settings, and log. Use it to search and filter
-tasks, change status, tier, impact or category, switch settings, rebuild the
-digest, and start the morning pipeline by hand. It refuses to unlock read only.
+`python console.py` opens a local page at `http://127.0.0.1:8765/` with six
+tabs: tasks, digest, advisory, lapsed, settings, and log. Use it to search and
+filter tasks, change status, tier, impact, category or a deadline, switch
+settings, rebuild the digest, and start the morning pipeline by hand. It
+refuses to unlock read only. When you mark a task done, it warns if a
+prerequisite is still open.
 
 The tasks tab also chooses the day's focus. Tick tier 1 tasks and press Use
-checked, press Shuffle tier 1 for a random pick, or press Automatic to rank by
-score. The choice is stored in `today.json` and the digest and sticky note
+checked, press Shuffle to randomize the normal rows, or press Automatic to rank
+by score. The choice is stored in `today.json` and the digest and sticky note
 follow it. The automatic list is frozen at the first digest of the day, so
-finishing a task does not shuffle the list under your fingers.
+with refill off, finishing a task does not shuffle the list under your fingers.
+Band and value rows stay in place when you shuffle.
 
 The advisory tab shows every completion marker found in your notes, with the
 note line as proof. It also shows the findings of the state audit: a full pass
@@ -43,12 +46,27 @@ pill (marker or audit) and a confidence. Apply sets the suggested state. Rescan
 rebuilds the marker report; the audit is rebuilt by hand. Everything stays
 advisory: nothing changes until you press Apply.
 
+The digest shows up to `lapse_alert_top` lapsed tasks in a short Lapsed section,
+so they do not disappear without a question. The lapsed tab lists every open or
+started task whose deadline is older than `lapse_limit_days`, grouped by how
+the cost ages. Compounding cost is oldest
+first, expiring chance is newest lapse first, and fixed loss is highest score
+first. Done marks the task finished. Re-date asks for a new deadline and puts
+the task back in the band. Keep gives it a new `keep_until` window and returns
+it to the normal list. Drop sets the status to dropped, so the task leaves the
+focus, the digest and the counts.
+
 ## The sticky note
 
 `pythonw sticky.py` opens a warm paper note with the same picks as the digest.
 Each task is one line, and a long title ends in an ellipsis, so shuffling never
-clips or stacks rows. Click a line to tick it done; the line stays for the day,
-greyed. Right-click a line to mark it started or open. Drag anywhere to move
+clips or stacks rows. Band rows carry a short due chip: late, today, or the
+number of days left. Hover a line to see the full title, tier, category,
+status, deadline, keep window, and any open prerequisite in a small dark card. Empty means open, a blue dash means started, and a filled tick means
+done; a click moves open to started, started to done, and done back to open.
+Done lines stay for the day, greyed. Right-click a line to jump straight to any
+state, and on a line with a deadline, Keep 7 days exempts it from the lapsed
+list for a week. Drag anywhere to move
 the note, drag the bottom right corner to resize, and scroll when the note is
 shorter than the list. The small top links are shuffle, console, pin, and close.
 The note is not always on top: the pin link raises it above other windows, and
@@ -88,12 +106,24 @@ left alone and Jev only handles new tasks.
 python tracker.py config                  # show all
 python tracker.py config use_deadlines true
 python tracker.py config auto_extract false
+python tracker.py config focus_size 7
 ```
 
 - `read_only` must stay true. `gate.py` fails the run if it is not.
-- `use_deadlines` turns on date-based urgency. Off means age drives urgency.
+- `use_deadlines` turns on the deadline band and date-based urgency. Off means
+  age drives urgency.
 - `auto_extract` turns the headless extraction step on or off.
 - `notify_top` sets how many tasks the toast shows.
+- `focus_size` sets how many open tasks the focus list holds (1-10).
+- `value_slots` protects slots for high-value tasks with no band deadline
+  (`tier` 2 or higher and `impact` 0.3 or higher).
+- `band_late_days` and `band_ahead_days` set the deadline band (7-14 each).
+- `refill_when_done` adds the next task below a completed row. It is off by
+  default.
+- `lapse_limit_days` sets when a past deadline makes a task lapsed.
+  `keep_days` is the default keep window for a lapsed task.
+- `routine_slots`, `lapse_alert_top`, and `lapse_alert_days` are reserved for
+  the routines panel and the lapse alerts.
 
 ## Commands
 
@@ -109,9 +139,11 @@ Run only one step:
 .venv\Scripts\python.exe sync_notes.py    # incremental note sync
 python tracker.py digest                  # rebuild digest and list
 python tracker.py rank                    # print ranked open tasks
-python tracker.py shuffle --n 7           # random tier 1 focus for today
+python tracker.py check                   # report bad or cyclic prerequisites
+python tracker.py shuffle                 # randomize the normal focus rows
 python tracker.py pick b0123 b0456        # choose the focus by id
 python tracker.py auto                    # focus back to the score order
+python test_rank.py                       # self-check the ranking core
 python console.py                         # the console
 pythonw sticky.py                         # the sticky note
 python scan_markers.py                    # rebuild the advisory report
@@ -139,11 +171,16 @@ Backfill tools, run only when notes were re-batched:
 - `digest-YYYY-MM-DD.md` — one file per morning.
 - `list.md` — every open task, most important first.
 - `batches/` — backfill working files. `EXTRACT.md` holds the extraction rules.
-- `categories.py` — one table of categories, tiers and impact floors.
+- `categories.py` — one table of categories, tiers and impact floors, and how a
+  missed deadline ages.
+- `tracker.py` — scoring, rank, digest, today's picks, and dependency checks.
+- `test_rank.py` — self-check for band, value, lapsed order, refill, effort,
+  and dependency rules.
 - `console.py` — the local graphical console.
 - `sticky.py` — the small desktop paper note. It is not always on top by
   default; the pin link raises it above other windows when you want that.
-- `today.json` — today's focus choice: automatic, shuffled, or picked.
+- `today.json` — today's focus choice: automatic, shuffled, or picked. It also
+  records the band, value, routine, and auto-added task ids.
 - `marker-report.md` and `marker-report.json` — the marker scan report.
 - `audit_prompt.md`, `audit_dump.py`, `audit_apply.py`, `audit-report.json` —
   the full note-by-note state audit: dump notes with their tasks, run one agent
@@ -153,13 +190,45 @@ Backfill tools, run only when notes were re-batched:
 - `.jev_key` — your Jev (Typesafe) API key, used only when `TYPESAFE_API_KEY`
   is not set. Do not share this file.
 
+## How the focus list is built
+
+Each morning `tracker.py` ranks open tasks by score. Before it picks the focus,
+it removes lapsed tasks: open or started tasks whose deadline is more than
+`lapse_limit_days` old and whose `keep_until` is not in the future. It also
+removes routine occurrences. The focus list then has three parts.
+
+1. The deadline band: overdue tasks, tasks due within 3 days, tasks due within
+   7 days, and tasks due within `band_ahead_days` when that is more than 7. Band
+   rows rank by bucket, then score, then deadline, then age, then id.
+2. Value slots: high-impact tasks with no band deadline.
+3. Normal rows: the remaining tasks by score.
+
+The list holds `focus_size` open tasks and never pads. Shuffle keeps the band
+and value rows and randomizes only the normal rows. With `refill_when_done` on,
+a completed row stays visible and the next task appears below it; the open
+count stays at `focus_size`. Reopening the sticky note removes auto-added rows.
+
+## Effort and dependencies
+
+A task may carry `"effort": "S"`, `"M"`, or `"L"`, and
+`"prerequisites": ["b0123"]`. The extraction step sets effort; prerequisite
+links are added later. When two tasks have the same score, the task that
+unblocks more open tasks ranks first. Then S ranks before M, and M before L.
+Unknown effort counts as M. A task with an unfinished prerequisite gets a
+`[prereq]` marker in the digest and list. The console warns when you complete a
+task with an unfinished prerequisite.
+
+`python tracker.py check` lists missing prerequisite ids, self dependencies,
+and cycles.
+
 ## How scoring works
 
 The score comes from the prioritization engine spec (specs 01 and 03).
 Tier weight is 100, 50, 25, or 12 for P1, P2, P3, P4. A deadline adds urgency,
 otherwise age adds urgency up to 0.5. Impact adds 0 to 0.5. Higher score ranks
-first. Ties go to the oldest task, so new tasks do not leapfrog older important
-ones. Any open task older than 45 days drops one tier, because it was not acted
+first. Ties go to the task that unblocks more open tasks, then to S/M/L effort,
+then to the oldest task, so new tasks do not leapfrog older important ones. Any
+open task older than 45 days drops one tier, because it was not acted
 on. Change a task's `tier` or `impact` in `tasks.json` to move it.
 
 ## Key facts
@@ -187,3 +256,7 @@ on. Change a task's `tier` or `impact` in `tasks.json` to move it.
   human to check, because pattern matching reads "when i am done" as DONE.
 - Categories were assigned by a language model in eight batches. Spot check
   `list.md` and correct any label in the console.
+- No task has a deadline yet, so the band and lapsed behavior are tested only
+  with synthetic data.
+- No task has an effort label or prerequisite link yet, so the new tiebreak and
+  completion warning are tested only with synthetic data.

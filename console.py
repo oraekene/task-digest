@@ -11,7 +11,6 @@ import argparse
 import json
 import os
 import pathlib
-import random
 import subprocess
 import sys
 import threading
@@ -26,9 +25,10 @@ HERE = pathlib.Path(__file__).parent
 TASKS = HERE / "tasks.json"
 SETTINGS = HERE / "settings.json"
 LOG = HERE / "logs" / "run_daily.log"
-EDITABLE = {"tier", "impact", "status", "category"}
-STATUSES = ("open", "started", "done")
-SETTING_KEYS = {"use_deadlines", "auto_extract", "notify_top"}
+EDITABLE = {"tier", "impact", "status", "category", "deadline", "keep_until"}
+STATUSES = ("open", "started", "done", "dropped")
+SETTING_KEYS = set(tracker.DEFAULTS) - {"read_only"}
+BOOL_SETTINGS = {"use_deadlines", "auto_extract", "refill_when_done"}
 LOCK = threading.Lock()
 
 
@@ -58,7 +58,8 @@ def latest_digest():
 
 def state():
     tasks = read_json(TASKS, {"tasks": []})["tasks"]
-    ranked = tracker.ranked_open({"tasks": tasks})
+    settings = tracker.load_settings()
+    ranked = tracker.ranked_open({"tasks": tasks}, settings)
     advisory = read_json(HERE / "marker-report.json", [])
     for row in advisory:
         row.setdefault("source", "marker")
@@ -68,13 +69,25 @@ def state():
     return {
         "tasks": ranked,
         "counts": {
-            "open": sum(1 for t in tasks if t.get("status") == "open"),
-            "started": sum(1 for t in tasks if t.get("status") == "started"),
+            "open": sum(
+                1 for t in tasks
+                if t.get("status") == "open"
+                and not t.get("routine_id")
+                and not tracker.is_lapsed(t, settings)
+            ),
+            "started": sum(
+                1 for t in tasks
+                if t.get("status") == "started"
+                and not t.get("routine_id")
+                and not tracker.is_lapsed(t, settings)
+            ),
             "done": sum(1 for t in tasks if t.get("status") == "done"),
+            "lapsed": sum(1 for t in tasks if tracker.is_lapsed(t, settings)),
         },
-        "settings": read_json(SETTINGS, {}),
+        "settings": settings,
         "categories": list(categories.CATEGORY_TIERS),
         "today": tracker.load_today(),
+        "lapsed": tracker.lapsed_tasks({"tasks": tasks}, settings),
         "advisory": advisory,
         "digest": latest_digest(),
         "log": tail(LOG, 60),
@@ -91,27 +104,44 @@ def rebuild_digest():
 
 
 def choose_today(ids):
-    open_ids = {t["id"] for t in tracker.ranked_open(read_json(TASKS, {"tasks": []}))}
+    tasks = read_json(TASKS, {"tasks": []})
+    settings = tracker.load_settings()
+    open_ids = {t["id"] for t in tracker.ranked_open(tasks, settings)}
     ids = [i for i in ids if i in open_ids]
     if not ids:
         raise ValueError("no open tasks selected")
-    tracker.save_today({"date": date.today().isoformat(), "mode": "manual", "ids": ids})
+    tracker.save_today({
+        "date": date.today().isoformat(),
+        "mode": "manual",
+        "ids": ids,
+        "band_ids": [],
+        "value_ids": [],
+        "routine_ids": [],
+        "auto_added": [],
+    })
     rebuild_digest()
     return state()
 
 
-def shuffle_today(n=7):
-    ranked = tracker.ranked_open(read_json(TASKS, {"tasks": []}))
-    tier_one = [t for t in ranked if t.get("tier") == 1]
-    pool = tier_one if len(tier_one) >= n else ranked
-    picks = random.sample(pool, min(n, len(pool)))
-    tracker.save_today({"date": date.today().isoformat(), "mode": "shuffle", "ids": [t["id"] for t in picks]})
+def shuffle_today():
+    tasks = read_json(TASKS, {"tasks": []})
+    picks = tracker.shuffle_day(tasks, tracker.load_settings())
+    if not picks:
+        raise ValueError("nothing to shuffle")
     rebuild_digest()
     return state()
 
 
 def auto_today():
-    tracker.save_today({"date": date.today().isoformat(), "mode": "auto", "ids": []})
+    tracker.save_today({
+        "date": date.today().isoformat(),
+        "mode": "auto",
+        "ids": [],
+        "band_ids": [],
+        "value_ids": [],
+        "routine_ids": [],
+        "auto_added": [],
+    })
     rebuild_digest()
     return state()
 
@@ -128,6 +158,15 @@ def update_task(body):
         raise ValueError("bad status")
     if field == "category" and value not in categories.CATEGORY_TIERS:
         raise ValueError("bad category")
+    if field in ("deadline", "keep_until"):
+        value = str(value or "").strip()
+        if value:
+            try:
+                date.fromisoformat(value)
+            except ValueError:
+                raise ValueError("date must be YYYY-MM-DD")
+        else:
+            value = None
     data = read_json(TASKS, {"tasks": []})
     task = next((t for t in data["tasks"] if t["id"] == task_id), None)
     if task is None:
@@ -143,10 +182,17 @@ def update_task(body):
             task["completed"] = task["completed"] or date.today().isoformat()
         else:
             task["completed"] = None
+    elif field in ("deadline", "keep_until"):
+        task[field] = value
+        if field == "deadline":
+            task.pop("keep_until", None)
     else:
         task["category"] = value
+    warning = ""
+    if field == "status" and value == "done":
+        warning = tracker.completion_warning(task, data)
     write_json(TASKS, data)
-    return task
+    return {**task, "warning": warning}
 
 
 def update_settings(body):
@@ -155,12 +201,19 @@ def update_settings(body):
         raise ValueError("read_only is locked")
     if key not in SETTING_KEYS:
         raise ValueError(f"cannot edit {key}")
-    data = read_json(SETTINGS, {})
-    if key == "notify_top":
-        value = max(1, min(int(value), 20))
-    elif isinstance(data.get(key), bool) or key in ("use_deadlines", "auto_extract"):
-        value = bool(value)
+    data = tracker.load_settings()
+    if key in BOOL_SETTINGS:
+        if isinstance(value, str):
+            value = value.lower() in ("1", "true", "yes", "on")
+        else:
+            value = bool(value)
+    else:
+        try:
+            value = int(value)
+        except (TypeError, ValueError):
+            raise ValueError(f"{key} needs a number")
     data[key] = value
+    data = tracker.clamp_settings(data)
     write_json(SETTINGS, data)
     return data
 
@@ -224,7 +277,7 @@ class Handler(BaseHTTPRequestHandler):
                     else:
                         self.send(200, choose_today(body.get("ids") or []))
                 elif self.path == "/api/shuffle":
-                    self.send(200, shuffle_today(int(body.get("n") or 7)))
+                    self.send(200, shuffle_today())
                 elif self.path == "/api/scan":
                     subprocess.run(
                         [sys.executable, "scan_markers.py"],
@@ -281,6 +334,7 @@ PAGE = r"""<!doctype html>
     <button data-tab="tasks" class="active">Tasks</button>
     <button data-tab="digest">Digest</button>
     <button data-tab="advisory">Advisory</button>
+    <button data-tab="lapsed">Lapsed</button>
     <button data-tab="settings">Settings</button>
     <button data-tab="log">Log</button>
   </nav>
@@ -290,12 +344,12 @@ PAGE = r"""<!doctype html>
   <section id="tasks">
     <div id="bar">
       <input id="search" type="search" placeholder="Search title or reason">
-      <select id="f-status"><option value="">Any status</option><option>open</option><option>started</option><option>done</option></select>
+      <select id="f-status"><option value="">Any status</option><option>open</option><option>started</option><option>done</option><option>dropped</option></select>
       <select id="f-tier"><option value="">Any tier</option><option value="1">Tier 1</option><option value="2">Tier 2</option><option value="3">Tier 3</option><option value="4">Tier 4</option></select>
       <select id="f-cat"><option value="">Any category</option></select>
       <span id="shown" style="color:#888"></span>
       <span id="mode" style="color:#888"></span>
-      <button id="shuffle" title="Pick today's focus at random from tier 1">Shuffle tier 1</button>
+      <button id="shuffle" title="Randomize the normal rows; band and value rows stay">Shuffle</button>
       <button id="use-picked" title="Use the ticked tier 1 tasks for today">Use checked</button>
       <button id="auto-pick" title="Back to the top ranked tasks">Automatic</button>
       <button id="refresh">Refresh</button>
@@ -320,10 +374,12 @@ PAGE = r"""<!doctype html>
       <tbody id="adv-rows"></tbody>
     </table>
   </section>
+  <section id="lapsed" class="hide">
+    <div class="row"><span id="lapsed-count" style="color:#888"></span></div>
+    <div id="lapsed-rows"></div>
+  </section>
   <section id="settings" class="hide">
-    <div class="row"><label><input type="checkbox" id="s-deadlines"> Use deadlines for urgency</label></div>
-    <div class="row"><label><input type="checkbox" id="s-extract"> Extract new notes automatically each morning</label></div>
-    <div class="row"><label>Tasks in the toast: <input type="number" id="s-top" min="1" max="20"></label></div>
+    <div id="settings-rows"></div>
     <div class="row"><span class="pill">read only: locked on</span> The gate stops the morning run if this is ever false.</div>
     <div class="row"><button id="save-settings">Save settings</button></div>
     <hr>
@@ -382,7 +438,7 @@ function render() {
       <td class="num">${i + 1}</td>
       <td>${t.tier === 1 ? `<input type="checkbox" class="pickbox" data-id="${t.id}">` : ""}</td>
       <td class="title">${escapeHtml(t.title)}${t.status === "started" ? ' <span class="pill">started</span>' : ""}</td>
-      <td><select data-id="${t.id}" data-field="status">${options(["open","started","done"], t.status)}</select></td>
+      <td><select data-id="${t.id}" data-field="status">${options(["open","started","done","dropped"], t.status)}</select></td>
       <td><select data-id="${t.id}" data-field="tier">${options([1,2,3,4], t.tier)}</select></td>
       <td><select data-id="${t.id}" data-field="impact">${options([0,0.1,0.2,0.3,0.4,0.5], t.impact)}</select></td>
       <td><select data-id="${t.id}" data-field="category">${options(state.categories, t.category || "none")}</select></td>
@@ -422,19 +478,86 @@ function renderAdvisory() {
   }).join("");
 }
 
+const SETTING_DEFS = [
+  ["use_deadlines", "Use deadlines for urgency", "bool"],
+  ["auto_extract", "Extract new notes automatically each morning", "bool"],
+  ["refill_when_done", "Refill the focus list when a task is done", "bool"],
+  ["notify_top", "Tasks in the toast", 1, 20],
+  ["focus_size", "Focus tasks per day", 1, 10],
+  ["value_slots", "Protected value slots", 0, 10],
+  ["band_late_days", "Deadline band: days late", 7, 14],
+  ["band_ahead_days", "Deadline band: days ahead", 7, 14],
+  ["routine_slots", "Routine rows", 0, 5],
+  ["lapse_limit_days", "Lapse after days", 1, 365],
+  ["keep_days", "Keep a lapsed task for days", 1, 365],
+  ["lapse_alert_top", "Lapsed alert: top N", 1, 10],
+  ["lapse_alert_days", "Lapsed alert: every N days", 1, 30],
+];
+
+function renderSettings() {
+  $("#settings-rows").innerHTML = SETTING_DEFS.map(([key, label, a, b]) => {
+    const value = state.settings[key];
+    if (a === "bool") {
+      return `<div class="row"><label><input type="checkbox" data-setting="${key}" ${value ? "checked" : ""}> ${label}</label></div>`;
+    }
+    return `<div class="row"><label>${label}: <input type="number" data-setting="${key}" min="${a}" max="${b}" value="${value ?? ""}"></label></div>`;
+  }).join("");
+}
+
+const LAPSE_GROUPS = [
+  ["compounding", "Compounding cost", "oldest first"],
+  ["expiring", "Expiring chance", "newest lapse first"],
+  ["capped", "Fixed loss", "highest score first"],
+];
+
+function localDatePlus(days) {
+  const d = new Date();
+  d.setDate(d.getDate() + days);
+  const p = n => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
+
+function renderLapsed() {
+  const rows = state.lapsed || [];
+  $("#lapsed-count").textContent = rows.length + " lapsed";
+  if (!rows.length) {
+    $("#lapsed-rows").innerHTML = '<p style="color:#888">No lapsed tasks. A task lands here when its deadline is more than the lapse limit old.</p>';
+    return;
+  }
+  $("#lapsed-rows").innerHTML = LAPSE_GROUPS.map(([kind, title, hint]) => {
+    const group = rows.filter(t => (t.lapse_kind || "capped") === kind);
+    if (!group.length) return "";
+    return `<h3>${title} <span class="pill">${group.length}</span>
+      <span style="color:#888;font-size:12px">${hint}</span></h3>
+      <table><thead><tr><th>Task</th><th>Category</th><th>Overdue</th><th>Keep until</th><th></th></tr></thead><tbody>
+      ${group.map(t => `<tr>
+        <td class="title">${escapeHtml(t.title)}</td>
+        <td>${escapeHtml(t.category || "none")}</td>
+        <td>${t.lapse_days} days</td>
+        <td>${escapeHtml(t.keep_until || "")}</td>
+        <td style="white-space:nowrap">
+          <button data-lapse="done" data-id="${t.id}">Done</button>
+          <button data-lapse="redate" data-id="${t.id}">Re-date</button>
+          <button data-lapse="keep" data-id="${t.id}">Keep ${state.settings.keep_days || 14}d</button>
+          <button data-lapse="drop" data-id="${t.id}">Drop</button>
+        </td>
+      </tr>`).join("")}
+      </tbody></table>`;
+  }).join("");
+}
+
 async function load() {
   state = await api("/api/state");
-  $("#counts").textContent = `${state.counts.open} open · ${state.counts.started} started · ${state.counts.done} done`;
+  $("#counts").textContent = `${state.counts.open} open · ${state.counts.started} started · ${state.counts.done} done · ${state.counts.lapsed} lapsed`;
   const cat = $("#f-cat");
   const current = cat.value;
   cat.innerHTML = '<option value="">Any category</option>' + options(state.categories, current);
   render();
   renderAdvisory();
+  renderLapsed();
+  renderSettings();
   $("#digest-text").textContent = state.digest;
   $("#log-text").textContent = state.log;
-  $("#s-deadlines").checked = !!state.settings.use_deadlines;
-  $("#s-extract").checked = !!state.settings.auto_extract;
-  $("#s-top").value = state.settings.notify_top || 3;
 }
 
 $("#tabs").addEventListener("click", (e) => {
@@ -442,19 +565,20 @@ $("#tabs").addEventListener("click", (e) => {
   if (!btn) return;
   activeTab = btn.dataset.tab;
   document.querySelectorAll("#tabs button").forEach(b => b.classList.toggle("active", b === btn));
-  for (const id of ["tasks", "digest", "advisory", "settings", "log"]) $("#" + id).classList.toggle("hide", id !== activeTab);
+  for (const id of ["tasks", "digest", "advisory", "lapsed", "settings", "log"]) $("#" + id).classList.toggle("hide", id !== activeTab);
   if (activeTab === "digest") api("/api/state").then(s => $("#digest-text").textContent = s.digest);
   if (activeTab === "log") api("/api/state").then(s => $("#log-text").textContent = s.log);
   if (activeTab === "advisory") api("/api/state").then(s => { state = s; renderAdvisory(); });
+  if (activeTab === "lapsed") api("/api/state").then(s => { state = s; renderLapsed(); });
 });
 
 $("#rows").addEventListener("change", async (e) => {
   const sel = e.target.closest("select");
   if (!sel) return;
   try {
-    await api("/api/task", { id: sel.dataset.id, field: sel.dataset.field, value: sel.value });
+    const res = await api("/api/task", { id: sel.dataset.id, field: sel.dataset.field, value: sel.value });
     await load();
-    toast("Saved");
+    toast(res.warning || "Saved");
   } catch (err) { toast(err.message); }
 });
 
@@ -465,7 +589,7 @@ for (const id of ["#search", "#f-status", "#f-tier", "#f-cat"]) {
 $("#refresh").addEventListener("click", load);
 
 $("#shuffle").addEventListener("click", async () => {
-  try { await api("/api/shuffle", { n: 7 }); await load(); toast("Shuffled tier 1"); }
+  try { await api("/api/shuffle", {}); await load(); toast("Shuffled normal rows"); }
   catch (err) { toast(err.message); }
 });
 
@@ -487,10 +611,33 @@ $("#adv-rows").addEventListener("click", async (e) => {
   const btn = e.target.closest("button[data-adv]");
   if (!btn) return;
   try {
-    await api("/api/task", { id: btn.dataset.adv, field: "status", value: btn.dataset.set });
+    const res = await api("/api/task", { id: btn.dataset.adv, field: "status", value: btn.dataset.set });
     applied.add(btn.dataset.adv);
     await load();
-    toast("State updated");
+    toast(res.warning || "State updated");
+  } catch (err) { toast(err.message); }
+});
+
+$("#lapsed-rows").addEventListener("click", async (e) => {
+  const btn = e.target.closest("button[data-lapse]");
+  if (!btn) return;
+  const id = btn.dataset.id;
+  const action = btn.dataset.lapse;
+  try {
+    let res;
+    if (action === "done") {
+      res = await api("/api/task", { id, field: "status", value: "done" });
+    } else if (action === "drop") {
+      res = await api("/api/task", { id, field: "status", value: "dropped" });
+    } else if (action === "keep") {
+      res = await api("/api/task", { id, field: "keep_until", value: localDatePlus(Number(state.settings.keep_days) || 14) });
+    } else if (action === "redate") {
+      const entered = prompt("New deadline (YYYY-MM-DD)", localDatePlus(1));
+      if (!entered) return;
+      res = await api("/api/task", { id, field: "deadline", value: entered.trim() });
+    }
+    await load();
+    toast(res.warning || "Lapsed task updated");
   } catch (err) { toast(err.message); }
 });
 
@@ -511,9 +658,11 @@ $("#rebuild").addEventListener("click", async () => {
 
 $("#save-settings").addEventListener("click", async () => {
   try {
-    await api("/api/settings", { key: "use_deadlines", value: $("#s-deadlines").checked });
-    await api("/api/settings", { key: "auto_extract", value: $("#s-extract").checked });
-    await api("/api/settings", { key: "notify_top", value: $("#s-top").value });
+    for (const el of document.querySelectorAll("[data-setting]")) {
+      const key = el.dataset.setting;
+      const value = el.type === "checkbox" ? el.checked : el.value;
+      await api("/api/settings", { key, value });
+    }
     toast("Settings saved");
     await load();
   } catch (err) { toast(err.message); }

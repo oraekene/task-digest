@@ -61,6 +61,7 @@ def main() -> int:
     conn = sqlite3.connect(HERE / "notes.db")
     for nid, first in conn.execute("SELECT id, content FROM notes"):
         conn_titles[nid] = (first.strip().splitlines()[0][:70] if first.strip() else "")
+    conn.close()
 
     seen = {norm(t["title"]) for t in tasks}
     settings = json.loads((HERE / "settings.json").read_text(encoding="utf-8")) if (HERE / "settings.json").exists() else {}
@@ -110,6 +111,9 @@ def main() -> int:
             "category": category,
             "why": (t.get("why", "") + (f" | caveat: {caveat}" if caveat else "")).strip(" |"),
         }
+        effort = str(t.get("effort") or "").strip().upper()
+        if effort in ("S", "M", "L"):
+            task["effort"] = effort
         categories.apply(task, use_deadlines=use_deadlines)
         tasks.append(task)
         n += 1

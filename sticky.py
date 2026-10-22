@@ -17,7 +17,7 @@ import time
 import tkinter as tk
 import tkinter.font as tkfont
 import webbrowser
-from datetime import date
+from datetime import date, timedelta
 
 import tracker
 
@@ -63,6 +63,21 @@ def set_status(task_id, status):
         if task["id"] == task_id:
             task["status"] = status
             task["completed"] = date.today().isoformat() if status == "done" else None
+            break
+    write_tasks(data)
+    threading.Thread(
+        target=lambda: subprocess.run(
+            [sys.executable, "tracker.py", "digest"], cwd=HERE, capture_output=True
+        ),
+        daemon=True,
+    ).start()
+
+
+def set_keep_until(task_id, until):
+    data = read_tasks()
+    for task in data["tasks"]:
+        if task["id"] == task_id:
+            task["keep_until"] = until
             break
     write_tasks(data)
     threading.Thread(
@@ -150,6 +165,36 @@ def raise_from_desktop(hwnd, topmost):
     )
 
 
+def window_hwnd(widget):
+    user32 = ctypes.windll.user32
+    user32.GetParent.argtypes = [ctypes.c_void_p]
+    user32.GetParent.restype = ctypes.c_void_p
+    return user32.GetParent(ctypes.c_void_p(widget.winfo_id())) or widget.winfo_id()
+
+
+def no_activate(win):
+    try:
+        user32 = ctypes.windll.user32
+        hwnd = window_hwnd(win)
+        style = user32.GetWindowLongW(hwnd, -20)
+        user32.SetWindowLongW(hwnd, -20, style | 0x08000000 | 0x00000080)
+    except Exception:
+        pass
+
+
+def set_topmost(win):
+    try:
+        user32 = ctypes.windll.user32
+        hwnd = window_hwnd(win)
+        user32.SetWindowPos.argtypes = [
+            ctypes.c_void_p, ctypes.c_void_p, ctypes.c_int,
+            ctypes.c_int, ctypes.c_int, ctypes.c_int, ctypes.c_uint,
+        ]
+        user32.SetWindowPos(ctypes.c_void_p(hwnd), ctypes.c_void_p(-1), 0, 0, 0, 0, 0x53)
+    except Exception:
+        pass
+
+
 def desktop_in_front():
     try:
         user32 = ctypes.windll.user32
@@ -188,12 +233,15 @@ class Sticky(tk.Tk):
         self.canvas.pack(fill="both", expand=True)
 
         self.picks = []
+        self.tasks = {"tasks": []}
+        self.settings = tracker.load_settings()
         self.mode = "auto"
         self.hover = -1
         self.hover_link = ""
         self.pressed = -1
         self.scroll = 0
         self._links = []
+        self._rows = []
         self._move = None
         self._size = None
         self._click = None
@@ -202,6 +250,8 @@ class Sticky(tk.Tk):
         self._reload_evt = threading.Event()
         self._closing = False
         self._auto_top = False
+        self._tip = None
+        self._tip_after = None
 
         self.canvas.bind("<ButtonPress-1>", self.on_press)
         self.canvas.bind("<B1-Motion>", self.on_drag)
@@ -213,6 +263,7 @@ class Sticky(tk.Tk):
         self.canvas.bind("<Configure>", lambda _e: self.draw())
         self.bind("<Escape>", lambda _e: self.close())
 
+        tracker.trim_auto_added()
         self.reload()
         self._round_corners()
         self.after(400, self._pump)
@@ -250,10 +301,13 @@ class Sticky(tk.Tk):
         self.after(60000, self._tick)
 
     def reload(self, grow=False):
+        self._hide_tip()
         tasks = read_tasks()
-        picks, mode = tracker.today_picks(tasks, 7)
+        picks, mode = tracker.today_picks(tasks)
         changed = len(picks) != len(self.picks)
         self.picks = picks
+        self.tasks = tasks
+        self.settings = tracker.load_settings()
         self.mode = mode
         if self.scroll:
             content = len(picks) * ROW_H
@@ -275,6 +329,7 @@ class Sticky(tk.Tk):
     def draw(self):
         c = self.canvas
         c.delete("all")
+        self._rows = []
         w = self.winfo_width()
         h = self.winfo_height()
         if w <= 1 or h <= 1:
@@ -320,7 +375,9 @@ class Sticky(tk.Tk):
             y = top + i * ROW_H
             if y + ROW_H < ROWS_Y or y > limit:
                 continue
-            finished = task.get("status") == "done"
+            status = task.get("status") or "open"
+            finished = status == "done"
+            started = status == "started"
             hovered = i == self.hover
             pressed = i == self.pressed
             if hovered or pressed:
@@ -331,7 +388,9 @@ class Sticky(tk.Tk):
             base = PRESSED if pressed else HOVER if hovered else PAPER
             progress = self._check_progress(task["id"], finished)
             fill = blend(base, ACCENT, progress)
-            ring = blend(RING, ACCENT, progress) if progress < 0.5 else ACCENT
+            ring = ACCENT if started else (
+                blend(RING, ACCENT, progress) if progress < 0.5 else ACCENT
+            )
             cy = y + ROW_H / 2
             cx = PAD + 8
             c.create_oval(
@@ -347,12 +406,30 @@ class Sticky(tk.Tk):
                     cx - 1, cy + 3, cx + 4, cy - 3.5,
                     fill="#FFFFFF", width=1.6, capstyle="round",
                 )
+            elif started:
+                c.create_line(
+                    cx - 4.5, cy, cx + 4.5, cy,
+                    fill=ACCENT, width=1.8, capstyle="round",
+                )
             text_x = PAD + 26
-            title = ellipsize(task["title"], self.row_font, w - text_x - PAD)
+            chip = ""
+            bucket = tracker.band_bucket(task, self.settings)
+            deadline = tracker.parse_date(task.get("deadline"))
+            if bucket is not None and deadline:
+                days = (deadline - date.today()).days
+                chip = "late" if bucket == 0 else "today" if days == 0 else f"{days}d"
+            chip_w = self.meta_font.measure(chip) + 10 if chip else 0
+            title = ellipsize(task["title"], self.row_font, w - text_x - PAD - chip_w)
+            self._rows.append((i, task["title"]))
             c.create_text(
                 text_x, cy, text=title, anchor="w", font=self.row_font,
                 fill=DONE_INK if finished else INK,
             )
+            if chip:
+                c.create_text(
+                    w - PAD, cy, text=chip, anchor="e", font=self.meta_font,
+                    fill=MUTED if finished or bucket else ACCENT,
+                )
 
         c.create_text(
             PAD, h - 13, text=f"{done_count} of {len(self.picks)} done",
@@ -404,7 +481,67 @@ class Sticky(tk.Tk):
     def grip_at(self, x, y):
         return x >= self.winfo_width() - 18 and y >= self.winfo_height() - 18
 
+    def _hide_tip(self):
+        if self._tip_after:
+            self.after_cancel(self._tip_after)
+            self._tip_after = None
+        if self._tip:
+            self._tip.destroy()
+            self._tip = None
+
+    def _queue_tip(self, i):
+        self._hide_tip()
+        if i is None:
+            return
+        row = next((r for r in self._rows if r[0] == i), None)
+        if not row:
+            return
+        self._tip_after = self.after(450, lambda: self._show_tip(i))
+
+    def _show_tip(self, i):
+        self._tip_after = None
+        if self._closing or i != self.hover:
+            return
+        row = next((r for r in self._rows if r[0] == i), None)
+        if not row:
+            return
+        task = self.picks[i]
+        lines = [
+            task["title"],
+            "",
+            f"Tier {task.get('tier') or 2} \u00b7 {task.get('category') or 'none'} \u00b7 {task.get('status') or 'open'}",
+        ]
+        if task.get("deadline"):
+            lines.append(f"Due {task['deadline']}{tracker.due_label(task)}")
+        if task.get("keep_until"):
+            lines.append(f"Keep until {task['keep_until']}")
+        pending = tracker.open_prerequisites(task, self.tasks)
+        if pending:
+            names = ", ".join(t["title"] for t in pending[:2])
+            more = f" +{len(pending) - 2}" if len(pending) > 2 else ""
+            lines.append(f"Needs: {names}{more}")
+        tip = tk.Toplevel(self)
+        tip.overrideredirect(True)
+        no_activate(tip)
+        tk.Label(
+            tip, text="\n".join(lines), bg=INK, fg="#FFFFFF", font=self.row_font,
+            wraplength=400, justify="left", padx=10, pady=7,
+            highlightthickness=1, highlightbackground="#3A3A3C",
+        ).pack()
+        tip.update_idletasks()
+        w, h = tip.winfo_reqwidth(), tip.winfo_reqheight()
+        sw, sh = self.winfo_screenwidth(), self.winfo_screenheight()
+        px = min(max(8, self.winfo_pointerx() + 16), sw - w - 8)
+        py = self.winfo_pointery() + 18
+        if py + h > sh - 48:
+            py = max(8, self.winfo_pointery() - h - 12)
+        tip.geometry(f"+{px}+{py}")
+        tip.update_idletasks()
+        set_topmost(tip)
+        self._tip = tip
+
     def on_press(self, event):
+        self._hide_tip()
         name = self.link_at(event.x, event.y)
         if name:
             self.link_action(name)
@@ -461,6 +598,7 @@ class Sticky(tk.Tk):
             return
         self.hover_link = name
         self.hover = i
+        self._queue_tip(i)
         if self.grip_at(event.x, event.y):
             self.canvas.configure(cursor="size_nw_se")
         elif name or i is not None:
@@ -472,6 +610,7 @@ class Sticky(tk.Tk):
         self.draw()
 
     def on_leave(self, _event):
+        self._hide_tip()
         if self.hover == -1 and not self.hover_link:
             return
         self.hover = -1
@@ -480,6 +619,7 @@ class Sticky(tk.Tk):
         self.draw()
 
     def on_wheel(self, event):
+        self._hide_tip()
         content = len(self.picks) * ROW_H
         viewport = self.winfo_height() - ROWS_Y - FOOTER_H
         maxoff = max(0, content - viewport)
@@ -489,6 +629,7 @@ class Sticky(tk.Tk):
         self.draw()
 
     def on_right(self, event):
+        self._hide_tip()
         i = self.row_at(event.x, event.y)
         if i is None:
             return
@@ -496,9 +637,18 @@ class Sticky(tk.Tk):
         menu.add_command(label="Mark started", command=lambda: self.set_and_reload(i, "started"))
         menu.add_command(label="Mark open", command=lambda: self.set_and_reload(i, "open"))
         menu.add_command(label="Mark done", command=lambda: self.set_and_reload(i, "done"))
+        if self.picks[i].get("deadline"):
+            menu.add_separator()
+            menu.add_command(label="Keep 7 days", command=lambda: self.keep(i))
         menu.tk_popup(event.x_root, event.y_root)
 
+    def keep(self, i, days=7):
+        task = self.picks[i]
+        set_keep_until(task["id"], (date.today() + timedelta(days=days)).isoformat())
+        self.reload()
+
     def link_action(self, name):
+        self._hide_tip()
         if name == "close":
             self.close()
         elif name == "console":
@@ -513,23 +663,24 @@ class Sticky(tk.Tk):
             self.draw()
 
     def toggle(self, i):
-        task = self.picks[i]
-        was_done = task.get("status") == "done"
-        self._check_anim[task["id"]] = (time.time(), 1.0 if was_done else 0.0, 0.0 if was_done else 1.0)
-        set_status(task["id"], "open" if was_done else "done")
-        self.reload()
-        self._animate()
+        status = self.picks[i].get("status") or "open"
+        self.set_and_reload(i, {"open": "started", "started": "done", "done": "open"}[status])
 
     def set_and_reload(self, i, status):
         task = self.picks[i]
         was_done = task.get("status") == "done"
-        target = 1.0 if status == "done" else 0.0
-        self._check_anim[task["id"]] = (time.time(), 1.0 if was_done else 0.0, target)
+        is_done = status == "done"
+        if was_done != is_done:
+            self._check_anim[task["id"]] = (
+                time.time(), 1.0 if was_done else 0.0, 1.0 if is_done else 0.0,
+            )
         set_status(task["id"], status)
         self.reload()
-        self._animate()
+        if self._check_anim:
+            self._animate()
 
     def shuffle(self):
+        self._hide_tip()
         if self._busy:
             return
         self._busy = True
@@ -560,6 +711,7 @@ class Sticky(tk.Tk):
 
     def close(self):
         self._closing = True
+        self._hide_tip()
         self.save_geometry()
         self.destroy()
 

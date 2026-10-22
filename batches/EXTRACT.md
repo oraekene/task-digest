@@ -26,6 +26,8 @@ inside the note, anything checked with [x], and anything marked DONE or FINISHED
 - tier: 1, 2, 3, or 4. The category decides the tier, using the table below,
   unless the note itself plainly overrides it with words like NOW, TASK 1,
   BEFORE ALL THESE, which raise the tier and never lower it.
+- effort: S, M, or L. S is under 30 minutes, M is a few hours, and L is a day
+  or more. Use M when the note does not make the size clear.
 - impact: one of 0, 0.1, 0.2, 0.3, 0.4. Never 0.5. Use this rubric:
   - 0.4 or 0.3 for work that unlocks customers, revenue or removes a blocker
     other work depends on.

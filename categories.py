@@ -39,6 +39,22 @@ CATEGORY_IMPACT = {
     "none": None,
 }
 
+LAPSE_KIND = {
+    "incoming-promised": "compounding",
+    "client-job": "compounding",
+    "legal-account": "compounding",
+    "outgoing-due": "compounding",
+    "promise": "compounding",
+    "incoming-window": "expiring",
+    "new-opportunity": "expiring",
+    "to-save": "expiring",
+}
+
+
+def lapse_kind(task: dict) -> str:
+    """How a missed deadline ages: cost grows, chance closes, or fixed loss."""
+    return LAPSE_KIND.get(task.get("category") or "none", "capped")
+
 
 def target_tier(task: dict, use_deadlines: bool) -> int | None:
     inside, outside = CATEGORY_TIERS.get(task.get("category") or "none", (None, None))
