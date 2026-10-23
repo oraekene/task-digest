@@ -60,6 +60,9 @@ a fact.
 
 When a note gives no time and the table mentions a week, use the lower tier.
 Never invent a deadline to reach a higher tier.
+- deadline: the hard date the note states, as YYYY-MM-DD, or null.
+- soft_deadline: a target date the note states without a hard consequence, as
+  YYYY-MM-DD, or null. Use at most one of deadline and soft_deadline.
 - status: "open", "started", or "done". Follow the completion states below.
 - caveat: the text the note puts after a marker, such as NOT REVIEWED,
   NOT CHECKED, SEMI DONE. Use an empty string when there is none.
@@ -67,10 +70,19 @@ Never invent a deadline to reach a higher tier.
 
 ## Deadlines
 
-Only when settings.json has "use_deadlines" true, resolve a stated time into the
-deadline field as an ISO date, for example "before 5pm" on 17 October becomes
-2026-10-17. When the setting is false, or the note gives no time, leave the
-deadline empty. Never invent a deadline.
+Always record a stated time when the note gives one, even when
+`use_deadlines` is off. The setting controls ranking, not extraction.
+
+- A hard date uses `deadline`: words such as by, before, due, deadline,
+  expires, renews, or a date attached to a bill or appointment.
+- A target uses `soft_deadline`: words such as aim, target, hope to, or plan
+  to, with no stated consequence for missing it.
+- Resolve relative words against `source_date`. For a note dated 17 October,
+  "before 5pm tomorrow" becomes 2026-10-18, and "by Friday" becomes the next
+  Friday on or after the note date.
+- If the note gives no time, or the date is ambiguous, use null.
+- Never invent a date. Never use a date to raise the tier; the category table
+  owns the tier.
 
 ## Which record wins
 

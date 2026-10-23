@@ -5,6 +5,7 @@ import tempfile
 from datetime import date, timedelta
 
 import checkins
+import merge_pending
 import tracker
 
 TODAY = date.today()
@@ -452,6 +453,49 @@ def test_checkin_flow():
             checkins.CACHE = old_cache
 
 
+def test_remention():
+    old = task(
+        "Build the old thing",
+        first_seen=day(-50),
+        checkin_state="demoted",
+        demoted_from=2,
+        demoted_at=day(-5),
+        why="demoted: stale",
+    )
+    rows = [old]
+    assert merge_pending.match_dupe("Build the old thing", rows) is old
+    incoming = {
+        "source_date": TODAY.isoformat(),
+        "source_note": "new-note",
+        "quote": "new quote",
+        "status": "started",
+        "deadline": day(2),
+    }
+    assert merge_pending.revive_task(old, incoming, "New note", TODAY.isoformat())
+    assert old["tier"] == 2
+    assert "checkin_state" not in old
+    assert "demoted: stale" not in old["why"]
+    assert old["last_seen"] == TODAY.isoformat()
+    assert old["source_note"] == "new-note"
+    assert old["status"] == "started"
+    assert old["mention_count"] == 2
+    assert old["deadline"] == day(2)
+    assert not merge_pending.revive_task(old, incoming, "New note", TODAY.isoformat())
+    assert tracker.checkin_base(old, {}) == TODAY
+    assert checkins.free_signal(old, {}) is True
+
+    demoted = task(
+        "Another old thing",
+        first_seen=day(-50),
+        checkin_state="demoted",
+        demoted_from=2,
+        demoted_at=day(-5),
+        last_seen=TODAY.isoformat(),
+        why="demoted: stale",
+    )
+    assert checkins.free_signal(demoted, {}) is True
+
+
 def test_digest_checkins():
     reset_today()
     text = tracker.render_digest({"tasks": [task("old", first_seen=day(-50))]})
@@ -475,6 +519,7 @@ def main():
             test_console_fields()
             test_checkin_queue()
             test_checkin_flow()
+            test_remention()
             test_digest_checkins()
             test_effort_tiebreak()
             test_unblocks_tiebreak()

@@ -226,7 +226,8 @@ def note_edit_dates() -> dict:
 def checkin_base(task: dict, notes: dict) -> date:
     first = parse_date(task.get("first_seen")) or TODAY
     edited = notes.get(str(task.get("source_note") or ""))
-    return max(first, edited) if edited else first
+    seen = parse_date(task.get("last_seen"))
+    return max(first, edited or first, seen or first)
 
 
 def checkin_due(

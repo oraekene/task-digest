@@ -1,7 +1,8 @@
 """Merge tasks_new.json (written by the extraction agent) into tasks.json.
 
-Same rules as merge_out.py: drop exact duplicate titles, keep tasks.json as the
-primary record of completion state. Writes nothing to Simplenote.
+A newer mention of an open task refreshes its evidence and resets its check-in
+clock. Other duplicates are dropped. tasks.json stays the primary record of
+completion state. Writes nothing to Simplenote.
 
 Usage: python merge_pending.py
 """
@@ -9,8 +10,10 @@ import json
 import os
 import pathlib
 import re
+from datetime import date
 
 import categories
+import checkins
 
 HERE = pathlib.Path(__file__).parent
 TASKS = HERE / "tasks.json"
@@ -29,23 +32,61 @@ def words(text: str) -> set:
     return {w for w in re.findall(r"[a-z0-9]+", text.lower()) if len(w) > 3 and w not in STOP}
 
 
-def is_dupe(title: str, existing: list) -> bool:
-    """Same task in other words. Word overlap catches what exact match misses."""
+def match_dupe(title: str, existing: list):
+    """Return the task this title repeats, or None."""
     key = norm(title)
     mine = words(title)
     if not mine:
-        return False
-    for t in existing:
-        if norm(t["title"]) == key:
-            return True
+        return None
+    exact = [t for t in existing if norm(t["title"]) == key]
+    for t in exact:
+        if t.get("status") in ("open", "started"):
+            return t
+    if exact:
+        return exact[0]
+    near = []
     for t in existing:
         theirs = words(t["title"])
         if not theirs:
             continue
         shared = len(mine & theirs) / len(mine | theirs)
         if shared >= 0.6:
-            return True
-    return False
+            near.append(t)
+    for t in near:
+        if t.get("status") in ("open", "started"):
+            return t
+    return near[0] if near else None
+
+
+def revive_task(task: dict, incoming: dict, source_title: str, today: str) -> bool:
+    """Refresh an open task when a newer note mentions it again.
+
+    A newer mention lifts a check-in demotion, updates the source evidence and
+    moves the check-in base date. A repeat of the same note does nothing.
+    """
+    if task.get("status") not in ("open", "started"):
+        return False
+    seen = incoming.get("source_date") or ""
+    if not seen or seen <= (task.get("last_seen") or task.get("first_seen") or ""):
+        return False
+    task["last_seen"] = seen
+    task["mention_count"] = int(task.get("mention_count") or 1) + 1
+    task["source_note"] = incoming.get("source_note") or task.get("source_note")
+    task["source_title"] = source_title or task.get("source_title") or ""
+    task["quote"] = incoming.get("quote") or task.get("quote") or ""
+    if incoming.get("deadline"):
+        task["deadline"] = incoming["deadline"]
+    if incoming.get("soft_deadline"):
+        task["soft_deadline"] = incoming["soft_deadline"]
+    if task.get("checkin_state") in ("queued", "active", "demoted") or task.get("demoted_at"):
+        checkins.restore_tier(task)
+        checkins.clear_checkin(task)
+    if incoming.get("status") == "done":
+        task["status"] = "done"
+        task["completed"] = incoming.get("source_date") or today
+    elif incoming.get("status") == "started" and task.get("status") == "open":
+        task["status"] = "started"
+    return True
 
 
 def main() -> int:
@@ -63,7 +104,6 @@ def main() -> int:
         conn_titles[nid] = (first.strip().splitlines()[0][:70] if first.strip() else "")
     conn.close()
 
-    seen = {norm(t["title"]) for t in tasks}
     settings = json.loads((HERE / "settings.json").read_text(encoding="utf-8")) if (HERE / "settings.json").exists() else {}
     use_deadlines = bool(settings.get("use_deadlines", False))
     fresh = json.loads(NEW.read_text(encoding="utf-8"))
@@ -81,7 +121,7 @@ def main() -> int:
             jev = jev_categorize.classify(need_cat, key, jev_categorize.load_cache())
         except Exception as e:  # noqa: BLE001 - Jev must never block the merge
             print(f"jev skipped: {type(e).__name__}: {e}")
-    added = dupes = 0
+    added = dupes = revived = 0
     n = sum(1 for t in tasks if t["id"].startswith("b"))
     for t in fresh:
         if not FIELDS.issubset(t):
@@ -89,10 +129,19 @@ def main() -> int:
             print(f"skipping malformed entry ({missing}): {str(t)[:60]}")
             continue
         key = norm(t["title"])
-        if not key or key in seen or is_dupe(t["title"], tasks):
+        if not key:
             dupes += 1
             continue
-        seen.add(key)
+        repeated = match_dupe(t["title"], tasks)
+        if repeated:
+            if revive_task(
+                repeated, t, conn_titles.get(t["source_note"], ""),
+                date.today().isoformat(),
+            ):
+                revived += 1
+            else:
+                dupes += 1
+            continue
         status = t.get("status") or "open"
         caveat = t.get("caveat") or ""
         category = jev.get(t.get("id"), {}).get("category") or t.get("category") or "none"
@@ -121,7 +170,10 @@ def main() -> int:
         added += 1
 
     TASKS.write_text(json.dumps({"version": 1, "tasks": tasks}, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"merged {added} tasks, {dupes} duplicates dropped, total {len(tasks)}")
+    print(
+        f"merged {added} tasks, {revived} re-mentioned, "
+        f"{dupes} duplicates dropped, total {len(tasks)}"
+    )
     return 0
 
 

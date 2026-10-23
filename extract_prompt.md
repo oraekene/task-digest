@@ -11,9 +11,10 @@ Steps.
 4. Extract the tasks the rules describe, for those notes only. Never invent
    notes. Skip anything the rules say to skip.
 5. Write the result to `tasks_new.json`: a valid JSON array of objects with
-   exactly these fields: title, quote, source_note, source_date, tier, impact,
-   effort, status, caveat, why. Empty array if there are no tasks. Use S, M, or
-   L for effort, and M when the note does not make the size clear.
+   exactly these fields: title, quote, source_note, source_date, category,
+   tier, impact, effort, status, deadline, soft_deadline, caveat, why. Empty
+   array if there are no tasks. Use S, M, or L for effort, and M when the note
+   does not make the size clear. Use null for each missing date.
 6. Do not modify any other file. Do not run git. Do not call any network tool.
 
 Then reply with one line: extracted N tasks from M notes.

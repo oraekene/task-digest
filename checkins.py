@@ -46,6 +46,7 @@ def signature(task: dict, notes: dict) -> str:
     return "|".join([
         str(task.get("first_seen") or ""),
         str(edited or ""),
+        str(task.get("last_seen") or ""),
         str(task.get("title") or ""),
         str(task.get("tier") or ""),
     ])
@@ -102,7 +103,8 @@ def free_signal(task: dict, notes: dict) -> bool:
         return True
     since = tracker.parse_date(task.get("demoted_at") or task.get("checkin_at"))
     edited = notes.get(str(task.get("source_note") or ""))
-    return bool(since and edited and edited > since)
+    seen = tracker.parse_date(task.get("last_seen"))
+    return bool(since and ((edited and edited > since) or (seen and seen > since)))
 
 
 def judge(candidates: list, all_tasks: list, notes: dict, cache: dict) -> dict:

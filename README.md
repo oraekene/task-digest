@@ -15,7 +15,7 @@ The scheduled job runs `run_daily.ps1`, which does these steps in order.
    lists what changed in `pending_changes.json`.
 4. `dump_notes.py` copies the changed notes to `pending_notes.json`.
 5. `opencode run` reads `extract_prompt.md` and writes `tasks_new.json`.
-6. `merge_pending.py` adds those tasks to `tasks.json`, dropping duplicates.
+6. `merge_pending.py` adds new tasks to `tasks.json`. A newer mention of an open task refreshes it and lifts a check-in demotion; other duplicates are dropped.
 7. `checkins.py` asks Jev about open tasks older than 45 days, queues the real multi-week projects, and demotes the rest one tier.
 8. `tracker.py` scores, ranks, and renders `digest-YYYY-MM-DD.md` and `list.md`.
 9. `notify.ps1` shows the top tasks as a Windows toast with the run status.
@@ -65,9 +65,10 @@ for `checkin_active_days` after you answer, or for 90 days by default. If you do
 not answer within `checkin_answer_days`, or you press Not sure, it demotes. The
 demotion is reversible: the old tier is stored, and the tab lists new demotions
 with a Restore button. The old 1,318 stale tasks have no stored tier and are not
-restorable. A task restores itself when it starts, gets a deadline, or its
-source note changes. Scan due tasks runs the queue by hand; the morning run does
-it before the digest.
+restorable. A task restores itself when it starts, gets a deadline, its source
+note changes, or a newer note mentions it again. A re-mention stores `last_seen`
+and `mention_count` on the task. Scan due tasks runs the queue by hand; the
+morning run does it before the digest.
 
 ## The sticky note
 
@@ -199,7 +200,7 @@ Backfill tools, run only when notes were re-batched:
 - `checkin_cache.json` — cached Jev check-in decisions, keyed by task title and
   evidence. It is ignored by git.
 - `test_rank.py` — self-check for band, value, lapsed order and fillers, soft
-  deadlines, refill, effort, dependency rules, and check-ins.
+  deadlines, refill, effort, dependency rules, check-ins, and re-mentions.
 - `console.py` — the local graphical console.
 - `sticky.py` — the small desktop paper note. It is not always on top by
   default; the pin link raises it above other windows when you want that.
@@ -296,13 +297,14 @@ move it.
   human to check, because pattern matching reads "when i am done" as DONE.
 - Categories were assigned by a language model in eight batches. Spot check
   `list.md` and correct any label in the console.
-- No task has a hard or soft deadline yet, so the band and lapsed behavior are
+- Extraction now records an explicit hard or soft date. `use_deadlines` is still
+  off, and no existing task has a date yet, so the band and lapsed behavior are
   tested only with synthetic data.
 - No task has an effort label or prerequisite link yet, so the new tiebreak and
   completion warning are tested only with synthetic data.
 - No task has a hard or soft deadline yet, so check-in free signals for deadlines
   are tested only with synthetic data.
-- Re-mention and project activity do not yet reset a check-in. The note project
-  index and merge trace are not built.
+- Re-mention now refreshes an open task and resets its check-in clock. Project
+  activity in other notes does not yet reset it; the project index is not built.
 - The 1,318 tasks demoted by the old one-way `demote_stale.py` have no original
   tier. Keep them, or fix them by hand in the console.
