@@ -25,7 +25,10 @@ HERE = pathlib.Path(__file__).parent
 TASKS = HERE / "tasks.json"
 SETTINGS = HERE / "settings.json"
 LOG = HERE / "logs" / "run_daily.log"
-EDITABLE = {"tier", "impact", "status", "category", "deadline", "keep_until"}
+EDITABLE = {
+    "tier", "impact", "status", "category", "deadline", "soft_deadline",
+    "keep_until", "drop_reason",
+}
 STATUSES = ("open", "started", "done", "dropped")
 SETTING_KEYS = set(tracker.DEFAULTS) - {"read_only"}
 BOOL_SETTINGS = {"use_deadlines", "auto_extract", "refill_when_done"}
@@ -117,6 +120,7 @@ def choose_today(ids):
         "band_ids": [],
         "value_ids": [],
         "routine_ids": [],
+        "filler_ids": [],
         "auto_added": [],
     })
     rebuild_digest()
@@ -140,6 +144,7 @@ def auto_today():
         "band_ids": [],
         "value_ids": [],
         "routine_ids": [],
+        "filler_ids": [],
         "auto_added": [],
     })
     rebuild_digest()
@@ -158,7 +163,7 @@ def update_task(body):
         raise ValueError("bad status")
     if field == "category" and value not in categories.CATEGORY_TIERS:
         raise ValueError("bad category")
-    if field in ("deadline", "keep_until"):
+    if field in ("deadline", "soft_deadline", "keep_until"):
         value = str(value or "").strip()
         if value:
             try:
@@ -167,6 +172,8 @@ def update_task(body):
                 raise ValueError("date must be YYYY-MM-DD")
         else:
             value = None
+    if field == "drop_reason":
+        value = str(value or "").strip() or None
     data = read_json(TASKS, {"tasks": []})
     task = next((t for t in data["tasks"] if t["id"] == task_id), None)
     if task is None:
@@ -182,10 +189,12 @@ def update_task(body):
             task["completed"] = task["completed"] or date.today().isoformat()
         else:
             task["completed"] = None
-    elif field in ("deadline", "keep_until"):
+    elif field in ("deadline", "soft_deadline", "keep_until"):
         task[field] = value
         if field == "deadline":
             task.pop("keep_until", None)
+    elif field == "drop_reason":
+        task["drop_reason"] = value
     else:
         task["category"] = value
     warning = ""
@@ -319,6 +328,11 @@ PAGE = r"""<!doctype html>
   td.title { min-width: 380px; }
   td.why { color: #888; font-size: 12px; max-width: 320px; }
   td select { width: 100%; }
+  td.dates { min-width: 150px; }
+  td.dates input { width: 100%; font: inherit; font-size: 12px; padding: 2px 4px;
+                    border: 1px solid var(--line); border-radius: 4px;
+                    background: Canvas; color: CanvasText; }
+  td.dates input + input { margin-top: 3px; }
   tr.done td.title { text-decoration: line-through; opacity: .55; }
   .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); font-size: 12px; }
   pre { white-space: pre-wrap; background: #8881; padding: 14px; border-radius: 8px; }
@@ -355,7 +369,7 @@ PAGE = r"""<!doctype html>
       <button id="refresh">Refresh</button>
     </div>
     <table>
-      <thead><tr><th>#</th><th>Pick</th><th>Task</th><th>Status</th><th>Tier</th><th>Impact</th><th>Category</th><th>Since</th><th>Why</th></tr></thead>
+      <thead><tr><th>#</th><th>Pick</th><th>Task</th><th>Status</th><th>Tier</th><th>Impact</th><th>Category</th><th>Dates</th><th>Since</th><th>Why</th></tr></thead>
       <tbody id="rows"></tbody>
     </table>
   </section>
@@ -421,7 +435,7 @@ function options(values, current) {
 
 function matched(t) {
   const q = $("#search").value.trim().toLowerCase();
-  if (q && !(t.title + " " + (t.why || "") + " " + (t.source_title || "")).toLowerCase().includes(q)) return false;
+  if (q && !(t.title + " " + (t.why || "") + " " + (t.source_title || "") + " " + (t.drop_reason || "")).toLowerCase().includes(q)) return false;
   if ($("#f-status").value && t.status !== $("#f-status").value) return false;
   if ($("#f-tier").value && String(t.tier) !== $("#f-tier").value) return false;
   if ($("#f-cat").value && (t.category || "none") !== $("#f-cat").value) return false;
@@ -442,6 +456,10 @@ function render() {
       <td><select data-id="${t.id}" data-field="tier">${options([1,2,3,4], t.tier)}</select></td>
       <td><select data-id="${t.id}" data-field="impact">${options([0,0.1,0.2,0.3,0.4,0.5], t.impact)}</select></td>
       <td><select data-id="${t.id}" data-field="category">${options(state.categories, t.category || "none")}</select></td>
+      <td class="dates">
+        <input type="date" data-id="${t.id}" data-field="deadline" value="${t.deadline || ""}" title="Hard deadline">
+        <input type="date" data-id="${t.id}" data-field="soft_deadline" value="${t.soft_deadline || ""}" title="Soft deadline">
+      </td>
       <td>${t.first_seen || ""}</td>
       <td class="why">${escapeHtml(t.why || "")}</td>
     </tr>`).join("");
@@ -573,10 +591,10 @@ $("#tabs").addEventListener("click", (e) => {
 });
 
 $("#rows").addEventListener("change", async (e) => {
-  const sel = e.target.closest("select");
-  if (!sel) return;
+  const el = e.target.closest("select, input[data-field]");
+  if (!el) return;
   try {
-    const res = await api("/api/task", { id: sel.dataset.id, field: sel.dataset.field, value: sel.value });
+    const res = await api("/api/task", { id: el.dataset.id, field: el.dataset.field, value: el.value });
     await load();
     toast(res.warning || "Saved");
   } catch (err) { toast(err.message); }
@@ -628,7 +646,10 @@ $("#lapsed-rows").addEventListener("click", async (e) => {
     if (action === "done") {
       res = await api("/api/task", { id, field: "status", value: "done" });
     } else if (action === "drop") {
+      const reason = prompt("Reason for dropping (optional)");
+      if (reason === null) return;
       res = await api("/api/task", { id, field: "status", value: "dropped" });
+      res = await api("/api/task", { id, field: "drop_reason", value: reason.trim() });
     } else if (action === "keep") {
       res = await api("/api/task", { id, field: "keep_until", value: localDatePlus(Number(state.settings.keep_days) || 14) });
     } else if (action === "redate") {

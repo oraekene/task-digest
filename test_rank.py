@@ -1,4 +1,5 @@
 """Small self-check for the ranking core. Run: python test_rank.py"""
+import json
 import pathlib
 import tempfile
 from datetime import date, timedelta
@@ -41,6 +42,7 @@ def reset_today():
         "band_ids": [],
         "value_ids": [],
         "routine_ids": [],
+        "filler_ids": [],
         "auto_added": [],
     })
 
@@ -107,12 +109,38 @@ def test_lapsed_order():
     ]
 
 
+def test_lapsed_filler():
+    tasks = {"tasks": [
+        task("live1"),
+        task("live2"),
+        task("old", deadline=day(-20)),
+    ]}
+    built = tracker.build_day(tasks, config(focus_size=3))
+    assert built["ids"] == ["live1", "live2", "old"]
+    assert built["filler_ids"] == ["old"]
+    short = tracker.build_day({"tasks": [task("live1"), task("live2")]}, config(focus_size=3))
+    assert short["ids"] == ["live1", "live2"]
+    assert short["filler_ids"] == []
+
+
 def test_digest_lapsed_section():
     reset_today()
     tasks = {"tasks": [task("old", deadline=day(-20)), task("live")]}
     text = tracker.render_digest(tasks)
     assert "Lapsed" in text and "old (20d late, capped)" in text
+    assert "[lapsed 20d, filler]" in text
     assert "Counts: P2: 1, Lapsed: 1" in text
+    assert tracker.load_today()["filler_ids"] == ["old"]
+
+
+def test_soft_deadline_score():
+    soft = task("soft", soft_deadline=day(1))
+    plain = task("plain")
+    dated = config(use_deadlines=True)
+    assert tracker.score(soft, dated) > tracker.score(plain, dated)
+    assert tracker.score(soft, config(use_deadlines=False)) == tracker.score(
+        plain, config(use_deadlines=False)
+    )
 
 
 def test_effort_tiebreak():
@@ -287,6 +315,31 @@ def test_trim_on_reopen():
     assert tracker.load_today()["auto_added"] == []
 
 
+def test_console_fields():
+    import console
+    old_tasks = console.TASKS
+    with tempfile.TemporaryDirectory() as tmp:
+        console.TASKS = pathlib.Path(tmp) / "tasks.json"
+        console.TASKS.write_text(
+            json.dumps({"tasks": [task("a")]}), encoding="utf-8"
+        )
+        try:
+            console.update_task({"id": "a", "field": "soft_deadline", "value": "2026-12-01"})
+            console.update_task({"id": "a", "field": "drop_reason", "value": "no longer needed"})
+            data = json.loads(console.TASKS.read_text(encoding="utf-8"))
+            saved = data["tasks"][0]
+            assert saved["soft_deadline"] == "2026-12-01"
+            assert saved["drop_reason"] == "no longer needed"
+            try:
+                console.update_task({"id": "a", "field": "soft_deadline", "value": "bad"})
+            except ValueError as exc:
+                assert str(exc) == "date must be YYYY-MM-DD"
+            else:
+                raise AssertionError("bad soft deadline accepted")
+        finally:
+            console.TASKS = old_tasks
+
+
 def main():
     old_today = tracker.TODAY_FILE
     with tempfile.TemporaryDirectory() as tmp:
@@ -296,7 +349,10 @@ def main():
             test_band_order()
             test_lapsed()
             test_lapsed_order()
+            test_lapsed_filler()
             test_digest_lapsed_section()
+            test_soft_deadline_score()
+            test_console_fields()
             test_effort_tiebreak()
             test_unblocks_tiebreak()
             test_prereq_marker_and_warning()

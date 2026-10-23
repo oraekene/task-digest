@@ -106,6 +106,7 @@ def main() -> int:
             "tier": int(t["tier"]),
             "impact": float(t["impact"]),
             "deadline": t.get("deadline") or None,
+            "soft_deadline": t.get("soft_deadline") or None,
             "first_seen": t["source_date"],
             "completed": t["source_date"] if status == "done" else None,
             "category": category,

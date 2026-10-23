@@ -233,6 +233,7 @@ class Sticky(tk.Tk):
         self.canvas.pack(fill="both", expand=True)
 
         self.picks = []
+        self.filler_ids = set()
         self.tasks = {"tasks": []}
         self.settings = tracker.load_settings()
         self.mode = "auto"
@@ -306,6 +307,7 @@ class Sticky(tk.Tk):
         picks, mode = tracker.today_picks(tasks)
         changed = len(picks) != len(self.picks)
         self.picks = picks
+        self.filler_ids = set(tracker.load_today().get("filler_ids") or [])
         self.tasks = tasks
         self.settings = tracker.load_settings()
         self.mode = mode
@@ -415,7 +417,9 @@ class Sticky(tk.Tk):
             chip = ""
             bucket = tracker.band_bucket(task, self.settings)
             deadline = tracker.parse_date(task.get("deadline"))
-            if bucket is not None and deadline:
+            if task["id"] in self.filler_ids and deadline:
+                chip = f"lapsed {(date.today() - deadline).days}d"
+            elif bucket is not None and deadline:
                 days = (deadline - date.today()).days
                 chip = "late" if bucket == 0 else "today" if days == 0 else f"{days}d"
             chip_w = self.meta_font.measure(chip) + 10 if chip else 0
@@ -515,6 +519,8 @@ class Sticky(tk.Tk):
             lines.append(f"Due {task['deadline']}{tracker.due_label(task)}")
         if task.get("keep_until"):
             lines.append(f"Keep until {task['keep_until']}")
+        if task["id"] in self.filler_ids:
+            lines.append("Lapsed filler: decide in the console Lapsed tab")
         pending = tracker.open_prerequisites(task, self.tasks)
         if pending:
             names = ", ".join(t["title"] for t in pending[:2])

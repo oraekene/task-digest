@@ -15,7 +15,7 @@ Commands:
 
 Scoring (from the Prioritization Engine spec, specs 01/03):
     tier_weight = 100 / 2**(tier-1)
-    urgency     = 1/(days_until_deadline+1) if deadline else min(age_days*0.02, 0.5)
+    urgency     = 1/(days_until_deadline+1) if deadline or soft_deadline else min(age_days*0.02, 0.5)
     score       = tier_weight * (1 + urgency + impact)
     sort: score desc, then unblocks desc, effort S/M/L, first_seen ascending
 """
@@ -133,7 +133,15 @@ def score(task: dict, settings: dict | None = None) -> float:
     settings = settings if settings is not None else load_settings()
     tier = int(task.get("tier") or 2)
     tier_weight = 100 / 2 ** (tier - 1)
-    deadline = parse_date(task.get("deadline")) if settings["use_deadlines"] else None
+    deadline = None
+    if settings["use_deadlines"]:
+        for key in ("deadline", "soft_deadline"):
+            try:
+                deadline = parse_date(task.get(key))
+            except ValueError:
+                deadline = None
+            if deadline:
+                break
     if deadline:
         urgency = 1 / (max((deadline - TODAY).days, 0) + 1)
     else:
@@ -358,6 +366,7 @@ def load_today() -> dict:
             data.setdefault("band_ids", [])
             data.setdefault("value_ids", [])
             data.setdefault("routine_ids", [])
+            data.setdefault("filler_ids", [])
             data.setdefault("auto_added", [])
             return data
         except ValueError:
@@ -369,6 +378,7 @@ def load_today() -> dict:
         "band_ids": [],
         "value_ids": [],
         "routine_ids": [],
+        "filler_ids": [],
         "auto_added": [],
     }
 
@@ -409,13 +419,21 @@ def build_day(tasks: dict, settings: dict | None = None, shuffle_normal: bool = 
     else:
         normal = normal_pool[:normal_room]
     ordered = band + value + normal
+    fillers = []
+    if len(ordered) < focus:
+        used = {t["id"] for t in ordered}
+        fillers = [t for t in lapsed_tasks(tasks, settings) if t["id"] not in used]
+        fillers = fillers[: focus - len(ordered)]
+        ordered += fillers
     return {
         "band": band,
         "value": value,
         "normal": normal,
+        "fillers": fillers,
         "ids": [t["id"] for t in ordered],
         "band_ids": [t["id"] for t in band],
         "value_ids": [t["id"] for t in value],
+        "filler_ids": [t["id"] for t in fillers],
     }
 
 
@@ -433,6 +451,7 @@ def snapshot_auto(tasks: dict, settings: dict | None = None, force: bool = False
         "band_ids": day["band_ids"],
         "value_ids": day["value_ids"],
         "routine_ids": [],
+        "filler_ids": day["filler_ids"],
         "auto_added": [],
     })
 
@@ -451,6 +470,7 @@ def shuffle_day(tasks: dict, settings: dict | None = None) -> list[dict]:
         "band_ids": day["band_ids"],
         "value_ids": day["value_ids"],
         "routine_ids": [],
+        "filler_ids": day["filler_ids"],
         "auto_added": [],
     })
     all_by_id = {t["id"]: t for t in tasks["tasks"]}
@@ -685,6 +705,7 @@ def cmd_pick(args) -> int:
         "band_ids": [],
         "value_ids": [],
         "routine_ids": [],
+        "filler_ids": [],
         "auto_added": [],
     })
     print(f"{len(args.ids)} picks saved for {TODAY.isoformat()}")
@@ -699,6 +720,7 @@ def cmd_auto(args) -> int:
         "band_ids": [],
         "value_ids": [],
         "routine_ids": [],
+        "filler_ids": [],
         "auto_added": [],
     })
     print("focus list back to automatic")
@@ -710,10 +732,12 @@ def render_digest(tasks: dict, top_n: int | None = None) -> str:
     ranked = ranked_open(tasks, settings)
     picks, mode = today_picks(tasks, top_n, settings)
     picked = {t["id"] for t in picks}
+    lapsed_rows = lapsed_tasks(tasks, settings)
+    lapsed_by_id = {t["id"]: t for t in lapsed_rows}
     today = TODAY.isoformat()
     lines = [f"# Morning digest — {today}", ""]
     if picks:
-        lines.append(f"## Today's focus ({len(picks)})")
+        lines.append(f"## Today's focus ({len(picks)} of {settings['focus_size']})")
         lines.append("")
         if mode == "shuffle":
             lines.append("Shuffled the normal rows; band and value rows stayed.")
@@ -725,9 +749,13 @@ def render_digest(tasks: dict, top_n: int | None = None) -> str:
             dl = f" — due {task['deadline']}{due_label(task)}" if task.get("deadline") else ""
             src = f" (from note: {task['source_title'][:60]})" if task.get("source_title") else ""
             mar = wip(task)
-            lines.append(f"{i}. {task['title']}{mar}{flags_for(task, settings, tasks)}{label(task)}{dl}{src}")
+            filler = lapsed_by_id.get(task["id"])
+            if filler:
+                mar += f" [lapsed {filler['lapse_days']}d, filler]"
+            else:
+                mar += flags_for(task, settings, tasks)
+            lines.append(f"{i}. {task['title']}{mar}{label(task)}{dl}{src}")
         lines.append("")
-    lapsed_rows = lapsed_tasks(tasks, settings)
     if lapsed_rows:
         lines.append("## Lapsed — still real?")
         lines.append("")
@@ -740,7 +768,10 @@ def render_digest(tasks: dict, top_n: int | None = None) -> str:
             lines.append(f"- {len(lapsed_rows) - len(shown)} more in the console.")
         lines.append("")
     rest = [t for t in ranked if t["id"] not in picked][:25]
-    open_picked = sum(1 for t in picks if t.get("status") in ("open", "started"))
+    open_picked = sum(
+        1 for t in picks
+        if t.get("status") in ("open", "started") and t["id"] not in lapsed_by_id
+    )
     lines.append(f"## Next up ({len(rest)} of {len(ranked) - open_picked})")
     lines.append("")
     for i, task in enumerate(rest, len(picks) + 1):
