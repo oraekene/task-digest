@@ -1,5 +1,5 @@
 # Morning run. Safe to run by hand at any time.
-# Order: read-only gate, token, sync, extract new tasks, render, notify.
+# Order: read-only gate, token, sync, extract new tasks, check-ins, render, notify.
 $ErrorActionPreference = 'Continue'
 $here = $PSScriptRoot
 $logDir = Join-Path $here 'logs'
@@ -58,6 +58,7 @@ if ($changed -gt 0 -and $settings.auto_extract) {
     $status = 'no new notes'
 }
 
+& $py (Join-Path $here 'checkins.py') run *>> $log
 & $py (Join-Path $here 'tracker.py') digest *>> $log
 
 $stamp = Join-Path $logDir 'last_success.txt'

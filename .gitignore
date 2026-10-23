@@ -15,6 +15,7 @@ audit_in_*.json
 audit_out_*.json
 jev_cache.json
 jev-check.json
+checkin_cache.json
 *.tmp
 sticky.json
 .jev_key

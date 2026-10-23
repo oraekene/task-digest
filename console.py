@@ -19,6 +19,7 @@ from datetime import date
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 import categories
+import checkins
 import tracker
 
 HERE = pathlib.Path(__file__).parent
@@ -63,6 +64,8 @@ def state():
     tasks = read_json(TASKS, {"tasks": []})["tasks"]
     settings = tracker.load_settings()
     ranked = tracker.ranked_open({"tasks": tasks}, settings)
+    checkin_rows = tracker.checkin_queue({"tasks": tasks}, settings)
+    demoted_rows = tracker.demoted_checkins({"tasks": tasks})
     advisory = read_json(HERE / "marker-report.json", [])
     for row in advisory:
         row.setdefault("source", "marker")
@@ -86,11 +89,14 @@ def state():
             ),
             "done": sum(1 for t in tasks if t.get("status") == "done"),
             "lapsed": sum(1 for t in tasks if tracker.is_lapsed(t, settings)),
+            "checkins": len(checkin_rows),
         },
         "settings": settings,
         "categories": list(categories.CATEGORY_TIERS),
         "today": tracker.load_today(),
         "lapsed": tracker.lapsed_tasks({"tasks": tasks}, settings),
+        "checkins": checkin_rows,
+        "checkin_demoted": demoted_rows,
         "advisory": advisory,
         "digest": latest_digest(),
         "log": tail(LOG, 60),
@@ -287,6 +293,14 @@ class Handler(BaseHTTPRequestHandler):
                         self.send(200, choose_today(body.get("ids") or []))
                 elif self.path == "/api/shuffle":
                     self.send(200, shuffle_today())
+                elif self.path == "/api/checkin":
+                    result = checkins.answer(body.get("id"), body.get("action"))
+                    rebuild_digest()
+                    self.send(200, result)
+                elif self.path == "/api/checkin/scan":
+                    result = checkins.run()
+                    rebuild_digest()
+                    self.send(200, result)
                 elif self.path == "/api/scan":
                     subprocess.run(
                         [sys.executable, "scan_markers.py"],
@@ -349,6 +363,7 @@ PAGE = r"""<!doctype html>
     <button data-tab="digest">Digest</button>
     <button data-tab="advisory">Advisory</button>
     <button data-tab="lapsed">Lapsed</button>
+    <button data-tab="checkins" id="tab-checkins">Check-ins</button>
     <button data-tab="settings">Settings</button>
     <button data-tab="log">Log</button>
   </nav>
@@ -391,6 +406,16 @@ PAGE = r"""<!doctype html>
   <section id="lapsed" class="hide">
     <div class="row"><span id="lapsed-count" style="color:#888"></span></div>
     <div id="lapsed-rows"></div>
+  </section>
+  <section id="checkins" class="hide">
+    <div class="row">
+      <span id="checkin-count" style="color:#888"></span>
+      <button id="scan-checkins">Scan due tasks</button>
+      <span id="checkin-msg" style="color:#888"></span>
+    </div>
+    <div id="checkin-rows"></div>
+    <h3>Demoted by check-in</h3>
+    <div id="demoted-rows"></div>
   </section>
   <section id="settings" class="hide">
     <div id="settings-rows"></div>
@@ -510,6 +535,9 @@ const SETTING_DEFS = [
   ["keep_days", "Keep a lapsed task for days", 1, 365],
   ["lapse_alert_top", "Lapsed alert: top N", 1, 10],
   ["lapse_alert_days", "Lapsed alert: every N days", 1, 30],
+  ["checkin_days", "Check-in after days", 1, 365],
+  ["checkin_active_days", "Still active for days", 1, 365],
+  ["checkin_answer_days", "No answer demotes after days", 1, 90],
 ];
 
 function renderSettings() {
@@ -564,15 +592,59 @@ function renderLapsed() {
   }).join("");
 }
 
+function renderCheckins() {
+  const rows = state.checkins || [];
+  $("#checkin-count").textContent = rows.length + " check-ins";
+  $("#tab-checkins").textContent = rows.length ? `Check-ins (${rows.length})` : "Check-ins";
+  if (!rows.length) {
+    $("#checkin-rows").innerHTML = '<p style="color:#888">No check-ins are due.</p>';
+  } else {
+    $("#checkin-rows").innerHTML = `<table>
+      <thead><tr><th>Task</th><th>Evidence</th><th>Age</th><th>Jev</th><th></th></tr></thead>
+      <tbody>${rows.map(t => {
+        const evidence = escapeHtml(t.quote || t.why || "");
+        const source = t.source_title ? `<div style="color:#888;font-size:12px">${escapeHtml(t.source_title)}</div>` : "";
+        const jev = typeof t.checkin_jev === "number" ? t.checkin_jev.toFixed(2) : (t.checkin_reason || "not judged");
+        return `<tr>
+          <td class="title">${escapeHtml(t.title)}</td>
+          <td class="why">${evidence}${source}</td>
+          <td>${t.checkin_age_days}d<br><span style="color:#888;font-size:12px">due ${t.checkin_due_date}</span></td>
+          <td>${escapeHtml(String(jev))}</td>
+          <td style="white-space:nowrap">
+            <button data-checkin="active" data-id="${t.id}">Still active</button>
+            <button data-checkin="done" data-id="${t.id}">Done</button>
+            <button data-checkin="not" data-id="${t.id}">Not anymore</button>
+            <button data-checkin="unsure" data-id="${t.id}">Not sure</button>
+          </td>
+        </tr>`;
+      }).join("")}</tbody></table>`;
+  }
+  const demoted = state.checkin_demoted || [];
+  if (!demoted.length) {
+    $("#demoted-rows").innerHTML = '<p style="color:#888">No new demotions. The old stale flags stay as they are.</p>';
+  } else {
+    $("#demoted-rows").innerHTML = `<table>
+      <thead><tr><th>Task</th><th>From</th><th>To</th><th>Date</th><th></th></tr></thead>
+      <tbody>${demoted.map(t => `<tr>
+        <td class="title">${escapeHtml(t.title)}</td>
+        <td>P${t.demoted_from}</td>
+        <td>P${t.tier}</td>
+        <td>${escapeHtml(t.demoted_at || "")}</td>
+        <td><button data-checkin="restore" data-id="${t.id}">Restore</button></td>
+      </tr>`).join("")}</tbody></table>`;
+  }
+}
+
 async function load() {
   state = await api("/api/state");
-  $("#counts").textContent = `${state.counts.open} open · ${state.counts.started} started · ${state.counts.done} done · ${state.counts.lapsed} lapsed`;
+  $("#counts").textContent = `${state.counts.open} open · ${state.counts.started} started · ${state.counts.done} done · ${state.counts.lapsed} lapsed · ${state.counts.checkins} check-ins`;
   const cat = $("#f-cat");
   const current = cat.value;
   cat.innerHTML = '<option value="">Any category</option>' + options(state.categories, current);
   render();
   renderAdvisory();
   renderLapsed();
+  renderCheckins();
   renderSettings();
   $("#digest-text").textContent = state.digest;
   $("#log-text").textContent = state.log;
@@ -583,11 +655,12 @@ $("#tabs").addEventListener("click", (e) => {
   if (!btn) return;
   activeTab = btn.dataset.tab;
   document.querySelectorAll("#tabs button").forEach(b => b.classList.toggle("active", b === btn));
-  for (const id of ["tasks", "digest", "advisory", "lapsed", "settings", "log"]) $("#" + id).classList.toggle("hide", id !== activeTab);
+  for (const id of ["tasks", "digest", "advisory", "lapsed", "checkins", "settings", "log"]) $("#" + id).classList.toggle("hide", id !== activeTab);
   if (activeTab === "digest") api("/api/state").then(s => $("#digest-text").textContent = s.digest);
   if (activeTab === "log") api("/api/state").then(s => $("#log-text").textContent = s.log);
   if (activeTab === "advisory") api("/api/state").then(s => { state = s; renderAdvisory(); });
   if (activeTab === "lapsed") api("/api/state").then(s => { state = s; renderLapsed(); });
+  if (activeTab === "checkins") api("/api/state").then(s => { state = s; renderCheckins(); });
 });
 
 $("#rows").addEventListener("change", async (e) => {
@@ -660,6 +733,35 @@ $("#lapsed-rows").addEventListener("click", async (e) => {
     await load();
     toast(res.warning || "Lapsed task updated");
   } catch (err) { toast(err.message); }
+});
+
+$("#checkin-rows").addEventListener("click", async (e) => {
+  const btn = e.target.closest("button[data-checkin]");
+  if (!btn) return;
+  try {
+    await api("/api/checkin", { id: btn.dataset.id, action: btn.dataset.checkin });
+    await load();
+    toast("Check-in updated");
+  } catch (err) { toast(err.message); }
+});
+
+$("#demoted-rows").addEventListener("click", async (e) => {
+  const btn = e.target.closest("button[data-checkin]");
+  if (!btn) return;
+  try {
+    await api("/api/checkin", { id: btn.dataset.id, action: btn.dataset.checkin });
+    await load();
+    toast("Tier restored");
+  } catch (err) { toast(err.message); }
+});
+
+$("#scan-checkins").addEventListener("click", async () => {
+  $("#checkin-msg").textContent = "scanning...";
+  try {
+    const out = await api("/api/checkin/scan", {});
+    $("#checkin-msg").textContent = `due ${out.due}, queued ${out.queued}, demoted ${out.demoted}`;
+    await load();
+  } catch (err) { $("#checkin-msg").textContent = err.message; }
 });
 
 $("#rescan").addEventListener("click", async () => {

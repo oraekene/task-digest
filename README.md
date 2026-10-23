@@ -16,16 +16,17 @@ The scheduled job runs `run_daily.ps1`, which does these steps in order.
 4. `dump_notes.py` copies the changed notes to `pending_notes.json`.
 5. `opencode run` reads `extract_prompt.md` and writes `tasks_new.json`.
 6. `merge_pending.py` adds those tasks to `tasks.json`, dropping duplicates.
-7. `tracker.py` scores, ranks, and renders `digest-YYYY-MM-DD.md` and `list.md`.
-8. `notify.ps1` shows the top tasks as a Windows toast with the run status.
+7. `checkins.py` asks Jev about open tasks older than 45 days, queues the real multi-week projects, and demotes the rest one tier.
+8. `tracker.py` scores, ranks, and renders `digest-YYYY-MM-DD.md` and `list.md`.
+9. `notify.ps1` shows the top tasks as a Windows toast with the run status.
 
 If step 5 fails, the toast says how many notes need extraction and the rest of
 the run continues, so you always get yesterday's digest plus a clear signal.
 
 ## The console
 
-`python console.py` opens a local page at `http://127.0.0.1:8765/` with six
-tabs: tasks, digest, advisory, lapsed, settings, and log. Use it to search and
+`python console.py` opens a local page at `http://127.0.0.1:8765/` with seven
+tabs: tasks, digest, advisory, lapsed, check-ins, settings, and log. Use it to search and
 filter tasks, change status, tier, impact, category, a hard or soft deadline,
 switch settings, rebuild the digest, and start the morning pipeline by hand. It
 refuses to unlock read only. When you mark a task done, it warns if a
@@ -56,6 +57,17 @@ the task back in the band. Keep gives it a new `keep_until` window and returns
 it to the normal list. Drop sets the status to dropped, asks for an optional
 reason, and stores it in `drop_reason`; the task leaves the focus, the digest
 and the counts.
+
+The check-ins tab lists every open task older than `checkin_days` (45 by
+default), oldest first, with no cap. Jev marks one as a multi-week project and
+queues it for a question; the rest go down one tier. A queued task stays active
+for `checkin_active_days` after you answer, or for 90 days by default. If you do
+not answer within `checkin_answer_days`, or you press Not sure, it demotes. The
+demotion is reversible: the old tier is stored, and the tab lists new demotions
+with a Restore button. The old 1,318 stale tasks have no stored tier and are not
+restorable. A task restores itself when it starts, gets a deadline, or its
+source note changes. Scan due tasks runs the queue by hand; the morning run does
+it before the digest.
 
 ## The sticky note
 
@@ -126,6 +138,10 @@ python tracker.py config focus_size 7
   `keep_days` is the default keep window for a lapsed task.
 - `routine_slots`, `lapse_alert_top`, and `lapse_alert_days` are reserved for
   the routines panel and the lapse alerts.
+- `checkin_days` is the age that starts a check-in (45).
+  `checkin_active_days` is how long an answered task stays active (90).
+  `checkin_answer_days` is how long a queued task waits for an answer before it
+  demotes (14).
 
 ## Commands
 
@@ -139,6 +155,9 @@ Run only one step:
 
 ```
 .venv\Scripts\python.exe sync_notes.py    # incremental note sync
+python checkins.py run --dry-run          # show check-in decisions only
+python checkins.py run                    # queue or demote due tasks
+python checkins.py answer b0123 active    # active, done, not, unsure, restore
 python tracker.py digest                  # rebuild digest and list
 python tracker.py rank                    # print ranked open tasks
 python tracker.py check                   # report bad or cyclic prerequisites
@@ -166,8 +185,8 @@ Backfill tools, run only when notes were re-batched:
 
 ## Files
 
-- `tasks.json` — the single reference list. The merge, console, and sticky note
-  edit it; the sync scripts never do.
+- `tasks.json` — the single reference list. The merge, console, sticky note, and
+  check-in flow edit it; the sync scripts never do.
 - `notes.db` — SQLite copy of all notes.
 - `pending_changes.json` — notes added, updated, or deleted in the last sync.
 - `digest-YYYY-MM-DD.md` — one file per morning.
@@ -176,8 +195,11 @@ Backfill tools, run only when notes were re-batched:
 - `categories.py` — one table of categories, tiers and impact floors, and how a
   missed deadline ages.
 - `tracker.py` — scoring, rank, digest, today's picks, and dependency checks.
+- `checkins.py` — the 45-day check-in queue, Jev decision, demotion, and restore.
+- `checkin_cache.json` — cached Jev check-in decisions, keyed by task title and
+  evidence. It is ignored by git.
 - `test_rank.py` — self-check for band, value, lapsed order and fillers, soft
-  deadlines, refill, effort, and dependency rules.
+  deadlines, refill, effort, dependency rules, and check-ins.
 - `console.py` — the local graphical console.
 - `sticky.py` — the small desktop paper note. It is not always on top by
   default; the pin link raises it above other windows when you want that.
@@ -244,9 +266,10 @@ Tier weight is 100, 50, 25, or 12 for P1, P2, P3, P4. A hard `deadline` or a
 `soft_deadline` target adds urgency when `use_deadlines` is on, otherwise age
 adds urgency up to 0.5. Impact adds 0 to 0.5. Higher score ranks
 first. Ties go to the task that unblocks more open tasks, then to S/M/L effort,
-then to the oldest task, so new tasks do not leapfrog older important ones. Any
-open task older than 45 days drops one tier, because it was not acted
-on. Change a task's `tier` or `impact` in `tasks.json` to move it.
+then to the oldest task, so new tasks do not leapfrog older important ones. The
+check-in flow demotes an open task older than 45 days one tier unless Jev queues
+it as a multi-week project. Change a task's `tier` or `impact` in `tasks.json` to
+move it.
 
 ## Key facts
 
@@ -277,3 +300,9 @@ on. Change a task's `tier` or `impact` in `tasks.json` to move it.
   tested only with synthetic data.
 - No task has an effort label or prerequisite link yet, so the new tiebreak and
   completion warning are tested only with synthetic data.
+- No task has a hard or soft deadline yet, so check-in free signals for deadlines
+  are tested only with synthetic data.
+- Re-mention and project activity do not yet reset a check-in. The note project
+  index and merge trace are not built.
+- The 1,318 tasks demoted by the old one-way `demote_stale.py` have no original
+  tier. Keep them, or fix them by hand in the console.

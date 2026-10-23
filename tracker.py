@@ -26,7 +26,7 @@ import random
 import re
 import sqlite3
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 
 import categories
 
@@ -52,6 +52,9 @@ DEFAULTS = {
     "keep_days": 14,
     "lapse_alert_top": 3,
     "lapse_alert_days": 3,
+    "checkin_days": 45,
+    "checkin_active_days": 90,
+    "checkin_answer_days": 14,
 }
 BOUNDS = {
     "notify_top": (1, 20),
@@ -64,6 +67,9 @@ BOUNDS = {
     "keep_days": (1, 365),
     "lapse_alert_top": (1, 10),
     "lapse_alert_days": (1, 30),
+    "checkin_days": (1, 365),
+    "checkin_active_days": (1, 365),
+    "checkin_answer_days": (1, 90),
 }
 
 
@@ -188,6 +194,109 @@ def lapsed_tasks(tasks: dict, settings: dict | None = None) -> list[dict]:
         return (2, -score(task, settings), -task["lapse_days"], task["id"])
 
     rows.sort(key=order)
+    return rows
+
+
+def note_edit_dates() -> dict:
+    """Map note id to the day the note was last edited, when notes.db exists."""
+    if not NOTES_DB.exists():
+        return {}
+    rows = []
+    try:
+        conn = sqlite3.connect(NOTES_DB)
+        try:
+            rows = conn.execute(
+                "SELECT id, modification_ts FROM notes WHERE deleted=0"
+            ).fetchall()
+        finally:
+            conn.close()
+    except sqlite3.Error:
+        return {}
+    out = {}
+    for note_id, stamp in rows:
+        if not stamp:
+            continue
+        try:
+            out[str(note_id)] = date.fromtimestamp(float(stamp))
+        except (OverflowError, OSError, ValueError):
+            pass
+    return out
+
+
+def checkin_base(task: dict, notes: dict) -> date:
+    first = parse_date(task.get("first_seen")) or TODAY
+    edited = notes.get(str(task.get("source_note") or ""))
+    return max(first, edited) if edited else first
+
+
+def checkin_due(
+    task: dict, settings: dict | None = None, notes: dict | None = None
+) -> date | None:
+    """Return the day this task is due for a check-in, or None."""
+    settings = settings if settings is not None else load_settings()
+    notes = {} if notes is None else notes
+    if task.get("status") not in ("open", "started"):
+        return None
+    if task.get("status") == "started":
+        return None
+    if task.get("deadline") or task.get("soft_deadline"):
+        return None
+    state = task.get("checkin_state")
+    if state == "demoted":
+        return None
+    days = int(settings["checkin_days"])
+    if state == "active":
+        due = parse_date(task.get("checkin_until"))
+        if not due:
+            due = checkin_base(task, notes) + timedelta(days=days)
+        return due if due <= TODAY else None
+    if state == "queued":
+        due = parse_date(task.get("checkin_due"))
+        if not due:
+            due = checkin_base(task, notes) + timedelta(days=days)
+        return due if due <= TODAY else None
+    if "demoted: stale" in (task.get("why") or "") and not task.get("demoted_at"):
+        return None
+    due = checkin_base(task, notes) + timedelta(days=days)
+    return due if due <= TODAY else None
+
+
+def checkin_queue(
+    tasks: dict, settings: dict | None = None, notes: dict | None = None
+) -> list[dict]:
+    """Every due check-in, oldest first, with no cap."""
+    settings = settings if settings is not None else load_settings()
+    if notes is None:
+        notes = note_edit_dates()
+    rows = []
+    for task in tasks["tasks"]:
+        due = checkin_due(task, settings, notes)
+        if due is None:
+            continue
+        row = dict(task)
+        first = parse_date(task.get("first_seen")) or TODAY
+        row["checkin_due_date"] = due.isoformat()
+        row["checkin_age_days"] = (TODAY - first).days
+        row["checkin_wait_days"] = (TODAY - due).days
+        rows.append(row)
+    rows.sort(
+        key=lambda t: (
+            t["checkin_due_date"],
+            int(t.get("tier") or 2),
+            t.get("first_seen") or "",
+            t["id"],
+        )
+    )
+    return rows
+
+
+def demoted_checkins(tasks: dict) -> list[dict]:
+    """New demotions from the check-in flow, newest first. Old stale flags stay out."""
+    rows = [
+        dict(t) for t in tasks["tasks"]
+        if t.get("checkin_state") == "demoted" and t.get("demoted_at")
+    ]
+    rows.sort(key=lambda t: (t.get("demoted_at") or "", t["id"]), reverse=True)
     return rows
 
 
@@ -734,6 +843,7 @@ def render_digest(tasks: dict, top_n: int | None = None) -> str:
     picked = {t["id"] for t in picks}
     lapsed_rows = lapsed_tasks(tasks, settings)
     lapsed_by_id = {t["id"]: t for t in lapsed_rows}
+    checkins = checkin_queue(tasks, settings)
     today = TODAY.isoformat()
     lines = [f"# Morning digest — {today}", ""]
     if picks:
@@ -755,6 +865,19 @@ def render_digest(tasks: dict, top_n: int | None = None) -> str:
             else:
                 mar += flags_for(task, settings, tasks)
             lines.append(f"{i}. {task['title']}{mar}{label(task)}{dl}{src}")
+        lines.append("")
+    if checkins:
+        lines.append("## Check-ins — still real?")
+        lines.append("")
+        for task in checkins:
+            lines.append(
+                f"- {task['title']} ({task['checkin_age_days']}d old, "
+                f"due {task['checkin_due_date']})"
+            )
+        lines.append("")
+        lines.append(
+            f"{len(checkins)} check-ins in the console Check-ins tab, oldest first."
+        )
         lines.append("")
     if lapsed_rows:
         lines.append("## Lapsed — still real?")
@@ -795,7 +918,7 @@ def render_digest(tasks: dict, top_n: int | None = None) -> str:
     for task in ranked:
         per_tier[task.get("tier") or 2] = per_tier.get(task.get("tier") or 2, 0) + 1
     counts = ", ".join(f"P{k}: {v}" for k, v in sorted(per_tier.items()))
-    lines.append(f"Counts: {counts}, Lapsed: {len(lapsed_rows)}")
+    lines.append(f"Counts: {counts}, Lapsed: {len(lapsed_rows)}, Check-ins: {len(checkins)}")
     return "\n".join(lines)
 
 

@@ -4,6 +4,7 @@ import pathlib
 import tempfile
 from datetime import date, timedelta
 
+import checkins
 import tracker
 
 TODAY = date.today()
@@ -340,6 +341,125 @@ def test_console_fields():
             console.TASKS = old_tasks
 
 
+def test_checkin_queue():
+    s = config()
+    old = task("old", first_seen=day(-50))
+    older = task("older", first_seen=day(-60))
+    fresh = task("fresh", first_seen=day(-10))
+    started = task("started", first_seen=day(-50), status="started")
+    dated = task("dated", first_seen=day(-50), deadline=day(1))
+    stale = task("stale", first_seen=day(-50), why="demoted: stale")
+    rows = tracker.checkin_queue(
+        {"tasks": [old, older, fresh, started, dated, stale]}, s, notes={}
+    )
+    assert [t["id"] for t in rows] == ["older", "old"]
+    assert [t["checkin_due_date"] for t in rows] == [day(-15), day(-5)]
+
+    edited = task("edited", first_seen=day(-50), source_note="n1")
+    assert tracker.checkin_queue(
+        {"tasks": [edited]}, s, notes={"n1": TODAY}
+    ) == []
+
+    queued = task(
+        "queued", first_seen=day(-50), checkin_state="queued",
+        checkin_due=day(-5), checkin_at=day(-1),
+    )
+    active = task(
+        "active", first_seen=day(-50), checkin_state="active",
+        checkin_until=day(10),
+    )
+    assert [t["id"] for t in tracker.checkin_queue(
+        {"tasks": [queued, active]}, s, notes={}
+    )] == ["queued"]
+
+
+def test_checkin_flow():
+    old_tasks = tracker.TASKS
+    old_cache = checkins.CACHE
+    with tempfile.TemporaryDirectory() as tmp:
+        tracker.TASKS = pathlib.Path(tmp) / "tasks.json"
+        checkins.CACHE = pathlib.Path(tmp) / "checkin_cache.json"
+        s = config()
+        try:
+            items = [task(f"t{i}", first_seen=day(-50 - i)) for i in range(10)]
+            tracker.TASKS.write_text(
+                json.dumps({"version": 1, "tasks": items}), encoding="utf-8"
+            )
+            summary = checkins.run(settings=s, notes={}, use_jev=False)
+            assert summary["queued"] == 10
+            data = json.loads(tracker.TASKS.read_text(encoding="utf-8"))
+            rows = tracker.checkin_queue(data, s, notes={})
+            assert [t["id"] for t in rows] == [f"t{i}" for i in range(9, -1, -1)]
+            assert checkins.answer("t0", "unsure", settings=s)["tier"] == 3
+            demoted = json.loads(tracker.TASKS.read_text(encoding="utf-8"))
+            one = next(t for t in demoted["tasks"] if t["id"] == "t0")
+            assert "demoted: stale" in one["why"]
+            assert one["demoted_from"] == 2
+            assert checkins.answer("t0", "restore", settings=s)["tier"] == 2
+
+            expired = task(
+                "expired", first_seen=day(-50), checkin_state="queued",
+                checkin_due=day(-20), checkin_at=day(-15),
+            )
+            tracker.TASKS.write_text(
+                json.dumps({"version": 1, "tasks": [expired]}), encoding="utf-8"
+            )
+            summary = checkins.run(
+                settings=config(checkin_answer_days=14), notes={}, use_jev=False
+            )
+            assert summary["expired"] == 1
+            data = json.loads(tracker.TASKS.read_text(encoding="utf-8"))
+            assert data["tasks"][0]["checkin_state"] == "demoted"
+
+            restored = task(
+                "restored", first_seen=day(-50), source_note="n2",
+                checkin_state="demoted", demoted_from=1, demoted_at=day(-5),
+                why="demoted: stale",
+            )
+            tracker.TASKS.write_text(
+                json.dumps({"version": 1, "tasks": [restored]}), encoding="utf-8"
+            )
+            summary = checkins.run(settings=s, notes={"n2": TODAY}, use_jev=False)
+            assert summary["restored"] == 1
+            data = json.loads(tracker.TASKS.read_text(encoding="utf-8"))
+            assert data["tasks"][0]["tier"] == 1
+            assert "demoted: stale" not in data["tasks"][0]["why"]
+
+            high = task("high", first_seen=day(-50))
+            low = task("low", first_seen=day(-50))
+            tracker.TASKS.write_text(
+                json.dumps({"version": 1, "tasks": [high, low]}), encoding="utf-8"
+            )
+            old_key = checkins.jev_categorize.api_key
+            old_judge = checkins.judge
+            checkins.jev_categorize.api_key = lambda: "test"
+            checkins.judge = lambda rows, all_tasks, notes, cache: {
+                "high": 0.9, "low": 0.1,
+            }
+            try:
+                summary = checkins.run(settings=s, notes={})
+            finally:
+                checkins.jev_categorize.api_key = old_key
+                checkins.judge = old_judge
+            assert summary["queued"] == 1
+            assert summary["demoted"] == 1
+            data = json.loads(tracker.TASKS.read_text(encoding="utf-8"))
+            by_id = {t["id"]: t for t in data["tasks"]}
+            assert by_id["high"]["checkin_state"] == "queued"
+            assert by_id["low"]["checkin_state"] == "demoted"
+        finally:
+            tracker.TASKS = old_tasks
+            checkins.CACHE = old_cache
+
+
+def test_digest_checkins():
+    reset_today()
+    text = tracker.render_digest({"tasks": [task("old", first_seen=day(-50))]})
+    assert "Check-ins" in text
+    assert "old (50d old" in text
+    assert "Check-ins: 1" in text
+
+
 def main():
     old_today = tracker.TODAY_FILE
     with tempfile.TemporaryDirectory() as tmp:
@@ -353,6 +473,9 @@ def main():
             test_digest_lapsed_section()
             test_soft_deadline_score()
             test_console_fields()
+            test_checkin_queue()
+            test_checkin_flow()
+            test_digest_checkins()
             test_effort_tiebreak()
             test_unblocks_tiebreak()
             test_prereq_marker_and_warning()
