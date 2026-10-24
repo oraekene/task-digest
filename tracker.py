@@ -263,9 +263,16 @@ def checkin_due(
 
 
 def checkin_queue(
-    tasks: dict, settings: dict | None = None, notes: dict | None = None
+    tasks: dict, settings: dict | None = None, notes: dict | None = None,
+    include_unjudged: bool = False,
 ) -> list[dict]:
-    """Every due check-in, oldest first, with no cap."""
+    """Check-ins waiting for your answer, oldest first, with no cap.
+
+    A task that is due but has not been judged yet (no Jev answer, so nobody
+    knows whether it is a project) is not a question for you. It is left out
+    here, and checkins.py asks for those with include_unjudged=True, so a day
+    without Jev cannot flood the list.
+    """
     settings = settings if settings is not None else load_settings()
     if notes is None:
         notes = note_edit_dates()
@@ -273,6 +280,8 @@ def checkin_queue(
     for task in tasks["tasks"]:
         due = checkin_due(task, settings, notes)
         if due is None:
+            continue
+        if not include_unjudged and task.get("checkin_state") != "queued":
             continue
         row = dict(task)
         first = parse_date(task.get("first_seen")) or TODAY

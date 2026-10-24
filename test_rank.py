@@ -350,15 +350,16 @@ def test_checkin_queue():
     started = task("started", first_seen=day(-50), status="started")
     dated = task("dated", first_seen=day(-50), deadline=day(1))
     stale = task("stale", first_seen=day(-50), why="demoted: stale")
-    rows = tracker.checkin_queue(
-        {"tasks": [old, older, fresh, started, dated, stale]}, s, notes={}
-    )
+    everything = {"tasks": [old, older, fresh, started, dated, stale]}
+    rows = tracker.checkin_queue(everything, s, notes={}, include_unjudged=True)
     assert [t["id"] for t in rows] == ["older", "old"]
     assert [t["checkin_due_date"] for t in rows] == [day(-15), day(-5)]
+    # Due but not judged yet: not a question for the owner.
+    assert tracker.checkin_queue(everything, s, notes={}) == []
 
     edited = task("edited", first_seen=day(-50), source_note="n1")
     assert tracker.checkin_queue(
-        {"tasks": [edited]}, s, notes={"n1": TODAY}
+        {"tasks": [edited]}, s, notes={"n1": TODAY}, include_unjudged=True
     ) == []
 
     queued = task(
@@ -498,10 +499,79 @@ def test_remention():
 
 def test_digest_checkins():
     reset_today()
-    text = tracker.render_digest({"tasks": [task("old", first_seen=day(-50))]})
+    queued = task(
+        "old", first_seen=day(-50), checkin_state="queued",
+        checkin_due=day(-5), checkin_at=day(-1),
+    )
+    text = tracker.render_digest({"tasks": [queued]})
     assert "Check-ins" in text
     assert "old (50d old" in text
     assert "Check-ins: 1" in text
+    # Due, but nobody has judged it yet: it must not be listed.
+    reset_today()
+    text = tracker.render_digest({"tasks": [task("new-due", first_seen=day(-50))]})
+    assert "Check-ins — still real" not in text
+    assert "Check-ins: 0" in text
+
+
+def test_checkins_wait_for_jev():
+    """Without Jev nothing is queued, nothing is changed, and the next run tries again."""
+    old_tasks = tracker.TASKS
+    old_cache = checkins.CACHE
+    old_key = checkins.jev_categorize.api_key
+    old_judge = checkins.judge
+    with tempfile.TemporaryDirectory() as tmp:
+        tracker.TASKS = pathlib.Path(tmp) / "tasks.json"
+        checkins.CACHE = pathlib.Path(tmp) / "checkin_cache.json"
+        s = config()
+        try:
+            items = [task(f"t{i}", first_seen=day(-50 - i)) for i in range(12)]
+            blob = json.dumps({"version": 1, "tasks": items})
+            tracker.TASKS.write_text(blob, encoding="utf-8")
+
+            # 1. no key: all twelve wait.
+            checkins.jev_categorize.api_key = lambda: None
+            summary = checkins.run(settings=s, notes={})
+            assert summary["waiting"] == 12 and summary["queued"] == 0
+            assert summary["demoted"] == 0 and summary["queue_total"] == 0
+            assert summary["oldest_wait_days"] == 16
+            data = json.loads(tracker.TASKS.read_text(encoding="utf-8"))
+            assert all("checkin_state" not in t for t in data["tasks"])
+            assert tracker.checkin_queue(data, s, notes={}) == []
+            assert "Check-ins — still real" not in tracker.render_digest(data)
+
+            # 2. the next day's run sees the same twelve plus any new ones.
+            again = checkins.run(settings=s, notes={})
+            assert again["waiting"] == 12 and again["due"] == 12
+
+            # 3. key present, but only some answers come back (an API error mid-way).
+            checkins.jev_categorize.api_key = lambda: "test"
+            checkins.judge = lambda rows, all_tasks, notes, cache: {"t0": 0.9, "t1": 0.1}
+            partial = checkins.run(settings=s, notes={})
+            assert partial["queued"] == 1 and partial["demoted"] == 1 and partial["waiting"] == 10
+            data = json.loads(tracker.TASKS.read_text(encoding="utf-8"))
+            by_id = {t["id"]: t for t in data["tasks"]}
+            assert by_id["t0"]["checkin_state"] == "queued"
+            assert by_id["t1"]["checkin_state"] == "demoted"
+            assert "checkin_state" not in by_id["t5"]
+            assert [t["id"] for t in tracker.checkin_queue(data, s, notes={})] == ["t0"]
+
+            # 4. Jev is back: the waiting ten are judged on the next run.
+            checkins.judge = lambda rows, all_tasks, notes, cache: {
+                t["id"]: 0.1 for t in rows
+            }
+            back = checkins.run(settings=s, notes={})
+            assert back["waiting"] == 0 and back["demoted"] == 10
+
+            # 5. --no-jev is still an explicit choice to ask about everything.
+            tracker.TASKS.write_text(blob, encoding="utf-8")
+            explicit = checkins.run(settings=s, notes={}, use_jev=False)
+            assert explicit["queued"] == 12 and explicit["waiting"] == 0
+        finally:
+            tracker.TASKS = old_tasks
+            checkins.CACHE = old_cache
+            checkins.jev_categorize.api_key = old_key
+            checkins.judge = old_judge
 
 
 def main():
@@ -519,6 +589,7 @@ def main():
             test_console_fields()
             test_checkin_queue()
             test_checkin_flow()
+            test_checkins_wait_for_jev()
             test_remention()
             test_digest_checkins()
             test_effort_tiebreak()

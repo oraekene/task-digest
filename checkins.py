@@ -211,7 +211,7 @@ def run(settings: dict | None = None, notes: dict | None = None,
                 demote(task, due, task.get("checkin_jev"), "no answer")
                 expired += 1
 
-    rows = tracker.checkin_queue(data, settings, notes=notes)
+    rows = tracker.checkin_queue(data, settings, notes=notes, include_unjudged=True)
     by_id = {task["id"]: task for task in tasks}
     due_by_id = {row["id"]: row["checkin_due_date"] for row in rows}
     candidates = [
@@ -221,23 +221,24 @@ def run(settings: dict | None = None, notes: dict | None = None,
 
     has_key = bool(jev_categorize.api_key())
     probs = judge(candidates, tasks, notes, cache) if use_jev and has_key and candidates else {}
-    queued = demoted = 0
+    queued = demoted = waiting = 0
+    oldest_wait = 0
     decisions = []
     for task in candidates:
         due = tracker.parse_date(due_by_id.get(task["id"])) or tracker.TODAY
         prob = probs.get(task["id"])
         if not use_jev:
+            # Your explicit choice (--no-jev): ask about everything that is due.
             queue_task(task, due, None, "Jev skipped")
             queued += 1
             decisions.append((task, None, "queued"))
-        elif not has_key:
-            queue_task(task, due, None, "no Jev key")
-            queued += 1
-            decisions.append((task, None, "queued"))
         elif prob is None:
-            queue_task(task, due, None, "Jev unavailable")
-            queued += 1
-            decisions.append((task, None, "queued"))
+            # No key, an API error, or a batch that did not come back. Nothing is
+            # written, so the task is due again on the next run. Asking you about
+            # every due task instead would add about a dozen a day until Jev is back.
+            waiting += 1
+            oldest_wait = max(oldest_wait, (tracker.TODAY - due).days)
+            decisions.append((task, None, "waiting" if has_key else "waiting, no Jev key"))
         elif prob >= THRESHOLD:
             queue_task(task, due, prob, f"jev {prob:.2f}")
             queued += 1
@@ -256,6 +257,8 @@ def run(settings: dict | None = None, notes: dict | None = None,
         "due": len(candidates),
         "queued": queued,
         "demoted": demoted,
+        "waiting": waiting,
+        "oldest_wait_days": oldest_wait,
         "expired": expired,
         "restored": restored,
         "reset": reset,
@@ -267,9 +270,15 @@ def run(settings: dict | None = None, notes: dict | None = None,
             score = "no Jev" if prob is None else f"jev {prob:.2f}"
             print(f"  {task['id']} {score:>8} -> {decision}  {task['title'][:70]}")
     print(
-        "check-ins: due {due}, queued {queued}, demoted {demoted}, "
+        "check-ins: due {due}, queued {queued}, demoted {demoted}, waiting {waiting}, "
         "expired {expired}, restored {restored}, reset {reset}, total {queue_total}".format(**summary)
     )
+    if waiting:
+        why = "there is no Jev key" if not has_key else "Jev did not answer"
+        print(
+            f"check-ins: {waiting} due tasks are waiting because {why}; "
+            f"the oldest has been due {oldest_wait}d. Nothing was changed; they are tried again next run."
+        )
     return summary
 
 
