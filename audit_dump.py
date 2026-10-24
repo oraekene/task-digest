@@ -84,6 +84,8 @@ def load_tasks_by_note() -> dict:
     tasks = json.loads((HERE / "tasks.json").read_text(encoding="utf-8"))["tasks"]
     by_note = {}
     for t in tasks:
+        if t.get("status") == "dropped":  # you dropped it on purpose; nothing to audit
+            continue
         by_note.setdefault(t["source_note"], []).append(
             {
                 "id": t["id"],
