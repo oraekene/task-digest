@@ -40,11 +40,11 @@ with refill off, finishing a task does not shuffle the list under your fingers.
 Band and value rows stay in place when you shuffle.
 
 The advisory tab shows every completion marker found in your notes, with the
-note line as proof. It also shows the findings of the state audit: a full pass
-where an agent rereads every note against the tasks extracted from it and
-proposes state changes with a quoted evidence line. Each row carries a source
-pill (marker or audit) and a confidence. Apply sets the suggested state. Rescan
-rebuilds the marker report; the audit is rebuilt by hand. Everything stays
+note line as proof. It also shows the findings of the state audit: an agent
+rereads notes against the tasks extracted from them and proposes state changes
+with a quoted evidence line. Each row carries a source pill (marker or audit)
+and a confidence. Apply sets the suggested state. Rescan rebuilds the marker
+report; the audit runs by itself every month (see below). Everything stays
 advisory: nothing changes until you press Apply.
 
 The digest shows up to `lapse_alert_top` lapsed tasks in a short Lapsed section,
@@ -69,6 +69,59 @@ restorable. A task restores itself when it starts, gets a deadline, its source
 note changes, or a newer note mentions it again. A re-mention stores `last_seen`
 and `mention_count` on the task. Scan due tasks runs the queue by hand; the
 morning run does it before the digest.
+
+## The monthly audit
+
+The scheduled task `TaskDigest Audit` runs `run_audit_monthly.ps1` once a day.
+Most days it does nothing, because `audit_run.py` exits at once unless 30 days
+have passed since the last good audit. When one is due it does the three manual
+steps for you: `audit_dump.py` picks the notes in scope and writes the batches,
+one agent run per batch reads `audit_prompt.md` and writes `audit_out_NN.json`,
+and `audit_apply.py` merges the findings into `audit-report.json`. The run is
+recorded in `audit-state.json`, committed and pushed with the report, and a
+toast says how many suggestions are waiting in the Advisory tab.
+
+Register the task once, from this folder:
+
+```
+pwsh -NoProfile -ExecutionPolicy Bypass -File register_audit_task.ps1
+pwsh -NoProfile -ExecutionPolicy Bypass -File register_audit_task.ps1 -Remove
+```
+
+What the monthly pass covers. Only notes that have extracted tasks are sent.
+The first pass, when no earlier audit can be found, covers all of them. After
+that, a monthly pass covers:
+
+1. notes edited since that note was last audited;
+2. notes carried over from a batch that failed last time;
+3. notes with a task whose category is none, or whose Jev label had low
+   confidence, once the note has gone 90 days without an audit, longest
+   unaudited first and at most 150 per run;
+4. a random 10 percent of everything else, chosen the same way for a whole
+   month.
+
+Rule 3 is limited because most notes hold at least one none task. On your
+real notes the unlimited rule picks 79 percent of all notes every month; with
+the limit a pass is about a third of a full one, and it shrinks when the none
+pile does. A failed batch is retried the next day, only for its own notes. If
+two batches in a row fail, the run stops and tries again the next day, so a
+broken agent costs two calls, not a whole pass. A new report is merged into the
+old one: a finding survives until its task changes state or its note is audited
+again.
+
+Optional keys in `settings.json`, all with defaults: `audit_interval_days` 30,
+`audit_sample_pct` 10, `audit_recheck_days` 90, `audit_recheck_cap` 150,
+`audit_batch` 80 (notes per agent call), `audit_batch_minutes` 60, and
+`audit_agent`, the command that runs one batch (default: `opencode run --auto
+--pure --dir <folder> <message> -f audit_prompt.md`).
+
+Run it by hand any time:
+
+```
+pwsh -NoProfile -ExecutionPolicy Bypass -File run_audit_monthly.ps1 -Force
+pwsh -NoProfile -ExecutionPolicy Bypass -File run_audit_monthly.ps1 -Force -Scope full
+.venv\Scripts\python.exe audit_run.py --dry-run
+```
 
 ## The sticky note
 
@@ -180,8 +233,9 @@ Backfill tools, run only when notes were re-batched:
 .venv\Scripts\python.exe inspect_out.py   # check a batch output file
 .venv\Scripts\python.exe categorize_dump.py   # split tasks for classification
 .venv\Scripts\python.exe categorize_apply.py  # apply category labels
-.venv\Scripts\python.exe audit_dump.py        # split all notes for the state audit
-.venv\Scripts\python.exe audit_apply.py       # merge audit batch output
+.venv\Scripts\python.exe audit_run.py         # the whole audit, only when due
+.venv\Scripts\python.exe audit_dump.py        # step 1 by hand: split notes into batches
+.venv\Scripts\python.exe audit_apply.py       # step 3 by hand: merge audit batch output
 ```
 
 ## Files
@@ -208,8 +262,11 @@ Backfill tools, run only when notes were re-batched:
   records the band, value, routine, lapsed-filler, and auto-added task ids.
 - `marker-report.md` and `marker-report.json` — the marker scan report.
 - `audit_prompt.md`, `audit_dump.py`, `audit_apply.py`, `audit-report.json` —
-  the full note-by-note state audit: dump notes with their tasks, run one agent
+  the note-by-note state audit: dump notes with their tasks, run one agent
   per batch against the prompt, then merge. Output is advisory, like markers.
+- `audit_run.py`, `run_audit_monthly.ps1`, `register_audit_task.ps1`,
+  `audit-state.json` — run the audit by itself every month (see above).
+  `logs/audit.log` and `logs/audit_monthly.log` hold the run logs.
 - `logs/run_daily.log` — morning run log.
 - `.token` — your Simplenote access token. Do not share this file.
 - `.jev_key` — your Jev (Typesafe) API key, used only when `TYPESAFE_API_KEY`
@@ -282,6 +339,9 @@ move it.
 - Scheduled task name: `TaskDigest Morning`, daily at 07:00, start when
   available if the laptop was asleep.
 - Scheduled task name: `TaskDigest Login`, at logon, waits for the internet.
+- Scheduled task name: `TaskDigest Audit`, daily at 13:00 (change with `-Time`),
+  start when available. It audits only when 30 days have passed. It never
+  blocks the morning run: it stops if the morning run's lock is fresh.
 - The morning run commits `tasks.json`, `list.md`, the digest, the reports and
   `today.json`, then pushes. If offline, it commits only and the login task
   retries the push.
