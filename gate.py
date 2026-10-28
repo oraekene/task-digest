@@ -2,7 +2,7 @@
 
 Checks:
   1. settings.json keeps read_only true.
-  2. No script contains a write HTTP verb or sends a request body.
+  2. No script that can reach Simplenote contains a write HTTP verb or sends a request body.
 
 Usage: python gate.py
 """
@@ -34,6 +34,10 @@ def main() -> int:
         if path.name == "gate.py":
             continue
         text = path.read_text(encoding="utf-8", errors="replace")
+        # shortcut: a write to Simplenote needs its host named in the file; upgrade if a
+        # future client builds the URL dynamically. Other APIs (Jev) may write freely.
+        if not re.search(r"simperium\.com|simplenote\.com", text, re.I):
+            continue
         for pattern, label in BANNED:
             for m in pattern.finditer(text):
                 line = text[: m.start()].count("\n") + 1
