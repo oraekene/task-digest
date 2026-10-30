@@ -22788,7 +22788,12 @@
       "first_seen": "2026-09-15",
       "completed": null,
       "why": "income stream definition with offer and customer steps | money: money-machine",
-      "category": "money-machine"
+      "category": "money-machine",
+      "checkin_state": "queued",
+      "checkin_due": "2026-10-30",
+      "checkin_at": "2026-10-30",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1426",
@@ -22803,7 +22808,12 @@
       "first_seen": "2026-09-15",
       "completed": null,
       "why": "purchases for the video pipeline; also in bfbedc42578b | money: outgoing-due",
-      "category": "outgoing-due"
+      "category": "outgoing-due",
+      "checkin_state": "queued",
+      "checkin_due": "2026-10-30",
+      "checkin_at": "2026-10-30",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1427",
@@ -22818,7 +22828,12 @@
       "first_seen": "2026-09-15",
       "completed": null,
       "why": "explicit two-stage pipeline bond",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-10-30",
+      "checkin_at": "2026-10-30",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1428",
