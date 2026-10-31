@@ -22848,7 +22848,12 @@
       "first_seen": "2026-09-16",
       "completed": null,
       "why": "explicit dual-tool usage for SEO sites",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-10-31",
+      "checkin_at": "2026-10-31",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1429",
@@ -22863,7 +22868,12 @@
       "first_seen": "2026-09-16",
       "completed": null,
       "why": "search infrastructure decision for QMD",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-10-31",
+      "checkin_at": "2026-10-31",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1430",
@@ -22878,7 +22888,12 @@
       "first_seen": "2026-09-16",
       "completed": null,
       "why": "full evaluation prompt to run one by one; also in bfbedc42578b, note truncated",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-10-31",
+      "checkin_at": "2026-10-31",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1431",
@@ -22893,7 +22908,12 @@
       "first_seen": "2026-09-16",
       "completed": null,
       "why": "explicit combination ask; also in c36c1f35",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-10-31",
+      "checkin_at": "2026-10-31",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1432",
@@ -22908,7 +22928,12 @@
       "first_seen": "2026-09-16",
       "completed": null,
       "why": "central recalibration program for SEO accuracy",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-10-31",
+      "checkin_at": "2026-10-31",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1433",
@@ -22923,7 +22948,12 @@
       "first_seen": "2026-09-16",
       "completed": null,
       "why": "explicit sister research instruction",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-10-31",
+      "checkin_at": "2026-10-31",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1434",
@@ -22938,7 +22968,12 @@
       "first_seen": "2026-09-16",
       "completed": null,
       "why": "production plan costed in the note; also in 568e78f4",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-10-31",
+      "checkin_at": "2026-10-31",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1435",
@@ -22953,7 +22988,12 @@
       "first_seen": "2026-09-16",
       "completed": null,
       "why": "explicit automation audit question",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-10-31",
+      "checkin_at": "2026-10-31",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1436",
@@ -22968,7 +23008,12 @@
       "first_seen": "2026-09-16",
       "completed": null,
       "why": "packaging path; also in db1010c7",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-10-31",
+      "checkin_at": "2026-10-31",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1437",
