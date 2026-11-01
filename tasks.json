@@ -23028,7 +23028,12 @@
       "first_seen": "2026-09-17",
       "completed": null,
       "why": "launch process capture into QMD",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-01",
+      "checkin_at": "2026-11-01",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1438",
@@ -23043,7 +23048,12 @@
       "first_seen": "2026-09-17",
       "completed": null,
       "why": "packaging scope defined for v1 | money: money-machine",
-      "category": "money-machine"
+      "category": "money-machine",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-01",
+      "checkin_at": "2026-11-01",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1439",
@@ -23058,7 +23068,12 @@
       "first_seen": "2026-09-17",
       "completed": null,
       "why": "A NEW TOOL flagged; combines grilling with jev-autoresearch",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-01",
+      "checkin_at": "2026-11-01",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1440",
@@ -23073,7 +23088,12 @@
       "first_seen": "2026-09-17",
       "completed": null,
       "why": "explicit QMD feature; skills and plugins also listed",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-01",
+      "checkin_at": "2026-11-01",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1441",
@@ -23088,7 +23108,12 @@
       "first_seen": "2026-09-17",
       "completed": null,
       "why": "enrichment of the ICP mapping workflow",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-01",
+      "checkin_at": "2026-11-01",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1442",
@@ -23103,7 +23128,12 @@
       "first_seen": "2026-09-17",
       "completed": null,
       "why": "new product idea with the use-case list attached",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-01",
+      "checkin_at": "2026-11-01",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1443",
@@ -23118,7 +23148,12 @@
       "first_seen": "2026-09-17",
       "completed": null,
       "why": "stated purchase worth it; also in 568e78f4",
-      "category": "outgoing-due"
+      "category": "outgoing-due",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-01",
+      "checkin_at": "2026-11-01",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1444",
@@ -23133,7 +23168,12 @@
       "first_seen": "2026-09-17",
       "completed": null,
       "why": "explicit first target is the three prioritization engine versions",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-01",
+      "checkin_at": "2026-11-01",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1445",
