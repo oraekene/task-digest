@@ -23757,7 +23757,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "an open comparison question for the autoresearch stack",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1473",
@@ -23772,7 +23777,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "time-boxed free credits to use before expiry",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1474",
@@ -23787,7 +23797,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "explicit multi-turn continuation instruction to self",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1475",
@@ -23802,7 +23817,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "pointer to an upgraded free classifier",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1476",
@@ -23817,7 +23837,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "explicit technical addition to the active jev work",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1477",
@@ -23832,7 +23857,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "research task feeding the autoresearch frameworks",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1478",
@@ -23847,7 +23877,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "core QMD feature idea, applied for every product",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1479",
@@ -23862,7 +23897,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "concrete deployment of the knowledgebase",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1480",
@@ -23877,7 +23917,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "explicitly a free add-on pack for QMD",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1481",
@@ -23892,7 +23937,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "one of several numbered spec questions to resolve",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1482",
@@ -23907,7 +23957,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "note marks this VERY IMPORTANT and it already produced paying clients",
-      "category": "money-machine"
+      "category": "money-machine",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1483",
@@ -23922,7 +23977,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "first step for the ad campaign",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1484",
@@ -23937,7 +23997,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "explicit therapy app build path",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1485",
@@ -23952,7 +24017,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "explicit personal program request with a routine",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1486",
@@ -23967,7 +24037,12 @@
       "first_seen": "2026-09-19",
       "completed": null,
       "why": "explicit search task for skill inventory",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-03",
+      "checkin_at": "2026-11-03",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1487",
