@@ -27162,7 +27162,12 @@
       "first_seen": "2026-09-28",
       "completed": null,
       "why": "The note's first line; repeated as MAIN in 71cb95ae20194ff6bab9fa7d96ef95ba.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-12",
+      "checkin_at": "2026-11-12",
+      "checkin_jev": 0.99,
+      "checkin_reason": "jev 0.99"
     },
     {
       "id": "b1630",
@@ -27177,7 +27182,12 @@
       "first_seen": "2026-09-28",
       "completed": null,
       "why": "Explicit first step before the tool can be built.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-12",
+      "checkin_at": "2026-11-12",
+      "checkin_jev": 0.95,
+      "checkin_reason": "jev 0.95"
     },
     {
       "id": "b1631",
@@ -27192,7 +27202,12 @@
       "first_seen": "2026-09-28",
       "completed": null,
       "why": "Named feature for an existing product.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-12",
+      "checkin_at": "2026-11-12",
+      "checkin_jev": 0.73,
+      "checkin_reason": "jev 0.73"
     },
     {
       "id": "b1632",
@@ -27201,13 +27216,20 @@
       "source_title": "Turn windows optimizing chatgpt njemanze thread Into a tool",
       "quote": "so we have to somehow design the UX of this tool to have a better advantage",
       "status": "open",
-      "tier": 2,
+      "tier": 3,
       "impact": 0.2,
       "deadline": null,
       "first_seen": "2026-09-28",
       "completed": null,
-      "why": "Blocker the note names for shipping the tool.",
-      "category": "none"
+      "why": "Blocker the note names for shipping the tool. | demoted: stale",
+      "category": "none",
+      "demoted_from": 2,
+      "demoted_at": "2026-11-12",
+      "checkin_state": "demoted",
+      "checkin_due": "2026-11-12",
+      "checkin_at": "2026-11-12",
+      "checkin_jev": 0.28,
+      "checkin_reason": "jev 0.28"
     },
     {
       "id": "b1633",
