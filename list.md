@@ -1,172 +1,172 @@
-# Open tasks by importance — updated 2026-11-16 07:03
+# Open tasks by importance — updated 2026-11-17 15:56
 
 1. [P1] [money-machine] Finish end-to-end automation of opportunity_desk-twitter_scraper-cold_email combo and write step-by-step processes
 2. [P1] [new-opportunity] Set up AI consulting business (theory-of-constraints framework, business process, cold-email profile, lead-gen, eval process, payment method)
 3. [P1] Get Google Pro plan working in opencode (outside Antigravity)
 4. [P1] [blocks-work] [started] Restore the AUTH_DEV dev login to unblock QA
 5. [P1] [money-machine] [started] Pitch Yonder VC with the PITCH subject line
-6. [P1] [money-machine] Run the 2500 naira TikTok ad for web design clients today
-7. [P1] [money-machine] Advertise in all academic Facebook groups, threads groups, discords, telegrams, IG groups and forums
-8. [P1] [incoming-window] Complete the TypeSafe job application by tomorrow morning, showing the jev-built specs
-9. [P1] [money-machine] Split every decision tool and sub-feature into individual apps, then combine them into market-ready suites
-10. [P1] [money-machine] Build the multi-user web SaaS: own keys free, Telegram free, and N5k per month paid tier
-11. [P1] Each morning pull all job, opportunity and freelance alerts, then apply and run the distilled Omoalhaja process
-12. [P1] [money-machine] Later turn the whole job-hunting into a WhatsApp bot
-13. [P1] Send LinkedIn cold emails using the summary template plus the personal context folder
-14. [P1] [money-machine] Repeat that local business play for Nigeria and West Africa, adapting the automated workflow audit tool
-15. [P1] [money-machine] Build a cold email template for pitching the AI automation agency, combined with the workflow audit tool
-16. [P1] [money-machine] Add that AI pilot failure list and all his tweets as checklists to expand the workflow automation audit tool
-17. [P1] [incoming-window] Deeply research a16z speedrun, note my previous mistakes, and reapply by October 8th
-18. [P1] [money-machine] Add the finding-contact-email step so opportunity-desk is complete end to end
-19. [P1] [incoming-window] Create a company email on Cloudflare from my domain, then apply for Claude for Startups
-20. [P1] [money-machine] Send cold emails today
-21. [P1] [money-machine] Expand the architecture tool to CAD and to steel and manufacturing, starting with dad's Dorman Long
-22. [P1] [incoming-window] Reapply to Claude Startups stating prior funding and keeping the company under five years old
-23. [P1] Run the twitter-scraper search for all hiring jobs and dump them into cold-email to generate artifacts
-24. [P1] [money-machine] Send all the cold emails generated yesterday
-25. [P1] [money-machine] Add the follow-up system to the cold email tool
-26. [P1] [money-machine] Design cold-email profile for selling one specific service (AI consulting), with the outside-schema customisation gaps
-27. [P1] [money-machine] Daily morning routine: collate twitter hiring tweets, batch cold-email processing, mass manual sending (first 3 hours)
-28. [P1] [money-machine] Cold-email: add feature for custom CVs based on personal_context (plus manually run CV customisation per job)
-29. [P1] [money-machine] Add semantic search feature to opportunity_desk_aggregator as third search type (simple, boolean, semantic)
-30. [P1] [money-machine] Execute money-making loop: pick opportunity from twitter bookmarks, find automating tools/processes, build remaining gaps
-31. [P1] [money-machine] Cold-email: run live end-to-end tests of people search and enrichment; review forked readmes/notes/bookmarks for over-engineering
-32. [P1] [money-machine] Cold-email: add multi-stakeholder feature (prospects with multiple opportunities get per-angle dossiers and per-stakeholder emails)
-33. [P1] [money-machine] Design twitter scraper profile-search feature (brainstorm fully before implementing)
-34. [P1] [money-machine] Cold-email: study and implement the /goal-style continuous-run pattern for long batch jobs (dossiers without 'continue' prompts)
-35. [P1] [money-machine] Twitter tool: add full social monitoring capabilities (semantic) + perfect plug-and-play endpoints for third-party AI tools
-36. [P1] [money-machine] Use 1000 Flow credits: mine image/video gen guides, point at codebase/specs/chats, run end-to-end for 3 products to promote (TASK 2)
-37. [P1] [money-machine] Adapt solarone marketing tool to work with any project/product; make twitter tool plug into it at all endpoints
-38. [P1] [money-machine] Cold-email: add wellspoken/Toastmasters interview prep resources to the interview feature (job-hunting and job-ops)
-39. [P1] [money-machine] Send cold email pitch to Nkechi Iregbulem (Head of Inception, Sierra Ventures)
-40. [P1] [money-machine] Send pitch to Said Aitmbarek (micro-fund accelerator, reply or DM)
-41. [P1] [money-machine] Cold-email: check coverage of all last30days-style modes and scenarios in playbooks/pipelines
-42. [P1] [money-machine] Cold-email: add lessons-log feature (notes the tool must always read before runs; an optmem for the tool)
-43. [P1] [money-machine] Add email tooling ideas from inbox-zero to all tools' email features (job hunting, opportunity_desk-cold_email combo, job-ops)
-44. [P1] [money-machine] Product videos: add OpenDesign Motion to marketing suite (fit-to-brand) with video/scene framing collections
-45. [P1] [money-machine] Send the cold email
-46. [P1] [money-machine] Use Twitter scraper to track things, package and send to telegram channels
-47. [P1] [money-machine] Alert within five minutes when a job application goes live in Opportunity Desk
-48. [P1] [money-machine] Work through the cold DM Twitter guides one by one
-49. [P1] [money-machine] Write the SolarSizer case study article, first AI draft
-50. [P1] [money-machine] Begin part 2 of solar business marketing
-51. [P1] [money-machine] Track new free tier providers via twitter/reddit scrapers
-52. [P1] [money-machine] Compare every SolarSizer SDK deploy and merge the working fixes
-53. [P1] [money-machine] [started] Finish the OpenCode agent version of the job workflow
-54. [P1] [money-machine] Redesign SolarSizer
-55. [P1] [money-machine] Redesign the gift recommender
-56. [P1] [money-machine] Test the Pomerado browser-use tool for job hunting
-57. [P1] [money-machine] Build the job-hunting trait analysis from job descriptions and LinkedIn profiles
-58. [P1] [money-machine] Add an important-things morning briefing to task-digest
-59. [P1] [new-opportunity] Run the two week plan: mornings manual job applications and cold outreach, afternoons wrapping repos
-60. [P1] Redo the base CV to include all new projects
-61. [P1] Reply again with my best newest project from the GitHub repo
-62. [P1] [money-machine] Pull freelance gigs from the Twitter scraper and add them to Opportunity Desk
-63. [P1] [money-machine] Turn the Instagram cold email into a reusable template
-64. [P1] [money-machine] Add current community research to every grant and funding application
-65. [P1] [money-machine] Build freelance gig template from instagram response
-66. [P1] [money-machine] Add a Gmail draft connector so a finished cold email needs one click
-67. [P1] [money-machine] Add full analytics and A/B testing to the cold email tool
-68. [P1] [money-machine] Add gmail draft connector to people search tool
-69. [P1] [money-machine] Add follow-up sequence automation to people search
-70. [P1] [money-machine] Build analytics for cold email A/B testing
-71. [P1] [incoming-promised] Collect 4k from Rotimi
-72. [P1] [money-machine] Collect opportunity accounts and platforms from opportunity and job tweets, add to opportunity_desk
-73. [P1] [incoming-window] Find every bookmarked list of startup deadlines on Twitter
-74. [P1] [incoming-window] Find all grant deadlines from bookmarked twitter lists — due 2026-11-18
-75. [P1] [incoming-window] Search the bookmarks for hackathons and funding closing in two days
-76. [P1] [started] Clean and reinsert the RAM in the laptop
-77. [P1] [money-machine] On any freellmapi error, copy the session traces and compare against saved direct API traces
-78. [P1] [money-machine] Add all free API models manually to opencode and the deepseek harness
-79. [P1] [money-machine] Manually test each NVIDIA NIM model; keys show green but it has not worked for some time
-80. [P1] [money-machine] Add the fully tested free APIs to freellmapi only after all manual testing passes
-81. [P1] [money-machine] Fix hermes agent as the second backup after free APIs in opencode and the deepseek harness
-82. [P1] [money-machine] Test each added API on a multi-turn test and copy out full traces and session history
-83. [P1] [money-machine] Snowball-search bookmarks for tweets similar to the two AI gig example tweets
-84. [P1] [money-machine] Make the mercor twitter_scraper output a daily morning list of AI gigs to apply to
-85. [P1] [money-machine] Find and test the simplest browser automation tooling for form filling until one works satisfactorily
-86. [P1] [money-machine] Market Github-pia using the twitter tool: compare major products and find better open-source implementations
-87. [P1] [money-machine] Connect opportunity_desk feeds and twitter_scraper automations to the cold-email tool
-88. [P1] [money-machine] Merge job-hunting and opportunity_desk into one tool
-89. [P1] [money-machine] Make job-hunting a standalone tool/repo and plugin independent of Hermes, running on pi or Cloudflare pi harness
-90. [P1] [money-machine] Merge all daily notification outputs into task-digest app (single what-to-do-today page)
-91. [P1] [money-machine] Extract 2 days of bookmarked job openings and opportunities into opportunity_desk
-92. [P1] [money-machine] List every freelance role and client request from Upwork and other gig sites in bookmarked tweets, then mark those fulfillable with >80% certainty from personal context
-93. [P1] [money-machine] Combine all 3 tools together via session search
-94. [P1] [money-machine] Finish solarsizer: extract feature updates from commits
-95. [P1] [money-machine] Fix job-hunting auto-apply with mirage VLM model
-96. [P1] [money-machine] Run the AI-jobs pipeline: scrape with twitter_scraper, auto-fill with job-hunting, apply manually
-97. [P1] [money-machine] Turn the followed application processes into gig automation
-98. [P1] [money-machine] Run the opportunities pipeline: scrape with twitter_scraper, fill applications with cold-email
-99. [P1] [money-machine] Build independent plugins for all AI agents, IDEs, bots and the web version with Pi Harness
-100. [P1] [money-machine] Have the AI implement and test the cactus and mirage tools first
-101. [P1] [money-machine] Fix up gift-recommender and cold-email businesses to use it for end-of-year gifts
-102. [P1] [money-machine] Fix up SolarSizer and cold-email individuals and businesses on solar packages as year-end gifts
-103. [P1] [money-machine] Build the Retatrutide website quickly
-104. [P1] [money-machine] Add the watt meter as a prominent product on the site
-105. [P1] [money-machine] Add a home load sizing guide and load calculation spreadsheet to the site
-106. [P1] [money-machine] Add monthly total power generation effects to the usage profile PDF export
-107. [P1] [money-machine] Add new product type for wires, crimps and other solar setups before the scraper
-108. [P1] [money-machine] Add a cart to the site
-109. [P1] [money-machine] Run the existing job-hunting end-to-end pipeline in opencode and antigravity with crons
-110. [P1] [money-machine] Build the jiji scraper from scratch for the solar site
-111. [P1] [money-machine] Add all the websites to scrape and curate Nigerian solar sellers
-112. [P1] [money-machine] Finish the dating app and run Twitter marketing targeting japa people returning in December
-113. [P1] [incoming-window] Finalise the job-hunting plugin for the competition: update Hermes and port everything — due 2026-11-09
-114. [P2] [outgoing-due] [value] Pay the one-time $25 Google developer fee to start deploying apps
-115. [P2] [value] Set up the product video creation tools this month
-116. [P2] [money-machine] [value] Start manual job applications and cold DMs via threads
-117. [P2] [incoming-window] [value] Apply to the Google form by tomorrow
-118. [P2] [incoming-promised] [value] Create and send the invoice to Seun
-119. [P2] [incoming-window] [value] Finish the job application
-120. [P2] [money-machine] [value] Register both products on CDCARE immediately
-121. [P2] [client-job] [value] Find South Western Ontario aggregators of trades companies first
-122. [P2] [money-machine] [value] Finish the retatrutide (peptide business) setup quickly
-123. [P2] [money-machine] [value] Open the WhatsApp Business account for SolarSizer today
-124. [P2] [incoming-window] [value] Set up Pioneer free tokens with OpenCode and Codex for June and July
-125. [P2] [money-machine] [value] Build the punter EV calculator/tracker for World Cup (which punters to bet on)
-126. [P2] [value] Finish the auto-apply extension, run 100 test applications, start 100 job-site scripts
-127. [P2] [value] Practice gratitude toward loved ones when angry
-128. [P2] [money-machine] [value] Set up Hermes desktop and mobile (Telegram) and test the free API
-129. [P2] [money-machine] [value] Build the Hermes job-hunting setup (agents, skills, rules, automated applications capped at 10-20/day)
-130. [P2] [money-machine] [value] Package the whole setup into a single licensed tool, record the video and list it on Selar (N30k/$100; N60k/$150 tier)
-131. [P2] [value] Manually apply for jobs (VA, customer support, low-level roles) every day
-132. [P2] [money-machine] [value] Run plain Hermes browser-use tests and an autoresearch loop until it is fixed
-133. [P2] [money-machine] [value] Start automation agency outreach now with Hermes-sourced customers
-134. [P2] [money-machine] [value] Run manual cold DMs with the Sales Nav trial
-135. [P2] [money-machine] [value] Build prioritization tool API endpoints served over the cloud
-136. [P2] [money-machine] [value] Define every hourly service role, the offer and the customers
-137. [P2] [money-machine] [value] Package QMD v1 with one base and 1-2 pay features
-138. [P2] [money-machine] [value] Build the Focus prioritization noteapp on Bolt and ship it
-139. [P2] [money-machine] [value] Fully integrate newsjack into solarone marketing
-140. [P2] [money-machine] [value] Define exactly what I will sell before starting cold outreach, using Qmd over my notes
-141. [P2] [blocks-work] [value] Merge the v1 and v2 AHPAS specs into the hybrid v2.0 core and planning outputs, replacing the older GLM v1
-142. [P2] [money-machine] [value] Ensure the automated cold outreach tool covers the tips from the linked guidance
-143. [P2] [money-machine] [value] Have gemini or muse audit the solarone marketing specs against github forks and bookmarks, then finish the tool
-144. [P2] [money-machine] [value] Build the open-source network monitor that can do all GlassWire can do and more, on desktop and mobile
-145. [P2] [value] Do manual job applications, grant applications and cold outreach via the ParameterAI website
-146. [P2] [money-machine] [value] Operationalise 1-2 GUI and frontend design skills into commercial website design work
-147. [P2] [money-machine] [value] Make launch and product videos for the Pangram writing skill and MTN, including the VPN
-148. [P2] [value] Adopt the standard stack for every software built (Hermes base, autoresearch/DSPy step, 5-Whys)
-149. [P2] [value] Try Cloudflare Email before Unosend
-150. [P2] [value] Gather all forwarder-bot versions/notes/chats and deep-compare them by recency
-151. [P2] [value] Send the inverter battery to Lagos for warranty
-152. [P2] [health-safety] [value] Buy a new laptop battery
-153. [P2] [value] Build quick benchmarks for comparing models across tools
-154. [P2] [value] Apply on Freelancer, Upwork and Fiverr
-155. [P2] [money-machine] [value] Finish job-hunting hosting and testing before 11:30am
-156. [P2] [client-job] [value] Complete the lead gen email enrichment task
-157. [P2] [new-opportunity] [value] Wrap github repos and twitter guides into desktop products or SaaS sold on selar and nestuge
-158. [P2] [value] Do 3-hour reasoning and IQ test drills, and add them as part two of the interview prep tool
-159. [P2] [value] Collate all essays and cold email answers into the first starbank document
-160. [P2] [value] Search all bookmarks for hiring and cold outreach keywords, one keyword at a time
-161. [P2] [incoming-window] [value] Drop all 101 Tangent open roles in at once and run the full pipeline
-162. [P2] [incoming-window] [value] Drop all 50+ Plaid open roles in at once and run the full pipeline
-163. [P2] [value] Collate complaints about all the assistant bots and build their fixes into the prioritization plugin and noteapp
-164. [P2] [value] Add model selectors to the QMD desktop executable based on device specs, downloading during install
-165. [P2] [value] Send 50 cold LinkedIn DMs using the summarised Omoalhaja method
-166. [P2] [value] Set up the YC outreach email finder tool repo as another section of the cloudflare scrapers
-167. [P2] [value] Decide what exactly is being sold in the YC outreach: a job search or AI automation services
+6. [P1] [money-machine] Advertise in all academic Facebook groups, threads groups, discords, telegrams, IG groups and forums
+7. [P1] [incoming-window] Complete the TypeSafe job application by tomorrow morning, showing the jev-built specs
+8. [P1] [money-machine] Split every decision tool and sub-feature into individual apps, then combine them into market-ready suites
+9. [P1] [money-machine] Build the multi-user web SaaS: own keys free, Telegram free, and N5k per month paid tier
+10. [P1] Each morning pull all job, opportunity and freelance alerts, then apply and run the distilled Omoalhaja process
+11. [P1] [money-machine] Later turn the whole job-hunting into a WhatsApp bot
+12. [P1] Send LinkedIn cold emails using the summary template plus the personal context folder
+13. [P1] [money-machine] Repeat that local business play for Nigeria and West Africa, adapting the automated workflow audit tool
+14. [P1] [money-machine] Build a cold email template for pitching the AI automation agency, combined with the workflow audit tool
+15. [P1] [money-machine] Add that AI pilot failure list and all his tweets as checklists to expand the workflow automation audit tool
+16. [P1] [incoming-window] Deeply research a16z speedrun, note my previous mistakes, and reapply by October 8th
+17. [P1] [money-machine] Add the finding-contact-email step so opportunity-desk is complete end to end
+18. [P1] [incoming-window] Create a company email on Cloudflare from my domain, then apply for Claude for Startups
+19. [P1] [money-machine] Send cold emails today
+20. [P1] [money-machine] Expand the architecture tool to CAD and to steel and manufacturing, starting with dad's Dorman Long
+21. [P1] [incoming-window] Reapply to Claude Startups stating prior funding and keeping the company under five years old
+22. [P1] Run the twitter-scraper search for all hiring jobs and dump them into cold-email to generate artifacts
+23. [P1] [money-machine] Send all the cold emails generated yesterday
+24. [P1] [money-machine] Add the follow-up system to the cold email tool
+25. [P1] [money-machine] Design cold-email profile for selling one specific service (AI consulting), with the outside-schema customisation gaps
+26. [P1] [money-machine] Daily morning routine: collate twitter hiring tweets, batch cold-email processing, mass manual sending (first 3 hours)
+27. [P1] [money-machine] Cold-email: add feature for custom CVs based on personal_context (plus manually run CV customisation per job)
+28. [P1] [money-machine] Add semantic search feature to opportunity_desk_aggregator as third search type (simple, boolean, semantic)
+29. [P1] [money-machine] Execute money-making loop: pick opportunity from twitter bookmarks, find automating tools/processes, build remaining gaps
+30. [P1] [money-machine] Cold-email: run live end-to-end tests of people search and enrichment; review forked readmes/notes/bookmarks for over-engineering
+31. [P1] [money-machine] Cold-email: add multi-stakeholder feature (prospects with multiple opportunities get per-angle dossiers and per-stakeholder emails)
+32. [P1] [money-machine] Design twitter scraper profile-search feature (brainstorm fully before implementing)
+33. [P1] [money-machine] Cold-email: study and implement the /goal-style continuous-run pattern for long batch jobs (dossiers without 'continue' prompts)
+34. [P1] [money-machine] Twitter tool: add full social monitoring capabilities (semantic) + perfect plug-and-play endpoints for third-party AI tools
+35. [P1] [money-machine] Use 1000 Flow credits: mine image/video gen guides, point at codebase/specs/chats, run end-to-end for 3 products to promote (TASK 2)
+36. [P1] [money-machine] Adapt solarone marketing tool to work with any project/product; make twitter tool plug into it at all endpoints
+37. [P1] [money-machine] Cold-email: add wellspoken/Toastmasters interview prep resources to the interview feature (job-hunting and job-ops)
+38. [P1] [money-machine] Send cold email pitch to Nkechi Iregbulem (Head of Inception, Sierra Ventures)
+39. [P1] [money-machine] Send pitch to Said Aitmbarek (micro-fund accelerator, reply or DM)
+40. [P1] [money-machine] Cold-email: check coverage of all last30days-style modes and scenarios in playbooks/pipelines
+41. [P1] [money-machine] Cold-email: add lessons-log feature (notes the tool must always read before runs; an optmem for the tool)
+42. [P1] [money-machine] Add email tooling ideas from inbox-zero to all tools' email features (job hunting, opportunity_desk-cold_email combo, job-ops)
+43. [P1] [money-machine] Product videos: add OpenDesign Motion to marketing suite (fit-to-brand) with video/scene framing collections
+44. [P1] [money-machine] Send the cold email
+45. [P1] [money-machine] Use Twitter scraper to track things, package and send to telegram channels
+46. [P1] [money-machine] Alert within five minutes when a job application goes live in Opportunity Desk
+47. [P1] [money-machine] Work through the cold DM Twitter guides one by one
+48. [P1] [money-machine] Write the SolarSizer case study article, first AI draft
+49. [P1] [money-machine] Begin part 2 of solar business marketing
+50. [P1] [money-machine] Track new free tier providers via twitter/reddit scrapers
+51. [P1] [money-machine] Compare every SolarSizer SDK deploy and merge the working fixes
+52. [P1] [money-machine] [started] Finish the OpenCode agent version of the job workflow
+53. [P1] [money-machine] Redesign SolarSizer
+54. [P1] [money-machine] Redesign the gift recommender
+55. [P1] [money-machine] Test the Pomerado browser-use tool for job hunting
+56. [P1] [money-machine] Build the job-hunting trait analysis from job descriptions and LinkedIn profiles
+57. [P1] [money-machine] Add an important-things morning briefing to task-digest
+58. [P1] [money-machine] Pull freelance gigs from the Twitter scraper and add them to Opportunity Desk
+59. [P1] [money-machine] Turn the Instagram cold email into a reusable template
+60. [P1] [money-machine] Add current community research to every grant and funding application
+61. [P1] [money-machine] Build freelance gig template from instagram response
+62. [P1] [money-machine] Add a Gmail draft connector so a finished cold email needs one click
+63. [P1] [money-machine] Add full analytics and A/B testing to the cold email tool
+64. [P1] [money-machine] Add gmail draft connector to people search tool
+65. [P1] [money-machine] Add follow-up sequence automation to people search
+66. [P1] [money-machine] Build analytics for cold email A/B testing
+67. [P1] [new-opportunity] Run the two week plan: mornings manual job applications and cold outreach, afternoons wrapping repos
+68. [P1] Redo the base CV to include all new projects
+69. [P1] Reply again with my best newest project from the GitHub repo
+70. [P1] [incoming-promised] Collect 4k from Rotimi
+71. [P1] [incoming-window] Find every bookmarked list of startup deadlines on Twitter
+72. [P1] [incoming-window] Find all grant deadlines from bookmarked twitter lists — due 2026-11-18
+73. [P1] [money-machine] Collect opportunity accounts and platforms from opportunity and job tweets, add to opportunity_desk
+74. [P1] [incoming-window] Search the bookmarks for hackathons and funding closing in two days
+75. [P1] [money-machine] On any freellmapi error, copy the session traces and compare against saved direct API traces
+76. [P1] [money-machine] Add all free API models manually to opencode and the deepseek harness
+77. [P1] [money-machine] Manually test each NVIDIA NIM model; keys show green but it has not worked for some time
+78. [P1] [money-machine] Add the fully tested free APIs to freellmapi only after all manual testing passes
+79. [P1] [money-machine] Fix hermes agent as the second backup after free APIs in opencode and the deepseek harness
+80. [P1] [money-machine] Test each added API on a multi-turn test and copy out full traces and session history
+81. [P1] [started] Clean and reinsert the RAM in the laptop
+82. [P1] [money-machine] Snowball-search bookmarks for tweets similar to the two AI gig example tweets
+83. [P1] [money-machine] Make the mercor twitter_scraper output a daily morning list of AI gigs to apply to
+84. [P1] [money-machine] Find and test the simplest browser automation tooling for form filling until one works satisfactorily
+85. [P1] [money-machine] Market Github-pia using the twitter tool: compare major products and find better open-source implementations
+86. [P1] [money-machine] Connect opportunity_desk feeds and twitter_scraper automations to the cold-email tool
+87. [P1] [money-machine] Merge job-hunting and opportunity_desk into one tool
+88. [P1] [money-machine] Make job-hunting a standalone tool/repo and plugin independent of Hermes, running on pi or Cloudflare pi harness
+89. [P1] [money-machine] Merge all daily notification outputs into task-digest app (single what-to-do-today page)
+90. [P1] [money-machine] Extract 2 days of bookmarked job openings and opportunities into opportunity_desk
+91. [P1] [money-machine] List every freelance role and client request from Upwork and other gig sites in bookmarked tweets, then mark those fulfillable with >80% certainty from personal context
+92. [P1] [money-machine] Combine all 3 tools together via session search
+93. [P1] [money-machine] Finish solarsizer: extract feature updates from commits
+94. [P1] [money-machine] Fix job-hunting auto-apply with mirage VLM model
+95. [P1] [money-machine] Run the AI-jobs pipeline: scrape with twitter_scraper, auto-fill with job-hunting, apply manually
+96. [P1] [money-machine] Turn the followed application processes into gig automation
+97. [P1] [money-machine] Run the opportunities pipeline: scrape with twitter_scraper, fill applications with cold-email
+98. [P1] [money-machine] Build independent plugins for all AI agents, IDEs, bots and the web version with Pi Harness
+99. [P1] [money-machine] Have the AI implement and test the cactus and mirage tools first
+100. [P1] [money-machine] Fix up gift-recommender and cold-email businesses to use it for end-of-year gifts
+101. [P1] [money-machine] Fix up SolarSizer and cold-email individuals and businesses on solar packages as year-end gifts
+102. [P1] [money-machine] Build the Retatrutide website quickly
+103. [P1] [money-machine] Add the watt meter as a prominent product on the site
+104. [P1] [money-machine] Add a home load sizing guide and load calculation spreadsheet to the site
+105. [P1] [money-machine] Add monthly total power generation effects to the usage profile PDF export
+106. [P1] [money-machine] Add new product type for wires, crimps and other solar setups before the scraper
+107. [P1] [money-machine] Add a cart to the site
+108. [P1] [money-machine] Run the existing job-hunting end-to-end pipeline in opencode and antigravity with crons
+109. [P1] [money-machine] Build the jiji scraper from scratch for the solar site
+110. [P1] [money-machine] Add all the websites to scrape and curate Nigerian solar sellers
+111. [P1] [money-machine] Finish the dating app and run Twitter marketing targeting japa people returning in December
+112. [P1] [incoming-window] Finalise the job-hunting plugin for the competition: update Hermes and port everything — due 2026-11-09
+113. [P1] [money-machine] Add pictures to the hardware database
+114. [P1] [money-machine] Generalise scraper to be global
+115. [P2] [outgoing-due] [value] Pay the one-time $25 Google developer fee to start deploying apps
+116. [P2] [value] Set up the product video creation tools this month
+117. [P2] [money-machine] [value] Start manual job applications and cold DMs via threads
+118. [P2] [incoming-window] [value] Apply to the Google form by tomorrow
+119. [P2] [incoming-promised] [value] Create and send the invoice to Seun
+120. [P2] [incoming-window] [value] Finish the job application
+121. [P2] [money-machine] [value] Register both products on CDCARE immediately
+122. [P2] [client-job] [value] Find South Western Ontario aggregators of trades companies first
+123. [P2] [money-machine] [value] Finish the retatrutide (peptide business) setup quickly
+124. [P2] [money-machine] [value] Open the WhatsApp Business account for SolarSizer today
+125. [P2] [incoming-window] [value] Set up Pioneer free tokens with OpenCode and Codex for June and July
+126. [P2] [money-machine] [value] Build the punter EV calculator/tracker for World Cup (which punters to bet on)
+127. [P2] [value] Finish the auto-apply extension, run 100 test applications, start 100 job-site scripts
+128. [P2] [value] Practice gratitude toward loved ones when angry
+129. [P2] [money-machine] [value] Set up Hermes desktop and mobile (Telegram) and test the free API
+130. [P2] [money-machine] [value] Build the Hermes job-hunting setup (agents, skills, rules, automated applications capped at 10-20/day)
+131. [P2] [money-machine] [value] Package the whole setup into a single licensed tool, record the video and list it on Selar (N30k/$100; N60k/$150 tier)
+132. [P2] [value] Manually apply for jobs (VA, customer support, low-level roles) every day
+133. [P2] [money-machine] [value] Run plain Hermes browser-use tests and an autoresearch loop until it is fixed
+134. [P2] [money-machine] [value] Start automation agency outreach now with Hermes-sourced customers
+135. [P2] [money-machine] [value] Run manual cold DMs with the Sales Nav trial
+136. [P2] [money-machine] [value] Build prioritization tool API endpoints served over the cloud
+137. [P2] [money-machine] [value] Define every hourly service role, the offer and the customers
+138. [P2] [money-machine] [value] Package QMD v1 with one base and 1-2 pay features
+139. [P2] [money-machine] [value] Build the Focus prioritization noteapp on Bolt and ship it
+140. [P2] [money-machine] [value] Fully integrate newsjack into solarone marketing
+141. [P2] [money-machine] [value] Run the 2500 naira TikTok ad for web design clients today
+142. [P2] [money-machine] [value] Define exactly what I will sell before starting cold outreach, using Qmd over my notes
+143. [P2] [blocks-work] [value] Merge the v1 and v2 AHPAS specs into the hybrid v2.0 core and planning outputs, replacing the older GLM v1
+144. [P2] [money-machine] [value] Ensure the automated cold outreach tool covers the tips from the linked guidance
+145. [P2] [money-machine] [value] Have gemini or muse audit the solarone marketing specs against github forks and bookmarks, then finish the tool
+146. [P2] [money-machine] [value] Build the open-source network monitor that can do all GlassWire can do and more, on desktop and mobile
+147. [P2] [value] Do manual job applications, grant applications and cold outreach via the ParameterAI website
+148. [P2] [money-machine] [value] Operationalise 1-2 GUI and frontend design skills into commercial website design work
+149. [P2] [money-machine] [value] Make launch and product videos for the Pangram writing skill and MTN, including the VPN
+150. [P2] [value] Adopt the standard stack for every software built (Hermes base, autoresearch/DSPy step, 5-Whys)
+151. [P2] [value] Try Cloudflare Email before Unosend
+152. [P2] [value] Gather all forwarder-bot versions/notes/chats and deep-compare them by recency
+153. [P2] [value] Send the inverter battery to Lagos for warranty
+154. [P2] [health-safety] [value] Buy a new laptop battery
+155. [P2] [value] Build quick benchmarks for comparing models across tools
+156. [P2] [value] Apply on Freelancer, Upwork and Fiverr
+157. [P2] [money-machine] [value] Finish job-hunting hosting and testing before 11:30am
+158. [P2] [client-job] [value] Complete the lead gen email enrichment task
+159. [P2] [new-opportunity] [value] Wrap github repos and twitter guides into desktop products or SaaS sold on selar and nestuge
+160. [P2] [value] Do 3-hour reasoning and IQ test drills, and add them as part two of the interview prep tool
+161. [P2] [value] Collate all essays and cold email answers into the first starbank document
+162. [P2] [value] Search all bookmarks for hiring and cold outreach keywords, one keyword at a time
+163. [P2] [incoming-window] [value] Drop all 101 Tangent open roles in at once and run the full pipeline
+164. [P2] [incoming-window] [value] Drop all 50+ Plaid open roles in at once and run the full pipeline
+165. [P2] [value] Collate complaints about all the assistant bots and build their fixes into the prioritization plugin and noteapp
+166. [P2] [value] Add model selectors to the QMD desktop executable based on device specs, downloading during install
+167. [P2] [value] Send 50 cold LinkedIn DMs using the summarised Omoalhaja method
 168. [P2] [value] Add a quick calendar module on the control plane with combined deadline warnings to WhatsApp
 169. [P2] [value] Put jev into the search query system so queries are semantic instead of boolean
 170. [P2] [value] Port the job scoring system and prompts from job hunting into the job alerts site
@@ -238,1904 +238,1906 @@
 236. [P2] [incoming-window] [value] Choose job hunting or cold email as the route for grant applications
 237. [P2] [incoming-window] [value] Decide how to present all projects for the pre-seed funding hunt
 238. [P2] [incoming-window] [value] Choose job hunting or cold email for hackathons
-239. [P2] Set up UptimeRobot pinging to keep all startup sites active
-240. [P2] Add voice input to the to-do app
-241. [P2] Call Alex and send him voice notes
-242. [P2] Add mandatory offline mode to the sound manager app
-243. [P2] Buy new clothes
-244. [P2] Order the three-pack attitude spray from Lagos
-245. [P2] Run the sophia script to optimize the laptop, then install GlassWire
-246. [P2] Use the remaining free jev credits on Vercel and typesafe before they expire
-247. [P2] Add RLM to jev and to the whole project to solve the small context window
-248. [P2] Combine the jev-autoresearch system with grilling into one comprehensive interview system
-249. [P2] Search notes and bookmarks with QMD for tutorials on running ads
-250. [P2] Build the therapy app low-cost finetuning system on the jev-autoresearch and RLM chassis
-251. [P2] Build a red team training program for myself with a weekly routine of books, tools and drills
-252. [P2] Get QMD working first, then change all the models from notes, bookmarks and benchmarks
-253. [P2] Add the grilling skills and tinyfish agent-reach data layer plus zvec-grep memory on top of red teaming
-254. [P2] Feed all the twitter repos to qmd to design its twitter reading feature
-255. [P2] Use the decision-engine-redteaming engine to design pricing for all my apps and services
-256. [P2] Fix the browser use in job-hunting, trying old hermes options then jev, checking bookmarks
-257. [P2] Solve the data leaks and data issues, likely reinstalling glasswire
-258. [P2] Expand the internal mode by borrowing agency and independence concepts from all the books and the paper
-259. [P2] Build the repeated daily QMD task that recategorizes the newest bookmarks and surfaces money opportunities
-260. [P2] [new-opportunity] Use a book, tweets, reddit and discord extracts with the redteaming framework to make quick topic apps
-261. [P2] [new-opportunity] Next week wrap one repo and two lead gen, GTM or cold email articles for marketing
-262. [P2] Verify every output from all the chats was fully included in the specs, including the lost opera turns
-263. [P2] Close the four gaps one by one: disattenuation addendum, trait-match category, reviewer_model, health domain
-264. [P2] Turn the Windows optimizing njemanze thread into a tool
-265. [P2] Curate the complete list of Windows optimization themes, use cases and dimensions
-266. [P2] Add a real-time rate-limit fallback router to bestmodelpicker
-267. [P2] Generate in full all the files of both toolkits
-268. [P2] Finish setting up the Gemini Pro account in opencode
-269. [P2] Finish the bandwidthguard internet management chat
-270. [P2] Run the video pipeline: project specs, ICP, video types, script templates, character maps, videos
-271. [P2] Read the relationship transcripts and turn each recurring lesson into its own relationship app
-272. [P2] Create the grilling and mastery module and embed it into all my apps
-273. [P2] Set up Omp as the Antigravity replacement and fix Hermes
-274. [P2] Export full application pages as markdown or text, individually on WhatsApp and as a one-click zip
-275. [P2] Package application pages by category and sort source platforms by category, with deadline query operators
-276. [P2] Redesign the job alerts control plane with the emilkowalski plugin and reorder the information architecture
-277. [P2] Write a fast calculator for total estimated messages, limited by the provider usage limit
-278. [P2] Add application tracking with no authentication, or a very simple Google authentication setup
-279. [P2] Join the crawler tool to QMD and compare it to the job-hunting suite for gaps or redundancy
-280. [P2] Export my AI chats via archive exports tomorrow
-281. [P2] Always answer whether to code a Cloudflare scraper, use a prebuilt repo, or install an agent harness
-282. [P2] Add start-time filtering so alerts only cover jobs younger than the chosen window
-283. [P2] Design how the most important opportunities get ranked for WhatsApp notification
-284. [P2] Install the new Cloudflare cf CLI globally and list the newly released free resources
-285. [P2] Replace Antigravity with Omp, Cline or maybe Codex
-286. [P2] Pull the pitch deck format from my notes for use in funding applications
-287. [P2] Download mobbin, dribble, pinterest and the other inspiration sites into a local inspiration folder
-288. [P2] Expand the 6 source categories into hundreds of classifications and move settings under each source
-289. [P2] Build the tiny fish plus searxng/scrapling plus treg tripartate crawl and enrichment pipeline
-290. [P2] Check whether my prioritization engine solves analysis paralysis and when to stop and just do the work
-291. [P2] Find the cheapest plan for the snow alpha model across inference providers
-292. [P2] Make the writing filters expressive and natural sounding instead of bland
-293. [P2] Redesign the opportunity-desk control plane with advanced animation using onepagelove inspiration
-294. [P2] Add a personal_context skill that picks the most appropriate project for a fund or hackathon application
-295. [P2] Compare my prioritization engine and noteapp against the proactive features of every assistant bot
-296. [P2] Build the self-contained network monitor desktop app with codex, wireguard and proactive diagnosis
-297. [P2] Add the two build filters, daily use and closeness to revenue, to the ICP tool and fit-to-brand
-298. [P2] Grep across projects, notes, bookmarks and downloads to assemble the full personal context corpus
-299. [P2] Finish the nfx.com local scrape, then adapt it to the framework-based red-teaming system
-300. [P2] Give ChatGPT my data records, opencode exports and Chrome history to find what used the high data
-301. [P2] Run the ICP analysis for all 100+ use cases to power all content and general marketing
-302. [P2] Add the seven remote job boards, Remoters through Remotely.jobs, as sources
-303. [P2] Compare opportunity-radar and job-hunting cold email systems to avoid rebuilding the same features
-304. [P2] Implement the remaining opportunity-radar features, then join the tool and redesign with emilkowalski and hyperframes
-305. [P2] Design pseudo-semantic search over Twitter by looping keyword search and AI pattern analysis
-306. [P2] List all my rants over the last year and turn them into blog posts or voice notes to show taste
-307. [P2] Save the bookmark search scripts together as a module for repeatedly searching for hiring tweets
-308. [P2] Add a control plane to construct and add multiple individual search queries and their schedules
-309. [P2] Add the ability to download Twitter articles, since many downloaded tweets are articles
-310. [P2] Add n-level deep and typed link downloading from tweets, the same as for threads
-311. [P2] Add traces, observability and logging to personal_context, cloudflare_scrapers and twitter_scrapers
-312. [P2] Expand the scraper to scrape twitter articles and twitter quotes on bookmarked tweets
-313. [P2] Add pagination on the results panel and give the ADD A SEARCH panel a real full Boolean input
-314. [P2] Finish transcribing the tutorial videos, borrowing only the follow-up system
-315. [P2] Find the pitch deck skills and define the web and deck workflows for funding opportunities
-316. [P2] Use grilling skills as the onboarding UI framework: minimal settings first, then the most important ones
-317. [P2] Add one more filter for expressiveness and creativity to the writing outputs applied on all user outputs
-318. [P2] Grill the writing outputs until they exactly meet our unique tastes for that product
-319. [P2] Add boring-sector filters for non-tech physical businesses, targeting micro to small and medium companies
-320. [P2] Then search my forked repos to finalise the processes for both websites and pitch decks
-321. [P2] Finish all my little tools with Space Bunny red-teaming first, starting from the twitter tools
-322. [P2] Use Cloudflare Pi Durable as the base infrastructure for the twitter tool, viral launcher and knowledgebase
-323. [P2] Search twitter bookmarks for all ways to find business to offer what I can do
-324. [P2] Search twitter bookmarks for all ways of making money
-325. [P2] Finish finalizing the Obsidian smart-connections system with my Gemini pro plan
-326. [P2] Add Gmail sending to the cold email tool so 'send' actually sends
-327. [P2] Audit opportunity_desk and cold-email against the suraj_sharma14 guide tweet steps
-328. [P2] Build a tool mapping product features into A/B real-life scenarios for IP-safe pitching
-329. [P2] Replace the embedding models in QMD and Obsidian with EmbeddingGemma 2
-330. [P2] Fix the hermes agent and use its free tier as a coding alternative to opencode
-331. [P2] ModelAPI: replace composite scores with staggered waterfall scoring (metrics are gates)
-332. [P2] Read bestmodelpicker session JSON line-by-line; list all suggested changes and every discovered issue
-333. [P2] [started] Use github deploy commit state to create all scrapers
-334. [P2] Install freellm api globally
-335. [P2] Audit 180 scrapers in ModelAPI
-336. [P2] Add sticky note functionality to daily digest
-337. [P2] Add shuffle button to tier one tasks in daily digest
-338. [P2] Compile list of tech sales job roles
-339. [P2] Implement diagnostic walk-through for system performance
-340. [P2] [value] Export all AI chats, Google Keep and text files into personal_context
-341. [P2] [value] Update portfolio, hide old repos on GitHub and refresh LinkedIn
-342. [P2] [incoming-window] [value] Search twitter bookmarks for pre-seed funding opportunities
-343. [P2] [incoming-window] [value] Search twitter bookmarks for startup token fundings
-344. [P2] [incoming-window] [value] Run the personal_context skill for the pre-seed funding hunt
-345. [P2] [incoming-window] [value] Run the personal_context skill for startup token funding hunts
-346. [P2] Make the note cutoff date a user setting
-347. [P2] Add full traces for dropped tasks
-348. [P2] Change the job-ops AI API to a better free one
-349. [P2] Connect Gmail auth to job-ops
-350. [P2] [incoming-window] [value] Export all AI chats and their generated files, keep plus all txt files, as funding-application raw material
-351. [P2] Load $2 into Treg for the cold-email follow-ups
-352. [P2] Find the cheapest place to buy opus 5.5 and other models, and adapt BCWES to the model list
-353. [P2] Run /setup-matt-pocock-skills then /grill-with-docs before building the free twitter automation tool
-354. [P2] Finish the telegram forwarder after the twitter tools, after checking my notes for the full list
-355. [P2] Add getclera.com and the other new job boards to the job alert site
-356. [P2] Find freellm desktop shortcut and settings
-357. [P2] Finish the NFX scraping
-358. [P2] Fix OpenCode with GLM-5.3 in the deepseek harness
-359. [P2] [value] Update twitter bookmarks
-360. [P2] [value] Work on the founder video: mine motion-video and video-asset tweets, shortlist repos, then discuss
-361. [P2] [incoming-window] [value] Finish the hackathon/grant/funding application
-362. [P2] Run the AI governance portfolio project: review a regular AI tool's privacy policy, document risks, recommend controls
-363. [P2] Decide if freellmapi scoring should switch to AA index with benchmark fallbacks, and design the seam
-364. [P2] [value] Review usemissa.com as a competitor to opportunity_desk and list features to borrow
-365. [P2] [incoming-window] [value] Cold-email Canadian admission coordinators about research-fit scholarship programs, then repeat for Netherlands, Italy, Austria
-366. [P2] Compare brewkeg.dev pricing with current user-reported Claude plan costs per million tokens
-367. [P2] Use jev-job-search repo to fix the auto-application feature of job-hunting
-368. [P2] Move 'hardware db' tab to admin-only access
-369. [P2] Add 'starting from N135,000' price subtitle to internet device cards
-370. [P2] Move 'profiles' and 'results' tabs to a dropdown beside the 'save profile' button
-371. [P2] Add a 'buy' button to each product in the 'products' and 'internet' tabs
-372. [P2] Reorganize the convoluted product catalog categories into a clear structure
-373. [P2] Create a dedicated System Configuration Details modal for internet devices
-374. [P3] [client-job] [value] Build the Omni-Sourcing Engine zero-backend orchestrator with an IndexedDB browser brain
-375. [P3] [money-machine] [value] Build the solar website with prompt C
-376. [P3] [money-machine] [value] Build the SolarOne website skeleton and all pages from the hybrid architecture prompts
-377. [P3] [client-job] [value] Write the Seun sourcing crawler code
-378. [P3] [value] Build the comparison/router plugin with provider list, AA evals and intelligent routing
-379. [P3] [money-machine] [value] Finish the job autoapplier, integrate into the hosted oracle app, begin job hunting
-380. [P3] [money-machine] [value] Run the full prediction-market launch checklist to a live working app
-381. [P3] [incoming-window] [value] Apply to gig platforms: Mercor, Outlier, Handshake
-382. [P3] [money-machine] [value] Finish the prediction market strategy builder
-383. [P3] [value] Master taste-design (watch tutorials, recreate their advanced designs)
-384. [P3] [money-machine] [value] Make freeaifinder answer the best free model question
-385. [P3] [money-machine] [value] Run pi-autoresearch to test and improve Apexpunter features
-386. [P3] [money-machine] [value] Kick off Savecoins with draft plan, research and demo
-387. [P3] [money-machine] [value] Get Job-ops auto-application and 6 prompts working
-388. [P3] [money-machine] [value] Build and sell the skill add-on packages (job hunting, marketing, freelance, betting, forex, prediction markets)
-389. [P3] [money-machine] [value] Implement all growth-engineer line items into SolarOne Marketer
-390. [P3] [value] Finish the DeepSeek debugging with a before/after comparison
-391. [P3] [money-machine] [value] Fix and improve computer use form filling with the Browser Use 3.0 CLI
-392. [P3] [value] Build the QMD-powered personal knowledgebase and search engine
-393. [P3] [value] Run muse 1.3 code review and UI review before the viral-launcher merge
-394. [P3] [incoming-window] [value] Do the Amazon hackathon application in muse
-395. [P3] [value] Finish the QMD knowledgebase
-396. [P3] [incoming-window] [value] Finish the AI policy application
-397. [P3] [money-machine] [value] Revamp the gift recommender scoring system
-398. [P3] [money-machine] [value] Fix gift chat truncation to drop oldest messages, not newest
-399. [P3] [money-machine] [value] Perfect product page linking and prices for gift ordering
-400. [P3] [value] Implement full trace logging for all agents
-401. [P3] [money-machine] [value] Get the Twitter scraper working in AI Studio
-402. [P3] [value] Map SRI/Big 5 research into a deterministic profile taxonomy
-403. [P3] [value] Ground the engagement/conversion simulation in collated real guides
-404. [P3] [value] Build the detailed ad-guide generation skill from collated guides
-405. [P3] [value] Find free video APIs to automate the video generation process
-406. [P3] [value] Fix the telegram bot in AI Studio using the repo and old chats
-407. [P3] [money-machine] [value] Finalize solar site requirements with Gemini or Kimi, then generate PRD and tasks in AI Studio
-408. [P3] [money-machine] [value] Build the solar one-page site in AI Studio with OPay transfer, receipts and delivery section
-409. [P3] [value] Add match-mode options (revealed plus stated preferences) to the dating app
-410. [P3] [value] Build the talking-stage bot that flags when you are not wanted
-411. [P3] [value] Redesign the matching algo as a modifiable modular workflow
-412. [P3] [value] Finish the Opencode setup (free API, Ralph, context engineering, skills)
-413. [P3] [money-machine] [value] Build openclaw marketing bots and complete the subscription feature
-414. [P3] [money-machine] [value] Show soft human gift descriptions while logging technical ones in the backend
-415. [P3] [money-machine] [value] Implement the cost-effective satiation scoring system
-416. [P3] [value] Run the deep assistant-agent comparison (features plus scenario workbook)
-417. [P3] [client-job] [value] Find the company and industry taxonomy for the sourcing engine
-418. [P3] [client-job] [value] Focus the sourcing engine on finding owner contacts
-419. [P3] [client-job] [value] Export and combine the Gemini and Claude sourcing source chats
-420. [P3] [client-job] [value] List all data sources per step with prices and free tiers
-421. [P3] [client-job] [value] Build the NAICS 7-trait scoring table in the Sourcing Engine
-422. [P3] [money-machine] [value] Spend a month turning scripts into products with frontends, pinned on GitHub and profile site
-423. [P3] [client-job] [value] Scrape TSSA and MCAO directories to build the initial Ontario target list
-424. [P3] [client-job] [value] Run the multi-database sweep for $7M+ Ontario private companies
-425. [P3] [client-job] [value] Automate the five proxy signal checks for revenue and headcount estimation
-426. [P3] [money-machine] [value] Make 5-Whys the premium engine of the gift recommender
-427. [P3] [value] Set up the full 7-day week system from idea to marketing
-428. [P3] [value] Build the 'why does this matter, to me' analogy-rewriter Chrome extension
-429. [P3] [value] Redo the OpenClaw deep dive from scratch including all claw variants and managed templates
-430. [P3] [client-job] [value] Have Sonnet extended break down all steps needed for the Seun task
-431. [P3] [money-machine] [value] Build the combined Troubleshoot tab as its own page in the solar sizer
-432. [P3] [money-machine] [value] Generalize Mark Essien's solar strategy into the trait-agnostic Smart Usage engine
-433. [P3] [money-machine] [value] Add the Essien 'best setup within my budget' tool as its own tab
-434. [P3] [money-machine] [value] Implement the Smart Usage Strategy Engine module in the solar sizer
-435. [P3] [money-machine] [value] Merge framework 1 and framework 2 into one integrated strategy framework
-436. [P3] [money-machine] [value] Add the structured device behavior data model to the strategy engine
-437. [P3] [value] Write the 5-Whys functional requirements as a full agent framework
-438. [P3] [value] Decide the final agent harness base by comparing Claude code, Opencode, Hermes, OpenClaw and Pi-agent
-439. [P3] [money-machine] [value] Build and deploy the VoltKinetic solar business website from the prepared UI code
-440. [P3] [blocks-work] [value] Fix all suspended accounts
-441. [P3] [money-machine] [value] Collate the troubleshooting mega-feature PRD
-442. [P3] [money-machine] [value] Fix user data not being saved (Supabase on Render)
-443. [P3] [money-machine] [value] Design the Behavior Diagnosis Engine second layer
-444. [P3] [money-machine] [value] Build retatrutide testimonial sections from tweets and studies
-445. [P3] [money-machine] [value] Run 4-scenario dating A/B test with 6-month outcome measurement
-446. [P3] [money-machine] [value] Build the AdAdvisor organic/AI UGC and affiliate tabs
-447. [P3] [new-opportunity] [value] Create own VA business
-448. [P3] [money-machine] [value] Build the remaining solar website pages
-449. [P3] [money-machine] [value] Render the prediction market PRD in AI Studio to present
-450. [P3] [value] Finish the sourcing engine report and OpenClaw comparisons
-451. [P3] [value] Move AI APIs and redeploy apps on Cloudflare Workers
-452. [P3] [money-machine] [value] Add default load profiles for household types
-453. [P3] [money-machine] [value] Build the solar promo Twitter bot
-454. [P3] [money-machine] [value] Add four new product categories to the calculator
-455. [P3] [money-machine] [value] Build the retatrutide weight loss calculator
-456. [P3] [money-machine] [value] Add restrictions and warnings to the reta calculator and guides
-457. [P3] [money-machine] [value] Finish job hunting and marketing agents and workflows
-458. [P3] [money-machine] [value] Finish solar website and update profile and CV
-459. [P3] [money-machine] [value] Turn AdAdvisor into an API with creator ranking and scripting
-460. [P3] [value] Build the GitHub repo comparison and search tool
-461. [P3] [money-machine] [value] Set up n8n automated social media marketing
-462. [P3] [money-machine] [value] Research money-back guarantee handling with escrow
-463. [P3] [money-machine] [value] Build the upgrading, troubleshooting and strategizing feature page
-464. [P3] [money-machine] [value] Host the monolith Telegram trading bot with rate limiting
-465. [P3] [money-machine] [value] Add analysis and user and public performance rankings
-466. [P3] [value] Port Twitter and Telegram userscripts into Python
-467. [P3] [money-machine] [value] Ensure payments work
-468. [P3] [money-machine] [value] Create the n8n AI bot for the five post types
-469. [P3] [money-machine] [value] Include solar sizer as an input pillar in the content system
-470. [P3] [value] Criticize and improve 5-Whys with GPT Codex 5.4
-471. [P3] [money-machine] [value] Turn the solar calculator into an API or SDK
-472. [P3] [value] Build the benchmarking tool with custom and shared benchmarks
-473. [P3] [value] Build the writing agent using collected AI writing ideas
-474. [P3] [money-machine] [value] Integrate the Opay payment hack into the website
-475. [P3] [money-machine] [value] Integrate the calculator into the solar consultant tab
-476. [P3] [money-machine] [value] Compile all notes and Gemini chats as the website PRD
-477. [P3] [money-machine] [value] Generate all the comparison articles
-478. [P3] [money-machine] [value] Start adding products on all ecommerce sites
-479. [P3] [money-machine] [value] Compile functional requirements and PRD and generate the 3 prompts
-480. [P3] [value] Add testing and validation system to 5-Whys
-481. [P3] [value] Add the Suggestiveness Catcher to the PR tool
-482. [P3] [money-machine] [value] Build the corporate installation page with requirements typeform and call booking
-483. [P3] [value] Build the personal index and search tool for AI chats and notes
-484. [P3] [value] Produce the final architecture, data flow and requirements for the memory system
-485. [P3] [new-opportunity] [value] Build the industry-wide outreach AI agent from the pool-installation concept
-486. [P3] [value] Build the writing agent skill for voice and structure
-487. [P3] [money-machine] [value] Add admin profit-margin percentages to the SolarSizer hardware catalog
-488. [P3] [money-machine] [value] Add Powerstations/Kits/Full Results toggle to the SolarSizer calculator
-489. [P3] [value] Fix the supabase.sql operator error (uuid = text)
-490. [P3] [money-machine] [value] Add profile-analysis tag filters to the revealed preferences dating app
-491. [P3] [value] Record and publish the 2-3 hour Codex setup video
-492. [P3] [value] Add autoresearch as a default in the Hermes Agent setup
-493. [P3] [value] Build the AI benchmarking sticker tool (4 components)
-494. [P3] [value] Build the content system: rant capture, writing, podcasts, radio
-495. [P3] [money-machine] [value] Revise the trading bot final plan with the 2 tailoring edits
-496. [P3] [value] Add RLM as the memory module in the Hermes agent
-497. [P3] [value] Audit every search-needing tool against the AhmadOsman search stack
-498. [P3] [value] Add UptimeRobot or Cloudflare/Supabase services to all deploys
-499. [P3] [value] Replace Crawl4AI with Scrapling in every scraper
-500. [P3] [money-machine] [value] Add save/share anonymized load profiles to SolarSizer
-501. [P3] [client-job] [value] Finish the Seun enrichment: owners, managers, contacts, free-tier services
-502. [P3] [client-job] [value] Run the Seun PRD and Antigravity task breakdown, then AI Studio
-503. [P3] [money-machine] [value] Combine everything into the final detailed Clawdbot setup guide
-504. [P3] [money-machine] [value] Build the Clawdbot onboarding form plus invoice and payment flow
-505. [P3] [value] Define myself fully from all my notes (job-hunting stage 4)
-506. [P3] [money-machine] [value] Build the automated job applier and related agent skills
-507. [P3] [money-machine] [value] Build the workflow-automation seller one-pager website
-508. [P3] [money-machine] [value] Design job-app monetization: free core features, paid impact features, auto-apply unit charges
-509. [P3] [money-machine] [value] Decide payment provider for the peptide website (Gumroad vs Whop vs RevenueCat)
-510. [P3] [money-machine] [value] Research the problems with chaining many small batteries (10x PowMr 50A) in SolarSizer
-511. [P3] [money-machine] [value] Cross-check SolarSizer's multiple-inverter suggestions (e.g. 2x 3kVA for 2,650W peak)
-512. [P3] [money-machine] [value] Add a suggestion-limiting feature for chained devices (prefer single big devices; define judging metrics)
-513. [P3] [money-machine] [value] Restore SolarSizer features broken on the Cloudflare-hosted version
-514. [P3] [money-machine] [value] Fix SolarSizer mobile rendering across the whole site
-515. [P3] [money-machine] [value] Create a 30+ question FAQ / HOW-TO-USE page for Freeaifinder
-516. [P3] [money-machine] [value] Redesign Freeaifinder using a taste-skill file in Claude
-517. [P3] [money-machine] [value] Port gift recommender, aiadvisor and Life-Coach to Cloudflare
-518. [P3] [money-machine] [value] Redo the full provider-model list (missing models and providers)
-519. [P3] [value] Deploy all projects on Cloudflare
-520. [P3] [money-machine] [value] Add natural language search to the site (AI translates to operator queries)
-521. [P3] [value] Add destructive_command_guard to every coding/agent setup
-522. [P3] [value] Build the smart intent inferer for the router plugin (prompt to domain to model)
-523. [P3] [money-machine] [value] Add tool sections/tabs to Freeaifinder (agents, skills, apps, plugins)
-524. [P3] [money-machine] [value] Add $5/month premium access to Freeaifinder rankings
-525. [P3] [money-machine] [value] Finish the solar business website using the old Stitch prompt-splitting method
-526. [P3] [value] Write case study articles (SolarSizer, solar business, gift recommender, adadvisor, Freeaifinder)
-527. [P3] [value] Update CV
-528. [P3] [value] Update and clean GitHub profile and repos
-529. [P3] [value] Update and clean portfolio links (projects tab, AI tab)
-530. [P3] [money-machine] [value] Build the free-alternatives directory on the Chrome deploy/installer extension
-531. [P3] [money-machine] [value] Add salary negotiation (levels.fyi) to the job automation system
-532. [P3] [money-machine] [value] Create job application templates for all 50+ remote job sites
-533. [P3] [money-machine] [value] Rebuild the gift recommender on Hermes Agent as the backbone
-534. [P3] [value] Use free DeepSeek Flash to start building one idea a day
-535. [P3] [value] Backup NotebookLM (archive plus manual chat backups), clean it out, then begin searching
-536. [P3] [money-machine] [value] Make the strategy builders usable with zero coding knowledge (timeframes, niche markets, risk premiums)
-537. [P3] [money-machine] [value] Add application-form question tracking to the job autoapplier (Simplify-style saved answers)
-538. [P3] [money-machine] [value] Verify every integrated tool's capabilities are enabled (Hermes, TabPFN, Toto-2, etc.)
-539. [P3] [money-machine] [value] Go line-by-line through the Claude and Gemini TabPFN chats to verify decided features
-540. [P3] [money-machine] [value] Ensure pasted tweets can be recreated as strategies via internal functions
-541. [P3] [money-machine] [value] Make the prediction market app as simple as Robinhood in look and use
-542. [P3] [money-machine] [value] Build the meta-strategies module (rotation promotions and confluence)
-543. [P3] [money-machine] [value] Build copytrading: pi-autoresearch improvement of others' strategies
-544. [P3] [money-machine] [value] Build the complete list of trading factors/functions/formulas as app nodes
-545. [P3] [value] Fix sparse implementation plans: enforce granular task breakdowns in orchestration skills
-546. [P3] [value] Add dependency mapping to implementation plans before multi-session runs
-547. [P3] [money-machine] [value] Build reverse-engineering of external traders' strategies from trade history
-548. [P3] [money-machine] [value] Add money-management nodes for automated withdrawals (find old notes first)
-549. [P3] [money-machine] [value] Re-research and correct all Freeaifinder details
-550. [P3] [money-machine] [value] Add video/audio/all usage capabilities as new Freeaifinder columns
-551. [P3] [money-machine] [value] Add per-capability badges and full rate-limit/plan info with filters
-552. [P3] [money-machine] [value] Let users pick which benchmark drives BCWES/MCWES composites
-553. [P3] [money-machine] [value] Finish Freeaifinder line by line and test the first build
-554. [P3] [money-machine] [value] Build proper install version of the punter check plus telegram/twitter crawler
-555. [P3] [value] Finish the quick GitHub improver
-556. [P3] [money-machine] [value] Begin building the marketing content system template
-557. [P3] [money-machine] [value] Make Freeaifinder dynamically crawl provider sites for rate limits and plans
-558. [P3] [incoming-window] [value] Chase CSR customer-service remote roles
-559. [P3] [new-opportunity] [value] Build the Quick AI Consulting offering (paid course plus live calls)
-560. [P3] [money-machine] [value] Support all 4 strategy creation methods (AI chat, dropdown, node canvas, code scripts)
-561. [P3] [money-machine] [value] Extract design.md specs for PM builder and Robinhood, then rework the PM information architecture
-562. [P3] [value] Check why OpenCode isn't using the full Superpowers orchestration
-563. [P3] [value] Overhaul frontend/usability testing (critical tests, screenshots, 500+ intents)
-564. [P3] [value] Add detailed design.md plan creation to the OpenCode development process
-565. [P3] [value] Add /goal (ralph-loop) as a default feature to all projects
-566. [P3] [money-machine] [value] Manually test the Prediction Market app after skipping Docker
-567. [P3] [value] Do a deep whole-codebase review of frontend-backend connections, then deploy
-568. [P3] [money-machine] [value] Test Apexpunter (tipster rubric v2) against the 100 biggest punters of the last 6 years with train/test data sets
-569. [P3] [money-machine] [value] Find, replicate and backtest every online strategy, adding missing node types to cover them
-570. [P3] [money-machine] [value] Redesign Apexpunter's UI/UX and information architecture
-571. [P3] [value] Structure the domain expertise step in the IA process
-572. [P3] [value] Set up the cloud server so coding works from the phone
-573. [P3] [incoming-window] [value] Apply to every grant, VC and funding program
-574. [P3] [value] Develop the complete labelling system design
-575. [P3] [value] Audit all Twitter access tools and pick the best
-576. [P3] [money-machine] [value] Collect a punter Twitter archive to catalogue bet formats
-577. [P3] [money-machine] [value] Set up continuous autoresearch on newly crawled betting data
-578. [P3] [value] Add last30days as a mandatory opencode research skill
-579. [P3] [money-machine] [value] Add a monthly budget input to freeaifinder
-580. [P3] [value] Fix the codex setup
-581. [P3] [money-machine] [value] Finish the Apexpunter IA file
-582. [P3] [money-machine] [value] Crosscheck the AI nodes in the current PMSB implementation
-583. [P3] [money-machine] [value] Define PMSB positioning against other AI sports betting platforms
-584. [P3] [money-machine] [value] Determine how to convert Jobops into a job hunting strategy builder
-585. [P3] [value] Complete the four-part design stack
-586. [P3] [money-machine] [value] Make the research trifecta nodes of the prediction market builder
-587. [P3] [money-machine] [value] Integrate the Industry Sourcing Engine into the negotiation tool
-588. [P3] [money-machine] [value] Expose customisation points in the trifecta for the negotiation app
-589. [P3] [money-machine] [value] Brainstorm Job-ops onboarding themes with progressive disclosure
-590. [P3] [money-machine] [value] Build the punter wins and losses dataset from the tweet archive
-591. [P3] [money-machine] [value] Brainstorm all workplace and career needs as product categories
-592. [P3] [money-machine] [value] Map new nodes for the almost-winning tracking system
-593. [P3] [value] Define when work becomes a node, strategy, skill or hook
-594. [P3] [value] Deep dive last30days to learn what makes it special
-595. [P3] [value] Make printing-press the default first crawler step
-596. [P3] [money-machine] [value] Build pitchdeck, financial plan and demo from the 17 docs
-597. [P3] [money-machine] [value] Replicate the model-fusion calculator for freeaifinder
-598. [P3] [money-machine] [value] Finish merging the combined Savecoins notes into the documents
-599. [P3] [money-machine] [value] Build a list of 100+ Nigerian fintech competitors
-600. [P3] [money-machine] [value] Run the competitor analysis across all 100+ competitors
-601. [P3] [money-machine] [value] Find unique gaps by comparing the cohesive form to each competitor
-602. [P3] [money-machine] [value] Revise the cohesive form again around the unique gaps
-603. [P3] [money-machine] [value] Run the ACES marketing process for Savecoins
-604. [P3] [money-machine] [value] Build the Savecoins prototype from the design process
-605. [P3] [value] Repeat the notebooklm GitHub searches in opencode
-606. [P3] [value] Extract all skill files from curated-list repos' linked locations
-607. [P3] [money-machine] [value] Make GitHub-pia a working tool
-608. [P3] [value] Make constraints-grilling plug and play with any PRD skill
-609. [P3] [value] Create the budget-tiered tech stack list
-610. [P3] [value] Recreate the 17 documents in minimax
-611. [P3] [money-machine] [value] Find positioning skills and define the positioning document
-612. [P3] [money-machine] [value] Upgrade the pia analysis arm with Matt Pocuck's skills
-613. [P3] [money-machine] [value] Do a line-by-line analysis of the Savecoins notes
-614. [P3] [value] Revise the competitive analysis prompting process
-615. [P3] [money-machine] [value] Abstract the sourcing engine for any industry
-616. [P3] [money-machine] [value] Review the Industry Sourcing Engine v1 and its source papers
-617. [P3] [money-machine] [value] Make Job-ops prompts and flow modular
-618. [P3] [money-machine] [value] Use the advanced writing component for Job-ops writing tasks
-619. [P3] [money-machine] [value] Set the Job-ops pricing tiers
-620. [P3] [money-machine] [value] Decide if GitHub-pia is still needed given codex
-621. [P3] [value] Add reuse-check first to brainstorming and PRD skills
-622. [P3] [money-machine] [value] Find out how skill scoring works and rebuild it
-623. [P3] [money-machine] [value] Build the learning plan feature from skill gaps
-624. [P3] [value] Integrate Hermes self-learning capacities into projects
-625. [P3] [value] Make tool call repair present in every project
-626. [P3] [money-machine] [value] Replicate the cheap Claude token feature in freeaifinder
-627. [P3] [money-machine] [value] Build the automated marketing system
-628. [P3] [money-machine] [value] Build the 100 job website corpus for the auto-applier
-629. [P3] [money-machine] [value] Collect 100 company career pages for the crawler
-630. [P3] [money-machine] [value] Evaluate codex and opencode automation for Job-ops applications
-631. [P3] [value] Study and copy Hermes web search and crawling
-632. [P3] [value] Write the updated UI-SE v6.0 product requirements document
-633. [P3] [money-machine] [value] Run the job application and job score tests on the five IDEs
-634. [P3] [value] Build the gift recommender skill from the discussion document
-635. [P3] [money-machine] [value] Run the prepared SolarOne mockup, copy and build prompts
-636. [P3] [money-machine] [value] Fix the job-ops server startup failure
-637. [P3] [value] Add cold DM and email sending to job-ops
-638. [P3] [value] Merge the UI-SE v3 improvements into the v2.0 Complete document
-639. [P3] [value] Learn and master RL training
-640. [P3] [value] Install destructive-command guards on all local projects
-641. [P3] [value] Build the hackathon, competition and angel application feature
-642. [P3] [money-machine] [value] Ship SolarOne and the solar sizer first after the fixing process
-643. [P3] [new-opportunity] [value] Open Outlier and other data-broker accounts via friends
-644. [P3] [money-machine] [value] Ship Safari mobile extensions for the PR, price and review tools
-645. [P3] [value] Build the job-ops interview features
-646. [P3] [value] Clear the job-ops to-dos and test the extension end to end
-647. [P3] [value] Turn all my projects into advanced Hermes skills
-648. [P3] [value] Collect all old and fresh job-ops errors
-649. [P3] [value] Brief K3 with the errors, graph and end goal for the fix plan
-650. [P3] [value] Add job-hunting strategies (Google Alerts, VC directories, LinkedIn posts, communities) to the Hermes job hunting setup
-651. [P3] [value] Finish the Mathcademy program
-652. [P3] [money-machine] [value] Fix up my profile site to present completed projects and target jobs and gigs
-653. [P3] [money-machine] [value] Set up a quick n8n automation to market my automation services (search, reply, quote posts)
-654. [P3] [value] Build Zillow-style house selection: requirements + budget in, ranked buy vs rent+invest options out
-655. [P3] [incoming-window] [value] Fix up my existing projects, then start applying to YC and as many grants and programs as possible
-656. [P3] [value] Implement refinancing in the housing model
-657. [P3] [value] Run formal tests (unit-root/ADF) on the 55-year data and build an exact regime classifier from all patterns
-658. [P3] [value] Integrate the Excel workbook into the simulator
-659. [P3] [value] Model insurance, maintenance, HOA and utilities rising over time (own rates, user settings)
-660. [P3] [value] Implement pensions, social security and retirement income in the housing tool
-661. [P3] [value] Implement retirement decumulation, sequence-of-returns and inheritance tax modelling
-662. [P3] [value] Redo my 6-7 job-hunting prompts using the linked threads and integrate them
-663. [P3] [value] Build the one-tap approve/submit flow: Hermes stops before the final click and pings me in Telegram
-664. [P3] [value] Build complete analytics and self-improvement loops over every job application metric
-665. [P3] [value] Implement Hermes agent-curated memory, cross-session recall, cron scheduler and security features at every useful point
-666. [P3] [money-machine] [value] Build the central base/orchestrator that shares self-improvement results across all user nodes
-667. [P3] [money-machine] [value] Package and sell the Hermes setup service (N20k plus costs; repositioned as 'Set up your Virtual Assistant')
-668. [P3] [value] Apply on Outlier and Mercor
-669. [P3] [value] Combine the sourcing engine and gift recommender profiling into a hybrid company profiler
-670. [P3] [value] Implement automated scheduled backups across the full pipeline using Hermes checkpoints
-671. [P3] [value] Extend company research to profile company staff and hiring managers for cold DMs
-672. [P3] [value] Integrate the QMD memory bundle to extend the FTS5/BM25 memory and update the project to use it
-673. [P3] [value] Crawl all Hermes Agent docs and skill catalogs line by line and use them to optimize the project
-674. [P3] [money-machine] [value] Integrate last30days as the search function for all search and profiling processes
-675. [P3] [value] Generate job search source lists: 100+ job boards, company career pages, and a career-page finder heuristic
-676. [P3] [value] Curate all brainstormed projects from every AI chat into zip packages with ordered steps for Opus 5/Kimi K3
-677. [P3] [value] Build the docs crawler and vector knowledgebase, starting with all Hermes Agent docs
-678. [P3] [value] Implement all agreed suggestions; context architect must interview until answers match every output schema
-679. [P3] [value] Make Hermes auto-learn each job board's query structure and auto-generate and run search queries per site
-680. [P3] [value] Add deterministic schema-conformance crosschecks to every pipeline stage output, with redo on failure
-681. [P3] [money-machine] [value] Feed every user metric to the central server and build an admin dashboard; use metrics as marketing proof
-682. [P3] [value] Crosscheck and integrate the best user-suggested cold outreach and email-finding methods into the pipeline
-683. [P3] [value] Build the adversarial objection-handling process and complete follow-up systems for cold pitches and applications
-684. [P3] [value] Collect security resources (vibecode security threads, vulnerability collections) and lock down the plugin
-685. [P3] [value] Execute the merge blueprint: fold addendum assets into job-hunting-upgraded-2
-686. [P3] [value] Re-answer and fully implement the location-effects handling across the pipeline
-687. [P3] [money-machine] [value] Design the Quick mode: a fast-money pipeline with cold approaches and lax matching for quick gigs
-688. [P3] [value] Build the freelance-platform target needs research system (Upwork listings to granular needs and service offers)
-689. [P3] [value] Build the user voice customization for all artifacts except the CV (writing samples from submitted profiles)
-690. [P3] [value] Build the who-to-outreach system mapping offers to markets and channels
-691. [P3] [value] Make automatic language translation complete at every needed point
-692. [P3] [value] Fix the 26 unresolved paths across the packages (B21)
-693. [P3] [value] Flesh out the stepping-stone job role suggestions into a full system
-694. [P3] [value] Add a hook enforcing subagent row ownership
-695. [P3] [value] Design the tool that maps the best free AI model per task and medium
-696. [P3] [value] Run the two remerges on the new stopping gap base
-697. [P3] [money-machine] [value] Finish the house buying tool and the best AI harness plan tool, then marketing
-698. [P3] [value] Build the unified inbox for replies and DMs across all social accounts
-699. [P3] [value] Add AI-led negotiation to the multi-step cold outreach
-700. [P3] [value] Build the self branding feature from online profiles and local files
-701. [P3] [value] Redo merge 2 with merged-27, addendum 27 and the career pulse addendum
-702. [P3] [value] Adapt the writing skills as the content generation engine for job hunting
-703. [P3] [value] Adapt the interviewing skills to the solarone marketing data bank
-704. [P3] [value] Add OSINT profiling features across all projects from the forked repos
-705. [P3] [value] Red team all rent-or-buy assumptions and data accuracy
-706. [P3] [value] Port the email management system into the twitter tool
-707. [P3] [value] Build the personal details starbank from social media and personal files
-708. [P3] [value] Add retirement decumulation and the other remaining rent-or-buy simulator items
-709. [P3] [value] Replace interpolated rent-or-buy data with real year-by-year series
-710. [P3] [money-machine] [value] Use the matt pocock tools to fix solarone marketing and the strategy builder
-711. [P3] [value] Crawl the composiohq and n8n-community repos into docs for skill mining
-712. [P3] [value] Add per-gate auto approval switches with side-by-side usecase tooltips
-713. [P3] [money-machine] [value] Decide hosting and payment rails for the licensing server, pipeline and ledger
-714. [P3] [value] Build a quick tool for uploading to as many directories as possible
-715. [P3] [money-machine] [value] Build a quick website for the job plugin
-716. [P3] [money-machine] [value] Run apply_preflight.py and finish the ten Bachs products and deploy steps
-717. [P3] [value] Evaluate semgrep and similar projects before building github-pia
-718. [P3] [value] Fully add back dynamic testing with all the original suggestions
-719. [P3] [value] Do the final deep crosscheck pass over all questions and the corpus
-720. [P3] [value] Run the red team analysis over the collated reports in a new chat
-721. [P3] [money-machine] [value] Design the seamless system for product outputs as affiliate marketing feeds
-722. [P3] [money-machine] [value] Add the self development learning module to job hunter
-723. [P3] [value] Red team the code quality notes and research all measurement methods
-724. [P3] [legal-account] [value] Write the draft EULA and a note on NCC registration
-725. [P3] [money-machine] [value] Check marketplace payment fees against the Bachs payment system
-726. [P3] [value] Write the injection corpus and vulnerability sources runbook
-727. [P3] [money-machine] [value] Build the quick website with mapped features and the writing skills
-728. [P3] [money-machine] [value] Fix the Twitter Automation website
-729. [P3] [money-machine] [value] Finish the Modelapi crawlers and start populating benchmarks
-730. [P3] [value] Completely fix the rent-or-buy UI and add the external website links
-731. [P3] [money-machine] [value] Compile up to 100 opportunity types with domain models and step-by-step guides
-732. [P3] [money-machine] [value] Add the negotiation tool to job hunting
-733. [P3] [money-machine] [value] Make job hunting handle the AI consulting lead generation
-734. [P3] [value] Install Hermes agent and compare it with OpenClaw
-735. [P3] [money-machine] [value] Begin the deploy-by-deploy SolarSizer SDK comparison to merge working features
-736. [P3] [money-machine] [value] Turn the personal job prompts into an automated job-hunting workflow or agent
-737. [P3] [money-machine] [value] Start applying the cold DM guides one by one
-738. [P3] [money-machine] [value] Finish the job autoapplier feature and run it on the hosted Oracle app
-739. [P3] [incoming-window] [value] Build the PR Chrome extension and its Android overlay harness for the Google hackathon
-740. [P3] [money-machine] [value] Generate the final feature spec, database schema and validation rules for the Strategy Engine
-741. [P3] [money-machine] [value] Ship all job-hunting cron jobs as installable blueprints
-742. [P3] [value] Completely rearchitect the codebase from the ground up using /grill-me-with-docs
-743. [P3] [money-machine] [value] Add separate minimum intelligence sliders for the brainstorm and execution tables
-744. [P3] [money-machine] [value] Fix the ranking math so the most intelligent model does not exclude itself
-745. [P3] [value] Factor actor aging into every part of the casting tool pipeline
-746. [P3] [money-machine] [value] Add all plans and providers plus a crawler that keeps them updated
-747. [P3] [money-machine] [value] Add task and project labels, averages and toggles to the spend tool
-748. [P3] [money-machine] [value] Add the two paid comparisons: best mix among plans and best plan for a model
-749. [P3] [value] Build GitHub-pia to run the usecase/best-option/hybrid process across systems
-750. [P3] [money-machine] [value] Perfect job-hunting's codebase component mapping for applications and outreach
-751. [P3] [money-machine] [value] Build a system to track viral tweets early, before they go viral
-752. [P3] [money-machine] [value] Build the final advanced ICP mapping and targeting system
-753. [P3] [money-machine] [value] Ensure the Twitter tool can perform every step of the account-building guide
-754. [P3] [money-machine] [value] Add the one-time payment system for the paid features
-755. [P3] [money-machine] [value] Add Threads then Instagram support to the Twitter tool
-756. [P3] [money-machine] [value] Read old notes and Twitter bookmarks for UGC/influencer marketing guides and optimise
-757. [P3] [value] Move backups to a remote location
-758. [P3] [money-machine] [value] Fix the wrong email parsing (phone number and email address)
-759. [P3] [value] Run the full smoke test, wipe and reinstall pipeline test regimen
-760. [P3] [money-machine] [value] Add the alerts and notifications system to bestmodelpicker
-761. [P3] [money-machine] [value] Deep dive how user inputs are translated into eval datasets
-762. [P3] [money-machine] [value] Solve helping workers quickly create eval datasets from their tasks
-763. [P3] [money-machine] [value] Write the implementation plan, ADR set and CONTEXT.md per the build list
-764. [P3] [money-machine] [value] Build the free-stack deployment runbook tool as both a product and a skill
-765. [P3] [value] Turn the Telegram send and receive fixes into patches and upstream PRs
-766. [P3] [value] Fix the ready application flow and apply the remaining suggested fixes
-767. [P3] [value] Do a deep grill/QA session to fix the too-lax scoring system
-768. [P3] [value] Map every function in your projects and classify content-generating vs search-and-comment
-769. [P3] [value] Research how semantic search works across tools and design its Twitter tool implementation
-770. [P3] [value] Add per-section search queries, personas and pairs to the Twitter tool UI
-771. [P3] [value] Dump all of Cody Schneider's tweets into Hermes agent until each is implemented
-772. [P3] [value] Create a hosted tool to extract all bookmarks with fieldtheory-cli and qmd
-773. [P3] [value] Do the prediction market teardown and rebuild
-774. [P3] [value] Deep debug Twitter A and test every button and feature
-775. [P3] [value] Merge Twitter A and B, add all new features, and link job-hunter-plugin with the Twitter tool
-776. [P3] [value] Go through the solarsizer commits to test and solve all the problems
-777. [P3] [value] Run the hostile red team analysis of the industry sourcing engine
-778. [P3] [value] Red-team strip the gift recommender spec using Ox Alpha
-779. [P3] [value] Build job-hunter-plugin add-on packages from Victoria's and Omoalhaja's tweets and Telegram posts
-780. [P3] [value] Build a job-hunter add-on package covering the RemoteReady job-search tips
-781. [P3] [value] Fix the transitivity and statelessness issues, then implement the APIM extensions
-782. [P3] [money-machine] [value] Turn the project ideas into services instead of software products
-783. [P3] [money-machine] [value] Launch the retatrutide site quickly using GLM 5.3
-784. [P3] [value] Do the exhaustive PRISMA-style search for all pattern library entries
-785. [P3] [value] Add thousands of romantic writing samples to the writing system
-786. [P3] [value] Build the four core dating app v2 components
-787. [P3] [value] Find and collate all free AI API sources to test bestmodelpicker's discovery engine
-788. [P3] [value] Run the waterfall chat-session comparison process to merge dating app versions
-789. [P3] [money-machine] [value] Build the grant-application variant of job hunting
-790. [P3] [money-machine] [value] Extend the decision engine with the v2 leverage tool
-791. [P3] [value] Revise the AI therapist memory and framework parsing systems
-792. [P3] [value] Add lago-voice-skill to job hunting with the user's writing samples
-793. [P3] [value] Clear all open grant and job application tabs
-794. [P3] [value] Add video, audio, and image generation models to the free-model provider tool
-795. [P3] [value] Deep dive on how voice AI agents handle semantic turn detection
-796. [P3] [money-machine] [value] Revise the MTN rollout campaign plans and website design
-797. [P3] [new-opportunity] [value] Explore every listed crypto earning opportunity with OpenCode, Hermes, grill-me, and qmd
-798. [P3] [value] Deep-compare the ResumeSkills repo against job-hunter
-799. [P3] [value] Curate 300+ application form questions into the starbank and verify the interview-question framework
-800. [P3] [value] Decide the best order for the four writing filters
-801. [P3] [value] Adapt style extraction to also work from user descriptions
-802. [P3] [value] Add automated profile updates to job hunter
-803. [P3] [value] Finish the target market file expansions and merge old and new files in ChatGPT
-804. [P3] [value] Apply the a16z speedrun system to every job application
-805. [P3] [money-machine] [value] Build detailed Nigeria ISP location maps with price-quality comparison
-806. [P3] [value] Build the simple note app to help focus
-807. [P3] [value] Run a granular skill-by-skill test of the job pipeline
-808. [P3] [money-machine] [value] Build the automated decision-engine API endpoint for AI agents
-809. [P3] [outgoing-due] [value] Subscribe to LeadMarina and Panbreak for manual cold outreach
-810. [P3] [value] Make autoresearch a core part of the AI therapist
-811. [P3] [value] Map LLM functions per project and train tiny local models with autoresearch
-812. [P3] [value] Layer a 'what is most important now' agent on qmd and the simple note app
-813. [P3] [money-machine] [value] Perfect the offering (website, service details) before pitching
-814. [P3] [value] Create the MapsData free account and pull leads for outreach
-815. [P3] [value] Collate essay and cold email answers into the first starbank document
-816. [P3] [value] Redo the base CV with new projects
-817. [P3] [value] Search all bookmarks for the hiring keyword set
-818. [P3] [value] Clean up existing websites and add them to CV, portfolio, GitHub, LinkedIn
-819. [P3] [incoming-window] [value] Apply to the listed grants and funding using Hermes application questions
-820. [P3] [value] Research how to become a fractional product manager
-821. [P3] [value] Build an evals system for the writing filters and their combinations
-822. [P3] [value] Build advanced evals comparing all memory options
-823. [P3] [value] Expand the job-hunting anti-scam feature into full scam-company detection
-824. [P3] [value] Extend job-hunting to discover all opportunity types for people like me
-825. [P3] [value] Answer questionnaire items Q3 to Q9
-826. [P3] [value] Pick which proposed ticket to start
-827. [P3] [value] Build the competition-analysis skill for every project
-828. [P3] [value] Make all GitHub repos private
-829. [P3] [value] Build the handle-to-best-match campaign
-830. [P3] [value] Move MTN to opencode muse after a red-team pass
-831. [P3] [value] Finish the job-hunting plugin and forwarder-bot
-832. [P3] [value] Confirm the S1 freeze and open S2
-833. [P3] [value] Add an applications-deadline calendar to the job-hunting plugin
-834. [P3] [value] Build the heuristic ranker and performance-ingestion engine with schema
-835. [P3] [value] Fully integrate the remaining humor frameworks with no duplicated functions
-836. [P3] [value] Make pooling similarity-aware as a knowledge graph
-837. [P3] [outgoing-due] [value] Buy the cheap G2G Google Flow and Gemini Pro plans
-838. [P3] [value] Architect the autoresearch recalibration system and benchmark schema
-839. [P3] [value] Bundle QMD into a desktop app
-840. [P3] [value] Build the boundless interview tool
-841. [P3] [outgoing-due] [value] Buy the omoalhaja cold emailing course and integrate it
-842. [P3] [value] Make the whole prioritization noteapp tool end-to-end working
-843. [P3] [value] Begin working on the your-advantages tool as the first filter or ranker
-844. [P3] [value] Use jev in QMD to replace the heavy embedding, reranking and expansion models
-845. [P3] [value] Set the prioritization engine goal to make as much money as possible
-846. [P3] [value] Apply for the next job and find all similar jobs
-847. [P3] [value] Build the redaction tool based solely on jev that edits and scrubs regional and semantic signals
-848. [P3] [value] Make job-hunting completely independent of Hermes, decoupled memory and self contained
-849. [P3] [value] Wrap Supermemory as the 2nd brain so semantic search can start
-850. [P3] [value] Redo LinkedIn and arrange and pin the best projects on GitHub
-851. [P3] [incoming-window] [value] Finally deliver the prediction market build if the opportunity is still open
-852. [P3] [new-opportunity] [value] Wrap Obsidian plus Smart Connections plus my fixes and sell on Nestuge for N10k
-853. [P3] [value] When wrapping open source repos, check each open issue is valid and fix all the valid ones
-854. [P3] [value] Extract all GitHub projects, all filled applications and forms into the first starbank folder
-855. [P3] [value] Red-team all chat assumptions and verify every claimed task actually exists in the specs
-856. [P3] [value] Build final full PR tool (knowledge graph of 5 tools' features vs PR specs; close gaps)
-857. [P3] [money-machine] Verify the gift recommender crawls jiji.ng for lowest prices
-858. [P3] [money-machine] Fix gift suggestions to always use the highest scoring issue
-859. [P3] [money-machine] Add a button for gift suggestions on other mentioned issues
-860. [P3] Start the Twitter archive CLI-based download
-861. [P3] Build the modular viral marketing tab UI
-862. [P3] Switch AdAdvisor to free AI APIs (OpenRouter or kilo.ai minimax)
-863. [P3] Add beginner wizard page explaining each AdAdvisor input
-864. [P3] Fix psychographic agent profiles not showing on Netlify
-865. [P3] Add granular creator/influencer detail inputs to AdAdvisor
-866. [P3] Redesign AdAdvisor UI via AI Studio design pass
-867. [P3] Speed up AdAdvisor app performance
-868. [P3] Add per-ROAS download buttons and fix export bundling
-869. [P3] Load open-source video, audio and image models plus ComfyUI workflows in Colab if the pro trial expired
-870. [P3] [money-machine] Rebuild the jiji webscraper for the solar site with scrapling
-871. [P3] Implement the Tinder-style match presentation with tailored reasons
-872. [P3] [money-machine] Build the personal installation one-pager with three estimate packages
-873. [P3] [money-machine] Deploy the solar site to Vercel following the saved instructions
-874. [P3] Reconfirm every instrument and strategy description with fetched sources
-875. [P3] Verify every fund criterion against term sheets or investor presentations
-876. [P3] [money-machine] Add the product catalog with wattages and images to the solar calculator
-877. [P3] [money-machine] Mark in-stock and out-of-stock products in the solar calculator
-878. [P3] Improve the product scraper to scrape product listings for shop owners
-879. [P3] Run autoresearch optimization on all my apps
-880. [P3] [to-save] Execute the savings plan: save 1.25m across March to July
-881. [P3] Build the Reddit crawler/scraper from the /.json thread guide
-882. [P3] Run the smaug fetch until two consecutive runs return the same count
-883. [P3] Set up the GitHub scraper on the AWS server and download its output
-884. [P3] Add the OpenClaw RL piece to the AI therapy app
-885. [P3] Turn the whole Twitter download system into a webapp
-886. [P3] Ask the GitHub notebooklm for the best skills for the opencode orchestration stack
-887. [P3] Collate skills.md files and prompts into advanced search prompt templates for notebooklm
-888. [P3] Extend the GitHub scraper to readmes and text files and handle duplicates
-889. [P3] Add customizable opening-message skills to the dating app
-890. [P3] Add the dating app advanced profiling techniques to the AI therapist app
-891. [P3] Load the GitHub readmes into a quick notebooklm
-892. [P3] Load quick notes and temp files into a quick notebooklm
-893. [P3] Search notebooklm for complete OpenClaw setup guides, for myself then Seun
-894. [P3] [money-machine] Segment gift pain points into at most 3 or 4
-895. [P3] [money-machine] Diagnose the 2-5 minute gift generation time
-896. [P3] [money-machine] Set developer default search and NVIDIA API keys, drop user keys
-897. [P3] Collate links from all notes into the ultimate setup guide
-898. [P3] Add the logs, metrics, traces rule to all agent skill files
-899. [P3] Automate the skill-file audit on every new skill file
-900. [P3] [client-job] Integrate OpenAI and Anthropic automation reports into the AI-resistance trait
-901. [P3] [client-job] Red-team each Gemini data source suggestion
-902. [P3] [client-job] Deep dive on what changes by geography
-903. [P3] Turn products, AI chats and saved notes into blogs
-904. [P3] Replace all Tauri implementations with Electrobun and give the AI the full docs
-905. [P3] Add the Council of Advisors addon to the coach builder tool
-906. [P3] Add batch PDF-to-markdown conversion to the colab crawler and convert stored PDFs
-907. [P3] [client-job] Write the marketing proposal for Aunt Ngozi (layers.com and service chaining parts)
-908. [P3] Compare the old 5-Whys system against the new Abstraction Laddering system side by side
-909. [P3] Create the four scenario workbook comparing every assistant configuration and plan
-910. [P3] Go through every app and add 5-Whys only where it naturally fits
-911. [P3] Install and configure the pi-agent on the Oracle cloud
-912. [P3] Set up the Oracle phone-accessible agent stack with backups and the davinci job applier
-913. [P3] Add simple schedules (time ranges and notifications) to the to-do app
-914. [P3] Design the to-do app prioritization system (AI starred, drag ordered)
-915. [P3] Fix the Google authentication failure on the Render deployment
-916. [P3] Get the Twitter search colab tool working and the new archive scraper formatting files for NotebookLM
-917. [P3] [client-job] Fix all suspended accounts handling in the Seun app
-918. [P3] [money-machine] Research and update generator costs with current Nigerian prices
-919. [P3] [money-machine] Revert solar sizer PSH values to Gemini's or a midpoint
-920. [P3] [money-machine] Add a simple three-tab user guide to the top of solar sizer
-921. [P3] Use 5-Whys twice in the therapy app (retrieval and synthetic data generation)
-922. [P3] Apply 5-Whys to synthetic data generation for every LLM RL training run
-923. [P3] A/B test 5-Whys outputs against current designs with friends
-924. [P3] Update the CV and profile website with new sites and Google Drive links
-925. [P3] Finalize the 5-whys PRD
-926. [P3] [money-machine] Build the semi-manual solarsizer database update process
-927. [P3] [money-machine] Change the remaining calculator exports to PDF format
-928. [P3] Work out the 'best to use' categories list
-929. [P3] [money-machine] Add the load shedding feature
-930. [P3] [money-machine] Add seller margin and order buttons to scraper results
-931. [P3] Try every context compression skill and prompt
-932. [P3] [money-machine] Add installer-only product categories and fees
-933. [P3] [money-machine] Verify peak hourly overload handling in the algorithm
-934. [P3] [money-machine] Hand the gift website deploy chat to Antigravity to debug
-935. [P3] [money-machine] Find cheapest delivery service and set free shipping threshold
-936. [P3] [money-machine] Replicate the ORAIMO onepager for our product
-937. [P3] [money-machine] Produce demo videos showing runtime versus competitors
-938. [P3] [money-machine] Mark tab 1 and tab 2 prices as early bird and raise them
-939. [P3] [money-machine] Test 3 peptide suppliers with orders and add to supplier list
-940. [P3] [money-machine] Finalize prompt C after homepage
-941. [P3] [incoming-promised] Send devices to buyers in Lagos and to Rotimi
-942. [P3] [money-machine] Add extra panel addition fields and max-addition guides during order
-943. [P3] [money-machine] Reduce homepage copy and include missing prompt A parts
-944. [P3] [money-machine] Reduce Tab 3 Internet copy further for website cards
-945. [P3] [money-machine] Build the footer contact page marked not done
-946. [P3] [money-machine] Add graceful storage-full alerts to the SolarSizer SDK app
-947. [P3] [money-machine] Produce formatted catalog data for manual upload (labels, powerstations, internet)
-948. [P3] [money-machine] Fix SolarSizer admin import/export buttons (internet tab, catalog, profiles)
-949. [P3] [money-machine] Fix SolarSizer PDF exports and profit-margin fields
-950. [P3] [money-machine] Run the 8-subagent cleanup and ruff on the Telegram trading bot
-951. [P3] [money-machine] Build the Retatrutide website quickly after finishing SolarOne
-952. [P3] Move all script runs from Colab to the Google Cloud VM
-953. [P3] Add Unbrowse to OpenClaw and the Twitter PR tool
-954. [P3] [money-machine] Set up marketing reply and lead-gen bots from the clawdhub
-955. [P3] [money-machine] Explain the best free model score and its derivation on Freeaifinder
-956. [P3] [money-machine] Test how many FAQ questions the site can answer and update faq_version_3
-957. [P3] [money-machine] Apply fix to the 222kb HTML version, check completeness, combine final FAQ
-958. [P3] Compile the complete skill/plugin/MCP list and crosscheck against OpenCode and Codex
-959. [P3] [money-machine] Correct inaccurate FAQ questions before building the AI chat feature
-960. [P3] Fix issues with the ChatGPT taste-skills design version and integrate via diffs
-961. [P3] [money-machine] Redesign adadvisor
-962. [P3] [money-machine] Finish the AI therapist backend, then redesign it
-963. [P3] Adopt the new test stack (skill to test cases; Chrome MCP E2E; GUI route tests)
-964. [P3] Map all Hermes Agent abilities (self-improvement, skill creation, plugins)
-965. [P3] First map and build the AI plus personal notes qmd chat
-966. [P3] Create a PowerShell script to extract NotebookLM notes and chat histories
-967. [P3] Run code review and testing skills after each prediction-market phase
-968. [P3] Add hover tooltips with example usages to all buttons/functions
-969. [P3] [money-machine] Note missing functions exposed by the strategy-replication chat response
-970. [P3] Set up a warehousing/kanban system to coordinate multiple agent sessions
-971. [P3] Add 'automatically commit after each turn' to the orchestration rules
-972. [P3] Fix the SHAP installation issue
-973. [P3] Crawl the whole NFX website with the colab crawling tool
-974. [P3] [money-machine] Add lookback history scanning and central database download to the GitHub tool
-975. [P3] [money-machine] Check if the PM strategy builder can track and analyse other traders
-976. [P3] [money-machine] Package the GitHub tool for non-technical use (scripts/GUI installers)
-977. [P3] [money-machine] Test limits of Hermes self-learning on the prediction bot before trying evo
-978. [P3] [money-machine] Add OpenRouter rankings as the second default ranker in Freeaifinder
-979. [P3] [money-machine] Run line-by-line Hermes feature assessment for the prediction market builder
-980. [P3] Run react-doctor on all React apps and fix issues to score 100
-981. [P3] Map my full Solar-One website generation process (prompts, tools, order)
-982. [P3] Go along Jesus Save Street looking for a carpenter and an affordable mini fumigation seller
-983. [P3] [money-machine] Test replicating whole strategies in the Prediction Market builder via tipster_rubric v1 and v2
-984. [P3] [money-machine] Expand Freeaifinder to OpenRouter models, AI companies, assistants, the Chinese $1 providers and local options
-985. [P3] Update the OpenCode build flow with any gaps from the how-to-build-anything checklist
-986. [P3] [money-machine] Combine the tipster and punter tools into the strategy builder with a deep comparison
-987. [P3] Build tools to quickly edit and improve existing benchmarks alongside the benchmark creation tools
-988. [P3] [new-opportunity] Develop the AI save-a-cat based screenwriter tool with cinematographer and casting add-ons
-989. [P3] [money-machine] Add sentiment and trending features/nodes to the Prediction Market strategy builder
-990. [P3] [money-machine] Add market-manipulation and scam detection nodes to the Prediction Market builder, starting from Zachxbt sources
-991. [P3] Update the CV and all other profiles
-992. [P3] [money-machine] Factor caching into the freeaifinder cost calculator
-993. [P3] [outgoing-due] Buy more data months to reach four months total
-994. [P3] Sort out the two inverter settings
-995. [P3] Fix the typst resume export to include project links and sections
-996. [P3] Install Hermes desktop and audit installed coding tools
-997. [P3] Add a leak check for outgoing posts and documents
-998. [P3] Export opencode chats and mine the PowerShell fixes into AGENTS.md
-999. [P3] [money-machine] Add purchase and usage quality-check instructions to solar sizer exports
-1000. [P3] [money-machine] Copy the HuggingFace leaderboard scoring and design into Freeaifinder
-1001. [P3] Add the cold DM approval-or-autosend options to job-ops
-1002. [P3] Expand enrichment search across people-data platforms
-1003. [P3] Mine bookmarks and forks for AI writing tools and threads
-1004. [P3] Expose QMD enrichment features in the UI
-1005. [P3] Replicate expert judgment in the strategy builder
-1006. [P3] [money-machine] Add usage-based charging to the apps
-1007. [P3] Fix opencode's bad compaction behavior
-1008. [P3] Run the next Gemini ablation prompt on the UI-SE process
-1009. [P3] Pull the AI-VC paper's tips into the Industry Sourcing Engine
-1010. [P3] Create 100 cold DM training examples without identifiable info
-1011. [P3] [money-machine] Finish the ngozi, real estate and furniture n8n flows
-1012. [P3] Set up Grok in opencode
-1013. [P3] Set up nvidia models in opencode
-1014. [P3] Create the Chatgpt-Claude-Gemini project chat
-1015. [P3] Add the new chemicals to the retatrutide website
-1016. [P3] Implement the 5k-plan onboarding system
-1017. [P3] [money-machine] Repair the broken issues on the solar marketing website
-1018. [P3] Get ngrok working and test all n8n workflows
-1019. [P3] Complete the searxng/camoufox/scrapling and QMD merges
-1020. [P3] Add the realistic best-candidate profile feature for HR
-1021. [P3] Produce the updated job-ops architecture and end-to-end user flows
-1022. [P3] Export the Claude and ChatGPT methods into Kimi K3 for comparison
-1023. [P3] Red-team the full project in K3 and produce the final dev docs
-1024. [P3] Expand the housing model's period options beyond 5-10 years (20-30, 30-45, all 55 years)
-1025. [P3] Add last30days and my job, CDPA and other prompts to Claude and ChatGPT
-1026. [P3] Try connecting Apollo or similar to find people and social accounts for cold DMs
-1027. [P3] Implement stability, eviction/rent-hike risk and psychological value of owning in the housing tool
-1028. [P3] Split Lagos into regions and use median home prices per region in the housing tool
-1029. [P3] Add mortgage-interest tax deduction and rent stabilization/control effects to the housing tool
-1030. [P3] Add CV parsing into potential roles to feed job search queries
-1031. [P3] Turn the whole application process into a step-by-step wizard
-1032. [P3] Follow omoahaljaba and send cold DMs of what I can do, including VA applications
-1033. [P3] [outgoing-due] Buy the focus supplements (modafinil, magnesium, iron, zinc) and pay for the most powerful AI models
-1034. [P3] Make the multi-platform gateway include WhatsApp (Hermes internal connectors first)
-1035. [P3] Curate jobfather's tweets and similar sites into the answer bank structure for application answers
-1036. [P3] Back up the memory card to the Rotimi hard drive
-1037. [P3] Install the RAM and verify the machine works
-1038. [P3] Naturalise the tool's own conversations with users (humanizer skills plus self-improvement on tone and style)
-1039. [P3] Expand the self-improvement loop to cover every artifact, output, metric and setting (not only skills)
-1040. [P3] Verify and complete the user-set output templates system (3 ways, 2 modes) for every artifact
-1041. [P3] Add user-supplied API key support for all paid people-search and enrichment providers
-1042. [P3] Add automated congratulatory messages for milestones
-1043. [P3] Export the career journal to markdown so qmd can see it
-1044. [P3] Implement all agreed qmd suggestions into the hybrid package
-1045. [P3] [money-machine] Upgrade portfolio pages with templates, embedded media frames and motion
-1046. [P3] Ensure LinkedIn and CV auto-update from the memory bank
-1047. [P3] Clone my GitHub repos starting with marketing
-1048. [P3] Clone the n8n community workflow repos for marketing workflows
-1049. [P3] Compare the final merge against all root packages for missed features
-1050. [P3] Add system and user-set rate limits to the twitter tool
-1051. [P3] Crawl complete data for the first 1,000 most popular cities
-1052. [P3] Supply the missing rent-or-buy inputs: Lagos price, build-to-buy ratios, stability value
-1053. [P3] Run the red team analysis prompt on the CDPA comparison
-1054. [P3] Add the measured trust system that stops asking once suggestions keep being accepted
-1055. [P3] [money-machine] Build the compile stage and the activation installer client
-1056. [P3] Run everything done in claude, gemini and chatgpt through Kimi K3
-1057. [P3] Run the adversarial red team on whether xbrowser is even needed
-1058. [P3] Crosscheck that every global skill actually works in OpenCode
-1059. [P3] [money-machine] [started] Finish installing job-ops
-1060. [P3] [money-machine] Update CV, clean the GitHub and refresh portfolio links
-1061. [P3] [money-machine] Begin the prediction market strategy builder
-1062. [P3] [money-machine] Collate the virtual assistant tweet strategies and implement them on job sites one by one
-1063. [P3] [legal-account] Complete the TEF application
-1064. [P3] [promise] Finish Aunty Ngozi's n8n automations
-1065. [P3] [money-machine] Start solar business marketing: social media, website, then price comparison bot and solar chatbot
-1066. [P3] Finish the final QMD version of the Twitter bookmark scraper (Smaug)
-1067. [P3] [money-machine] Run the next Aistudio prompt: Max Charging Current and DC System Voltage checks
-1068. [P3] [money-machine] Verify the blackout risk warning system and revisit the blackout risk prompts
-1069. [P3] [money-machine] Modify the 24hr cache to start from measured net recharge instead of a full battery at 6pm
-1070. [P3] Search Twitter bookmarks for cold DM and job hunting guides and note the phone-friendly ones
-1071. [P3] [money-machine] Add plug-and-play ports to the external batteries including the generator wire outlet
-1072. [P3] [money-machine] Rework the solar website prices, raising tab 1 and 2 by N5-12k and increasing tab 3
-1073. [P3] Red team the whole job-hunting pipeline using the Hermes browser docs
-1074. [P3] Turn all the Hermes fixes into a patch shipped with the skills bundle
-1075. [P3] [money-machine] Implement the agreed job-hunting upgrades from the Q19-Q23 review
-1076. [P3] Integrate every Weave piece that fits PIA
-1077. [P3] [money-machine] Build the Twitter reply pipeline: seed creators, semantic and viral search, analysis, 6-phase writing
-1078. [P3] [money-machine] Expand job hunting's user testimonial monitoring with the Twitter tool's discovery system
-1079. [P3] Produce the full red team reports on the concepts and the current implementation
-1080. [P3] [money-machine] Redo the prediction market unfuck and job-hunting pipeline fixes in fresh chats with the new models
-1081. [P3] Fix the job-hunting backup cron so snapshots are encrypted
-1082. [P3] [money-machine] Extend Job-Ops sourcing to AI-resistant and physical-interaction jobs
-1083. [P3] [money-machine] Fix the app 2 template currency conversion and tighten the scoring
-1084. [P3] [outgoing-due] Buy around 12 more domain names and finish the Bachs setup
-1085. [P3] [outgoing-due] Send Rotimi N75k to help with the LLC registration
-1086. [P3] [money-machine] Implement the bookmarked social-search idea in the job hunter
-1087. [P3] [money-machine] Add Microsoft partner directory sourcing to the job hunter
-1088. [P3] Model OpenCode Go usage limits and how long the $60 models last for the job-hunting runs
-1089. [P3] [money-machine] Copy everything from xpilot.ink for the Twitter marketing tool
-1090. [P3] Set up the AI-powered science replication model this evening
-1091. [P3] [money-machine] Fix the table sorting and add sort-by-any-column
-1092. [P3] [money-machine] Solve the negative ratio ranking so the cost-effective model is not sunk to the bottom
-1093. [P3] [money-machine] Add separate floor sliders for brainstorm and execution tiers
-1094. [P3] Research how automation experts estimate token usage of unbuilt workflows
-1095. [P3] [money-machine] Add all benchmarks and a toggle to switch the intelligence column
-1096. [P3] [money-machine] Add deep user profiling to the Twitter tool's semantic search
-1097. [P3] [money-machine] Redesign bestmodelpicker so it does not look AI-made
-1098. [P3] [money-machine] Build the Reddit sales system for Hermes
-1099. [P3] [money-machine] Work on the slideshow video platform, then search bookmarks for free video tutorials
-1100. [P3] Add semantic search as a third ingestion option in the Twitter tool
-1101. [P3] Add the option to route tweets to third-party API or inbuilt content responses
-1102. [P3] Add memes, jokes and sarcasm content types to the Twitter tool
-1103. [P3] Add /last30days to Hermes agent
-1104. [P3] Install destructive_command_guard on OpenCode and Hermes
-1105. [P3] Add ponytail globally to OpenCode, Antigravity, and Hermes
-1106. [P3] [to-save] Fund the GitHub-PIA CSR non-profit to protect platforms with top models
-1107. [P3] Find a free way to use muse 1.3 on the phone
-1108. [P3] Add the 20 missing site essentials
-1109. [P3] Sort out Google Flow UGC technicals with the three maps
-1110. [P3] Connect the twitter tool to fit-to-brand
-1111. [P3] Run the Layer 1 cross-check and cross-mapping exercise
-1112. [P3] Complete the narrative extension questions before repair features
-1113. [P3] Pass the AmirMushich design guides through fit-to-brand
-1114. [P3] Finish the QMD login task
-1115. [P3] Switch QMD web search to tinyfish with searxng as backup
-1116. [P3] Build the video production pipeline on cheap Google Flow credits
-1117. [P3] Build the pre-launch checklist knowledgebase in QMD
-1118. [P3] Start the QMD skills, plugins and connectors work with the system prompt sections
-1119. [P3] Extract jev capabilities, strengths and weaknesses from every bookmarked usecase
-1120. [P3] Save each jev usecase and repo as an individual ADR file
-1121. [P3] Synthesize the jev ADRs into one central architecture design specification
-1122. [P3] Use the central architecture doc to find 150-300 more jev usecases via the ICP prompt process
-1123. [P3] Parse each project against the jev ADRs to find replaces, plug-ins and companions
-1124. [P3] Finish the workflow to use googleflow credits
-1125. [P3] Finish the twitter tool and its associated tools
-1126. [P3] Keep reworking the forwarder bot spec until it self-runs in fomo.app
-1127. [P3] Check whether everything from the second-brain example is applied in the prioritization noteapp
-1128. [P3] Check whether everything from the second-brain example is applied in QMD
-1129. [P3] Secure the cloud-side and static corpus with cloudflare security and tunnel tools
-1130. [P3] Add user settings to choose which files and corpuses stay offline only
-1131. [P3] Use jev for the natural-language-to-strategy workflow in the prediction market strategy builder
-1132. [P3] Record all user actions, inputs and outputs in the logs as a separate section
-1133. [P3] Make cloudflare artifacts sync automatically every 30 to 60 minutes
-1134. [P3] Swap all the models across the projects
-1135. [P3] Deeply dig through the qmd tool to find every granular place jev can apply
-1136. [P3] Crawl all of omoalhaja's twitter account and collate his techniques one by one
-1137. [P3] Build the PR tool now that jev is available
-1138. [P3] Ensure image reading is perfect for all tweet screenshots using Qmd over bookmarks and repos
-1139. [P3] Integrate cogsend into the twitter tool for easier posting instead of postiz
-1140. [P3] Resolve the flagged genesis-trigger fix and verify it is fully built out
-1141. [P3] Bake the shared agent tools into the next Instinct, Muse or Grokbot by default
-1142. [P3] Integrate the high-leverage job hunt skill into the job-hunting routine
-1143. [P3] Convince yourself to watch the omoalhaja cold outreach course to perfect the cold outreach system
-1144. [P3] Use jev to revise and red-team the industry sourcing engine architecture and consolidate its enrichment APIs
-1145. [P3] Add a hold-body blue collar job mode to the career path planner
-1146. [P3] Perfect the cold outreach and email monitoring systems in job-hunting
-1147. [P3] Find whether a simplenote API exists and tools that build API/MCP/CLI endpoints for any website
-1148. [P3] Add a pipeline step that rejects shallow restatements of a book's idea in favour of non-obvious ones
-1149. [P3] Fix the provenance and knowledge-graph lineage chain when the first link is a bare empirical trigger
-1150. [P3] Document the outcome_predictors, intervention_testing and departure_impact experiment types
-1151. [P3] Specify how pi-autoresearch finds new correlations and what counts as a real discovery
-1152. [P3] Build the live zoom listener that transcribes, suggests questions and fact-checks calls against the knowledgebase
-1153. [P3] Design a universal empirical objective scoring system to evaluate the red teaming tool
-1154. [P3] Test the red teaming tool against the best vanilla models as a full benchmark
-1155. [P3] Build a dirt-cheap jev-based crawler to track job boards and hiring posts across all social media
-1156. [P3] Add Thinking Fast and Slow as the pre-eminent foundational framework under every component
-1157. [P3] Build PRE and the prioritization engine as Muse plugins with the specific empowerment
-1158. [P3] Design and architect all my projects to use cloudflare wrangler and the cloudflare agents sdk
-1159. [P3] Use the finished red teaming tool as the base for all my twitter bots, one book at a time
-1160. [P3] [new-opportunity] Dump all my projects and start wrapping twitter repos and tutorials onto parameterAI and free domains
-1161. [P3] [new-opportunity] Wrap the supermemory second brain first, compile to a binary and improve it with jev
-1162. [P3] Swap job-hunting for the toyosi prompts, the Abayomi repo and the 59-application replies
-1163. [P3] Operationalize one or two GUI and frontend design skills from bookmarks and repos using the 2nd brain
-1164. [P3] Let AI read screens, chats and calls to proactively suggest or do tasks
-1165. [P3] Add the axis framework of digital/physical, people/non-people and internal/external impact across all domains
-1166. [P3] Do a deep line-by-line red team comparison between the red teaming tool and the AI Therapist app
-1167. [P3] Extend the business-skeleton rigour to every domain: canonical resources, framework mapping and gap filling
-1168. [P3] Build this paper's core method as a formal addendum to AHPAS §4.4 validation, in full
-1169. [P3] Factor in a new location/culture axis and filter all modes through local variants in per-profile validation
-1170. [P3] Add Opus 5.5 with curated launch-video seeds as the video generator process in fit-to-brand
-1171. [P3] Write Section 7 expanded with the 65 analysis dimensions
-1172. [P3] Write Section 8 expanded with the 6 guardrails
-1173. [P3] Add the architecture diagram and question-battery template library as additional structural material
-1174. [P3] Reconcile the General Business Operations section against §4.10
-1175. [P3] Write §6.2 domain-specific question batteries for Medicine, Law and Engineering
-1176. [P3] Write §6.3 cross-domain meta-patterns: Experience Paradox, Two-Person Rule, Communication Goldilocks
-1177. [P3] Write the five LLM and Jev combination patterns
-1178. [P3] Crosscheck that every single task in the consolidated queue has been completed
-1179. [P3] Design the Windows tool onboarding UX so it beats plain AI chat
-1180. [P3] Check whether the prioritization engine breaks down exactly as the variance critique describes
-1181. [P3] Train a skill bundle that constantly passes Pangram using backpass and jev
-1182. [P3] Improve salaryindex.ng know-your-worth with CV matching and pay-scale ranking
-1183. [P3] Add the incentives feature to the leverage tool so the decider also bears the consequences
-1184. [P3] Add Kahneman's biases, network theory and incentives as foundational frameworks in every app
-1185. [P3] Find and map the best researched frameworks for the full CFT Sequence inputs
-1186. [P3] Expand the Matzner Test deal-screening scorecard until it is exhaustive
-1187. [P3] [new-opportunity] Create the full end-to-end AI consultant version for selling AI change programmes by business size
-1188. [P3] Use levels.fyi, Blind and Glassdoor-style sites as data sources for negotiation features
-1189. [P3] Build the advanced deploy router putting every platform CLI into one tool with openship
-1190. [P3] Build the one-click Chrome bundler and deploy tool
-1191. [P3] Evaluate knowledge-graph systems to close the QMD wiki limitations, starting with Supermemory
-1192. [P3] Install Supermemory on Antigravity, make a desktop binary and build out all UI surfaces in the spec
-1193. [P3] Ask opencode for a detailed granular breakdown of the end-to-end job hunting process
-1194. [P3] Wire supermemory with jev entity and fact extraction plus connectors
-1195. [P3] Clear out the LinkedIn Sales Navigator with Omoalhaja
-1196. [P3] Set up a quick social media automation process and accounts on reddit, threads, Bluesky and IG
-1197. [P3] Run a quick SEO audit and improvement on my sites using seoo.tools
-1198. [P3] Replicate the new QMD knowledgebase features into the zvec-grep based knowledgebase
-1199. [P3] Complete a deep read of all current, valid and core chats and flag every issue
-1200. [P3] Merge everything accurately, deleting nothing, fitting each component into its right slot
-1201. [P3] Unify everything into one systematic architecture with structures applied the same everywhere
-1202. [P3] Borrow all the QMD user and control planes for job-hunting
-1203. [P3] Build the real-time relationship review system that maps issues and proposes a plan
-1204. [P3] Later add job and opportunity matching with editable scoring files per user
-1205. [P3] Find whether the full history of all notes can be exported from Simplenote
-1206. [P3] Ask Gemini and Claude for the websites and directories that list VC and startup funding
-1207. [P3] [new-opportunity] Study the Hermes user-stories page for automations to copy and package as paid apps
-1208. [P3] Explain in simple English how question batteries are created in production, not by hand
-1209. [P3] Improve OptMem with Hindsight, comparing it to QMD, zvec-grep KG and other learning systems
-1210. [P3] Turn job hunting into a game called career life with real profiles, jobs and interview questions
-1211. [P3] Use the 12 levers framework as the sole framework for a simple AI agent and my first therapist bot in LagosLife
-1212. [P3] Find or build a site comparing GLP-1 prices across 100+ providers
-1213. [P3] Build the therapist bot in LagosLife with a Twitter account that quotes people with viral responses
-1214. [P3] Extend the tool to crawl and scrape all tweets of my account and of third-party accounts
-1215. [P3] Add every VC fund at or below $200M as a source for the funding pipeline
-1216. [P3] Add thousands of connectors and phone app control to the mobile prioritization engine assistant bot
-1217. [P3] Use my decision engine to power AI bots that run fairly complex companies
-1218. [P3] Build an open intelligence platform on the AHPAS red-teaming engine, starting from god's eye
-1219. [P3] Fill the missing link in my suite of marketing tools and systemise generating more
-1220. [P3] Turn every one of my apps and projects into AI bots that are personas in LagosLife
-1221. [P3] Build the article writing tool for career posts and case studies, searching all my notes for prior work
-1222. [P3] Copy the local newsletter concept that was rolled out to 900+ cities
-1223. [P3] Ask whether Opus 5.5 with Blender can meet the architecture need and fully replace Revit
-1224. [P3] Begin playing around with semantic twitter search from my old prompts
-1225. [P3] [new-opportunity] Gather the software rewriting case studies into one system and offer it to small and medium companies
-1226. [P3] Add Tomo-style interest groups to my personal apps: crawl groups and forums, join them, act as assistant
-1227. [P3] Add a deep dive on social networks to the moats work: group types, why they form, how they form
-1228. [P3] Integrate the ponytail and simple-english plugin concepts into cold-email and the other tools
-1229. [P3] Rewrite the audio modulation app in Rust with a local tiny jev model for sub-5ms reaction
-1230. [P3] Brainstorm and define the rollback system for the automated protocol
-1231. [P3] Develop tests and evals comparing AI natural-language search with the semantic search module
-1232. [P3] Investigate why today's hiring_bookmarks search returned far fewer tweets
-1233. [P3] Read the 12-forms distillation chat and compare it with my ahpas and decision-engine systems
-1234. [P3] Compare OpenAI's generative UI to my openclaw desktop app design and borrow ideas
-1235. [P3] Apply the Fork-and-Flush technique to my Autoresearch agents
-1236. [P3] Build the ultimate search tooling stack with last30days, science search, grilling and QMD
-1237. [P3] Build bestmodelpicker on top of freellmapi as a benchmark-based auto-router
-1238. [P3] Combine the two Google threads into the japa/immigration consulting AI agent sessions
-1239. [P3] Expand money-system.md from current system into a much more advanced, systematic money system
-1240. [P3] Bestmodelpicker: execute full 5-step plan (deep understanding/red-team, provider list, decompose single HTML into codebase, cloudflare crawlers, redesign)
-1241. [P3] Decision software: design prioritization app effort estimation (personalized effort model from all user data traces)
-1242. [P3] Bestmodelpicker: add OpenRouter share-of-spend as switchable alternative quality parameter
-1243. [P3] Job-hunting plugin: final pass with latest Hermes changelog (superseded features + new features to adopt)
-1244. [P3] Career-paths system for influencer/streamer/talent/blue-collar careers (check O*NET coverage first)
-1245. [P3] Red-team all projects with Gemini Argon (hostile adversarial, one project at a time: all AI chats, source_repos, unrepod project folders)
-1246. [P3] Bestmodelpicker: systematically integrate features/data from listed repos and websites (most coverage first)
-1247. [P3] Bestmodelpicker: integrate all benchmarks incl. knowledge-work and community-created ones, with a user signals tab
-1248. [P3] Explore tardigrade repo for RL task building (fork/rewind world state to find model failure modes)
-1249. [P3] Refactor and beef up search systems and build necessary scrapers
-1250. [P3] Go through 61+ bestmodelpicker issues
-1251. [P3] Create eval set with minimum floor, then evaluate best Pareto-optimal model under budget for highest intelligence gain per price
-1252. [P3] Build scraper that digests daily morning technique blogs (Hi_Mrinal idea)
-1253. [P3] Design master brainstorm-executor pairings across plans, harnesses and API costs (token usage limits estimates)
-1254. [P3] Analyze Jev-RAG-Claim-Verification dataset usecases
-1255. [P3] Add newsjack.sh to marketing tools
-1256. [P3] Do the Claude AI courses to set up Claude like Doc Neto
-1257. [P3] Search all bookmarks for tweets/links on YouTube AI courses and AI agent videos
-1258. [P3] Find a way to parse YouTube videos for the video transcriber
-1259. [P3] [new-opportunity] Apply for Tech sales job role
-1260. [P3] Compile list of all job roles for viecoders
-1261. [P3] [new-opportunity] Build the console set for every app
-1262. [P3] Show the exact model used on every response
-1263. [P3] Try oh-my-openagent as the OpenCode orchestrator
-1264. [P3] Decide whether lookback runs on user machines or central storage
-1265. [P3] Check that the custom system prompt system controls every parameter
-1266. [P3] Correct the website design system prompt with Claude
-1267. [P3] [new-opportunity] Use OpenMontage as the first video tool on the free APIs
-1268. [P3] [new-opportunity] Map how much finishing each existing GitHub project needs
-1269. [P3] Ask Codex how to optimise the Windows system safely
-1270. [P3] Collate all API gateways and inference providers
-1271. [P3] Repeat the input parameter correction in the FreeLLMAPI config patch
-1272. [P3] Map how to find accounts with specific profiles in the Twitter scraper
-1273. [P3] Check whether lists, communities and groups can be searched the same way
-1274. [P3] [new-opportunity] Build the movie survey and recommendation tool
-1275. [P3] [new-opportunity] Build the local government bid request dashboard
-1276. [P3] Add back the save guide button
-1277. [P3] Add ROAS budget switcher to the prediction market chart
-1278. [P3] [money-machine] Move the 'api calls saved' details to backend logs and remove the frontend bar
-1279. [P3] Fix the invoice quantity fields so every digit can be deleted
-1280. [P3] [money-machine] Add a PDF download button to the comparison table
-1281. [P3] Finish the pending xbrowser task
-1282. [P3] [money-machine] Refine save logic so 'Result saved' shows only after a successful write
-1283. [P3] [money-machine] Add a Clear All Logs button in the Logs tab (Developer mode)
-1284. [P3] Whitelist Amara's bot as the Personal Assistant bot
-1285. [P3] [money-machine] Use Mimo for manual testing of the prediction market app
-1286. [P3] Create the Threads account
-1287. [P3] [started] Scour GitHub for AEO/GEO skill bundles to add to the SEO ahrefs-copy tool
-1288. [P3] Compare pi-autoresearch against karpathy autoresearch for gaps and new loops
-1289. [P3] Continue producing one real-life end-to-end example per turn across the listed domains
-1290. [P3] Point classifier.dev at a more accurate version of jev
-1291. [P3] Review every popular science book for the research it relies on and how it was interpreted
-1292. [P3] Deploy a QMD knowledgebase widget for users on ecommerce and marketing pages
-1293. [P3] Build the daily morning and evening context-aware mastery learning system as a free QMD add-on
-1294. [P3] Answer the framework corpus, framework cards and two-tier battery design questions individually
-1295. [P3] Find all AI skill files, skill.md files and bundles that perform red teaming
-1296. [P3] Install the official typesafe-ai skill to use jev in existing projects
-1297. [P3] Use Artificial Analysis for all benchmark needs
-1298. [P3] Fix the slow performance
-1299. [P3] Add MTN to opencode after finishing the grilling set, then refactor and add jev
-1300. [P3] Create a crawler for bestmodelpicker using jev and cloudflare
-1301. [P3] Bookmark every one of the ten books that build liking, trust and listening
-1302. [P3] Buy a new phone charger, the current one is dying
-1303. [P3] Build a quick agent that reads notes and emails and adds items to the google calendar
-1304. [P3] Use the Mitchell Keller approach to revise the industry sourcing engine
-1305. [P3] Email the Condia editor about AI in Africa coverage
-1306. [P3] Go back through every listed book to find more that apply to the internal mode
-1307. [P3] Apply the affiliate program security provisions
-1308. [P3] Study all the proactive features of the tag and mention agents, collating the list
-1309. [P3] Add the ideas tab that surfaces highly rated ideas from the user's demographic
-1310. [P3] Learn when each axis triggers rather than on every search
-1311. [P3] Check whether the platform can handle tweets, threads, reddit, telegram, discord and AI chats as source material
-1312. [P3] Add the v1.0 specs to the redteaming context folder alongside the other spec collections
-1313. [P3] Revisit the Annex's self-review reasoning and separate the two rationales
-1314. [P3] Cite the calibrated one-in-four caution wherever decision_stress_test output is shown to a human
-1315. [P3] Write the full unabridged version as its own separate document
-1316. [P3] Absorb the second option into §4.10's general layer and add a way to solve the discoverability problem
-1317. [P3] Split the document into two files now (Physical Services and Org People Ops)
-1318. [P3] Close the cookbook-pattern gap in the spec
-1319. [P3] Add the scale performance metrics tables to the spec
-1320. [P3] Write §10 Conclusion with the mission and philosophy
-1321. [P3] Decide the code-in-specs question so Appendix D can move forward
-1322. [P3] Illustrate the whole process with a complete worked example
-1323. [P3] Make the combine tool fetch READMEs of all forks and auto-update on a cron
-1324. [P3] Use the Gemini Pro plan in Smart Connections
-1325. [P3] Add a video type selector to fit-to-brand
-1326. [P3] Add the Palantir acting book and related books as a core framework of the real politik delta
-1327. [P3] See whether the YC outreach tool can be adapted for other sites, platforms and use cases
-1328. [P3] Use jev to search all bookmarks for new job and hiring websites and append them to a growing list
-1329. [P3] Proceed on to the Google Flow videos task
-1330. [P3] Add short pop-up descriptions of each source and the types of things it provides
-1331. [P3] Use NAICS to list every single physical business sector
-1332. [P3] Find more free TikTok slideshow templates
-1333. [P3] Build a more advanced web design building tutorial; the current format is okay
-1334. [P3] Connect the salary index site's data for some interesting data
-1335. [P3] Add the daily evening ranting session that constantly realigns me to what is most important
-1336. [P3] Grab all the notes on each subsequent project and work the design out with Snow Bunny
-1337. [P3] Decompile that plugin and add it to the job-hunting plugin
-1338. [P3] Turn the Paul Graham article into a startup list checker of all components that should be in my startup
-1339. [P3] Add a direct WHY and HOW reason to every hypocrisy callout in the hypocrisy bot
-1340. [P3] Translate the jev code outputs from the test runs into a simple English report
-1341. [P3] Install the TypeSafe skill
-1342. [P3] Add the tool lookup cascade rule: check projects, then forks, then note links, and only then web search
-1343. [P3] Expose every user setting through WhatsApp or Telegram in opportunity-desk
-1344. [P3] Ask AI what it thinks of Cloudflare's pi-durable as the new agent harness for all my projects
-1345. [P3] Let users add their own cold email template and customise the email format
-1346. [P3] Add the writing style function to the 12 reasons therapist bot
-1347. [P3] Check whether the red-teaming framework distillation method also works for distilling tweets
-1348. [P3] Then slowly start arranging my context files
-1349. [P3] Add a toggle to focus the tool on spec docs and AI chats rather than the codebase
-1350. [P3] Estimate the WhatsApp message usage for every step so the combined system stays inside the Kapso free limit
-1351. [P3] Turn that module into a scheduled twitter search feature, running say every week
-1352. [P3] Have the Claude animations reviewed against John Lasseter's principles of animation
-1353. [P3] Decide whether to crawl all of LinkedIn, and find whether massive LinkedIn datasets already exist
-1354. [P3] Keep a collated list of all my frameworks and apply it to every project
-1355. [P3] Tell the models not to write unit tests, to make wikis instead, and to save the work as a skill
-1356. [P3] Change how agents crawl all my websites from now on, using my Chrome session
-1357. [P3] Decide whether personal_context needs a regularly updated wiki and pick a cheap tool
-1358. [P3] Check whether the cold-email tool covers an 'invent your role' feature and add the tweet list
-1359. [P3] Create cold-email template profile for connection/mentorship/networking pitches (not selling)
-1360. [P3] Search fork_readmes/notes/bookmarks for twitter cookie/token auto-capture projects
-1361. [P3] Evaluate whether project designs are over-scaffolded for newer smarter models
-1362. [P3] Read Space Bunny tips thread on r/opencode
-1363. [P3] Add freellm.sh providers/models and related free-AI repos to bestmodelpicker provider list
-1364. [P3] Crawl twitter for advice on applying to YC and rank tips
-1365. [P3] Add experimental.ai APIs to evaluation list
-1366. [P3] Cold-email: apply deliverability rule (under 1% reply with OOO = deliverability problem, 1-15% positive = offer problem)
-1367. [P3] Add careerswithmary interview-gauntlet and inclusivelyremote to opportunity_desk
-1368. [P3] Later: crawl all tweets, distill views on women and relationships into a counseling bot
-1369. [P3] Open Hermes desktop and test whether it is working
-1370. [P3] Build cold-email deliverability diagnostics using OOO and positive-reply thresholds
-1371. [P3] Export AI chats and generated files for portfolio update
-1372. [P3] [new-opportunity] Build the local-first App Store keyword tracker and ASO copilot
-1373. [P3] Disable the EdgeUpdate services
-1374. [P3] Check whether the DoSvc service can be safely disabled
-1375. [P3] Collect Codex tips from Twitter day by day
-1376. [P3] [new-opportunity] Check whether LightPost can replace postiz for the unified comments/DM inbox
-1377. [P3] [new-opportunity] Specify the unified inbox: centralize comments, DMs and quotes from all apps with AI ranking and auto-answers
-1378. [P3] Fix the two notepad++ items with glm-uncensored
-1379. [P3] Download the Black List and Blood List movies to watch
-1380. [P3] [new-opportunity] [value] Get pangram-humanizer free or fund the $20/mo subscription (last piece of cold email, enables Japa/scholarship essays)
-1381. [P3] [new-opportunity] [value] Set up the two VA engagements: $15/hr and $10/hr, 20 hours each per month
-1382. [P3] [new-opportunity] [value] Apply the bookmarked zainab_ayoo technique: list high-fit freelance roles with exact step-by-step application instructions
-1383. [P3] Build movie recommendation tool from bookmarked lists
-1384. [P3] Finish the image input test
-1385. [P3] Repeat the image test for FreeLLMAPI
-1386. [P3] Collate saved Wikipedia articles into a ranked movie and TV graph
-1387. [P3] Add tested free APIs to freellmapi
-1388. [P3] Troubleshoot freellmapi errors using Antigravity trace comparison
-1389. [P3] Check for existing automation or scripts that find jobs, opportunities and mercor-type AI gigs on twitter
-1390. [P3] Compare job-hunting stage 1 and its Hermes twitter search with opportunity_desk and twitter_scrapers to find duplication
-1391. [P3] [new-opportunity] Market the dating calculator on Twitter via the twitter tool (percentile ranking of user and partner characteristics)
-1392. [P3] Talk to more people to expand network
-1393. [P3] Send more DMs to build relationships
-1394. [P3] Ask for help when needed
-1395. [P3] Work on founder video: collect motion-video tweets and asset resources
-1396. [P3] Collect lead source tweets and articles for TAM company discovery
-1397. [P3] Add session check, mattpocock code reviews, implicit state prompts and a security audit to both tools
-1398. [P3] Connect personal_context to job-hunting to generate the full starbank
-1399. [P3] Redownload and update the twitter projects and fetch all new readmes with github-pia
-1400. [P3] Copy the competitor's whole design as screenshots and PDF in Google Drive
-1401. [P3] Clean up the whole site, general and admin
-1402. [P3] Buy the cockroach powder, pack of rubber bands and three earphones
-1403. [P3] Collect AliExpress items and get the fan cord, both chargers and fan port fixed at Konwei
-1404. [P3] Run job-hunting plugin as-is in opencode and see how well it runs
-1405. [P3] Run job-hunting plugin in hermes today and capture the current error message
-1406. [P3] [new-opportunity] Add shipping price field to shopping cart and order page modules
-1407. [P3] [new-opportunity] Add BM25 and advanced search bars to product catalog and internet catalog pages
-1408. [P3] Find what is using excess data (nvidia API, opencode/deepseek, or chrome)
-1409. [P3] Have agents track all decisions in a file with provenance
-1410. [P3] Download all of Gregisenberg's video tutorials
-1411. [P3] Apply STAR/PREP/BLUF/AIDA speaking frameworks to decision engine, strategy engine, and general purpose apps
-1412. [P3] Try out deepseek, glm 5.3, kimi 3.1 and other models on Nvidia NIM
-1413. [P3] Redesign all PDF exports to look more polished and classy
-1414. [P4] [value] Run the four deep-research dossiers for human profiling
-1415. [P4] [value] Build the TikTok price comparison overlay app
-1416. [P4] [value] Start the workflow builder from the linked fundamental guide
-1417. [P4] [new-opportunity] [value] Build the friendship/anti-loneliness agent MVP as an agent-skills file
-1418. [P4] [new-opportunity] [value] Resurrect the open-source install-and-deploy service for clients
-1419. [P4] [money-machine] [value] Design the SolarSizer 'I want to buy AC' electronics sizing module
-1420. [P4] [money-machine] [value] Modify the nothing-ever-happens bot: default No, arbitrage filter, port to faster language
-1421. [P4] [value] Design the crypto hack tool and collate a 1000-hack corpus
-1422. [P4] [value] Finish the complete knowledgebase search system
-1423. [P4] [money-machine] [value] Find or crawl a punter Telegram archive to catalogue bet formats
-1424. [P4] [money-machine] [value] Build a commits and PR watcher for chosen repos and accounts
-1425. [P4] [new-opportunity] [value] Build the AI personal talent agent for working people
-1426. [P4] [value] Set up the NotebookLM operations manager
-1427. [P4] [value] Build the business pack of per-document skills
-1428. [P4] [value] Adopt the human-simulation methodology for simulating people
-1429. [P4] [value] Set up the pdf-extract to notebooklm pipeline for Chinese literature
-1430. [P4] [value] Create the per-document system for the 17 documents
-1431. [P4] [value] Make the grilling skill research instead of asking when appropriate
-1432. [P4] [money-machine] [value] Add upswing component-sourcing strategies to the strategy builder
-1433. [P4] [new-opportunity] [value] Build the full AI consultancy website
-1434. [P4] [value] Completely merge job-ops and Hermes
-1435. [P4] [value] Migrate the old n8n automations (amara, bougo, aunt ngozi) into Hermes Agent skills/plugins
-1436. [P4] [money-machine] [value] Build the interactive demo generator that shows the full workflow for each prospect company
-1437. [P4] [value] Convert the full system into an expandable Hermes plugin (obscure internal names, build onboarding)
-1438. [P4] [money-machine] [value] Build the gated page showing full profile, outputs and reasonings for marketing replies
-1439. [P4] [money-machine] [value] Build the VA prototype from proactive agents and the workflow builder
-1440. [P4] [money-machine] [value] Add the what-can-you-teach module to job hunter
-1441. [P4] [value] Build the what-did-i-do-today system with proactive improvement suggestions
-1442. [P4] [money-machine] [value] Build the office politics feature for job hunting
-1443. [P4] [value] Add autoresearch to every tool including the twitter automation bot
-1444. [P4] [money-machine] [value] Expand the side gig support feature for leads, marketing and artifacts
-1445. [P4] [value] Combine pi-agent, grokbot, and 3,000+ integrations into the AI therapist
-1446. [P4] [value] Evaluate Jev against every project with the 100x prompt
-1447. [P4] Build the GitHub search tool
-1448. [P4] Expand the prioritization agent to the whole Gbera use case
-1449. [P4] [client-job] Create proxy metrics from the sourcing search entities
-1450. [P4] Set up OpenRouter + LangFuse observability for OpenClaw
-1451. [P4] [money-machine] Build the vendor gift-curation consultant plugin
-1452. [P4] Adopt the Nano-Banana image-first UI generation process
-1453. [P4] Train a model on the 200 African writer series for Nigerian style
-1454. [P4] Build an African history dataset from the history books
-1455. [P4] Add portfolio folders, tags and search to AdAdvisor analyses
-1456. [P4] Add user account authentication and settings pages
-1457. [P4] Let users add custom video style and script templates
-1458. [P4] Auto-populate CPM and other inputs via crawling and APIs
-1459. [P4] Make the prediction market strategy builder capable of replicating the quant tutorial
-1460. [P4] Search bookmarks, Reddit and GitHub for advanced Perplexity Computer setup material
-1461. [P4] Auto-categorize added products and fill their card details with AI
-1462. [P4] Build the auto-generated product calculator system
-1463. [P4] [new-opportunity] Mine PLC financial reports for a non-core line item above 10bn to build a business on
-1464. [P4] Do a deep comparison of superpowers versus Context-Engineering
-1465. [P4] Evaluate MiroFish-Offline for the dating app profiling system
-1466. [P4] Add a performative-men matching option to the dating app algo
-1467. [P4] Research parsing sexual preferences and prowess from advanced profiling
-1468. [P4] Add marriage-stage competency matching (Husband Competency Taxonomy and tests)
-1469. [P4] Build the sharing marketplace with a deep-dived ranking system
-1470. [P4] Make the relationship-maintenance workflow fully customizable
-1471. [P4] [money-machine] Track and catalog when a gift pain point is solved
-1472. [P4] [money-machine] Map pain points from public profiles and social media instead of chats
-1473. [P4] [money-machine] Detect what the user already has or does and suggest it for pain points
-1474. [P4] Run the remaining three tool comparisons (claw copies, hostings, automation vs IDE vs agents)
-1475. [P4] [client-job] Detail the NAICS to NOC/SOC to O*NET methodology
-1476. [P4] [client-job] Find all essential-services lists and collections in North America
-1477. [P4] [client-job] Deep search for better capital-intensity methodologies
-1478. [P4] [client-job] Decide if scraping and browser automation are required for the sources
-1479. [P4] Take the beyondvibecode course and learn vibecoding properly
-1480. [P4] [client-job] Research which APIs and steps Google Maps can replace in the Sourcing Engine
-1481. [P4] [client-job] Write the O*NET Physicality Index script for AI-resistance scoring
-1482. [P4] [money-machine] Build the X/Twitter bookmark processing pipeline (repair, dedupe, enrich, chunk)
-1483. [P4] Search past chats for deterministic measurement methods for the comparison tool
-1484. [P4] Promote the GitHub search tool by auditing top open source projects for improvements
-1485. [P4] Read 5-Whys research to improve the 5-Whys process
-1486. [P4] Finish the thread on using the GitHub comparison tool to analyze job applicants
-1487. [P4] Redesign coach training as node-based workflows, then port it to the prediction market builder
-1488. [P4] Run the remaining agent comparison write-ups (workflow builders, VA platforms, coding agents)
-1489. [P4] Use the GitHub search tool as an agentic code review system measuring token efficiency
-1490. [P4] [money-machine] Build out the cold DM strategy (targets, access, and message content)
-1491. [P4] Auto-improve unit, integration and E2E tests written by the coding agents
-1492. [P4] [client-job] Search the Twitter likes archive for lead, enrich, gtm and google maps process keywords
-1493. [P4] Brainstorm full design for 'why does this matter to me' chrome extension (rewrites article examples/analogies to user's profile)
-1494. [P4] [money-machine] Add intermittent pulsing options to load profile time ranges
-1495. [P4] [money-machine] Build the MVP simple mode of the strategy mega feature first
-1496. [P4] Implement the client project flow from functional requirements to n8n development
-1497. [P4] Research when to use Auto-research versus DSPy
-1498. [P4] Build the nude-photo head-blur overlay app
-1499. [P4] Host a bot that regularly logs into free tier accounts to keep them alive
-1500. [P4] Build the AI token usage developer productivity measurement tool
-1501. [P4] [money-machine] Ship mobile apps download-ready from the websites before paid store accounts
-1502. [P4] [money-machine] Add quality gates to solar hardware items
-1503. [P4] [money-machine] Take the troubleshooting feature into Stitch and beautify it
-1504. [P4] [money-machine] Collect year-long usage data from users in each region
-1505. [P4] [money-machine] Add quality metrics fields to the hardware tab
-1506. [P4] [money-machine] Train the advisor model on real audience behavior data
-1507. [P4] [money-machine] Find the 5555 version with load profile exports
-1508. [P4] [money-machine] Add a /healthz route and update the UptimeRobot monitor
-1509. [P4] Add site exclusion and site-type categories to wdtmtm
-1510. [P4] [money-machine] Build the looksmatch Twitter promo for the dating app
-1511. [P4] [money-machine] Add future seller and product fields to solar sizer
-1512. [P4] Add easy-to-use UIs to the AI engineers projects
-1513. [P4] Use Unsloth to train models quickly
-1514. [P4] Turn all past work and AI chats into case studies and content
-1515. [P4] Chat with AI about picolm for smaller-RAM embedded models
-1516. [P4] [money-machine] Compare Synthdata to Monte Carlo for prediction market builder
-1517. [P4] [money-machine] Launch WhatsApp and Telegram groups with AI reply bot
-1518. [P4] [money-machine] Find service companies to partner for upgrades
-1519. [P4] [money-machine] Add the content system to solar sizer once perfected
-1520. [P4] [money-machine] Use AI UI guides for freezer and cooling page elements
-1521. [P4] [money-machine] Build the quick Netlify frontend website
-1522. [P4] [money-machine] Record and post YouTube videos of app usage
-1523. [P4] Build newer forwarding job types
-1524. [P4] [money-machine] Create the ultra advanced solar calculator for corporate users
-1525. [P4] [money-machine] Automate dynamic product pricing with monthly margins
-1526. [P4] Abstract solar website prompts for reuse on other projects
-1527. [P4] [money-machine] Build the personas and load profiles research system
-1528. [P4] [money-machine] Crawl biohacking guides into a QMD hybrid search tool
-1529. [P4] [money-machine] Set up page monitoring for peptide supply changes
-1530. [P4] [new-opportunity] Build the Angela therapist orchestrator plan
-1531. [P4] Add Karpathy knowledge graphs to all search and memory systems
-1532. [P4] Extend the PR Chrome extension with advanced dashboard
-1533. [P4] Build the token management app
-1534. [P4] [money-machine] Add day plans suggestion to the usage calculator
-1535. [P4] Make qmd search crawl all detected links
-1536. [P4] Add the writer filter tool to every AI agent and app
-1537. [P4] Change app dev process so all copy is done before design
-1538. [P4] Write the three condensed 5-Whys system prompts
-1539. [P4] [money-machine] Research combining multiple inverters and multiple batteries in one setup
-1540. [P4] Abstract the SolarOne design system for reuse on any website
-1541. [P4] [money-machine] Research AI voice models and NotebookLM podcast pipeline for the audiobook product
-1542. [P4] Test the Stitch design system by breaking the prompts into parts
-1543. [P4] Create a rubric mapping projects to RL vs DSPy/GEPA vs autoresearch
-1544. [P4] Compare RLMs to my AI chat parser
-1545. [P4] [new-opportunity] Create the learning-plan skill.md and system prompt
-1546. [P4] Find bird-cli forks or full access and adapt it
-1547. [P4] Add writing-style and de-slopify filters to the TR content automation
-1548. [P4] [money-machine] Scrape all of Upwork for jobs I could do if I upskill
-1549. [P4] Run before/after humanizer comparisons across Clever, DataRecoveryHelp and Blader options
-1550. [P4] Create an API for Clever Humanizer if none exists
-1551. [P4] Find all chat-export skills/plugins for Codex, OpenCode, Claude Code and other AI IDEs
-1552. [P4] Have the orchestrator develop a full sequential dev process end-to-end using the agents and skills
-1553. [P4] Build the AUTOSEARCH tool that surfaces relevant notes/tools while I work
-1554. [P4] Find one more security add-on (important for offices/corporate)
-1555. [P4] Build the Eval finder (find best benchmark, autoresearch, publish best version)
-1556. [P4] [money-machine] Add a composite provider score to Freeaifinder (count, price, intelligence)
-1557. [P4] Rework the Skills and AI artifact comparison tool with the new models
-1558. [P4] Build the tool finder and Constraints mapper agent later ($0-cost compendium)
-1559. [P4] Improve DeepSeek (and Hermes) tool calling
-1560. [P4] [money-machine] Add general model/provider comparison features and savings tables
-1561. [P4] [money-machine] Build post-weeding monitoring with 'i told you so' alerts into the date-matching agents
-1562. [P4] [money-machine] Track limited free promos/coupons in Freeaifinder with integration instructions
-1563. [P4] [new-opportunity] Build the EV calculator (BCWES-style scoring with Nigerian constraints)
-1564. [P4] [new-opportunity] Build the travel planner agent (chain-based routing plus dating layer)
-1565. [P4] Check each Hermes ability against every project during builds
-1566. [P4] Test whether vanilla LLMs can parse huge conversation histories or need RLM-type techniques
-1567. [P4] Evaluate turbopuffer as the vector database for all my projects
-1568. [P4] [money-machine] Seed the Freeaifinder plugin with freellmapi and free-claude-code frameworks
-1569. [P4] Turn the quant speedrun course into an AI-built automation/app
-1570. [P4] Continuously track competitors for the strategy builders
-1571. [P4] [money-machine] Adapt the automated search tool to find underserved niches (ads, cold DMs)
-1572. [P4] [money-machine] Launch daily competitor deep-dive comparisons once the app is done
-1573. [P4] [new-opportunity] Build the devops path calculator (cheapest deployment stacks, IDE plugin)
-1574. [P4] [new-opportunity] Adapt the strategy bot into an AI financial planning tool (FIRE modes)
-1575. [P4] Reverse-engineer third-party APIs via browser traffic sniffing instead of crawling
-1576. [P4] [money-machine] Add a local-models section to Freeaifinder (size, RAM, tokens/s, install ease)
-1577. [P4] [money-machine] Add example-use-case FAQ and centralization choice to the GitHub tool
-1578. [P4] Start collating AI-agent trace tools and learning their uses
-1579. [P4] [new-opportunity] Create PM-style non-technical tutorials and guides for replicative agent skills
-1580. [P4] [money-machine] Build the 'Do we need AI for this?' tool (code-only workflow finder)
-1581. [P4] Build the hardware/cloud infra setup calculator for local hosting
-1582. [P4] Find Information Architecture guides and audit my skills for design/IA coverage
-1583. [P4] [money-machine] Design a system to dynamically find trading strategies online from Twitter, Reddit, Telegram and Discord
-1584. [P4] Build tool-based generators for the Mermaid map and labels
-1585. [P4] Polish the existing websites
-1586. [P4] [money-machine] Restore SolarSizer from the last sane pre-Cloudflare version
-1587. [P4] [money-machine] Create the company-valuation strategy builder
-1588. [P4] [money-machine] Add token budget scaling to the token cost plan
-1589. [P4] Install the chat saver in codex to export chat history
-1590. [P4] Find the Gemini chat on the PMSB node-system rationale
-1591. [P4] Audit 150+ skill files and MCP servers against recommended agents
-1592. [P4] [money-machine] Evaluate vibeproxy as the router plugin foundation
-1593. [P4] Map which projects need search and research functionality
-1594. [P4] Compare the research trifecta against the Industry Sourcing Engine
-1595. [P4] [new-opportunity] Build the price comparison overlay tool
-1596. [P4] [money-machine] Map all the places the negotiation tool can be used
-1597. [P4] Add the core-needs overlay to all projects
-1598. [P4] [money-machine] Expose all customisation points in Job-ops
-1599. [P4] [money-machine] Add file-extension selection to the GitHub crawler menu
-1600. [P4] [money-machine] Extract design.md files for Apexpunter and GitHub pia
-1601. [P4] Search GitHub for information architecture skill-file alternatives
-1602. [P4] Build a pipeline to extract annotations from saved PDFs
-1603. [P4] Create competitor analysis and market research skill files
-1604. [P4] [new-opportunity] Revisit the 201 automated business plan idea
-1605. [P4] [money-machine] Use models.dev as the base source for freeaifinder
-1606. [P4] [new-opportunity] Build the lawyer citation verifier
-1607. [P4] Make new chats search my notes before answering
-1608. [P4] Use skillsbench to solve skill-file selection
-1609. [P4] [new-opportunity] Build the opportunity cost AI bot
-1610. [P4] Add lite-llm routers to all top AI IDEs
-1611. [P4] Run the competitive analysis in both claude and opencode to compare
-1612. [P4] Run a recursive search to fill the CFS reasoning gaps
-1613. [P4] [money-machine] Build the Reatrutide website
-1614. [P4] [new-opportunity] Build the Taleb and Spitznagel AI consultant bot
-1615. [P4] [new-opportunity] Explore business brokering with the sourcing agent
-1616. [P4] [money-machine] Test the limits of the Trait-to-Node translation matrix
-1617. [P4] [money-machine] Add a self-hosting cost formula to freeaifinder
-1618. [P4] [money-machine] Collect the Job-ops marketing materials
-1619. [P4] Verify the opencode revert and find yesterday's first prompt
-1620. [P4] [new-opportunity] Build the Duolingo for socializing bot
-1621. [P4] Add random-time knowledge tests to all learning tools
-1622. [P4] Try the Hermes Mixture of Agents feature
-1623. [P4] [money-machine] Evaluate salaryindex as a negotiation tool data source
-1624. [P4] Export the writing style from social media, emails and chats
-1625. [P4] [money-machine] Add provider quality verification to freeaifinder
-1626. [P4] [money-machine] Map delfrasco's industry, tasks and AI-agent needs
-1627. [P4] [money-machine] Retrofit Job-ops for assessing job applicants
-1628. [P4] Merge the v4, v5 and v6 PRD documents in sequence
-1629. [P4] [new-opportunity] Build the property-evaluation website with OSINT area research
-1630. [P4] [new-opportunity] Build the price comparison app
-1631. [P4] [new-opportunity] Build the deep background-check tool for dating
-1632. [P4] Compare all the model and agent optimisation options in Claude
-1633. [P4] [new-opportunity] Build the job role opportunity tracker
-1634. [P4] Add the thread-to-strategy converter feature
-1635. [P4] Convert the marketing plan n8n workflows into a skill-based app
-1636. [P4] Decide the scraping approach for Reddit and Meta over API tokens
-1637. [P4] Build the email agent on inbox-zero
-1638. [P4] Make job-ops meet the linked job-search standard end to end
-1639. [P4] Collect tools for auto-training smaller models
-1640. [P4] Build the freelance gig application features
-1641. [P4] [incoming-window] Apply my projects to hackathons, angel funds and VCs
-1642. [P4] Extract techniques from AI Erdos-solving projects into 5-whys
-1643. [P4] Expand the psychometric work in Qwen
-1644. [P4] Revamp the gift recommender's needs profiling
-1645. [P4] Integrate agent-flywheel orchestration into the 5-whys process
-1646. [P4] Build the media training tool for the PR extension
-1647. [P4] [money-machine] Abstract the solar sizer algorithms into a dynamic pricing engine
-1648. [P4] Design the skill-level dictionaries and job-title graph
-1649. [P4] Build career-trajectory scanning from LinkedIn profiles
-1650. [P4] Deep dive ESCO, ONET and the skills data models
-1651. [P4] Add the negotiation tool to the master plan
-1652. [P4] Combine papercuts.jsonl with session exports every two weeks
-1653. [P4] Run the Kimi harsh architecture revision on all projects
-1654. [P4] Add the linked component to Freeaifinder
-1655. [P4] Implement the finalized two-round interview process (no-AI round, AI project round) in job-ops interview tools
-1656. [P4] Compare the linked LLM router designs with my eval desktop sticky app approach and pick the best of both
-1657. [P4] Add an inflation-adjusted view of the mortgage payment burden over time to the housing model
-1658. [P4] Build the two AI bots: Interceptor and the AI relationship bot
-1659. [P4] Create a deep, non-gameable psychological savings-discipline test for the housing tool
-1660. [P4] Model job and income insecurity (unemployment risk) using work history, like mortgage lenders do
-1661. [P4] [money-machine] Retrofit job-ops for scholarship and visa (japa) applications once it is done
-1662. [P4] Make all projects international from day one (local platform sources, local language translations)
-1663. [P4] Explore reports of Hermes, OpenClaw, Codex and Claude Code used for voice marketing calls
-1664. [P4] Create the interviewing tool by combining prompt 5 with grill-me-with-docs
-1665. [P4] [money-machine] Create the N30k tutorial package for all Hermes inbuilt features
-1666. [P4] Search my repos and online for more job-hunting skill files, workflows and templates
-1667. [P4] Compare Hermes self-improvement with Autoresearch (or a hybrid) and adopt the winner for the master plan
-1668. [P4] Do the web3 security work Mansa showed me
-1669. [P4] Add SearXNG and the tripartite search system (SearXNG, Camoufox) to replace Hermes default search
-1670. [P4] [money-machine] Build the 30k 'how to learn anything' plugin system with demo videos and comparisons
-1671. [P4] Add automated gift suggestions to the gift recommender (birthdays, life events, holidays, monitored factors)
-1672. [P4] [money-machine] Add sharing and network effects features across every point of the pipeline
-1673. [P4] Verify every point of Splendor's thread is integrated into the keyword, resume, cover letter and ATS skills
-1674. [P4] Coordinate all question bank research on the server using full QMD memory
-1675. [P4] [money-machine] Build the auto-trial marketing flow (week-3 add-on trial, then newsletter upsell reminders)
-1676. [P4] Build improved versions of every O*NET Center tool into Job-ops
-1677. [P4] Apply the self-improvement loop to security (track new vulns and prompt injections, patch constantly)
-1678. [P4] Build a separate case-study writing mode
-1679. [P4] Merge wayfinder into the career path planner and other skills
-1680. [P4] Plan the qmd scaling expansion for the growing STAR bank
-1681. [P4] Decide whether qmd and sqlite-vec cover disjoint corpora
-1682. [P4] List the suggested solutions for qmd's recency, urgency and importance gaps
-1683. [P4] Decide what OptMem supersedes in the current memory system
-1684. [P4] Solve the SQLite write throughput bottleneck
-1685. [P4] List every OpenRouter task intent classification with its top model
-1686. [P4] Add weekly laptop crawling to the memory bank for job ops
-1687. [P4] Run the xbrowser modification audit against the current base
-1688. [P4] Run the antagonistic comparison of wayfinder against my research tools
-1689. [P4] Create a career-focused simplified version of the inbox for job hunting
-1690. [P4] Expand the twitter tool postings to Reddit, Instagram and other platforms
-1691. [P4] Add a what-did-i-achieve-this-week feature to job hunting
-1692. [P4] [money-machine] Generate comparison articles for every tool against up to 100 competitors
-1693. [P4] Build the personal blog writing system on top of the career writing system
-1694. [P4] Build the central dashboard that routes any input to the right platform
-1695. [P4] [money-machine] Route the highest plan payments to Korapay instead of Paystack
-1696. [P4] Build the automated updater for all personal knowledgebases
-1697. [P4] List every end-to-end user flow for the docs and the demo
-1698. [P4] Build the network graph of every file, component, function and parameter
-1699. [P4] [money-machine] Factor the Selar affiliate program into social media marketing
-1700. [P4] [money-machine] Run a job-hunter instance over tweets and posts for factual outputs
-1701. [P4] Clean up the portfolio, LinkedIn and all other artifacts
-1702. [P4] [money-machine] Sell shared-VA service packages instead of selling VAs
-1703. [P4] Build money-making and adjacent-market mapping skills across all projects
-1704. [P4] Use the copywriting skills for all copy across projects
-1705. [P4] Learn static analysis and map all software metrics for user projects
-1706. [P4] Build the local laws and municipal codes alert bot
-1707. [P4] [money-machine] Apply all marketing and sales pipeline concepts to job hunting
-1708. [P4] Check whether rejected outputs and bad outcomes feed the self improvement loops
-1709. [P4] Build the reader extension that translates and explains complex pages
-1710. [P4] [money-machine] Extend career-path-planner to always search proactively from the user's state
-1711. [P4] [client-job] Build the AI music model for bougo's husband with blind tests
-1712. [P4] [client-job] Replace bougo's furniture business with AI-powered manufacturer concatenation
-1713. [P4] Run the unfuck skills then a hostile red team over the project and domain system
-1714. [P4] Switch modelapi to waterfall selection with the user's stated importance order
-1715. [P4] Replicate the WeaveOS code intelligence platform features
-1716. [P4] [money-machine] Build the trial email sequences with per-addon personalisation
-1717. [P4] [money-machine] Add intermittent in-chat ads for the remaining packages
-1718. [P4] [money-machine] Build the prediction market builder that replicates finance paper strategies
-1719. [P4] [money-machine] List exact services and features in the base packages and the 4 addons
-1720. [P4] Compile and compare every fix listed through the session
-1721. [P4] [money-machine] Use the Hermes inbuilt parsing as the first CV parsing step
-1722. [P4] Build the importance and marketing priority metric into the bookmarks tool
-1723. [P4] Try out the new Hermes plugin SDK
-1724. [P4] [money-machine] Build the recursive search framework for new opportunity types
-1725. [P4] [money-machine] Add manually curated posts for cold outreaches with later phone app pickup
-1726. [P4] Add weekly comparative project discovery to github-pia
-1727. [P4] Make xbrowser work on any platform and auto-run at every session start
-1728. [P4] Borrow the domain modeling skills to map industries before research
-1729. [P4] Add a tag system to the skill comparison tool
-1730. [P4] Compare individual skills, not just repos, in the skill comparison tool
-1731. [P4] Add the Chrome extension that injects skill scores and suggests better skills
-1732. [P4] Pass CDP (5-whys) through Codex for harsh red teaming and improvement
-1733. [P4] Retry linking Codex to a free OpenAI-compatible model via FreeAIFinder
-1734. [P4] Master Hermes Agent skill creation end to end
-1735. [P4] [money-machine] Build the deeper FreeAIFinder app
-1736. [P4] [money-machine] Redesign SolarSizer, gift recommender and adadvisor, and finish the AI therapist backend
-1737. [P4] [money-machine] Build the Twitter search Chrome extension
-1738. [P4] [money-machine] Begin marketing video generation with VEO 3.1 for the startups
-1739. [P4] [money-machine] Let signed-in calculator users store profiles, devices, analyses and quotes
-1740. [P4] [money-machine] Build the supplier crawler that auto-populates the hardware database
-1741. [P4] Start the blog using a GitHub AI writing tool plus the wdtmtm tool
-1742. [P4] Integrate Framework 2 into the hybrid framework and compare with the Claude framework
-1743. [P4] [money-machine] Generate card details, articles, comparison articles and hardware JSON from the tab specs
-1744. [P4] [money-machine] Add lead-acid support with warnings and comparison table, plus powerstation handling to the calculator
-1745. [P4] [money-machine] Adapt Prompt C to solar business website; turn solar calculator into SDK/API for central database use
-1746. [P4] Redesign, spec and implement all previously declined items
-1747. [P4] Do a deep dive on all Firecrawl features and identify which are free
-1748. [P4] Ask DeepSeek to build a lightweight Hermes that runs only on free models
-1749. [P4] [money-machine] Build the tweet virality pre-check and rewriter from the Twitter algorithm
-1750. [P4] Extract all agent chat sessions using the ai-data-extraction repo
-1751. [P4] Build the complete archetype taxonomy for the actor visual fit system
-1752. [P4] Generate deep fix techniques for Factor H general visual appeal
-1753. [P4] Generate deep fix techniques for the serious problem
-1754. [P4] [money-machine] Investigate why many models have infinity ratio values
-1755. [P4] [money-machine] Add fields to keep the picks or select your own brainstorm and execution models
-1756. [P4] [money-machine] Build the IDE plugin that tracks monthly usage against the chosen mix
-1757. [P4] [money-machine] Build the corporate eval feature that ranks the cheapest sufficient provider plans
-1758. [P4] Combine the evals-skills approach with Matt Schumer's tool
-1759. [P4] [money-machine] Rewrite all setting and parameter descriptions in plain language
-1760. [P4] [money-machine] Add brainstorm runs table with a token-per-run override
-1761. [P4] Try the locally hosted Colab video setup for TikTok
-1762. [P4] [money-machine] Build the full Remotion product video tool
-1763. [P4] Add full trace analysis and export of every generated output
-1764. [P4] [money-machine] Add deep intention mapping to the VC/high-value person analysis
-1765. [P4] [money-machine] Make salary and other settings per region
-1766. [P4] Go through bookmarks and follows for website-to-API and browser automation tools
-1767. [P4] Do a total clean and fresh reinstall of the skills bundle
-1768. [P4] [money-machine] Build the free tier hunter feature for the costing system
-1769. [P4] Use bookmarked site-building tweets as keywords to find more tutorials
-1770. [P4] [money-machine] Add optional average daily token fields for execution and brainstorm models
-1771. [P4] [money-machine] Show compact budget-coverage tables for the top brainstorm and execution picks
-1772. [P4] [money-machine] Make the runbook emit actual IaC (Terraform/Compose) from the final stack
-1773. [P4] [money-machine] Use qmd fully for the tool's ingestion and retrieval system
-1774. [P4] Explore autonomous tech-stack improvement using pi-autoresearch
-1775. [P4] [money-machine] Add the bookmarked methods to the cold outreach bot
-1776. [P4] [new-opportunity] Turn the dating/relationship rants into YouTube and TikTok stories
-1777. [P4] Add unlazy and port the Matt Pocock skills to Hermes agent
-1778. [P4] Build the lash out preventer variant of the PR tool for messaging platforms
-1779. [P4] Expand the all-messages collector with tiered notifications and a nuclear option
-1780. [P4] Copy Stanley's features into the Twitter tool
-1781. [P4] Make the casting tool fully language agnostic for cross-language casting
-1782. [P4] Apply the casting tool's measurement approach to analysing porn movies
-1783. [P4] Set up TikTok accounts with Hotmail addresses instead of phone numbers
-1784. [P4] Collate all graph tools and evaluate them for job-hunting-hermes and the Twitter tool
-1785. [P4] Build the workflow builder with two grilling agents plus a judge on preset constraints
-1786. [P4] Build the separate full pitch variant of job hunting
-1787. [P4] Build the open-ended money making opportunity search system
-1788. [P4] [new-opportunity] Build the AI hedge fund using the bookmarked open-source Grok bots
-1789. [P4] Add dynamic top bars showing the most used AI plans
-1790. [P4] Add a section with top picks plus second to fifth best picks
-1791. [P4] Build the batch social network graph scraping feature for the dating app
-1792. [P4] Note all the current reinforcement learning and AI model training companies
-1793. [P4] Back up appdata/job-hunter and install the CLI before the RAM upgrade
-1794. [P4] Build the research-papers app with a proactive Hermes-style agent
-1795. [P4] Solve when to mark voice user input as done for streaming voice models
-1796. [P4] Use skill evaluator to extract design details from app design directories
-1797. [P4] Acquire and index complete social profile data on a billion-plus people
-1798. [P4] Add matchmaker customization extensions to the dating app
-1799. [P4] Add all 80+ languages with local norms and translation to the dating app
-1800. [P4] Expand the matching tool to co-founders and business partners
-1801. [P4] Adapt the creative writing systems to the dating app's narrative functions
-1802. [P4] Turn the dating tool into AI boyfriends and girlfriends
-1803. [P4] Allow multiple social accounts and extend the network graph for small accounts
-1804. [P4] Build the Tinder scoring add-on as a chrome extension/mobile accessibility tool
-1805. [P4] Style the dating app like playful astrology/pop dating apps but with real science
-1806. [P4] Complete the Phase 1 interview flow with stakeholder identification
-1807. [P4] Experiment with replicating launch videos using Hyperframes
-1808. [P4] Add the Impro book status-interactions framework to the decision engine and interview prep
-1809. [P4] Build a natural-language and hook-based router for my tools
-1810. [P4] Add project-improvement claim posts with proof to the Twitter tool
-1811. [P4] [money-machine] Market the bestmodelpicker free mode through university students
-1812. [P4] [money-machine] Market the decision engine with data-backed decision-analysis tweets and case studies
-1813. [P4] Reverse-engineer the 5th writing filter from 60 samples
-1814. [P4] Add the ADHD task-cycling feature to the simple note app
-1815. [P4] Factor wireless versus Fibre services into the MTN check
-1816. [P4] Merge Ori real-time evals and SkillEvaluator into one skills-evaluation concept
-1817. [P4] Add skills support to the quick qmd knowledgebases and pick a harness
-1818. [P4] [money-machine] Make women-focused, women-branded versions of all the apps
-1819. [P4] Build recursive link crawling over notes, bookmarks, and history
-1820. [P4] Build an Instinct-style persistent iMessage agent
-1821. [P4] Connect all projects to Apple iMessage
-1822. [P4] Build the AI notetaking app with local STT
-1823. [P4] Run the powerful-agent checklist against all projects
-1824. [P4] Create a detailed skill bundle for the Cloudflare qmd knowledgebase
-1825. [P4] Find and compare every Google Maps lead scraper site
-1826. [P4] Add qmd RAG and self-improvement loops to the twitter tool
-1827. [P4] Discuss qmd as the job hunter career self-tracking system
-1828. [P4] Find the best smallest video and audio models from my notes
-1829. [P4] Search notes and chats for prior priority-tool work and decision-engine combination
-1830. [P4] Enrol in the 2 UGMC courses and search bookmarks for 'student'
-1831. [P4] [money-machine] Package the 'what should I send' tool as middleware with API endpoints
-1832. [P4] Create hooks that auto-run /ubiquitous-language and /teach at intervals
-1833. [P4] Add utility power comparison to the solarsizer app
-1834. [P4] Bake the Uber-style agent cost and ROI breakdown into bestmodelpicker
-1835. [P4] Route brainstorming, spec writing, and debugging through a cheap MoE council
-1836. [P4] Add zg (zvec-grep) to the memory stack comparison
-1837. [P4] Extend brand-system-skill to produce full brand manuals and assets
-1838. [P4] Research how chief-of-staff roles handle delegation
-1839. [P4] Research orchestrator systems' task prioritization for the priority tool
-1840. [P4] Add semantic-intent test-writing phase to GitHub-PIA comparisons
-1841. [P4] Add savable quality-check recipes to GitHub-PIA and other index projects
-1842. [P4] Build the hypocrisy RAG bot
-1843. [P4] Add a separate qmd silo for the Skills collection
-1844. [P4] Improve job-hunting to surface realistic analyses of job types and roles
-1845. [P4] Expand the network-effects advisor into a moats bot/bundle
-1846. [P4] Build the product launch video generation pipeline
-1847. [P4] Compare the final fit-to-brand ICP section against the bookmarked guide
-1848. [P4] Add the semantic-search chat to the prioritization engine
-1849. [P4] Analyze open-design versus fit-to-brand and merge or integrate
-1850. [P4] Switch the dating app anon messaging to social/chat with a match-only option
-1851. [P4] Build the break-the-ice starter system with the screen watcher
-1852. [P4] Adapt crypto copy-pasta and raids for MTN in the twitter tool
-1853. [P4] Research user and ex details only before the date they met for the ex-handle campaign
-1854. [P4] Run the recap prompts on all 3 branches of the old zengen chat
-1855. [P4] Summarize and compare the 3 prioritization versions
-1856. [P4] Copy the Firecrawl signup and free-credits pattern across all apps
-1857. [P4] Adapt AutoResearch to general research
-1858. [P4] Build the personal inflation indicator website
-1859. [P4] Build plugin or skill-bundle versions on top of assistant bots
-1860. [P4] Generate daily app-vs-assistant comparison examples as AEO articles
-1861. [P4] Analyze Boski as competition for the prioritization products
-1862. [P4] Harden with real Cloudflare Access (T01)
-1863. [P4] Master the process for researching winning hooks, formats and angles
-1864. [P4] Install ai-job-search and compare it against the job-hunting plugin
-1865. [P4] Build the fiction sensorium and craft packs
-1866. [P4] Build the asemota bots from the self-distillation guide
-1867. [P4] Red-team the training-data process and write the paper
-1868. [P4] Build the goal-definition pre-layer for the prioritization engine
-1869. [P4] Bond hypit with the viral-ICP feature as a two-stage pipeline
-1870. [P4] Use shock-value and fame niches tools for programmatic SEO sites
-1871. [P4] Combine pi-autoresearch with Jev
-1872. [P4] Run the Reddit research on matching Ahrefs and Semrush accuracy
-1873. [P4] Audit manual SEO steps for computer-use automation
-1874. [P4] Build the project knowledgegraph in fit-to-brand
-1875. [P4] Build the real-time fact checker Jamie
-1876. [P4] Use Jev to map its usecases onto project functions
-1877. [P4] Find a cheap fast way to search Instagram, TikTok and Facebook shops for the Chinese directories project
-1878. [P4] Upgrade the Jev-Moderation-Bot into a full customer service bot
-1879. [P4] Map the full incentives structure as a densely interconnected graph inside the tool
-1880. [P4] Build a quick agent that reads notes and email and adds things to Google Calendar
-1881. [P4] Design the central nodes manager to rotate resources across AI detectors, not just Pangram
-1882. [P4] Make the decision engine research Goodreads first instead of doing open-ended search
-1883. [P4] Test powering 12V fans and routers from powerbanks via pin-to-USB cords
-1884. [P4] Add industry-standard PDF report exports to AdAdvisor
-1885. [P4] Try clawflows workflow builder before native lobsterflow
-1886. [P4] Add the deanonymizer abilities to the Twitter PR tool
-1887. [P4] Use 5-Why with NotebookLM to mine bookmarks for new solutions when building
-1888. [P4] Add the 'best-before' expiring task type to the to-do app
-1889. [P4] Test the $20 Claude plan and a $10 alibaba/minimax/kimi plan before buying codex
-1890. [P4] [money-machine] Remove the 'export json' button on calculator results but keep its code for APIs
-1891. [P4] [money-machine] Add hours-per-day and fuel-price fields to the generator comparison table
-1892. [P4] Advance the sound manager app to automatic audio mixing for studios and live events
-1893. [P4] Work out surround sound handling across mono, stereo, 5.1 and 7.1 outputs
-1894. [P4] Build the 50/50 app feature set (groups, splits, balances, multi-currency)
-1895. [P4] [money-machine] Copy Suniqon features into the solar sizer tool
-1896. [P4] Run the 10k errand list (extension, wire, oil, charging port, food)
-1897. [P4] Buy 3 months of data and a gift for Amara from the 250k list
-1898. [P4] [money-machine] Look into Twitter mutuals for reta logistics backup
-1899. [P4] [money-machine] Add mppt or pwm field to inverter and controller
-1900. [P4] Load the Twitter archive into NotebookLM
-1901. [P4] Turn the Harness Engineer article into a NotebookLM
-1902. [P4] [money-machine] Generate placeholder marketing images with AI
-1903. [P4] Find IDEs that allow using own Gemini API key
-1904. [P4] [money-machine] Add the CPE plus ER605 internet combo to the site
-1905. [P4] Research how AI apps handle long-running chat memory
-1906. [P4] [promise] Give Amara 50k for registration
-1907. [P4] Download Viktoroddy's design tutorial videos
-1908. [P4] Add The Algorithm into the 5-Whys/CDPA system
-1909. [P4] Distill or RL a lightweight avoid-AI model for browser or server
-1910. [P4] Adapt my Antigravity dev process to Codex skills if the generated process disappoints
-1911. [P4] Feed prompt 0, A, B, C website design strategy and other strategies into the setup over time
-1912. [P4] Build a systematic way to find every benchmark and leaderboard and how to choose them
-1913. [P4] Reinstall Supabase and Vercel plugins so symlinks work
-1914. [P4] [money-machine] Borrow ideas for gift recommender and relationship assessment app from the thread
-1915. [P4] Build the WWJD advisor bot trained on the Gospels
-1916. [P4] Check whether autoresearch and RLM complement each other
-1917. [P4] Consider if autoresearch applies to companion/advisor bots
-1918. [P4] [to-save] Save up to buy a new standing fan
-1919. [P4] Write out today's call with Mansa
-1920. [P4] Collate phone coding-IDE options as backbone for mobile agent apps
-1921. [P4] Cut my hair
-1922. [P4] Write down all observations and theories about the big battery problem
-1923. [P4] [money-machine] Settle the strategy-creation dilemma: train AI straight from nodes vs build strategy then map it to nodes
-1924. [P4] [new-opportunity] Explore the AI music label build
-1925. [P4] Buy the remaining items: USB cable, earphones, pastries, drink
-1926. [P4] Find a carpenter for the nets
-1927. [P4] Find the solar person to mount the panel on the roof
-1928. [P4] [new-opportunity] Check recent Twitter bookmarks for the second startup idea
-1929. [P4] Review civilization simulation games for script writer world building
-1930. [P4] Fix or flush the sprayer bottle
-1931. [P4] [new-opportunity] Build my own MathAcademy
-1932. [P4] Buy a spray bottle under N1,500 at the malls
-1933. [P4] [money-machine] Scan for model-router companies and products with last30days
-1934. [P4] [new-opportunity] Build the nepotism-detection tool for new hires
-1935. [P4] [new-opportunity] Build the parenting-advice AI consultant on Hermes
-1936. [P4] [money-machine] Combine the Seun sourcing engine with the linked Gemini conversation
-1937. [P4] Evaluate honcho against the previously listed memory systems
-1938. [P4] Collect everything giyu writes and does
-1939. [P4] Search for all failures labeled preexisting
-1940. [P4] Audit the integration limits of the 100+ integration sites
-1941. [P4] Extend the GitHub extractor to download full repos, not just text files
-1942. [P4] [money-machine] Compare Cloudflare Email and Unosend against Brevo for outbound email
-1943. [P4] Make Hermes Agent the default scaffold for all projects
-1944. [P4] Visit 100 websites and collect their flowery copy
-1945. [P4] Build the Nigerian cheating-strategy advice bot
-1946. [P4] Preload only AGENTS.md and preload-skills.json in new sessions
-1947. [P4] Research how the AI routers work
-1948. [P4] Read the DeepSeek flash articles for usage tips
-1949. [P4] Study the linked prompt and skill file structure guide
-1950. [P4] Research how to prevent recurring node_modules problems
-1951. [P4] Add the gift-feedback survey to the gift recommender
-1952. [P4] Apply Constraints-Grill to system architecture design
-1953. [P4] Compare the sourcing engine and CDPA methodologies
-1954. [P4] Research advanced search algorithms for per-role job comparison
-1955. [P4] Use the Matt Pocock tweet to refine my skill usage
-1956. [P4] Build a Hermes bot to teach me the Anthropic course materials
-1957. [P4] Add adversarial model back-and-forth to the 5-whys process
-1958. [P4] Implement the mimic-fable repo in the opencode agent
-1959. [P4] Compare the OpenAI and Claude interview methods with nvidia
-1960. [P4] Integrate Wayfinder into the interview features
-1961. [P4] Make the tool catch impossible job requirements
-1962. [P4] Generate the complete job-ops network graph
-1963. [P4] Run the full Kimi code review and refactor
-1964. [P4] [money-machine] Share my Telegram and WhatsApp links and add the refreshed website for automation gigs
-1965. [P4] Add an email tracking system to the job pipeline
-1966. [P4] Check my skills repos for better alternatives to n8n for the social media mod bot before building it
-1967. [P4] Add @ParameterAI branding to my Twitter (name, Telegram/WhatsApp, email, portfolio)
-1968. [P4] Do the Claude trial and verify it works
-1969. [P4] Implement all remaining non-implemented suggestions from this chat session
-1970. [P4] Make cover letter hooks use quick company research
-1971. [P4] Make all tool interactions soft, starting with greetings and small talk
-1972. [P4] Map everywhere the user's location affects the package
-1973. [P4] Do a final pass for unimplemented suggestions from the chat
-1974. [P4] Triage the other chat's suggestion list against the current package
-1975. [P4] Decide if multi-machine DB safety is necessary for the use case
-1976. [P4] Use the grey card for the ChatGPT trial when the Claude trial expires, then try Kimi K3
-1977. [P4] Search for advanced Hermes setup guides
-1978. [P4] Log in to TouchVPN to reach Artificial Analysis and rank free models
-1979. [P4] Connect the opencode account in Hermes to use free DeepSeek Flash
-1980. [P4] Log into Outlook to access the second Claude account
-1981. [P4] Review the cold emailing thread for principles to adapt to job hunting
-1982. [P4] Merge the message concatenation idea into the twitter tool as the free feature
-1983. [P4] Try the AgentRouter token on opencode
-1984. [P4] [money-machine] Remove the accidentally added licence_client.py from the package
-1985. [P4] Crawl the networkfx website and all my skill repos
-1986. [P4] Check whether interview prep applies spaced repetition
-1987. [P4] Add the security review system to the skill comparison tool
-1988. [P4] Adapt my prompt 0/A/B/C process to the Codex setup skills
-1989. [P4] [money-machine] Add BCP for pain management and healing to the reatrutide website
-1990. [P4] [money-machine] Build the full peptide tracker as the first consulting feature
-1991. [P4] Give DeepSeek and Claude the SKILL (2).md and new combined HTML to design the OpenCode intelligence page
-1992. [P4] [money-machine] Consolidate and deduplicate every provider and model list, then finish the Claude list versions
-1993. [P4] Extract transcripts from the Codex/OpenCode tutorial videos and apply their settings
-1994. [P4] Finish installing SpecStory on both Codex and OpenCode
-1995. [P4] Find skills or plugins for product launch videos
-1996. [P4] [blocks-work] Sort out the Google and Amazon account issues
-1997. [P4] Search GitHub for other job hunting agents, skills and workflows
-1998. [P4] Look for AI-powered architectural drawing tools, skills and tutorials for Claude Code
-1999. [P4] Determine if edgeupdate can be safely disabled
-2000. [P4] [money-machine] Write first-version AI-generated case study articles for the projects
-2001. [P4] Copy out everything important from the two 5-whys input prompts via Claude
-2002. [P4] Ask Codex to safely optimise the system (space, apps, settings, hangs)
-2003. [P4] Decide my defaults: languages, packages, deployment stacks and payment plans
-2004. [P4] [money-machine] Create job-search skills and agents from the implemented strategies
-2005. [P4] Build the tax evasion chatbot
-2006. [P4] [money-machine] Finish the crypto telegram bot
-2007. [P4] [money-machine] Build the social media marketing automations
-2008. [P4] Set up a Gemini Pro trial on another account and warm a TikTok account
-2009. [P4] [money-machine] Find a comprehensive repository of devices and wattages for quick add
-2010. [P4] [money-machine] Build the vendor settings system: ranges, saved themes, marketplace and chat plugin
-2011. [P4] [money-machine] Add setup longevity metrics and the setup comparison feature
-2012. [P4] Ask Amara to teach me her cold DM and opportunity finding strategies on Threads
-2013. [P4] [new-opportunity] Look into the Outlier thing and registering accounts abroad
-2014. [P4] Collate and rate the fastest agentic coding approaches from Twitter bookmarks
-2015. [P4] [money-machine] Work on product modularity
-2016. [P4] [money-machine] Switch the BMS to a Bluetooth model synced to a single display
-2017. [P4] Get the hybrid prompts B and C from Claude
-2018. [P4] Update Prompt A using the homepage and tab copies
-2019. [P4] [money-machine] Create the average Nigerian personas and load them on the home page
-2020. [P4] [money-machine] Create the mobile app for the solar business
-2021. [P4] Research how Twitter-crawling agents, memory and knowledgebase systems work and compare them to RAG
-2022. [P4] Determine what causes the Cloudflare 120s timeouts and sidestep them
-2023. [P4] Gather at least 10 recently bookmarked opportunity-type tweets
-2024. [P4] Add technical blogs as a source type to all my projects
-2025. [P4] Strengthen platform_extractor.py repo selection criteria using /last30days
-2026. [P4] [promise] Set up my bot to send cold outreach messages for Amara
-2027. [P4] Find MengTo's website tutorials and the other bookmarked tutorials
-2028. [P4] Find good portfolio templates for the job hunter
-2029. [P4] [money-machine] Look for all harness benchmarks for FreeAIFinder
-2030. [P4] [outgoing-due] Send Amara the money for her birthday phone flex repair
-2031. [P4] Transfer the six GoDaddy domains to Cloudflare
-2032. [P4] [outgoing-due] Pay the Android app developer fee
-2033. [P4] Compare Unosend, Resend, Sendgrid, Mailgun and Postmark with the marketing usecases
-2034. [P4] Add opportunity cost calculation to the renter tool
-2035. [P4] [money-machine] Fix table styling so only labels, picks, reference and floored models keep colors
-2036. [P4] [money-machine] Add a note explaining what a 'dominated' model means
-2037. [P4] Find all sites like Refero that host DESIGN.md collections
-2038. [P4] [money-machine] Check whether the infinity slider and execution floor slider are redundant
-2039. [P4] [money-machine] Add image generation abilities to the Twitter tool for IG
-2040. [P4] [outgoing-due] Buy the $50 iPhone for US market targeting
-2041. [P4] [money-machine] Fix the Telegram system messages so only a few show
-2042. [P4] Look through the whole project for places where Hermes agent hooks fit
-2043. [P4] Turn the reply statements into clickable buttons
-2044. [P4] Sort out the starbank: what it needs and how to populate it
-2045. [P4] Create rules separating personal-account and corporate-account content types
-2046. [P4] Follow @HermesWatcher for Hermes feature news until the recommendation engine exists
-2047. [P4] Add the adult-mode system prompt to my chat custom instructions
-2048. [P4] [client-job] Finish the Orynth backlink task
-2049. [P4] Copy Cloudflare's dynamic AI routing into the twitter tool
-2050. [P4] Fill out the stardotfun form
-2051. [P4] Check GLM for newer datingelo chat sessions
-2052. [P4] Scan twitter bookmarks and GitHub repos for tool routers
-2053. [P4] Make github-pia option 2 match trendshift exactly
-2054. [P4] Test hosting all projects with here.now
-2055. [P4] Clear the tab of existing applications
-2056. [P4] Do QMD tasks new 55 and new 67
-2057. [P4] Optimize Windows with the ChatGPT chat and GitHub repo
-2058. [P4] Find tools and processes for every non-generation video format
-2059. [P4] Give the humor benchmarks and papers to the viral chat
-2060. [P4] Install the multiple-Gmail setup and get a Google Pro plan
-2061. [P4] Add the planning feature and skills/plugins to QMD
-2062. [P4] Check the tier-dominance override design in the prioritization specs document
-2063. [P4] Turn job-hunting into a plugin for Hermes
-2064. [P4] Test whether jev-browser-use or jev-computer-use is needed for job-hunting
-2065. [P4] Run a detailed adversarial red team comparison between my skill evaluator and skillranker
-2066. [P4] Clone the LaunchRepo.dev repo to get listed in 350+ free directories
-2067. [P4] Red team the chairmanlmao report and rebuild the small apps from the ground up
-2068. [P4] Check whether the QMD control plane can search only within a specific silo
-2069. [P4] Integrate /skillbox as the skill calling tool across all my projects
-2070. [P4] Add the typesafe jev key and install the typesafe-ai skill
-2071. [P4] Identify the gaps Enzyme closes for LLM wikis and QMD
-2072. [P4] Task an agent to design and run an experiment from a paper's Future Work section
-2073. [P4] Try the ui.sh frontend UI design skills for the website if the tastemaker tool fails
-2074. [P4] Check whether jev can select the relevant benchmark combination and best model per request
-2075. [P4] Add the Daniel Coyle Talent Code book for sports red teaming
-2076. [P4] Add the ACE and toxic parenting books for the parenting domain
-2077. [P4] Find more books on how families can go wrong and how friendships are ruined
-2078. [P4] Decide whether the local architecture is still needed now that cloud embedding and reranking exist
-2079. [P4] Add enterprise multi-user multi-access and silo-ing systems
-2080. [P4] Replace deterministic code decisions in AHPAS with jev calls
-2081. [P4] Log all errors, not just some
-2082. [P4] Show where the saved webpage sent all its files and whether they landed correctly
-2083. [P4] Explain the difference between Pi Agent Autonomous Console and Interactive Search Tester
-2084. [P4] Show where users create the ReACT workflows on the control plane
-2085. [P4] Build a new Brainstorming folder holding all project specs, grilling skills and the stack
-2086. [P4] Design the red teaming and decision engine loop, whether full cycle or tight integration
-2087. [P4] Crosscheck whether the framework cards, corpuses and batteries are cross referenced on a single search
-2088. [P4] Create the strategist personality that comments on tweets with long threaded analysis
-2089. [P4] Apply the mastered marketing and lead gen skills aggressively to crypto companies
-2090. [P4] Search twitter bookmarks and twitter for all trading bots built with jev
-2091. [P4] Use the jev decision index to find which local jev model is powerful yet small enough for desktop apps
-2092. [P4] Find the chat for the storages and inbox and thoroughly extend it with multiple checks like jev
-2093. [P4] Build the personal 'how to be a good friend' tool merging the gift recommender and red teaming
-2094. [P4] Add self-improvement recipe and framework layering as goals on top of noteapp
-2095. [P4] Check whether the Relationships general communication category was built
-2096. [P4] Confirm Coming Apart and The Anxious Generation were fully included
-2097. [P4] Check whether the friendship deep-dive was folded into the specs as a research request
-2098. [P4] Find books on innovative and creative thinking to expand the creativity sub-phase
-2099. [P4] Add a creative, ungated generative pass at the start of the pipeline
-2100. [P4] Build the advanced individual Leverage calculator tool from the database of the wickedness model
-2101. [P4] Add the phone book list to the graph so Social Life and Community get their failure-of-society books
-2102. [P4] Get the phone book list pasted or screenshotted so it can be folded into the graph
-2103. [P4] Check whether business-failure podcasts and channels are valid AHPAS sources and ingestible
-2104. [P4] Decide whether to build 5000+ skills per life domain or a universal all-encompassing framework
-2105. [P4] Collate the comprehensive For Dummies business how-to books list, manually if claude will not
-2106. [P4] Define the design and architecture of the business plan skeletons layered together
-2107. [P4] Allow the LLM models freedom to free-associate while keeping the tool structure
-2108. [P4] Compare QMD to muse, instinct, grokbot, cloudflare's agent and every coding agent and harness
-2109. [P4] Focus on inference engineering after finishing the apps, evals and model training
-2110. [P4] Deep research trauma, extreme situations and how humans behave in them
-2111. [P4] Really check §6.1 Universal Analysis Structure against existing content before closing it
-2112. [P4] Install the poteto, dexhorthy and emilkowalski skills in Gemini
-2113. [P4] Build the Goodreads book-distillation research base for leverage and incentives
-2114. [P4] Check whether network graphs and network theory cover the gaps in the current process or system
-2115. [P4] Combine the deployment checker and the openship work into one skill-bundle or plugin
-2116. [P4] Explore the Grep plus Jev index and compare its performance against a full RAG
-2117. [P4] Find a way to experiment with and build plugins, profiles or bots for Muse, Grokbot and Instinct
-2118. [P4] Work out how to add leads to Sales Navigator and make first-level connections
-2119. [P4] Set the calendar agent up on Hermes
-2120. [P4] Find whether any Simplenote API endpoint exists
-2121. [P4] Find tools that turn any website into API, MCP or CLI endpoints
-2122. [P4] Do the quick Twitter character map tutorial and clear out Google Flow
-2123. [P4] Make the quick design tutorial for an Obsidian wrapper website, and the SEO and AEO tutorial
-2124. [P4] Start from Ahmad Oosman's open source tool and check whether HuggingFace's model selector is open source
-2125. [P4] Add the full field of game theory to the real politik delta spec
-2126. [P4] Produce detailed visual illustrations of the axis system turn by turn, with every factor shown
-2127. [P4] Add logistics and hospitality literature to the domain coverage, bridging with Christensen's book
-2128. [P4] Check whether more frameworks, criteria, domains, dimensions or models should become axes
-2129. [P4] Cut hair
-2130. [P4] [outgoing-due] Send money via POS to the computer repair guy
-2131. [P4] Buy bread, spaghetti, indomie and eggs
-2132. [P4] Download the movie and TV adaptations of John le Carre's works, starting with The Night Manager
-2133. [P4] Add a panel of motivational messages to the prioritization bot
-2134. [P4] Download all The Black List screenplay movies not yet watched
-2135. [P4] Finish shows with only a few episodes left on phone and laptop (Ex Wife, Dark Wolf, detective season 6)
-2136. [P4] Meet with the barber
-2137. [P4] Download seasons 3 and 4 of Gomorrah
-2138. [P4] Download the movie from the linked X post
-2139. [P4] Export data usage for the NVIDIA API endpoint
+239. [P2] [value] Export all AI chats, Google Keep and text files into personal_context
+240. [P2] [value] Update portfolio, hide old repos on GitHub and refresh LinkedIn
+241. [P2] [incoming-window] [value] Search twitter bookmarks for pre-seed funding opportunities
+242. [P2] [incoming-window] [value] Search twitter bookmarks for startup token fundings
+243. [P2] [incoming-window] [value] Run the personal_context skill for the pre-seed funding hunt
+244. [P2] [incoming-window] [value] Run the personal_context skill for startup token funding hunts
+245. [P2] Make the note cutoff date a user setting
+246. [P2] Add full traces for dropped tasks
+247. [P2] Set up UptimeRobot pinging to keep all startup sites active
+248. [P2] Add voice input to the to-do app
+249. [P2] Call Alex and send him voice notes
+250. [P2] Add mandatory offline mode to the sound manager app
+251. [P2] Buy new clothes
+252. [P2] Order the three-pack attitude spray from Lagos
+253. [P2] Run the sophia script to optimize the laptop, then install GlassWire
+254. [P2] Get QMD working first, then change all the models from notes, bookmarks and benchmarks
+255. [P2] Add the grilling skills and tinyfish agent-reach data layer plus zvec-grep memory on top of red teaming
+256. [P2] Feed all the twitter repos to qmd to design its twitter reading feature
+257. [P2] Use the decision-engine-redteaming engine to design pricing for all my apps and services
+258. [P2] Fix the browser use in job-hunting, trying old hermes options then jev, checking bookmarks
+259. [P2] Solve the data leaks and data issues, likely reinstalling glasswire
+260. [P2] Expand the internal mode by borrowing agency and independence concepts from all the books and the paper
+261. [P2] Build the repeated daily QMD task that recategorizes the newest bookmarks and surfaces money opportunities
+262. [P2] [new-opportunity] Use a book, tweets, reddit and discord extracts with the redteaming framework to make quick topic apps
+263. [P2] [new-opportunity] Next week wrap one repo and two lead gen, GTM or cold email articles for marketing
+264. [P2] Verify every output from all the chats was fully included in the specs, including the lost opera turns
+265. [P2] Close the four gaps one by one: disattenuation addendum, trait-match category, reviewer_model, health domain
+266. [P2] Turn the Windows optimizing njemanze thread into a tool
+267. [P2] Curate the complete list of Windows optimization themes, use cases and dimensions
+268. [P2] Add a real-time rate-limit fallback router to bestmodelpicker
+269. [P2] Generate in full all the files of both toolkits
+270. [P2] Read the relationship transcripts and turn each recurring lesson into its own relationship app
+271. [P2] Create the grilling and mastery module and embed it into all my apps
+272. [P2] Set up Omp as the Antigravity replacement and fix Hermes
+273. [P2] Export full application pages as markdown or text, individually on WhatsApp and as a one-click zip
+274. [P2] Package application pages by category and sort source platforms by category, with deadline query operators
+275. [P2] Redesign the job alerts control plane with the emilkowalski plugin and reorder the information architecture
+276. [P2] Write a fast calculator for total estimated messages, limited by the provider usage limit
+277. [P2] Add application tracking with no authentication, or a very simple Google authentication setup
+278. [P2] Join the crawler tool to QMD and compare it to the job-hunting suite for gaps or redundancy
+279. [P2] Export my AI chats via archive exports tomorrow
+280. [P2] Always answer whether to code a Cloudflare scraper, use a prebuilt repo, or install an agent harness
+281. [P2] Add start-time filtering so alerts only cover jobs younger than the chosen window
+282. [P2] Design how the most important opportunities get ranked for WhatsApp notification
+283. [P2] Install the new Cloudflare cf CLI globally and list the newly released free resources
+284. [P2] Replace Antigravity with Omp, Cline or maybe Codex
+285. [P2] Pull the pitch deck format from my notes for use in funding applications
+286. [P2] Download mobbin, dribble, pinterest and the other inspiration sites into a local inspiration folder
+287. [P2] Expand the 6 source categories into hundreds of classifications and move settings under each source
+288. [P2] Build the tiny fish plus searxng/scrapling plus treg tripartate crawl and enrichment pipeline
+289. [P2] Check whether my prioritization engine solves analysis paralysis and when to stop and just do the work
+290. [P2] Find the cheapest plan for the snow alpha model across inference providers
+291. [P2] Make the writing filters expressive and natural sounding instead of bland
+292. [P2] Redesign the opportunity-desk control plane with advanced animation using onepagelove inspiration
+293. [P2] Add a personal_context skill that picks the most appropriate project for a fund or hackathon application
+294. [P2] Compare my prioritization engine and noteapp against the proactive features of every assistant bot
+295. [P2] Build the self-contained network monitor desktop app with codex, wireguard and proactive diagnosis
+296. [P2] Add the two build filters, daily use and closeness to revenue, to the ICP tool and fit-to-brand
+297. [P2] Grep across projects, notes, bookmarks and downloads to assemble the full personal context corpus
+298. [P2] Finish the nfx.com local scrape, then adapt it to the framework-based red-teaming system
+299. [P2] Give ChatGPT my data records, opencode exports and Chrome history to find what used the high data
+300. [P2] Run the ICP analysis for all 100+ use cases to power all content and general marketing
+301. [P2] Add the seven remote job boards, Remoters through Remotely.jobs, as sources
+302. [P2] Compare opportunity-radar and job-hunting cold email systems to avoid rebuilding the same features
+303. [P2] Implement the remaining opportunity-radar features, then join the tool and redesign with emilkowalski and hyperframes
+304. [P2] Design pseudo-semantic search over Twitter by looping keyword search and AI pattern analysis
+305. [P2] List all my rants over the last year and turn them into blog posts or voice notes to show taste
+306. [P2] Save the bookmark search scripts together as a module for repeatedly searching for hiring tweets
+307. [P2] Add a control plane to construct and add multiple individual search queries and their schedules
+308. [P2] Add the ability to download Twitter articles, since many downloaded tweets are articles
+309. [P2] Add n-level deep and typed link downloading from tweets, the same as for threads
+310. [P2] Add traces, observability and logging to personal_context, cloudflare_scrapers and twitter_scrapers
+311. [P2] Expand the scraper to scrape twitter articles and twitter quotes on bookmarked tweets
+312. [P2] Add pagination on the results panel and give the ADD A SEARCH panel a real full Boolean input
+313. [P2] Finish transcribing the tutorial videos, borrowing only the follow-up system
+314. [P2] Find the pitch deck skills and define the web and deck workflows for funding opportunities
+315. [P2] Use grilling skills as the onboarding UI framework: minimal settings first, then the most important ones
+316. [P2] Add one more filter for expressiveness and creativity to the writing outputs applied on all user outputs
+317. [P2] Grill the writing outputs until they exactly meet our unique tastes for that product
+318. [P2] Add boring-sector filters for non-tech physical businesses, targeting micro to small and medium companies
+319. [P2] Then search my forked repos to finalise the processes for both websites and pitch decks
+320. [P2] Finish all my little tools with Space Bunny red-teaming first, starting from the twitter tools
+321. [P2] Use Cloudflare Pi Durable as the base infrastructure for the twitter tool, viral launcher and knowledgebase
+322. [P2] Search twitter bookmarks for all ways to find business to offer what I can do
+323. [P2] Search twitter bookmarks for all ways of making money
+324. [P2] Finish finalizing the Obsidian smart-connections system with my Gemini pro plan
+325. [P2] Add Gmail sending to the cold email tool so 'send' actually sends
+326. [P2] Audit opportunity_desk and cold-email against the suraj_sharma14 guide tweet steps
+327. [P2] Build a tool mapping product features into A/B real-life scenarios for IP-safe pitching
+328. [P2] Replace the embedding models in QMD and Obsidian with EmbeddingGemma 2
+329. [P2] Fix the hermes agent and use its free tier as a coding alternative to opencode
+330. [P2] ModelAPI: replace composite scores with staggered waterfall scoring (metrics are gates)
+331. [P2] Read bestmodelpicker session JSON line-by-line; list all suggested changes and every discovered issue
+332. [P2] [started] Use github deploy commit state to create all scrapers
+333. [P2] Install freellm api globally
+334. [P2] Audit 180 scrapers in ModelAPI
+335. [P2] Add sticky note functionality to daily digest
+336. [P2] Add shuffle button to tier one tasks in daily digest
+337. [P2] Compile list of tech sales job roles
+338. [P2] Implement diagnostic walk-through for system performance
+339. [P2] Change the job-ops AI API to a better free one
+340. [P2] Connect Gmail auth to job-ops
+341. [P2] [incoming-window] [value] Export all AI chats and their generated files, keep plus all txt files, as funding-application raw material
+342. [P2] Load $2 into Treg for the cold-email follow-ups
+343. [P2] Finish the NFX scraping
+344. [P2] Fix OpenCode with GLM-5.3 in the deepseek harness
+345. [P2] [value] Update twitter bookmarks
+346. [P2] Find the cheapest place to buy opus 5.5 and other models, and adapt BCWES to the model list
+347. [P2] Run /setup-matt-pocock-skills then /grill-with-docs before building the free twitter automation tool
+348. [P2] Finish the telegram forwarder after the twitter tools, after checking my notes for the full list
+349. [P2] Add getclera.com and the other new job boards to the job alert site
+350. [P2] Find freellm desktop shortcut and settings
+351. [P2] [value] Work on the founder video: mine motion-video and video-asset tweets, shortlist repos, then discuss
+352. [P2] [incoming-window] [value] Finish the hackathon/grant/funding application
+353. [P2] Run the AI governance portfolio project: review a regular AI tool's privacy policy, document risks, recommend controls
+354. [P2] Decide if freellmapi scoring should switch to AA index with benchmark fallbacks, and design the seam
+355. [P2] [value] Review usemissa.com as a competitor to opportunity_desk and list features to borrow
+356. [P2] [incoming-window] [value] Cold-email Canadian admission coordinators about research-fit scholarship programs, then repeat for Netherlands, Italy, Austria
+357. [P2] Compare brewkeg.dev pricing with current user-reported Claude plan costs per million tokens
+358. [P2] Use jev-job-search repo to fix the auto-application feature of job-hunting
+359. [P2] Move 'hardware db' tab to admin-only access
+360. [P2] Add 'starting from N135,000' price subtitle to internet device cards
+361. [P2] Move 'profiles' and 'results' tabs to a dropdown beside the 'save profile' button
+362. [P2] Add a 'buy' button to each product in the 'products' and 'internet' tabs
+363. [P2] Reorganize the convoluted product catalog categories into a clear structure
+364. [P2] Create a dedicated System Configuration Details modal for internet devices
+365. [P3] [client-job] [value] Build the Omni-Sourcing Engine zero-backend orchestrator with an IndexedDB browser brain
+366. [P3] [money-machine] [value] Build the solar website with prompt C
+367. [P3] [money-machine] [value] Build the SolarOne website skeleton and all pages from the hybrid architecture prompts
+368. [P3] [client-job] [value] Write the Seun sourcing crawler code
+369. [P3] [value] Build the comparison/router plugin with provider list, AA evals and intelligent routing
+370. [P3] [money-machine] [value] Finish the job autoapplier, integrate into the hosted oracle app, begin job hunting
+371. [P3] [money-machine] [value] Run the full prediction-market launch checklist to a live working app
+372. [P3] [incoming-window] [value] Apply to gig platforms: Mercor, Outlier, Handshake
+373. [P3] [money-machine] [value] Finish the prediction market strategy builder
+374. [P3] [value] Master taste-design (watch tutorials, recreate their advanced designs)
+375. [P3] [money-machine] [value] Make freeaifinder answer the best free model question
+376. [P3] [money-machine] [value] Run pi-autoresearch to test and improve Apexpunter features
+377. [P3] [money-machine] [value] Kick off Savecoins with draft plan, research and demo
+378. [P3] [money-machine] [value] Get Job-ops auto-application and 6 prompts working
+379. [P3] [money-machine] [value] Build and sell the skill add-on packages (job hunting, marketing, freelance, betting, forex, prediction markets)
+380. [P3] [money-machine] [value] Implement all growth-engineer line items into SolarOne Marketer
+381. [P3] [value] Finish the DeepSeek debugging with a before/after comparison
+382. [P3] [money-machine] [value] Fix and improve computer use form filling with the Browser Use 3.0 CLI
+383. [P3] [value] Build the QMD-powered personal knowledgebase and search engine
+384. [P3] [value] Run muse 1.3 code review and UI review before the viral-launcher merge
+385. [P3] [incoming-window] [value] Do the Amazon hackathon application in muse
+386. [P3] [value] Finish the QMD knowledgebase
+387. [P3] [incoming-window] [value] Finish the AI policy application
+388. [P3] [money-machine] [value] Revamp the gift recommender scoring system
+389. [P3] [money-machine] [value] Fix gift chat truncation to drop oldest messages, not newest
+390. [P3] [money-machine] [value] Perfect product page linking and prices for gift ordering
+391. [P3] [value] Implement full trace logging for all agents
+392. [P3] [money-machine] [value] Get the Twitter scraper working in AI Studio
+393. [P3] [value] Map SRI/Big 5 research into a deterministic profile taxonomy
+394. [P3] [value] Ground the engagement/conversion simulation in collated real guides
+395. [P3] [value] Build the detailed ad-guide generation skill from collated guides
+396. [P3] [value] Find free video APIs to automate the video generation process
+397. [P3] [value] Fix the telegram bot in AI Studio using the repo and old chats
+398. [P3] [money-machine] [value] Finalize solar site requirements with Gemini or Kimi, then generate PRD and tasks in AI Studio
+399. [P3] [money-machine] [value] Build the solar one-page site in AI Studio with OPay transfer, receipts and delivery section
+400. [P3] [value] Add match-mode options (revealed plus stated preferences) to the dating app
+401. [P3] [value] Build the talking-stage bot that flags when you are not wanted
+402. [P3] [value] Redesign the matching algo as a modifiable modular workflow
+403. [P3] [value] Finish the Opencode setup (free API, Ralph, context engineering, skills)
+404. [P3] [money-machine] [value] Build openclaw marketing bots and complete the subscription feature
+405. [P3] [money-machine] [value] Show soft human gift descriptions while logging technical ones in the backend
+406. [P3] [money-machine] [value] Implement the cost-effective satiation scoring system
+407. [P3] [value] Run the deep assistant-agent comparison (features plus scenario workbook)
+408. [P3] [client-job] [value] Find the company and industry taxonomy for the sourcing engine
+409. [P3] [client-job] [value] Focus the sourcing engine on finding owner contacts
+410. [P3] [client-job] [value] Export and combine the Gemini and Claude sourcing source chats
+411. [P3] [client-job] [value] List all data sources per step with prices and free tiers
+412. [P3] [client-job] [value] Build the NAICS 7-trait scoring table in the Sourcing Engine
+413. [P3] [money-machine] [value] Spend a month turning scripts into products with frontends, pinned on GitHub and profile site
+414. [P3] [client-job] [value] Scrape TSSA and MCAO directories to build the initial Ontario target list
+415. [P3] [client-job] [value] Run the multi-database sweep for $7M+ Ontario private companies
+416. [P3] [client-job] [value] Automate the five proxy signal checks for revenue and headcount estimation
+417. [P3] [money-machine] [value] Make 5-Whys the premium engine of the gift recommender
+418. [P3] [value] Set up the full 7-day week system from idea to marketing
+419. [P3] [value] Build the 'why does this matter, to me' analogy-rewriter Chrome extension
+420. [P3] [value] Redo the OpenClaw deep dive from scratch including all claw variants and managed templates
+421. [P3] [client-job] [value] Have Sonnet extended break down all steps needed for the Seun task
+422. [P3] [money-machine] [value] Build the combined Troubleshoot tab as its own page in the solar sizer
+423. [P3] [money-machine] [value] Generalize Mark Essien's solar strategy into the trait-agnostic Smart Usage engine
+424. [P3] [money-machine] [value] Add the Essien 'best setup within my budget' tool as its own tab
+425. [P3] [money-machine] [value] Implement the Smart Usage Strategy Engine module in the solar sizer
+426. [P3] [money-machine] [value] Merge framework 1 and framework 2 into one integrated strategy framework
+427. [P3] [money-machine] [value] Add the structured device behavior data model to the strategy engine
+428. [P3] [value] Write the 5-Whys functional requirements as a full agent framework
+429. [P3] [value] Decide the final agent harness base by comparing Claude code, Opencode, Hermes, OpenClaw and Pi-agent
+430. [P3] [money-machine] [value] Build and deploy the VoltKinetic solar business website from the prepared UI code
+431. [P3] [blocks-work] [value] Fix all suspended accounts
+432. [P3] [money-machine] [value] Collate the troubleshooting mega-feature PRD
+433. [P3] [money-machine] [value] Fix user data not being saved (Supabase on Render)
+434. [P3] [money-machine] [value] Design the Behavior Diagnosis Engine second layer
+435. [P3] [money-machine] [value] Build retatrutide testimonial sections from tweets and studies
+436. [P3] [money-machine] [value] Run 4-scenario dating A/B test with 6-month outcome measurement
+437. [P3] [money-machine] [value] Build the AdAdvisor organic/AI UGC and affiliate tabs
+438. [P3] [new-opportunity] [value] Create own VA business
+439. [P3] [money-machine] [value] Build the remaining solar website pages
+440. [P3] [money-machine] [value] Render the prediction market PRD in AI Studio to present
+441. [P3] [value] Finish the sourcing engine report and OpenClaw comparisons
+442. [P3] [value] Move AI APIs and redeploy apps on Cloudflare Workers
+443. [P3] [money-machine] [value] Add default load profiles for household types
+444. [P3] [money-machine] [value] Build the solar promo Twitter bot
+445. [P3] [money-machine] [value] Add four new product categories to the calculator
+446. [P3] [money-machine] [value] Build the retatrutide weight loss calculator
+447. [P3] [money-machine] [value] Add restrictions and warnings to the reta calculator and guides
+448. [P3] [money-machine] [value] Finish job hunting and marketing agents and workflows
+449. [P3] [money-machine] [value] Finish solar website and update profile and CV
+450. [P3] [money-machine] [value] Turn AdAdvisor into an API with creator ranking and scripting
+451. [P3] [value] Build the GitHub repo comparison and search tool
+452. [P3] [money-machine] [value] Set up n8n automated social media marketing
+453. [P3] [money-machine] [value] Research money-back guarantee handling with escrow
+454. [P3] [money-machine] [value] Build the upgrading, troubleshooting and strategizing feature page
+455. [P3] [money-machine] [value] Host the monolith Telegram trading bot with rate limiting
+456. [P3] [money-machine] [value] Add analysis and user and public performance rankings
+457. [P3] [value] Port Twitter and Telegram userscripts into Python
+458. [P3] [money-machine] [value] Ensure payments work
+459. [P3] [money-machine] [value] Create the n8n AI bot for the five post types
+460. [P3] [money-machine] [value] Include solar sizer as an input pillar in the content system
+461. [P3] [value] Criticize and improve 5-Whys with GPT Codex 5.4
+462. [P3] [money-machine] [value] Turn the solar calculator into an API or SDK
+463. [P3] [value] Build the benchmarking tool with custom and shared benchmarks
+464. [P3] [value] Build the writing agent using collected AI writing ideas
+465. [P3] [money-machine] [value] Integrate the Opay payment hack into the website
+466. [P3] [money-machine] [value] Integrate the calculator into the solar consultant tab
+467. [P3] [money-machine] [value] Compile all notes and Gemini chats as the website PRD
+468. [P3] [money-machine] [value] Generate all the comparison articles
+469. [P3] [money-machine] [value] Start adding products on all ecommerce sites
+470. [P3] [money-machine] [value] Compile functional requirements and PRD and generate the 3 prompts
+471. [P3] [value] Add testing and validation system to 5-Whys
+472. [P3] [value] Add the Suggestiveness Catcher to the PR tool
+473. [P3] [money-machine] [value] Build the corporate installation page with requirements typeform and call booking
+474. [P3] [value] Build the personal index and search tool for AI chats and notes
+475. [P3] [value] Produce the final architecture, data flow and requirements for the memory system
+476. [P3] [new-opportunity] [value] Build the industry-wide outreach AI agent from the pool-installation concept
+477. [P3] [value] Build the writing agent skill for voice and structure
+478. [P3] [money-machine] [value] Add admin profit-margin percentages to the SolarSizer hardware catalog
+479. [P3] [money-machine] [value] Add Powerstations/Kits/Full Results toggle to the SolarSizer calculator
+480. [P3] [value] Fix the supabase.sql operator error (uuid = text)
+481. [P3] [money-machine] [value] Add profile-analysis tag filters to the revealed preferences dating app
+482. [P3] [value] Record and publish the 2-3 hour Codex setup video
+483. [P3] [value] Add autoresearch as a default in the Hermes Agent setup
+484. [P3] [value] Build the AI benchmarking sticker tool (4 components)
+485. [P3] [value] Build the content system: rant capture, writing, podcasts, radio
+486. [P3] [money-machine] [value] Revise the trading bot final plan with the 2 tailoring edits
+487. [P3] [value] Add RLM as the memory module in the Hermes agent
+488. [P3] [value] Audit every search-needing tool against the AhmadOsman search stack
+489. [P3] [value] Add UptimeRobot or Cloudflare/Supabase services to all deploys
+490. [P3] [value] Replace Crawl4AI with Scrapling in every scraper
+491. [P3] [money-machine] [value] Add save/share anonymized load profiles to SolarSizer
+492. [P3] [client-job] [value] Finish the Seun enrichment: owners, managers, contacts, free-tier services
+493. [P3] [client-job] [value] Run the Seun PRD and Antigravity task breakdown, then AI Studio
+494. [P3] [money-machine] [value] Combine everything into the final detailed Clawdbot setup guide
+495. [P3] [money-machine] [value] Build the Clawdbot onboarding form plus invoice and payment flow
+496. [P3] [value] Define myself fully from all my notes (job-hunting stage 4)
+497. [P3] [money-machine] [value] Build the automated job applier and related agent skills
+498. [P3] [money-machine] [value] Build the workflow-automation seller one-pager website
+499. [P3] [money-machine] [value] Design job-app monetization: free core features, paid impact features, auto-apply unit charges
+500. [P3] [money-machine] [value] Decide payment provider for the peptide website (Gumroad vs Whop vs RevenueCat)
+501. [P3] [money-machine] [value] Research the problems with chaining many small batteries (10x PowMr 50A) in SolarSizer
+502. [P3] [money-machine] [value] Cross-check SolarSizer's multiple-inverter suggestions (e.g. 2x 3kVA for 2,650W peak)
+503. [P3] [money-machine] [value] Add a suggestion-limiting feature for chained devices (prefer single big devices; define judging metrics)
+504. [P3] [money-machine] [value] Restore SolarSizer features broken on the Cloudflare-hosted version
+505. [P3] [money-machine] [value] Fix SolarSizer mobile rendering across the whole site
+506. [P3] [money-machine] [value] Create a 30+ question FAQ / HOW-TO-USE page for Freeaifinder
+507. [P3] [money-machine] [value] Redesign Freeaifinder using a taste-skill file in Claude
+508. [P3] [money-machine] [value] Port gift recommender, aiadvisor and Life-Coach to Cloudflare
+509. [P3] [money-machine] [value] Redo the full provider-model list (missing models and providers)
+510. [P3] [value] Deploy all projects on Cloudflare
+511. [P3] [money-machine] [value] Add natural language search to the site (AI translates to operator queries)
+512. [P3] [value] Add destructive_command_guard to every coding/agent setup
+513. [P3] [value] Build the smart intent inferer for the router plugin (prompt to domain to model)
+514. [P3] [money-machine] [value] Add tool sections/tabs to Freeaifinder (agents, skills, apps, plugins)
+515. [P3] [money-machine] [value] Add $5/month premium access to Freeaifinder rankings
+516. [P3] [money-machine] [value] Finish the solar business website using the old Stitch prompt-splitting method
+517. [P3] [value] Write case study articles (SolarSizer, solar business, gift recommender, adadvisor, Freeaifinder)
+518. [P3] [value] Update CV
+519. [P3] [value] Update and clean GitHub profile and repos
+520. [P3] [value] Update and clean portfolio links (projects tab, AI tab)
+521. [P3] [money-machine] [value] Build the free-alternatives directory on the Chrome deploy/installer extension
+522. [P3] [money-machine] [value] Add salary negotiation (levels.fyi) to the job automation system
+523. [P3] [money-machine] [value] Create job application templates for all 50+ remote job sites
+524. [P3] [money-machine] [value] Rebuild the gift recommender on Hermes Agent as the backbone
+525. [P3] [value] Use free DeepSeek Flash to start building one idea a day
+526. [P3] [value] Backup NotebookLM (archive plus manual chat backups), clean it out, then begin searching
+527. [P3] [money-machine] [value] Make the strategy builders usable with zero coding knowledge (timeframes, niche markets, risk premiums)
+528. [P3] [money-machine] [value] Add application-form question tracking to the job autoapplier (Simplify-style saved answers)
+529. [P3] [money-machine] [value] Verify every integrated tool's capabilities are enabled (Hermes, TabPFN, Toto-2, etc.)
+530. [P3] [money-machine] [value] Go line-by-line through the Claude and Gemini TabPFN chats to verify decided features
+531. [P3] [money-machine] [value] Ensure pasted tweets can be recreated as strategies via internal functions
+532. [P3] [money-machine] [value] Make the prediction market app as simple as Robinhood in look and use
+533. [P3] [money-machine] [value] Build the meta-strategies module (rotation promotions and confluence)
+534. [P3] [money-machine] [value] Build copytrading: pi-autoresearch improvement of others' strategies
+535. [P3] [money-machine] [value] Build the complete list of trading factors/functions/formulas as app nodes
+536. [P3] [value] Fix sparse implementation plans: enforce granular task breakdowns in orchestration skills
+537. [P3] [value] Add dependency mapping to implementation plans before multi-session runs
+538. [P3] [money-machine] [value] Build reverse-engineering of external traders' strategies from trade history
+539. [P3] [money-machine] [value] Add money-management nodes for automated withdrawals (find old notes first)
+540. [P3] [money-machine] [value] Re-research and correct all Freeaifinder details
+541. [P3] [money-machine] [value] Add video/audio/all usage capabilities as new Freeaifinder columns
+542. [P3] [money-machine] [value] Add per-capability badges and full rate-limit/plan info with filters
+543. [P3] [money-machine] [value] Let users pick which benchmark drives BCWES/MCWES composites
+544. [P3] [money-machine] [value] Finish Freeaifinder line by line and test the first build
+545. [P3] [money-machine] [value] Build proper install version of the punter check plus telegram/twitter crawler
+546. [P3] [value] Finish the quick GitHub improver
+547. [P3] [money-machine] [value] Begin building the marketing content system template
+548. [P3] [money-machine] [value] Make Freeaifinder dynamically crawl provider sites for rate limits and plans
+549. [P3] [incoming-window] [value] Chase CSR customer-service remote roles
+550. [P3] [new-opportunity] [value] Build the Quick AI Consulting offering (paid course plus live calls)
+551. [P3] [money-machine] [value] Support all 4 strategy creation methods (AI chat, dropdown, node canvas, code scripts)
+552. [P3] [money-machine] [value] Extract design.md specs for PM builder and Robinhood, then rework the PM information architecture
+553. [P3] [value] Check why OpenCode isn't using the full Superpowers orchestration
+554. [P3] [value] Overhaul frontend/usability testing (critical tests, screenshots, 500+ intents)
+555. [P3] [value] Add detailed design.md plan creation to the OpenCode development process
+556. [P3] [value] Add /goal (ralph-loop) as a default feature to all projects
+557. [P3] [money-machine] [value] Manually test the Prediction Market app after skipping Docker
+558. [P3] [value] Do a deep whole-codebase review of frontend-backend connections, then deploy
+559. [P3] [money-machine] [value] Test Apexpunter (tipster rubric v2) against the 100 biggest punters of the last 6 years with train/test data sets
+560. [P3] [money-machine] [value] Find, replicate and backtest every online strategy, adding missing node types to cover them
+561. [P3] [money-machine] [value] Redesign Apexpunter's UI/UX and information architecture
+562. [P3] [value] Structure the domain expertise step in the IA process
+563. [P3] [value] Set up the cloud server so coding works from the phone
+564. [P3] [incoming-window] [value] Apply to every grant, VC and funding program
+565. [P3] [value] Develop the complete labelling system design
+566. [P3] [value] Audit all Twitter access tools and pick the best
+567. [P3] [money-machine] [value] Collect a punter Twitter archive to catalogue bet formats
+568. [P3] [money-machine] [value] Set up continuous autoresearch on newly crawled betting data
+569. [P3] [value] Add last30days as a mandatory opencode research skill
+570. [P3] [money-machine] [value] Add a monthly budget input to freeaifinder
+571. [P3] [value] Fix the codex setup
+572. [P3] [money-machine] [value] Finish the Apexpunter IA file
+573. [P3] [money-machine] [value] Crosscheck the AI nodes in the current PMSB implementation
+574. [P3] [money-machine] [value] Define PMSB positioning against other AI sports betting platforms
+575. [P3] [money-machine] [value] Determine how to convert Jobops into a job hunting strategy builder
+576. [P3] [value] Complete the four-part design stack
+577. [P3] [money-machine] [value] Make the research trifecta nodes of the prediction market builder
+578. [P3] [money-machine] [value] Integrate the Industry Sourcing Engine into the negotiation tool
+579. [P3] [money-machine] [value] Expose customisation points in the trifecta for the negotiation app
+580. [P3] [money-machine] [value] Brainstorm Job-ops onboarding themes with progressive disclosure
+581. [P3] [money-machine] [value] Build the punter wins and losses dataset from the tweet archive
+582. [P3] [money-machine] [value] Brainstorm all workplace and career needs as product categories
+583. [P3] [money-machine] [value] Map new nodes for the almost-winning tracking system
+584. [P3] [value] Define when work becomes a node, strategy, skill or hook
+585. [P3] [value] Deep dive last30days to learn what makes it special
+586. [P3] [value] Make printing-press the default first crawler step
+587. [P3] [money-machine] [value] Build pitchdeck, financial plan and demo from the 17 docs
+588. [P3] [money-machine] [value] Replicate the model-fusion calculator for freeaifinder
+589. [P3] [money-machine] [value] Finish merging the combined Savecoins notes into the documents
+590. [P3] [money-machine] [value] Build a list of 100+ Nigerian fintech competitors
+591. [P3] [money-machine] [value] Run the competitor analysis across all 100+ competitors
+592. [P3] [money-machine] [value] Find unique gaps by comparing the cohesive form to each competitor
+593. [P3] [money-machine] [value] Revise the cohesive form again around the unique gaps
+594. [P3] [money-machine] [value] Run the ACES marketing process for Savecoins
+595. [P3] [money-machine] [value] Build the Savecoins prototype from the design process
+596. [P3] [value] Repeat the notebooklm GitHub searches in opencode
+597. [P3] [value] Extract all skill files from curated-list repos' linked locations
+598. [P3] [money-machine] [value] Make GitHub-pia a working tool
+599. [P3] [value] Make constraints-grilling plug and play with any PRD skill
+600. [P3] [value] Create the budget-tiered tech stack list
+601. [P3] [value] Recreate the 17 documents in minimax
+602. [P3] [money-machine] [value] Find positioning skills and define the positioning document
+603. [P3] [money-machine] [value] Upgrade the pia analysis arm with Matt Pocuck's skills
+604. [P3] [money-machine] [value] Do a line-by-line analysis of the Savecoins notes
+605. [P3] [value] Revise the competitive analysis prompting process
+606. [P3] [money-machine] [value] Abstract the sourcing engine for any industry
+607. [P3] [money-machine] [value] Review the Industry Sourcing Engine v1 and its source papers
+608. [P3] [money-machine] [value] Make Job-ops prompts and flow modular
+609. [P3] [money-machine] [value] Use the advanced writing component for Job-ops writing tasks
+610. [P3] [money-machine] [value] Set the Job-ops pricing tiers
+611. [P3] [money-machine] [value] Decide if GitHub-pia is still needed given codex
+612. [P3] [value] Add reuse-check first to brainstorming and PRD skills
+613. [P3] [money-machine] [value] Find out how skill scoring works and rebuild it
+614. [P3] [money-machine] [value] Build the learning plan feature from skill gaps
+615. [P3] [value] Integrate Hermes self-learning capacities into projects
+616. [P3] [value] Make tool call repair present in every project
+617. [P3] [money-machine] [value] Replicate the cheap Claude token feature in freeaifinder
+618. [P3] [money-machine] [value] Build the automated marketing system
+619. [P3] [money-machine] [value] Build the 100 job website corpus for the auto-applier
+620. [P3] [money-machine] [value] Collect 100 company career pages for the crawler
+621. [P3] [money-machine] [value] Evaluate codex and opencode automation for Job-ops applications
+622. [P3] [value] Study and copy Hermes web search and crawling
+623. [P3] [value] Write the updated UI-SE v6.0 product requirements document
+624. [P3] [money-machine] [value] Run the job application and job score tests on the five IDEs
+625. [P3] [value] Build the gift recommender skill from the discussion document
+626. [P3] [money-machine] [value] Run the prepared SolarOne mockup, copy and build prompts
+627. [P3] [money-machine] [value] Fix the job-ops server startup failure
+628. [P3] [value] Add cold DM and email sending to job-ops
+629. [P3] [value] Merge the UI-SE v3 improvements into the v2.0 Complete document
+630. [P3] [value] Learn and master RL training
+631. [P3] [value] Install destructive-command guards on all local projects
+632. [P3] [value] Build the hackathon, competition and angel application feature
+633. [P3] [money-machine] [value] Ship SolarOne and the solar sizer first after the fixing process
+634. [P3] [new-opportunity] [value] Open Outlier and other data-broker accounts via friends
+635. [P3] [money-machine] [value] Ship Safari mobile extensions for the PR, price and review tools
+636. [P3] [value] Build the job-ops interview features
+637. [P3] [value] Clear the job-ops to-dos and test the extension end to end
+638. [P3] [value] Turn all my projects into advanced Hermes skills
+639. [P3] [value] Collect all old and fresh job-ops errors
+640. [P3] [value] Brief K3 with the errors, graph and end goal for the fix plan
+641. [P3] [value] Add job-hunting strategies (Google Alerts, VC directories, LinkedIn posts, communities) to the Hermes job hunting setup
+642. [P3] [value] Finish the Mathcademy program
+643. [P3] [money-machine] [value] Fix up my profile site to present completed projects and target jobs and gigs
+644. [P3] [money-machine] [value] Set up a quick n8n automation to market my automation services (search, reply, quote posts)
+645. [P3] [value] Build Zillow-style house selection: requirements + budget in, ranked buy vs rent+invest options out
+646. [P3] [incoming-window] [value] Fix up my existing projects, then start applying to YC and as many grants and programs as possible
+647. [P3] [value] Implement refinancing in the housing model
+648. [P3] [value] Run formal tests (unit-root/ADF) on the 55-year data and build an exact regime classifier from all patterns
+649. [P3] [value] Integrate the Excel workbook into the simulator
+650. [P3] [value] Model insurance, maintenance, HOA and utilities rising over time (own rates, user settings)
+651. [P3] [value] Implement pensions, social security and retirement income in the housing tool
+652. [P3] [value] Implement retirement decumulation, sequence-of-returns and inheritance tax modelling
+653. [P3] [value] Redo my 6-7 job-hunting prompts using the linked threads and integrate them
+654. [P3] [value] Build the one-tap approve/submit flow: Hermes stops before the final click and pings me in Telegram
+655. [P3] [value] Build complete analytics and self-improvement loops over every job application metric
+656. [P3] [value] Implement Hermes agent-curated memory, cross-session recall, cron scheduler and security features at every useful point
+657. [P3] [money-machine] [value] Build the central base/orchestrator that shares self-improvement results across all user nodes
+658. [P3] [money-machine] [value] Package and sell the Hermes setup service (N20k plus costs; repositioned as 'Set up your Virtual Assistant')
+659. [P3] [value] Apply on Outlier and Mercor
+660. [P3] [value] Combine the sourcing engine and gift recommender profiling into a hybrid company profiler
+661. [P3] [value] Implement automated scheduled backups across the full pipeline using Hermes checkpoints
+662. [P3] [value] Extend company research to profile company staff and hiring managers for cold DMs
+663. [P3] [value] Integrate the QMD memory bundle to extend the FTS5/BM25 memory and update the project to use it
+664. [P3] [value] Crawl all Hermes Agent docs and skill catalogs line by line and use them to optimize the project
+665. [P3] [money-machine] [value] Integrate last30days as the search function for all search and profiling processes
+666. [P3] [value] Generate job search source lists: 100+ job boards, company career pages, and a career-page finder heuristic
+667. [P3] [value] Curate all brainstormed projects from every AI chat into zip packages with ordered steps for Opus 5/Kimi K3
+668. [P3] [value] Build the docs crawler and vector knowledgebase, starting with all Hermes Agent docs
+669. [P3] [value] Implement all agreed suggestions; context architect must interview until answers match every output schema
+670. [P3] [value] Make Hermes auto-learn each job board's query structure and auto-generate and run search queries per site
+671. [P3] [value] Add deterministic schema-conformance crosschecks to every pipeline stage output, with redo on failure
+672. [P3] [money-machine] [value] Feed every user metric to the central server and build an admin dashboard; use metrics as marketing proof
+673. [P3] [value] Crosscheck and integrate the best user-suggested cold outreach and email-finding methods into the pipeline
+674. [P3] [value] Build the adversarial objection-handling process and complete follow-up systems for cold pitches and applications
+675. [P3] [value] Collect security resources (vibecode security threads, vulnerability collections) and lock down the plugin
+676. [P3] [value] Execute the merge blueprint: fold addendum assets into job-hunting-upgraded-2
+677. [P3] [value] Re-answer and fully implement the location-effects handling across the pipeline
+678. [P3] [money-machine] [value] Design the Quick mode: a fast-money pipeline with cold approaches and lax matching for quick gigs
+679. [P3] [value] Build the freelance-platform target needs research system (Upwork listings to granular needs and service offers)
+680. [P3] [value] Build the user voice customization for all artifacts except the CV (writing samples from submitted profiles)
+681. [P3] [value] Build the who-to-outreach system mapping offers to markets and channels
+682. [P3] [value] Make automatic language translation complete at every needed point
+683. [P3] [value] Fix the 26 unresolved paths across the packages (B21)
+684. [P3] [value] Flesh out the stepping-stone job role suggestions into a full system
+685. [P3] [value] Add a hook enforcing subagent row ownership
+686. [P3] [value] Design the tool that maps the best free AI model per task and medium
+687. [P3] [value] Run the two remerges on the new stopping gap base
+688. [P3] [money-machine] [value] Finish the house buying tool and the best AI harness plan tool, then marketing
+689. [P3] [value] Build the unified inbox for replies and DMs across all social accounts
+690. [P3] [value] Add AI-led negotiation to the multi-step cold outreach
+691. [P3] [value] Build the self branding feature from online profiles and local files
+692. [P3] [value] Redo merge 2 with merged-27, addendum 27 and the career pulse addendum
+693. [P3] [value] Adapt the writing skills as the content generation engine for job hunting
+694. [P3] [value] Adapt the interviewing skills to the solarone marketing data bank
+695. [P3] [value] Add OSINT profiling features across all projects from the forked repos
+696. [P3] [value] Red team all rent-or-buy assumptions and data accuracy
+697. [P3] [value] Port the email management system into the twitter tool
+698. [P3] [value] Build the personal details starbank from social media and personal files
+699. [P3] [value] Add retirement decumulation and the other remaining rent-or-buy simulator items
+700. [P3] [value] Replace interpolated rent-or-buy data with real year-by-year series
+701. [P3] [money-machine] [value] Use the matt pocock tools to fix solarone marketing and the strategy builder
+702. [P3] [value] Crawl the composiohq and n8n-community repos into docs for skill mining
+703. [P3] [value] Add per-gate auto approval switches with side-by-side usecase tooltips
+704. [P3] [money-machine] [value] Decide hosting and payment rails for the licensing server, pipeline and ledger
+705. [P3] [value] Build a quick tool for uploading to as many directories as possible
+706. [P3] [money-machine] [value] Build a quick website for the job plugin
+707. [P3] [money-machine] [value] Run apply_preflight.py and finish the ten Bachs products and deploy steps
+708. [P3] [value] Evaluate semgrep and similar projects before building github-pia
+709. [P3] [value] Fully add back dynamic testing with all the original suggestions
+710. [P3] [value] Do the final deep crosscheck pass over all questions and the corpus
+711. [P3] [value] Run the red team analysis over the collated reports in a new chat
+712. [P3] [money-machine] [value] Design the seamless system for product outputs as affiliate marketing feeds
+713. [P3] [money-machine] [value] Add the self development learning module to job hunter
+714. [P3] [value] Red team the code quality notes and research all measurement methods
+715. [P3] [legal-account] [value] Write the draft EULA and a note on NCC registration
+716. [P3] [money-machine] [value] Check marketplace payment fees against the Bachs payment system
+717. [P3] [value] Write the injection corpus and vulnerability sources runbook
+718. [P3] [money-machine] [value] Build the quick website with mapped features and the writing skills
+719. [P3] [money-machine] [value] Fix the Twitter Automation website
+720. [P3] [money-machine] [value] Finish the Modelapi crawlers and start populating benchmarks
+721. [P3] [value] Completely fix the rent-or-buy UI and add the external website links
+722. [P3] [money-machine] [value] Compile up to 100 opportunity types with domain models and step-by-step guides
+723. [P3] [money-machine] [value] Add the negotiation tool to job hunting
+724. [P3] [money-machine] [value] Make job hunting handle the AI consulting lead generation
+725. [P3] [value] Install Hermes agent and compare it with OpenClaw
+726. [P3] [money-machine] [value] Begin the deploy-by-deploy SolarSizer SDK comparison to merge working features
+727. [P3] [money-machine] [value] Turn the personal job prompts into an automated job-hunting workflow or agent
+728. [P3] [money-machine] [value] Start applying the cold DM guides one by one
+729. [P3] [money-machine] [value] Finish the job autoapplier feature and run it on the hosted Oracle app
+730. [P3] [incoming-window] [value] Build the PR Chrome extension and its Android overlay harness for the Google hackathon
+731. [P3] [money-machine] [value] Generate the final feature spec, database schema and validation rules for the Strategy Engine
+732. [P3] [money-machine] [value] Ship all job-hunting cron jobs as installable blueprints
+733. [P3] [value] Completely rearchitect the codebase from the ground up using /grill-me-with-docs
+734. [P3] [money-machine] [value] Add separate minimum intelligence sliders for the brainstorm and execution tables
+735. [P3] [money-machine] [value] Fix the ranking math so the most intelligent model does not exclude itself
+736. [P3] [value] Factor actor aging into every part of the casting tool pipeline
+737. [P3] [money-machine] [value] Add all plans and providers plus a crawler that keeps them updated
+738. [P3] [money-machine] [value] Add task and project labels, averages and toggles to the spend tool
+739. [P3] [money-machine] [value] Add the two paid comparisons: best mix among plans and best plan for a model
+740. [P3] [value] Build GitHub-pia to run the usecase/best-option/hybrid process across systems
+741. [P3] [money-machine] [value] Perfect job-hunting's codebase component mapping for applications and outreach
+742. [P3] [money-machine] [value] Build a system to track viral tweets early, before they go viral
+743. [P3] [money-machine] [value] Build the final advanced ICP mapping and targeting system
+744. [P3] [money-machine] [value] Ensure the Twitter tool can perform every step of the account-building guide
+745. [P3] [money-machine] [value] Add the one-time payment system for the paid features
+746. [P3] [money-machine] [value] Add Threads then Instagram support to the Twitter tool
+747. [P3] [money-machine] [value] Read old notes and Twitter bookmarks for UGC/influencer marketing guides and optimise
+748. [P3] [value] Move backups to a remote location
+749. [P3] [money-machine] [value] Fix the wrong email parsing (phone number and email address)
+750. [P3] [value] Run the full smoke test, wipe and reinstall pipeline test regimen
+751. [P3] [money-machine] [value] Add the alerts and notifications system to bestmodelpicker
+752. [P3] [money-machine] [value] Deep dive how user inputs are translated into eval datasets
+753. [P3] [money-machine] [value] Solve helping workers quickly create eval datasets from their tasks
+754. [P3] [money-machine] [value] Write the implementation plan, ADR set and CONTEXT.md per the build list
+755. [P3] [money-machine] [value] Build the free-stack deployment runbook tool as both a product and a skill
+756. [P3] [value] Turn the Telegram send and receive fixes into patches and upstream PRs
+757. [P3] [value] Fix the ready application flow and apply the remaining suggested fixes
+758. [P3] [value] Do a deep grill/QA session to fix the too-lax scoring system
+759. [P3] [value] Map every function in your projects and classify content-generating vs search-and-comment
+760. [P3] [value] Research how semantic search works across tools and design its Twitter tool implementation
+761. [P3] [value] Add per-section search queries, personas and pairs to the Twitter tool UI
+762. [P3] [value] Dump all of Cody Schneider's tweets into Hermes agent until each is implemented
+763. [P3] [value] Create a hosted tool to extract all bookmarks with fieldtheory-cli and qmd
+764. [P3] [value] Do the prediction market teardown and rebuild
+765. [P3] [value] Deep debug Twitter A and test every button and feature
+766. [P3] [value] Merge Twitter A and B, add all new features, and link job-hunter-plugin with the Twitter tool
+767. [P3] [value] Go through the solarsizer commits to test and solve all the problems
+768. [P3] [value] Run the hostile red team analysis of the industry sourcing engine
+769. [P3] [value] Red-team strip the gift recommender spec using Ox Alpha
+770. [P3] [value] Build job-hunter-plugin add-on packages from Victoria's and Omoalhaja's tweets and Telegram posts
+771. [P3] [value] Build a job-hunter add-on package covering the RemoteReady job-search tips
+772. [P3] [value] Fix the transitivity and statelessness issues, then implement the APIM extensions
+773. [P3] [money-machine] [value] Turn the project ideas into services instead of software products
+774. [P3] [money-machine] [value] Launch the retatrutide site quickly using GLM 5.3
+775. [P3] [value] Do the exhaustive PRISMA-style search for all pattern library entries
+776. [P3] [value] Add thousands of romantic writing samples to the writing system
+777. [P3] [value] Build the four core dating app v2 components
+778. [P3] [value] Find and collate all free AI API sources to test bestmodelpicker's discovery engine
+779. [P3] [value] Run the waterfall chat-session comparison process to merge dating app versions
+780. [P3] [money-machine] [value] Build the grant-application variant of job hunting
+781. [P3] [money-machine] [value] Extend the decision engine with the v2 leverage tool
+782. [P3] [value] Revise the AI therapist memory and framework parsing systems
+783. [P3] [value] Add lago-voice-skill to job hunting with the user's writing samples
+784. [P3] [value] Clear all open grant and job application tabs
+785. [P3] [value] Add video, audio, and image generation models to the free-model provider tool
+786. [P3] [value] Deep dive on how voice AI agents handle semantic turn detection
+787. [P3] [money-machine] [value] Revise the MTN rollout campaign plans and website design
+788. [P3] [new-opportunity] [value] Explore every listed crypto earning opportunity with OpenCode, Hermes, grill-me, and qmd
+789. [P3] [value] Deep-compare the ResumeSkills repo against job-hunter
+790. [P3] [value] Curate 300+ application form questions into the starbank and verify the interview-question framework
+791. [P3] [value] Decide the best order for the four writing filters
+792. [P3] [value] Adapt style extraction to also work from user descriptions
+793. [P3] [value] Add automated profile updates to job hunter
+794. [P3] [value] Finish the target market file expansions and merge old and new files in ChatGPT
+795. [P3] [value] Apply the a16z speedrun system to every job application
+796. [P3] [money-machine] [value] Build detailed Nigeria ISP location maps with price-quality comparison
+797. [P3] [value] Build the simple note app to help focus
+798. [P3] [value] Run a granular skill-by-skill test of the job pipeline
+799. [P3] [money-machine] [value] Build the automated decision-engine API endpoint for AI agents
+800. [P3] [outgoing-due] [value] Subscribe to LeadMarina and Panbreak for manual cold outreach
+801. [P3] [value] Make autoresearch a core part of the AI therapist
+802. [P3] [value] Map LLM functions per project and train tiny local models with autoresearch
+803. [P3] [value] Layer a 'what is most important now' agent on qmd and the simple note app
+804. [P3] [money-machine] [value] Perfect the offering (website, service details) before pitching
+805. [P3] [value] Create the MapsData free account and pull leads for outreach
+806. [P3] [value] Collate essay and cold email answers into the first starbank document
+807. [P3] [value] Redo the base CV with new projects
+808. [P3] [value] Search all bookmarks for the hiring keyword set
+809. [P3] [value] Clean up existing websites and add them to CV, portfolio, GitHub, LinkedIn
+810. [P3] [incoming-window] [value] Apply to the listed grants and funding using Hermes application questions
+811. [P3] [value] Research how to become a fractional product manager
+812. [P3] [value] Build an evals system for the writing filters and their combinations
+813. [P3] [value] Build advanced evals comparing all memory options
+814. [P3] [value] Expand the job-hunting anti-scam feature into full scam-company detection
+815. [P3] [value] Extend job-hunting to discover all opportunity types for people like me
+816. [P3] [value] Answer questionnaire items Q3 to Q9
+817. [P3] [value] Pick which proposed ticket to start
+818. [P3] [value] Build the competition-analysis skill for every project
+819. [P3] [value] Make all GitHub repos private
+820. [P3] [value] Build the handle-to-best-match campaign
+821. [P3] [value] Move MTN to opencode muse after a red-team pass
+822. [P3] [value] Finish the job-hunting plugin and forwarder-bot
+823. [P3] [value] Confirm the S1 freeze and open S2
+824. [P3] [value] Add an applications-deadline calendar to the job-hunting plugin
+825. [P3] [value] Build the heuristic ranker and performance-ingestion engine with schema
+826. [P3] [value] Fully integrate the remaining humor frameworks with no duplicated functions
+827. [P3] [value] Make pooling similarity-aware as a knowledge graph
+828. [P3] [outgoing-due] [value] Buy the cheap G2G Google Flow and Gemini Pro plans
+829. [P3] [value] Architect the autoresearch recalibration system and benchmark schema
+830. [P3] [value] Bundle QMD into a desktop app
+831. [P3] [value] Build the boundless interview tool
+832. [P3] [outgoing-due] [value] Buy the omoalhaja cold emailing course and integrate it
+833. [P3] [value] Make the whole prioritization noteapp tool end-to-end working
+834. [P3] [value] Begin working on the your-advantages tool as the first filter or ranker
+835. [P3] [value] Use jev in QMD to replace the heavy embedding, reranking and expansion models
+836. [P3] [value] Set the prioritization engine goal to make as much money as possible
+837. [P3] [value] Apply for the next job and find all similar jobs
+838. [P3] [value] Build the redaction tool based solely on jev that edits and scrubs regional and semantic signals
+839. [P3] [value] Make job-hunting completely independent of Hermes, decoupled memory and self contained
+840. [P3] [value] Wrap Supermemory as the 2nd brain so semantic search can start
+841. [P3] [value] Redo LinkedIn and arrange and pin the best projects on GitHub
+842. [P3] [incoming-window] [value] Finally deliver the prediction market build if the opportunity is still open
+843. [P3] [new-opportunity] [value] Wrap Obsidian plus Smart Connections plus my fixes and sell on Nestuge for N10k
+844. [P3] [value] When wrapping open source repos, check each open issue is valid and fix all the valid ones
+845. [P3] [value] Extract all GitHub projects, all filled applications and forms into the first starbank folder
+846. [P3] [value] Red-team all chat assumptions and verify every claimed task actually exists in the specs
+847. [P3] [value] Set up the YC outreach email finder tool repo as another section of the cloudflare scrapers
+848. [P3] [value] Decide what exactly is being sold in the YC outreach: a job search or AI automation services
+849. [P3] [value] Build final full PR tool (knowledge graph of 5 tools' features vs PR specs; close gaps)
+850. [P3] [money-machine] Verify the gift recommender crawls jiji.ng for lowest prices
+851. [P3] [money-machine] Fix gift suggestions to always use the highest scoring issue
+852. [P3] [money-machine] Add a button for gift suggestions on other mentioned issues
+853. [P3] Start the Twitter archive CLI-based download
+854. [P3] Build the modular viral marketing tab UI
+855. [P3] Switch AdAdvisor to free AI APIs (OpenRouter or kilo.ai minimax)
+856. [P3] Add beginner wizard page explaining each AdAdvisor input
+857. [P3] Fix psychographic agent profiles not showing on Netlify
+858. [P3] Add granular creator/influencer detail inputs to AdAdvisor
+859. [P3] Redesign AdAdvisor UI via AI Studio design pass
+860. [P3] Speed up AdAdvisor app performance
+861. [P3] Add per-ROAS download buttons and fix export bundling
+862. [P3] Load open-source video, audio and image models plus ComfyUI workflows in Colab if the pro trial expired
+863. [P3] [money-machine] Rebuild the jiji webscraper for the solar site with scrapling
+864. [P3] Implement the Tinder-style match presentation with tailored reasons
+865. [P3] [money-machine] Build the personal installation one-pager with three estimate packages
+866. [P3] [money-machine] Deploy the solar site to Vercel following the saved instructions
+867. [P3] Reconfirm every instrument and strategy description with fetched sources
+868. [P3] Verify every fund criterion against term sheets or investor presentations
+869. [P3] [money-machine] Add the product catalog with wattages and images to the solar calculator
+870. [P3] [money-machine] Mark in-stock and out-of-stock products in the solar calculator
+871. [P3] Improve the product scraper to scrape product listings for shop owners
+872. [P3] Run autoresearch optimization on all my apps
+873. [P3] [to-save] Execute the savings plan: save 1.25m across March to July
+874. [P3] Build the Reddit crawler/scraper from the /.json thread guide
+875. [P3] Run the smaug fetch until two consecutive runs return the same count
+876. [P3] Set up the GitHub scraper on the AWS server and download its output
+877. [P3] Add the OpenClaw RL piece to the AI therapy app
+878. [P3] Turn the whole Twitter download system into a webapp
+879. [P3] Ask the GitHub notebooklm for the best skills for the opencode orchestration stack
+880. [P3] Collate skills.md files and prompts into advanced search prompt templates for notebooklm
+881. [P3] Extend the GitHub scraper to readmes and text files and handle duplicates
+882. [P3] Add customizable opening-message skills to the dating app
+883. [P3] Add the dating app advanced profiling techniques to the AI therapist app
+884. [P3] Load the GitHub readmes into a quick notebooklm
+885. [P3] Load quick notes and temp files into a quick notebooklm
+886. [P3] Search notebooklm for complete OpenClaw setup guides, for myself then Seun
+887. [P3] [money-machine] Segment gift pain points into at most 3 or 4
+888. [P3] [money-machine] Diagnose the 2-5 minute gift generation time
+889. [P3] [money-machine] Set developer default search and NVIDIA API keys, drop user keys
+890. [P3] Collate links from all notes into the ultimate setup guide
+891. [P3] Add the logs, metrics, traces rule to all agent skill files
+892. [P3] Automate the skill-file audit on every new skill file
+893. [P3] [client-job] Integrate OpenAI and Anthropic automation reports into the AI-resistance trait
+894. [P3] [client-job] Red-team each Gemini data source suggestion
+895. [P3] [client-job] Deep dive on what changes by geography
+896. [P3] Turn products, AI chats and saved notes into blogs
+897. [P3] Replace all Tauri implementations with Electrobun and give the AI the full docs
+898. [P3] Add the Council of Advisors addon to the coach builder tool
+899. [P3] Add batch PDF-to-markdown conversion to the colab crawler and convert stored PDFs
+900. [P3] [client-job] Write the marketing proposal for Aunt Ngozi (layers.com and service chaining parts)
+901. [P3] Compare the old 5-Whys system against the new Abstraction Laddering system side by side
+902. [P3] Create the four scenario workbook comparing every assistant configuration and plan
+903. [P3] Go through every app and add 5-Whys only where it naturally fits
+904. [P3] Install and configure the pi-agent on the Oracle cloud
+905. [P3] Set up the Oracle phone-accessible agent stack with backups and the davinci job applier
+906. [P3] Add simple schedules (time ranges and notifications) to the to-do app
+907. [P3] Design the to-do app prioritization system (AI starred, drag ordered)
+908. [P3] Fix the Google authentication failure on the Render deployment
+909. [P3] Get the Twitter search colab tool working and the new archive scraper formatting files for NotebookLM
+910. [P3] [client-job] Fix all suspended accounts handling in the Seun app
+911. [P3] [money-machine] Research and update generator costs with current Nigerian prices
+912. [P3] [money-machine] Revert solar sizer PSH values to Gemini's or a midpoint
+913. [P3] [money-machine] Add a simple three-tab user guide to the top of solar sizer
+914. [P3] Use 5-Whys twice in the therapy app (retrieval and synthetic data generation)
+915. [P3] Apply 5-Whys to synthetic data generation for every LLM RL training run
+916. [P3] A/B test 5-Whys outputs against current designs with friends
+917. [P3] Update the CV and profile website with new sites and Google Drive links
+918. [P3] Finalize the 5-whys PRD
+919. [P3] [money-machine] Build the semi-manual solarsizer database update process
+920. [P3] [money-machine] Change the remaining calculator exports to PDF format
+921. [P3] Work out the 'best to use' categories list
+922. [P3] [money-machine] Add the load shedding feature
+923. [P3] [money-machine] Add seller margin and order buttons to scraper results
+924. [P3] Try every context compression skill and prompt
+925. [P3] [money-machine] Add installer-only product categories and fees
+926. [P3] [money-machine] Verify peak hourly overload handling in the algorithm
+927. [P3] [money-machine] Hand the gift website deploy chat to Antigravity to debug
+928. [P3] [money-machine] Find cheapest delivery service and set free shipping threshold
+929. [P3] [money-machine] Replicate the ORAIMO onepager for our product
+930. [P3] [money-machine] Produce demo videos showing runtime versus competitors
+931. [P3] [money-machine] Mark tab 1 and tab 2 prices as early bird and raise them
+932. [P3] [money-machine] Test 3 peptide suppliers with orders and add to supplier list
+933. [P3] [money-machine] Finalize prompt C after homepage
+934. [P3] [incoming-promised] Send devices to buyers in Lagos and to Rotimi
+935. [P3] [money-machine] Add extra panel addition fields and max-addition guides during order
+936. [P3] [money-machine] Reduce homepage copy and include missing prompt A parts
+937. [P3] [money-machine] Reduce Tab 3 Internet copy further for website cards
+938. [P3] [money-machine] Build the footer contact page marked not done
+939. [P3] [money-machine] Add graceful storage-full alerts to the SolarSizer SDK app
+940. [P3] [money-machine] Produce formatted catalog data for manual upload (labels, powerstations, internet)
+941. [P3] [money-machine] Fix SolarSizer admin import/export buttons (internet tab, catalog, profiles)
+942. [P3] [money-machine] Fix SolarSizer PDF exports and profit-margin fields
+943. [P3] [money-machine] Run the 8-subagent cleanup and ruff on the Telegram trading bot
+944. [P3] [money-machine] Build the Retatrutide website quickly after finishing SolarOne
+945. [P3] Move all script runs from Colab to the Google Cloud VM
+946. [P3] Add Unbrowse to OpenClaw and the Twitter PR tool
+947. [P3] [money-machine] Set up marketing reply and lead-gen bots from the clawdhub
+948. [P3] [money-machine] Explain the best free model score and its derivation on Freeaifinder
+949. [P3] [money-machine] Test how many FAQ questions the site can answer and update faq_version_3
+950. [P3] [money-machine] Apply fix to the 222kb HTML version, check completeness, combine final FAQ
+951. [P3] Compile the complete skill/plugin/MCP list and crosscheck against OpenCode and Codex
+952. [P3] [money-machine] Correct inaccurate FAQ questions before building the AI chat feature
+953. [P3] Fix issues with the ChatGPT taste-skills design version and integrate via diffs
+954. [P3] [money-machine] Redesign adadvisor
+955. [P3] [money-machine] Finish the AI therapist backend, then redesign it
+956. [P3] Adopt the new test stack (skill to test cases; Chrome MCP E2E; GUI route tests)
+957. [P3] Map all Hermes Agent abilities (self-improvement, skill creation, plugins)
+958. [P3] First map and build the AI plus personal notes qmd chat
+959. [P3] Create a PowerShell script to extract NotebookLM notes and chat histories
+960. [P3] Run code review and testing skills after each prediction-market phase
+961. [P3] Add hover tooltips with example usages to all buttons/functions
+962. [P3] [money-machine] Note missing functions exposed by the strategy-replication chat response
+963. [P3] Set up a warehousing/kanban system to coordinate multiple agent sessions
+964. [P3] Add 'automatically commit after each turn' to the orchestration rules
+965. [P3] Fix the SHAP installation issue
+966. [P3] Crawl the whole NFX website with the colab crawling tool
+967. [P3] [money-machine] Add lookback history scanning and central database download to the GitHub tool
+968. [P3] [money-machine] Check if the PM strategy builder can track and analyse other traders
+969. [P3] [money-machine] Package the GitHub tool for non-technical use (scripts/GUI installers)
+970. [P3] [money-machine] Test limits of Hermes self-learning on the prediction bot before trying evo
+971. [P3] [money-machine] Add OpenRouter rankings as the second default ranker in Freeaifinder
+972. [P3] [money-machine] Run line-by-line Hermes feature assessment for the prediction market builder
+973. [P3] Run react-doctor on all React apps and fix issues to score 100
+974. [P3] Map my full Solar-One website generation process (prompts, tools, order)
+975. [P3] Go along Jesus Save Street looking for a carpenter and an affordable mini fumigation seller
+976. [P3] [money-machine] Test replicating whole strategies in the Prediction Market builder via tipster_rubric v1 and v2
+977. [P3] [money-machine] Expand Freeaifinder to OpenRouter models, AI companies, assistants, the Chinese $1 providers and local options
+978. [P3] Update the OpenCode build flow with any gaps from the how-to-build-anything checklist
+979. [P3] [money-machine] Combine the tipster and punter tools into the strategy builder with a deep comparison
+980. [P3] Build tools to quickly edit and improve existing benchmarks alongside the benchmark creation tools
+981. [P3] [new-opportunity] Develop the AI save-a-cat based screenwriter tool with cinematographer and casting add-ons
+982. [P3] [money-machine] Add sentiment and trending features/nodes to the Prediction Market strategy builder
+983. [P3] [money-machine] Add market-manipulation and scam detection nodes to the Prediction Market builder, starting from Zachxbt sources
+984. [P3] Update the CV and all other profiles
+985. [P3] [money-machine] Factor caching into the freeaifinder cost calculator
+986. [P3] [outgoing-due] Buy more data months to reach four months total
+987. [P3] Sort out the two inverter settings
+988. [P3] Fix the typst resume export to include project links and sections
+989. [P3] Install Hermes desktop and audit installed coding tools
+990. [P3] Add a leak check for outgoing posts and documents
+991. [P3] Export opencode chats and mine the PowerShell fixes into AGENTS.md
+992. [P3] [money-machine] Add purchase and usage quality-check instructions to solar sizer exports
+993. [P3] [money-machine] Copy the HuggingFace leaderboard scoring and design into Freeaifinder
+994. [P3] Add the cold DM approval-or-autosend options to job-ops
+995. [P3] Expand enrichment search across people-data platforms
+996. [P3] Mine bookmarks and forks for AI writing tools and threads
+997. [P3] Expose QMD enrichment features in the UI
+998. [P3] Replicate expert judgment in the strategy builder
+999. [P3] [money-machine] Add usage-based charging to the apps
+1000. [P3] Fix opencode's bad compaction behavior
+1001. [P3] Run the next Gemini ablation prompt on the UI-SE process
+1002. [P3] Pull the AI-VC paper's tips into the Industry Sourcing Engine
+1003. [P3] Create 100 cold DM training examples without identifiable info
+1004. [P3] [money-machine] Finish the ngozi, real estate and furniture n8n flows
+1005. [P3] Set up Grok in opencode
+1006. [P3] Set up nvidia models in opencode
+1007. [P3] Create the Chatgpt-Claude-Gemini project chat
+1008. [P3] Add the new chemicals to the retatrutide website
+1009. [P3] Implement the 5k-plan onboarding system
+1010. [P3] [money-machine] Repair the broken issues on the solar marketing website
+1011. [P3] Get ngrok working and test all n8n workflows
+1012. [P3] Complete the searxng/camoufox/scrapling and QMD merges
+1013. [P3] Add the realistic best-candidate profile feature for HR
+1014. [P3] Produce the updated job-ops architecture and end-to-end user flows
+1015. [P3] Export the Claude and ChatGPT methods into Kimi K3 for comparison
+1016. [P3] Red-team the full project in K3 and produce the final dev docs
+1017. [P3] Expand the housing model's period options beyond 5-10 years (20-30, 30-45, all 55 years)
+1018. [P3] Add last30days and my job, CDPA and other prompts to Claude and ChatGPT
+1019. [P3] Try connecting Apollo or similar to find people and social accounts for cold DMs
+1020. [P3] Implement stability, eviction/rent-hike risk and psychological value of owning in the housing tool
+1021. [P3] Split Lagos into regions and use median home prices per region in the housing tool
+1022. [P3] Add mortgage-interest tax deduction and rent stabilization/control effects to the housing tool
+1023. [P3] Add CV parsing into potential roles to feed job search queries
+1024. [P3] Turn the whole application process into a step-by-step wizard
+1025. [P3] Follow omoahaljaba and send cold DMs of what I can do, including VA applications
+1026. [P3] [outgoing-due] Buy the focus supplements (modafinil, magnesium, iron, zinc) and pay for the most powerful AI models
+1027. [P3] Make the multi-platform gateway include WhatsApp (Hermes internal connectors first)
+1028. [P3] Curate jobfather's tweets and similar sites into the answer bank structure for application answers
+1029. [P3] Back up the memory card to the Rotimi hard drive
+1030. [P3] Install the RAM and verify the machine works
+1031. [P3] Naturalise the tool's own conversations with users (humanizer skills plus self-improvement on tone and style)
+1032. [P3] Expand the self-improvement loop to cover every artifact, output, metric and setting (not only skills)
+1033. [P3] Verify and complete the user-set output templates system (3 ways, 2 modes) for every artifact
+1034. [P3] Add user-supplied API key support for all paid people-search and enrichment providers
+1035. [P3] Add automated congratulatory messages for milestones
+1036. [P3] Export the career journal to markdown so qmd can see it
+1037. [P3] Implement all agreed qmd suggestions into the hybrid package
+1038. [P3] [money-machine] Upgrade portfolio pages with templates, embedded media frames and motion
+1039. [P3] Ensure LinkedIn and CV auto-update from the memory bank
+1040. [P3] Clone my GitHub repos starting with marketing
+1041. [P3] Clone the n8n community workflow repos for marketing workflows
+1042. [P3] Compare the final merge against all root packages for missed features
+1043. [P3] Add system and user-set rate limits to the twitter tool
+1044. [P3] Crawl complete data for the first 1,000 most popular cities
+1045. [P3] Supply the missing rent-or-buy inputs: Lagos price, build-to-buy ratios, stability value
+1046. [P3] Run the red team analysis prompt on the CDPA comparison
+1047. [P3] Add the measured trust system that stops asking once suggestions keep being accepted
+1048. [P3] [money-machine] Build the compile stage and the activation installer client
+1049. [P3] Run everything done in claude, gemini and chatgpt through Kimi K3
+1050. [P3] Run the adversarial red team on whether xbrowser is even needed
+1051. [P3] Crosscheck that every global skill actually works in OpenCode
+1052. [P3] [money-machine] [started] Finish installing job-ops
+1053. [P3] [money-machine] Update CV, clean the GitHub and refresh portfolio links
+1054. [P3] [money-machine] Begin the prediction market strategy builder
+1055. [P3] [money-machine] Collate the virtual assistant tweet strategies and implement them on job sites one by one
+1056. [P3] [legal-account] Complete the TEF application
+1057. [P3] [promise] Finish Aunty Ngozi's n8n automations
+1058. [P3] [money-machine] Start solar business marketing: social media, website, then price comparison bot and solar chatbot
+1059. [P3] Finish the final QMD version of the Twitter bookmark scraper (Smaug)
+1060. [P3] [money-machine] Run the next Aistudio prompt: Max Charging Current and DC System Voltage checks
+1061. [P3] [money-machine] Verify the blackout risk warning system and revisit the blackout risk prompts
+1062. [P3] [money-machine] Modify the 24hr cache to start from measured net recharge instead of a full battery at 6pm
+1063. [P3] Search Twitter bookmarks for cold DM and job hunting guides and note the phone-friendly ones
+1064. [P3] [money-machine] Add plug-and-play ports to the external batteries including the generator wire outlet
+1065. [P3] [money-machine] Rework the solar website prices, raising tab 1 and 2 by N5-12k and increasing tab 3
+1066. [P3] Red team the whole job-hunting pipeline using the Hermes browser docs
+1067. [P3] Turn all the Hermes fixes into a patch shipped with the skills bundle
+1068. [P3] [money-machine] Implement the agreed job-hunting upgrades from the Q19-Q23 review
+1069. [P3] Integrate every Weave piece that fits PIA
+1070. [P3] [money-machine] Build the Twitter reply pipeline: seed creators, semantic and viral search, analysis, 6-phase writing
+1071. [P3] [money-machine] Expand job hunting's user testimonial monitoring with the Twitter tool's discovery system
+1072. [P3] Produce the full red team reports on the concepts and the current implementation
+1073. [P3] [money-machine] Redo the prediction market unfuck and job-hunting pipeline fixes in fresh chats with the new models
+1074. [P3] Fix the job-hunting backup cron so snapshots are encrypted
+1075. [P3] [money-machine] Extend Job-Ops sourcing to AI-resistant and physical-interaction jobs
+1076. [P3] [money-machine] Fix the app 2 template currency conversion and tighten the scoring
+1077. [P3] [outgoing-due] Buy around 12 more domain names and finish the Bachs setup
+1078. [P3] [outgoing-due] Send Rotimi N75k to help with the LLC registration
+1079. [P3] [money-machine] Implement the bookmarked social-search idea in the job hunter
+1080. [P3] [money-machine] Add Microsoft partner directory sourcing to the job hunter
+1081. [P3] Model OpenCode Go usage limits and how long the $60 models last for the job-hunting runs
+1082. [P3] [money-machine] Copy everything from xpilot.ink for the Twitter marketing tool
+1083. [P3] Set up the AI-powered science replication model this evening
+1084. [P3] [money-machine] Fix the table sorting and add sort-by-any-column
+1085. [P3] [money-machine] Solve the negative ratio ranking so the cost-effective model is not sunk to the bottom
+1086. [P3] [money-machine] Add separate floor sliders for brainstorm and execution tiers
+1087. [P3] Research how automation experts estimate token usage of unbuilt workflows
+1088. [P3] [money-machine] Add all benchmarks and a toggle to switch the intelligence column
+1089. [P3] [money-machine] Add deep user profiling to the Twitter tool's semantic search
+1090. [P3] [money-machine] Redesign bestmodelpicker so it does not look AI-made
+1091. [P3] [money-machine] Build the Reddit sales system for Hermes
+1092. [P3] [money-machine] Work on the slideshow video platform, then search bookmarks for free video tutorials
+1093. [P3] Add semantic search as a third ingestion option in the Twitter tool
+1094. [P3] Add the option to route tweets to third-party API or inbuilt content responses
+1095. [P3] Add memes, jokes and sarcasm content types to the Twitter tool
+1096. [P3] Add /last30days to Hermes agent
+1097. [P3] Install destructive_command_guard on OpenCode and Hermes
+1098. [P3] Add ponytail globally to OpenCode, Antigravity, and Hermes
+1099. [P3] [to-save] Fund the GitHub-PIA CSR non-profit to protect platforms with top models
+1100. [P3] Find a free way to use muse 1.3 on the phone
+1101. [P3] Add the 20 missing site essentials
+1102. [P3] Sort out Google Flow UGC technicals with the three maps
+1103. [P3] Connect the twitter tool to fit-to-brand
+1104. [P3] Run the Layer 1 cross-check and cross-mapping exercise
+1105. [P3] Complete the narrative extension questions before repair features
+1106. [P3] Pass the AmirMushich design guides through fit-to-brand
+1107. [P3] Finish the QMD login task
+1108. [P3] Switch QMD web search to tinyfish with searxng as backup
+1109. [P3] Build the video production pipeline on cheap Google Flow credits
+1110. [P3] Build the pre-launch checklist knowledgebase in QMD
+1111. [P3] Start the QMD skills, plugins and connectors work with the system prompt sections
+1112. [P3] Extract jev capabilities, strengths and weaknesses from every bookmarked usecase
+1113. [P3] Save each jev usecase and repo as an individual ADR file
+1114. [P3] Synthesize the jev ADRs into one central architecture design specification
+1115. [P3] Use the central architecture doc to find 150-300 more jev usecases via the ICP prompt process
+1116. [P3] Parse each project against the jev ADRs to find replaces, plug-ins and companions
+1117. [P3] Finish the workflow to use googleflow credits
+1118. [P3] Finish the twitter tool and its associated tools
+1119. [P3] Keep reworking the forwarder bot spec until it self-runs in fomo.app
+1120. [P3] Use the remaining free jev credits on Vercel and typesafe before they expire
+1121. [P3] Add RLM to jev and to the whole project to solve the small context window
+1122. [P3] Combine the jev-autoresearch system with grilling into one comprehensive interview system
+1123. [P3] Search notes and bookmarks with QMD for tutorials on running ads
+1124. [P3] Build the therapy app low-cost finetuning system on the jev-autoresearch and RLM chassis
+1125. [P3] Build a red team training program for myself with a weekly routine of books, tools and drills
+1126. [P3] Check whether everything from the second-brain example is applied in the prioritization noteapp
+1127. [P3] Check whether everything from the second-brain example is applied in QMD
+1128. [P3] Secure the cloud-side and static corpus with cloudflare security and tunnel tools
+1129. [P3] Add user settings to choose which files and corpuses stay offline only
+1130. [P3] Use jev for the natural-language-to-strategy workflow in the prediction market strategy builder
+1131. [P3] Record all user actions, inputs and outputs in the logs as a separate section
+1132. [P3] Make cloudflare artifacts sync automatically every 30 to 60 minutes
+1133. [P3] Swap all the models across the projects
+1134. [P3] Deeply dig through the qmd tool to find every granular place jev can apply
+1135. [P3] Crawl all of omoalhaja's twitter account and collate his techniques one by one
+1136. [P3] Build the PR tool now that jev is available
+1137. [P3] Ensure image reading is perfect for all tweet screenshots using Qmd over bookmarks and repos
+1138. [P3] Integrate cogsend into the twitter tool for easier posting instead of postiz
+1139. [P3] Resolve the flagged genesis-trigger fix and verify it is fully built out
+1140. [P3] Bake the shared agent tools into the next Instinct, Muse or Grokbot by default
+1141. [P3] Integrate the high-leverage job hunt skill into the job-hunting routine
+1142. [P3] Convince yourself to watch the omoalhaja cold outreach course to perfect the cold outreach system
+1143. [P3] Use jev to revise and red-team the industry sourcing engine architecture and consolidate its enrichment APIs
+1144. [P3] Add a hold-body blue collar job mode to the career path planner
+1145. [P3] Perfect the cold outreach and email monitoring systems in job-hunting
+1146. [P3] Find whether a simplenote API exists and tools that build API/MCP/CLI endpoints for any website
+1147. [P3] Add a pipeline step that rejects shallow restatements of a book's idea in favour of non-obvious ones
+1148. [P3] Fix the provenance and knowledge-graph lineage chain when the first link is a bare empirical trigger
+1149. [P3] Document the outcome_predictors, intervention_testing and departure_impact experiment types
+1150. [P3] Specify how pi-autoresearch finds new correlations and what counts as a real discovery
+1151. [P3] Build the live zoom listener that transcribes, suggests questions and fact-checks calls against the knowledgebase
+1152. [P3] Design a universal empirical objective scoring system to evaluate the red teaming tool
+1153. [P3] Test the red teaming tool against the best vanilla models as a full benchmark
+1154. [P3] Build a dirt-cheap jev-based crawler to track job boards and hiring posts across all social media
+1155. [P3] Add Thinking Fast and Slow as the pre-eminent foundational framework under every component
+1156. [P3] Build PRE and the prioritization engine as Muse plugins with the specific empowerment
+1157. [P3] Design and architect all my projects to use cloudflare wrangler and the cloudflare agents sdk
+1158. [P3] Use the finished red teaming tool as the base for all my twitter bots, one book at a time
+1159. [P3] [new-opportunity] Dump all my projects and start wrapping twitter repos and tutorials onto parameterAI and free domains
+1160. [P3] [new-opportunity] Wrap the supermemory second brain first, compile to a binary and improve it with jev
+1161. [P3] Swap job-hunting for the toyosi prompts, the Abayomi repo and the 59-application replies
+1162. [P3] Operationalize one or two GUI and frontend design skills from bookmarks and repos using the 2nd brain
+1163. [P3] Let AI read screens, chats and calls to proactively suggest or do tasks
+1164. [P3] Add the axis framework of digital/physical, people/non-people and internal/external impact across all domains
+1165. [P3] Do a deep line-by-line red team comparison between the red teaming tool and the AI Therapist app
+1166. [P3] Extend the business-skeleton rigour to every domain: canonical resources, framework mapping and gap filling
+1167. [P3] Build this paper's core method as a formal addendum to AHPAS §4.4 validation, in full
+1168. [P3] Factor in a new location/culture axis and filter all modes through local variants in per-profile validation
+1169. [P3] Add Opus 5.5 with curated launch-video seeds as the video generator process in fit-to-brand
+1170. [P3] Write Section 7 expanded with the 65 analysis dimensions
+1171. [P3] Write Section 8 expanded with the 6 guardrails
+1172. [P3] Add the architecture diagram and question-battery template library as additional structural material
+1173. [P3] Reconcile the General Business Operations section against §4.10
+1174. [P3] Write §6.2 domain-specific question batteries for Medicine, Law and Engineering
+1175. [P3] Write §6.3 cross-domain meta-patterns: Experience Paradox, Two-Person Rule, Communication Goldilocks
+1176. [P3] Write the five LLM and Jev combination patterns
+1177. [P3] Crosscheck that every single task in the consolidated queue has been completed
+1178. [P3] Design the Windows tool onboarding UX so it beats plain AI chat
+1179. [P3] Check whether the prioritization engine breaks down exactly as the variance critique describes
+1180. [P3] Train a skill bundle that constantly passes Pangram using backpass and jev
+1181. [P3] Improve salaryindex.ng know-your-worth with CV matching and pay-scale ranking
+1182. [P3] Add the incentives feature to the leverage tool so the decider also bears the consequences
+1183. [P3] Add Kahneman's biases, network theory and incentives as foundational frameworks in every app
+1184. [P3] Find and map the best researched frameworks for the full CFT Sequence inputs
+1185. [P3] Expand the Matzner Test deal-screening scorecard until it is exhaustive
+1186. [P3] [new-opportunity] Create the full end-to-end AI consultant version for selling AI change programmes by business size
+1187. [P3] Use levels.fyi, Blind and Glassdoor-style sites as data sources for negotiation features
+1188. [P3] Build the advanced deploy router putting every platform CLI into one tool with openship
+1189. [P3] Build the one-click Chrome bundler and deploy tool
+1190. [P3] Evaluate knowledge-graph systems to close the QMD wiki limitations, starting with Supermemory
+1191. [P3] Install Supermemory on Antigravity, make a desktop binary and build out all UI surfaces in the spec
+1192. [P3] Ask opencode for a detailed granular breakdown of the end-to-end job hunting process
+1193. [P3] Wire supermemory with jev entity and fact extraction plus connectors
+1194. [P3] Clear out the LinkedIn Sales Navigator with Omoalhaja
+1195. [P3] Set up a quick social media automation process and accounts on reddit, threads, Bluesky and IG
+1196. [P3] Run a quick SEO audit and improvement on my sites using seoo.tools
+1197. [P3] Replicate the new QMD knowledgebase features into the zvec-grep based knowledgebase
+1198. [P3] Complete a deep read of all current, valid and core chats and flag every issue
+1199. [P3] Merge everything accurately, deleting nothing, fitting each component into its right slot
+1200. [P3] Unify everything into one systematic architecture with structures applied the same everywhere
+1201. [P3] Borrow all the QMD user and control planes for job-hunting
+1202. [P3] Finish setting up the Gemini Pro account in opencode
+1203. [P3] Finish the bandwidthguard internet management chat
+1204. [P3] Run the video pipeline: project specs, ICP, video types, script templates, character maps, videos
+1205. [P3] Build the real-time relationship review system that maps issues and proposes a plan
+1206. [P3] Later add job and opportunity matching with editable scoring files per user
+1207. [P3] Find whether the full history of all notes can be exported from Simplenote
+1208. [P3] Ask Gemini and Claude for the websites and directories that list VC and startup funding
+1209. [P3] [new-opportunity] Study the Hermes user-stories page for automations to copy and package as paid apps
+1210. [P3] Explain in simple English how question batteries are created in production, not by hand
+1211. [P3] Improve OptMem with Hindsight, comparing it to QMD, zvec-grep KG and other learning systems
+1212. [P3] Turn job hunting into a game called career life with real profiles, jobs and interview questions
+1213. [P3] Use the 12 levers framework as the sole framework for a simple AI agent and my first therapist bot in LagosLife
+1214. [P3] Find or build a site comparing GLP-1 prices across 100+ providers
+1215. [P3] Build the therapist bot in LagosLife with a Twitter account that quotes people with viral responses
+1216. [P3] Extend the tool to crawl and scrape all tweets of my account and of third-party accounts
+1217. [P3] Add every VC fund at or below $200M as a source for the funding pipeline
+1218. [P3] Add thousands of connectors and phone app control to the mobile prioritization engine assistant bot
+1219. [P3] Use my decision engine to power AI bots that run fairly complex companies
+1220. [P3] Build an open intelligence platform on the AHPAS red-teaming engine, starting from god's eye
+1221. [P3] Fill the missing link in my suite of marketing tools and systemise generating more
+1222. [P3] Turn every one of my apps and projects into AI bots that are personas in LagosLife
+1223. [P3] Build the article writing tool for career posts and case studies, searching all my notes for prior work
+1224. [P3] Copy the local newsletter concept that was rolled out to 900+ cities
+1225. [P3] Ask whether Opus 5.5 with Blender can meet the architecture need and fully replace Revit
+1226. [P3] Begin playing around with semantic twitter search from my old prompts
+1227. [P3] [new-opportunity] Gather the software rewriting case studies into one system and offer it to small and medium companies
+1228. [P3] Add Tomo-style interest groups to my personal apps: crawl groups and forums, join them, act as assistant
+1229. [P3] Add a deep dive on social networks to the moats work: group types, why they form, how they form
+1230. [P3] Integrate the ponytail and simple-english plugin concepts into cold-email and the other tools
+1231. [P3] Rewrite the audio modulation app in Rust with a local tiny jev model for sub-5ms reaction
+1232. [P3] Brainstorm and define the rollback system for the automated protocol
+1233. [P3] Develop tests and evals comparing AI natural-language search with the semantic search module
+1234. [P3] Investigate why today's hiring_bookmarks search returned far fewer tweets
+1235. [P3] Read the 12-forms distillation chat and compare it with my ahpas and decision-engine systems
+1236. [P3] Compare OpenAI's generative UI to my openclaw desktop app design and borrow ideas
+1237. [P3] Apply the Fork-and-Flush technique to my Autoresearch agents
+1238. [P3] Build the ultimate search tooling stack with last30days, science search, grilling and QMD
+1239. [P3] Build bestmodelpicker on top of freellmapi as a benchmark-based auto-router
+1240. [P3] Combine the two Google threads into the japa/immigration consulting AI agent sessions
+1241. [P3] Expand money-system.md from current system into a much more advanced, systematic money system
+1242. [P3] Bestmodelpicker: execute full 5-step plan (deep understanding/red-team, provider list, decompose single HTML into codebase, cloudflare crawlers, redesign)
+1243. [P3] Decision software: design prioritization app effort estimation (personalized effort model from all user data traces)
+1244. [P3] Bestmodelpicker: add OpenRouter share-of-spend as switchable alternative quality parameter
+1245. [P3] Job-hunting plugin: final pass with latest Hermes changelog (superseded features + new features to adopt)
+1246. [P3] Career-paths system for influencer/streamer/talent/blue-collar careers (check O*NET coverage first)
+1247. [P3] Red-team all projects with Gemini Argon (hostile adversarial, one project at a time: all AI chats, source_repos, unrepod project folders)
+1248. [P3] Bestmodelpicker: systematically integrate features/data from listed repos and websites (most coverage first)
+1249. [P3] Bestmodelpicker: integrate all benchmarks incl. knowledge-work and community-created ones, with a user signals tab
+1250. [P3] Explore tardigrade repo for RL task building (fork/rewind world state to find model failure modes)
+1251. [P3] Refactor and beef up search systems and build necessary scrapers
+1252. [P3] Go through 61+ bestmodelpicker issues
+1253. [P3] Create eval set with minimum floor, then evaluate best Pareto-optimal model under budget for highest intelligence gain per price
+1254. [P3] Build scraper that digests daily morning technique blogs (Hi_Mrinal idea)
+1255. [P3] Design master brainstorm-executor pairings across plans, harnesses and API costs (token usage limits estimates)
+1256. [P3] Analyze Jev-RAG-Claim-Verification dataset usecases
+1257. [P3] Add newsjack.sh to marketing tools
+1258. [P3] Do the Claude AI courses to set up Claude like Doc Neto
+1259. [P3] Search all bookmarks for tweets/links on YouTube AI courses and AI agent videos
+1260. [P3] Find a way to parse YouTube videos for the video transcriber
+1261. [P3] [new-opportunity] Apply for Tech sales job role
+1262. [P3] Compile list of all job roles for viecoders
+1263. [P3] [new-opportunity] Build the console set for every app
+1264. [P3] Show the exact model used on every response
+1265. [P3] Try oh-my-openagent as the OpenCode orchestrator
+1266. [P3] Decide whether lookback runs on user machines or central storage
+1267. [P3] Check that the custom system prompt system controls every parameter
+1268. [P3] Correct the website design system prompt with Claude
+1269. [P3] [new-opportunity] Use OpenMontage as the first video tool on the free APIs
+1270. [P3] [new-opportunity] Map how much finishing each existing GitHub project needs
+1271. [P3] Ask Codex how to optimise the Windows system safely
+1272. [P3] Collate all API gateways and inference providers
+1273. [P3] Repeat the input parameter correction in the FreeLLMAPI config patch
+1274. [P3] Map how to find accounts with specific profiles in the Twitter scraper
+1275. [P3] Check whether lists, communities and groups can be searched the same way
+1276. [P3] [new-opportunity] Build the movie survey and recommendation tool
+1277. [P3] [new-opportunity] Build the local government bid request dashboard
+1278. [P3] Export AI chats and generated files for portfolio update
+1279. [P3] [new-opportunity] Build the local-first App Store keyword tracker and ASO copilot
+1280. [P3] Add back the save guide button
+1281. [P3] Add ROAS budget switcher to the prediction market chart
+1282. [P3] [money-machine] Move the 'api calls saved' details to backend logs and remove the frontend bar
+1283. [P3] Fix the invoice quantity fields so every digit can be deleted
+1284. [P3] [money-machine] Add a PDF download button to the comparison table
+1285. [P3] Finish the pending xbrowser task
+1286. [P3] [money-machine] Refine save logic so 'Result saved' shows only after a successful write
+1287. [P3] [money-machine] Add a Clear All Logs button in the Logs tab (Developer mode)
+1288. [P3] Whitelist Amara's bot as the Personal Assistant bot
+1289. [P3] [money-machine] Use Mimo for manual testing of the prediction market app
+1290. [P3] Create the Threads account
+1291. [P3] [started] Scour GitHub for AEO/GEO skill bundles to add to the SEO ahrefs-copy tool
+1292. [P3] Install the official typesafe-ai skill to use jev in existing projects
+1293. [P3] Use Artificial Analysis for all benchmark needs
+1294. [P3] Fix the slow performance
+1295. [P3] Add MTN to opencode after finishing the grilling set, then refactor and add jev
+1296. [P3] Create a crawler for bestmodelpicker using jev and cloudflare
+1297. [P3] Bookmark every one of the ten books that build liking, trust and listening
+1298. [P3] Buy a new phone charger, the current one is dying
+1299. [P3] Build a quick agent that reads notes and emails and adds items to the google calendar
+1300. [P3] Use the Mitchell Keller approach to revise the industry sourcing engine
+1301. [P3] Email the Condia editor about AI in Africa coverage
+1302. [P3] Go back through every listed book to find more that apply to the internal mode
+1303. [P3] Apply the affiliate program security provisions
+1304. [P3] Study all the proactive features of the tag and mention agents, collating the list
+1305. [P3] Add the ideas tab that surfaces highly rated ideas from the user's demographic
+1306. [P3] Learn when each axis triggers rather than on every search
+1307. [P3] Check whether the platform can handle tweets, threads, reddit, telegram, discord and AI chats as source material
+1308. [P3] Add the v1.0 specs to the redteaming context folder alongside the other spec collections
+1309. [P3] Revisit the Annex's self-review reasoning and separate the two rationales
+1310. [P3] Cite the calibrated one-in-four caution wherever decision_stress_test output is shown to a human
+1311. [P3] Write the full unabridged version as its own separate document
+1312. [P3] Absorb the second option into §4.10's general layer and add a way to solve the discoverability problem
+1313. [P3] Split the document into two files now (Physical Services and Org People Ops)
+1314. [P3] Close the cookbook-pattern gap in the spec
+1315. [P3] Add the scale performance metrics tables to the spec
+1316. [P3] Write §10 Conclusion with the mission and philosophy
+1317. [P3] Decide the code-in-specs question so Appendix D can move forward
+1318. [P3] Illustrate the whole process with a complete worked example
+1319. [P3] Make the combine tool fetch READMEs of all forks and auto-update on a cron
+1320. [P3] Use jev to search all bookmarks for new job and hiring websites and append them to a growing list
+1321. [P3] Proceed on to the Google Flow videos task
+1322. [P3] Add short pop-up descriptions of each source and the types of things it provides
+1323. [P3] Use NAICS to list every single physical business sector
+1324. [P3] Find more free TikTok slideshow templates
+1325. [P3] Build a more advanced web design building tutorial; the current format is okay
+1326. [P3] Connect the salary index site's data for some interesting data
+1327. [P3] Add the daily evening ranting session that constantly realigns me to what is most important
+1328. [P3] Grab all the notes on each subsequent project and work the design out with Snow Bunny
+1329. [P3] Decompile that plugin and add it to the job-hunting plugin
+1330. [P3] Turn the Paul Graham article into a startup list checker of all components that should be in my startup
+1331. [P3] Add a direct WHY and HOW reason to every hypocrisy callout in the hypocrisy bot
+1332. [P3] Translate the jev code outputs from the test runs into a simple English report
+1333. [P3] Install the TypeSafe skill
+1334. [P3] Add the tool lookup cascade rule: check projects, then forks, then note links, and only then web search
+1335. [P3] Expose every user setting through WhatsApp or Telegram in opportunity-desk
+1336. [P3] Ask AI what it thinks of Cloudflare's pi-durable as the new agent harness for all my projects
+1337. [P3] Let users add their own cold email template and customise the email format
+1338. [P3] Add the writing style function to the 12 reasons therapist bot
+1339. [P3] Check whether the red-teaming framework distillation method also works for distilling tweets
+1340. [P3] Then slowly start arranging my context files
+1341. [P3] Add a toggle to focus the tool on spec docs and AI chats rather than the codebase
+1342. [P3] Estimate the WhatsApp message usage for every step so the combined system stays inside the Kapso free limit
+1343. [P3] Turn that module into a scheduled twitter search feature, running say every week
+1344. [P3] Have the Claude animations reviewed against John Lasseter's principles of animation
+1345. [P3] Decide whether to crawl all of LinkedIn, and find whether massive LinkedIn datasets already exist
+1346. [P3] Keep a collated list of all my frameworks and apply it to every project
+1347. [P3] Tell the models not to write unit tests, to make wikis instead, and to save the work as a skill
+1348. [P3] Change how agents crawl all my websites from now on, using my Chrome session
+1349. [P3] Decide whether personal_context needs a regularly updated wiki and pick a cheap tool
+1350. [P3] Check whether the cold-email tool covers an 'invent your role' feature and add the tweet list
+1351. [P3] Create cold-email template profile for connection/mentorship/networking pitches (not selling)
+1352. [P3] Search fork_readmes/notes/bookmarks for twitter cookie/token auto-capture projects
+1353. [P3] Evaluate whether project designs are over-scaffolded for newer smarter models
+1354. [P3] Read Space Bunny tips thread on r/opencode
+1355. [P3] Add freellm.sh providers/models and related free-AI repos to bestmodelpicker provider list
+1356. [P3] Crawl twitter for advice on applying to YC and rank tips
+1357. [P3] Add experimental.ai APIs to evaluation list
+1358. [P3] Cold-email: apply deliverability rule (under 1% reply with OOO = deliverability problem, 1-15% positive = offer problem)
+1359. [P3] Add careerswithmary interview-gauntlet and inclusivelyremote to opportunity_desk
+1360. [P3] Later: crawl all tweets, distill views on women and relationships into a counseling bot
+1361. [P3] Open Hermes desktop and test whether it is working
+1362. [P3] Build cold-email deliverability diagnostics using OOO and positive-reply thresholds
+1363. [P3] Disable the EdgeUpdate services
+1364. [P3] Check whether the DoSvc service can be safely disabled
+1365. [P3] Collect Codex tips from Twitter day by day
+1366. [P3] [new-opportunity] Check whether LightPost can replace postiz for the unified comments/DM inbox
+1367. [P3] [new-opportunity] Specify the unified inbox: centralize comments, DMs and quotes from all apps with AI ranking and auto-answers
+1368. [P3] Fix the two notepad++ items with glm-uncensored
+1369. [P3] Download the Black List and Blood List movies to watch
+1370. [P3] [new-opportunity] [value] Get pangram-humanizer free or fund the $20/mo subscription (last piece of cold email, enables Japa/scholarship essays)
+1371. [P3] [new-opportunity] [value] Set up the two VA engagements: $15/hr and $10/hr, 20 hours each per month
+1372. [P3] [new-opportunity] [value] Apply the bookmarked zainab_ayoo technique: list high-fit freelance roles with exact step-by-step application instructions
+1373. [P3] Build movie recommendation tool from bookmarked lists
+1374. [P3] Finish the image input test
+1375. [P3] Repeat the image test for FreeLLMAPI
+1376. [P3] Collate saved Wikipedia articles into a ranked movie and TV graph
+1377. [P3] Add tested free APIs to freellmapi
+1378. [P3] Troubleshoot freellmapi errors using Antigravity trace comparison
+1379. [P3] Check for existing automation or scripts that find jobs, opportunities and mercor-type AI gigs on twitter
+1380. [P3] Compare job-hunting stage 1 and its Hermes twitter search with opportunity_desk and twitter_scrapers to find duplication
+1381. [P3] [new-opportunity] Market the dating calculator on Twitter via the twitter tool (percentile ranking of user and partner characteristics)
+1382. [P3] Talk to more people to expand network
+1383. [P3] Send more DMs to build relationships
+1384. [P3] Ask for help when needed
+1385. [P3] Work on founder video: collect motion-video tweets and asset resources
+1386. [P3] Collect lead source tweets and articles for TAM company discovery
+1387. [P3] Add session check, mattpocock code reviews, implicit state prompts and a security audit to both tools
+1388. [P3] Connect personal_context to job-hunting to generate the full starbank
+1389. [P3] Redownload and update the twitter projects and fetch all new readmes with github-pia
+1390. [P3] Copy the competitor's whole design as screenshots and PDF in Google Drive
+1391. [P3] Clean up the whole site, general and admin
+1392. [P3] Buy the cockroach powder, pack of rubber bands and three earphones
+1393. [P3] Run job-hunting plugin as-is in opencode and see how well it runs
+1394. [P3] Run job-hunting plugin in hermes today and capture the current error message
+1395. [P3] Collect AliExpress items and get the fan cord, both chargers and fan port fixed at Konwei
+1396. [P3] [new-opportunity] Add shipping price field to shopping cart and order page modules
+1397. [P3] [new-opportunity] Add BM25 and advanced search bars to product catalog and internet catalog pages
+1398. [P3] Find what is using excess data (nvidia API, opencode/deepseek, or chrome)
+1399. [P3] Have agents track all decisions in a file with provenance
+1400. [P3] Download all of Gregisenberg's video tutorials
+1401. [P3] Apply STAR/PREP/BLUF/AIDA speaking frameworks to decision engine, strategy engine, and general purpose apps
+1402. [P3] Try out deepseek, glm 5.3, kimi 3.1 and other models on Nvidia NIM
+1403. [P3] Redesign all PDF exports to look more polished and classy
+1404. [P4] [value] Run the four deep-research dossiers for human profiling
+1405. [P4] [value] Build the TikTok price comparison overlay app
+1406. [P4] [value] Start the workflow builder from the linked fundamental guide
+1407. [P4] [new-opportunity] [value] Build the friendship/anti-loneliness agent MVP as an agent-skills file
+1408. [P4] [new-opportunity] [value] Resurrect the open-source install-and-deploy service for clients
+1409. [P4] [money-machine] [value] Design the SolarSizer 'I want to buy AC' electronics sizing module
+1410. [P4] [money-machine] [value] Modify the nothing-ever-happens bot: default No, arbitrage filter, port to faster language
+1411. [P4] [value] Design the crypto hack tool and collate a 1000-hack corpus
+1412. [P4] [value] Finish the complete knowledgebase search system
+1413. [P4] [money-machine] [value] Find or crawl a punter Telegram archive to catalogue bet formats
+1414. [P4] [money-machine] [value] Build a commits and PR watcher for chosen repos and accounts
+1415. [P4] [new-opportunity] [value] Build the AI personal talent agent for working people
+1416. [P4] [value] Set up the NotebookLM operations manager
+1417. [P4] [value] Build the business pack of per-document skills
+1418. [P4] [value] Adopt the human-simulation methodology for simulating people
+1419. [P4] [value] Set up the pdf-extract to notebooklm pipeline for Chinese literature
+1420. [P4] [value] Create the per-document system for the 17 documents
+1421. [P4] [value] Make the grilling skill research instead of asking when appropriate
+1422. [P4] [money-machine] [value] Add upswing component-sourcing strategies to the strategy builder
+1423. [P4] [new-opportunity] [value] Build the full AI consultancy website
+1424. [P4] [value] Completely merge job-ops and Hermes
+1425. [P4] [value] Migrate the old n8n automations (amara, bougo, aunt ngozi) into Hermes Agent skills/plugins
+1426. [P4] [money-machine] [value] Build the interactive demo generator that shows the full workflow for each prospect company
+1427. [P4] [value] Convert the full system into an expandable Hermes plugin (obscure internal names, build onboarding)
+1428. [P4] [money-machine] [value] Build the gated page showing full profile, outputs and reasonings for marketing replies
+1429. [P4] [money-machine] [value] Build the VA prototype from proactive agents and the workflow builder
+1430. [P4] [money-machine] [value] Add the what-can-you-teach module to job hunter
+1431. [P4] [value] Build the what-did-i-do-today system with proactive improvement suggestions
+1432. [P4] [money-machine] [value] Build the office politics feature for job hunting
+1433. [P4] [value] Add autoresearch to every tool including the twitter automation bot
+1434. [P4] [money-machine] [value] Expand the side gig support feature for leads, marketing and artifacts
+1435. [P4] [value] Combine pi-agent, grokbot, and 3,000+ integrations into the AI therapist
+1436. [P4] [value] Evaluate Jev against every project with the 100x prompt
+1437. [P4] Build the GitHub search tool
+1438. [P4] Expand the prioritization agent to the whole Gbera use case
+1439. [P4] [client-job] Create proxy metrics from the sourcing search entities
+1440. [P4] Set up OpenRouter + LangFuse observability for OpenClaw
+1441. [P4] [money-machine] Build the vendor gift-curation consultant plugin
+1442. [P4] Adopt the Nano-Banana image-first UI generation process
+1443. [P4] Train a model on the 200 African writer series for Nigerian style
+1444. [P4] Build an African history dataset from the history books
+1445. [P4] Add portfolio folders, tags and search to AdAdvisor analyses
+1446. [P4] Add user account authentication and settings pages
+1447. [P4] Let users add custom video style and script templates
+1448. [P4] Auto-populate CPM and other inputs via crawling and APIs
+1449. [P4] Make the prediction market strategy builder capable of replicating the quant tutorial
+1450. [P4] Search bookmarks, Reddit and GitHub for advanced Perplexity Computer setup material
+1451. [P4] Auto-categorize added products and fill their card details with AI
+1452. [P4] Build the auto-generated product calculator system
+1453. [P4] [new-opportunity] Mine PLC financial reports for a non-core line item above 10bn to build a business on
+1454. [P4] Do a deep comparison of superpowers versus Context-Engineering
+1455. [P4] Evaluate MiroFish-Offline for the dating app profiling system
+1456. [P4] Add a performative-men matching option to the dating app algo
+1457. [P4] Research parsing sexual preferences and prowess from advanced profiling
+1458. [P4] Add marriage-stage competency matching (Husband Competency Taxonomy and tests)
+1459. [P4] Build the sharing marketplace with a deep-dived ranking system
+1460. [P4] Make the relationship-maintenance workflow fully customizable
+1461. [P4] [money-machine] Track and catalog when a gift pain point is solved
+1462. [P4] [money-machine] Map pain points from public profiles and social media instead of chats
+1463. [P4] [money-machine] Detect what the user already has or does and suggest it for pain points
+1464. [P4] Run the remaining three tool comparisons (claw copies, hostings, automation vs IDE vs agents)
+1465. [P4] [client-job] Detail the NAICS to NOC/SOC to O*NET methodology
+1466. [P4] [client-job] Find all essential-services lists and collections in North America
+1467. [P4] [client-job] Deep search for better capital-intensity methodologies
+1468. [P4] [client-job] Decide if scraping and browser automation are required for the sources
+1469. [P4] Take the beyondvibecode course and learn vibecoding properly
+1470. [P4] [client-job] Research which APIs and steps Google Maps can replace in the Sourcing Engine
+1471. [P4] [client-job] Write the O*NET Physicality Index script for AI-resistance scoring
+1472. [P4] [money-machine] Build the X/Twitter bookmark processing pipeline (repair, dedupe, enrich, chunk)
+1473. [P4] Search past chats for deterministic measurement methods for the comparison tool
+1474. [P4] Promote the GitHub search tool by auditing top open source projects for improvements
+1475. [P4] Read 5-Whys research to improve the 5-Whys process
+1476. [P4] Finish the thread on using the GitHub comparison tool to analyze job applicants
+1477. [P4] Redesign coach training as node-based workflows, then port it to the prediction market builder
+1478. [P4] Run the remaining agent comparison write-ups (workflow builders, VA platforms, coding agents)
+1479. [P4] Use the GitHub search tool as an agentic code review system measuring token efficiency
+1480. [P4] [money-machine] Build out the cold DM strategy (targets, access, and message content)
+1481. [P4] Auto-improve unit, integration and E2E tests written by the coding agents
+1482. [P4] [client-job] Search the Twitter likes archive for lead, enrich, gtm and google maps process keywords
+1483. [P4] Brainstorm full design for 'why does this matter to me' chrome extension (rewrites article examples/analogies to user's profile)
+1484. [P4] [money-machine] Add intermittent pulsing options to load profile time ranges
+1485. [P4] [money-machine] Build the MVP simple mode of the strategy mega feature first
+1486. [P4] Implement the client project flow from functional requirements to n8n development
+1487. [P4] Research when to use Auto-research versus DSPy
+1488. [P4] Build the nude-photo head-blur overlay app
+1489. [P4] Host a bot that regularly logs into free tier accounts to keep them alive
+1490. [P4] Build the AI token usage developer productivity measurement tool
+1491. [P4] [money-machine] Ship mobile apps download-ready from the websites before paid store accounts
+1492. [P4] [money-machine] Add quality gates to solar hardware items
+1493. [P4] [money-machine] Take the troubleshooting feature into Stitch and beautify it
+1494. [P4] [money-machine] Collect year-long usage data from users in each region
+1495. [P4] [money-machine] Add quality metrics fields to the hardware tab
+1496. [P4] [money-machine] Train the advisor model on real audience behavior data
+1497. [P4] [money-machine] Find the 5555 version with load profile exports
+1498. [P4] [money-machine] Add a /healthz route and update the UptimeRobot monitor
+1499. [P4] Add site exclusion and site-type categories to wdtmtm
+1500. [P4] [money-machine] Build the looksmatch Twitter promo for the dating app
+1501. [P4] [money-machine] Add future seller and product fields to solar sizer
+1502. [P4] Add easy-to-use UIs to the AI engineers projects
+1503. [P4] Use Unsloth to train models quickly
+1504. [P4] Turn all past work and AI chats into case studies and content
+1505. [P4] Chat with AI about picolm for smaller-RAM embedded models
+1506. [P4] [money-machine] Compare Synthdata to Monte Carlo for prediction market builder
+1507. [P4] [money-machine] Launch WhatsApp and Telegram groups with AI reply bot
+1508. [P4] [money-machine] Find service companies to partner for upgrades
+1509. [P4] [money-machine] Add the content system to solar sizer once perfected
+1510. [P4] [money-machine] Use AI UI guides for freezer and cooling page elements
+1511. [P4] [money-machine] Build the quick Netlify frontend website
+1512. [P4] [money-machine] Record and post YouTube videos of app usage
+1513. [P4] Build newer forwarding job types
+1514. [P4] [money-machine] Create the ultra advanced solar calculator for corporate users
+1515. [P4] [money-machine] Automate dynamic product pricing with monthly margins
+1516. [P4] Abstract solar website prompts for reuse on other projects
+1517. [P4] [money-machine] Build the personas and load profiles research system
+1518. [P4] [money-machine] Crawl biohacking guides into a QMD hybrid search tool
+1519. [P4] [money-machine] Set up page monitoring for peptide supply changes
+1520. [P4] [new-opportunity] Build the Angela therapist orchestrator plan
+1521. [P4] Add Karpathy knowledge graphs to all search and memory systems
+1522. [P4] Extend the PR Chrome extension with advanced dashboard
+1523. [P4] Build the token management app
+1524. [P4] [money-machine] Add day plans suggestion to the usage calculator
+1525. [P4] Make qmd search crawl all detected links
+1526. [P4] Add the writer filter tool to every AI agent and app
+1527. [P4] Change app dev process so all copy is done before design
+1528. [P4] Write the three condensed 5-Whys system prompts
+1529. [P4] [money-machine] Research combining multiple inverters and multiple batteries in one setup
+1530. [P4] Abstract the SolarOne design system for reuse on any website
+1531. [P4] [money-machine] Research AI voice models and NotebookLM podcast pipeline for the audiobook product
+1532. [P4] Test the Stitch design system by breaking the prompts into parts
+1533. [P4] Create a rubric mapping projects to RL vs DSPy/GEPA vs autoresearch
+1534. [P4] Compare RLMs to my AI chat parser
+1535. [P4] [new-opportunity] Create the learning-plan skill.md and system prompt
+1536. [P4] Find bird-cli forks or full access and adapt it
+1537. [P4] Add writing-style and de-slopify filters to the TR content automation
+1538. [P4] [money-machine] Scrape all of Upwork for jobs I could do if I upskill
+1539. [P4] Run before/after humanizer comparisons across Clever, DataRecoveryHelp and Blader options
+1540. [P4] Create an API for Clever Humanizer if none exists
+1541. [P4] Find all chat-export skills/plugins for Codex, OpenCode, Claude Code and other AI IDEs
+1542. [P4] Have the orchestrator develop a full sequential dev process end-to-end using the agents and skills
+1543. [P4] Build the AUTOSEARCH tool that surfaces relevant notes/tools while I work
+1544. [P4] Find one more security add-on (important for offices/corporate)
+1545. [P4] Build the Eval finder (find best benchmark, autoresearch, publish best version)
+1546. [P4] [money-machine] Add a composite provider score to Freeaifinder (count, price, intelligence)
+1547. [P4] Rework the Skills and AI artifact comparison tool with the new models
+1548. [P4] Build the tool finder and Constraints mapper agent later ($0-cost compendium)
+1549. [P4] Improve DeepSeek (and Hermes) tool calling
+1550. [P4] [money-machine] Add general model/provider comparison features and savings tables
+1551. [P4] [money-machine] Build post-weeding monitoring with 'i told you so' alerts into the date-matching agents
+1552. [P4] [money-machine] Track limited free promos/coupons in Freeaifinder with integration instructions
+1553. [P4] [new-opportunity] Build the EV calculator (BCWES-style scoring with Nigerian constraints)
+1554. [P4] [new-opportunity] Build the travel planner agent (chain-based routing plus dating layer)
+1555. [P4] Check each Hermes ability against every project during builds
+1556. [P4] Test whether vanilla LLMs can parse huge conversation histories or need RLM-type techniques
+1557. [P4] Evaluate turbopuffer as the vector database for all my projects
+1558. [P4] [money-machine] Seed the Freeaifinder plugin with freellmapi and free-claude-code frameworks
+1559. [P4] Turn the quant speedrun course into an AI-built automation/app
+1560. [P4] Continuously track competitors for the strategy builders
+1561. [P4] [money-machine] Adapt the automated search tool to find underserved niches (ads, cold DMs)
+1562. [P4] [money-machine] Launch daily competitor deep-dive comparisons once the app is done
+1563. [P4] [new-opportunity] Build the devops path calculator (cheapest deployment stacks, IDE plugin)
+1564. [P4] [new-opportunity] Adapt the strategy bot into an AI financial planning tool (FIRE modes)
+1565. [P4] Reverse-engineer third-party APIs via browser traffic sniffing instead of crawling
+1566. [P4] [money-machine] Add a local-models section to Freeaifinder (size, RAM, tokens/s, install ease)
+1567. [P4] [money-machine] Add example-use-case FAQ and centralization choice to the GitHub tool
+1568. [P4] Start collating AI-agent trace tools and learning their uses
+1569. [P4] [new-opportunity] Create PM-style non-technical tutorials and guides for replicative agent skills
+1570. [P4] [money-machine] Build the 'Do we need AI for this?' tool (code-only workflow finder)
+1571. [P4] Build the hardware/cloud infra setup calculator for local hosting
+1572. [P4] Find Information Architecture guides and audit my skills for design/IA coverage
+1573. [P4] [money-machine] Design a system to dynamically find trading strategies online from Twitter, Reddit, Telegram and Discord
+1574. [P4] Build tool-based generators for the Mermaid map and labels
+1575. [P4] Polish the existing websites
+1576. [P4] [money-machine] Restore SolarSizer from the last sane pre-Cloudflare version
+1577. [P4] [money-machine] Create the company-valuation strategy builder
+1578. [P4] [money-machine] Add token budget scaling to the token cost plan
+1579. [P4] Install the chat saver in codex to export chat history
+1580. [P4] Find the Gemini chat on the PMSB node-system rationale
+1581. [P4] Audit 150+ skill files and MCP servers against recommended agents
+1582. [P4] [money-machine] Evaluate vibeproxy as the router plugin foundation
+1583. [P4] Map which projects need search and research functionality
+1584. [P4] Compare the research trifecta against the Industry Sourcing Engine
+1585. [P4] [new-opportunity] Build the price comparison overlay tool
+1586. [P4] [money-machine] Map all the places the negotiation tool can be used
+1587. [P4] Add the core-needs overlay to all projects
+1588. [P4] [money-machine] Expose all customisation points in Job-ops
+1589. [P4] [money-machine] Add file-extension selection to the GitHub crawler menu
+1590. [P4] [money-machine] Extract design.md files for Apexpunter and GitHub pia
+1591. [P4] Search GitHub for information architecture skill-file alternatives
+1592. [P4] Build a pipeline to extract annotations from saved PDFs
+1593. [P4] Create competitor analysis and market research skill files
+1594. [P4] [new-opportunity] Revisit the 201 automated business plan idea
+1595. [P4] [money-machine] Use models.dev as the base source for freeaifinder
+1596. [P4] [new-opportunity] Build the lawyer citation verifier
+1597. [P4] Make new chats search my notes before answering
+1598. [P4] Use skillsbench to solve skill-file selection
+1599. [P4] [new-opportunity] Build the opportunity cost AI bot
+1600. [P4] Add lite-llm routers to all top AI IDEs
+1601. [P4] Run the competitive analysis in both claude and opencode to compare
+1602. [P4] Run a recursive search to fill the CFS reasoning gaps
+1603. [P4] [money-machine] Build the Reatrutide website
+1604. [P4] [new-opportunity] Build the Taleb and Spitznagel AI consultant bot
+1605. [P4] [new-opportunity] Explore business brokering with the sourcing agent
+1606. [P4] [money-machine] Test the limits of the Trait-to-Node translation matrix
+1607. [P4] [money-machine] Add a self-hosting cost formula to freeaifinder
+1608. [P4] [money-machine] Collect the Job-ops marketing materials
+1609. [P4] Verify the opencode revert and find yesterday's first prompt
+1610. [P4] [new-opportunity] Build the Duolingo for socializing bot
+1611. [P4] Add random-time knowledge tests to all learning tools
+1612. [P4] Try the Hermes Mixture of Agents feature
+1613. [P4] [money-machine] Evaluate salaryindex as a negotiation tool data source
+1614. [P4] Export the writing style from social media, emails and chats
+1615. [P4] [money-machine] Add provider quality verification to freeaifinder
+1616. [P4] [money-machine] Map delfrasco's industry, tasks and AI-agent needs
+1617. [P4] [money-machine] Retrofit Job-ops for assessing job applicants
+1618. [P4] Merge the v4, v5 and v6 PRD documents in sequence
+1619. [P4] [new-opportunity] Build the property-evaluation website with OSINT area research
+1620. [P4] [new-opportunity] Build the price comparison app
+1621. [P4] [new-opportunity] Build the deep background-check tool for dating
+1622. [P4] Compare all the model and agent optimisation options in Claude
+1623. [P4] [new-opportunity] Build the job role opportunity tracker
+1624. [P4] Add the thread-to-strategy converter feature
+1625. [P4] Convert the marketing plan n8n workflows into a skill-based app
+1626. [P4] Decide the scraping approach for Reddit and Meta over API tokens
+1627. [P4] Build the email agent on inbox-zero
+1628. [P4] Make job-ops meet the linked job-search standard end to end
+1629. [P4] Collect tools for auto-training smaller models
+1630. [P4] Build the freelance gig application features
+1631. [P4] [incoming-window] Apply my projects to hackathons, angel funds and VCs
+1632. [P4] Extract techniques from AI Erdos-solving projects into 5-whys
+1633. [P4] Expand the psychometric work in Qwen
+1634. [P4] Revamp the gift recommender's needs profiling
+1635. [P4] Integrate agent-flywheel orchestration into the 5-whys process
+1636. [P4] Build the media training tool for the PR extension
+1637. [P4] [money-machine] Abstract the solar sizer algorithms into a dynamic pricing engine
+1638. [P4] Design the skill-level dictionaries and job-title graph
+1639. [P4] Build career-trajectory scanning from LinkedIn profiles
+1640. [P4] Deep dive ESCO, ONET and the skills data models
+1641. [P4] Add the negotiation tool to the master plan
+1642. [P4] Combine papercuts.jsonl with session exports every two weeks
+1643. [P4] Run the Kimi harsh architecture revision on all projects
+1644. [P4] Add the linked component to Freeaifinder
+1645. [P4] Implement the finalized two-round interview process (no-AI round, AI project round) in job-ops interview tools
+1646. [P4] Compare the linked LLM router designs with my eval desktop sticky app approach and pick the best of both
+1647. [P4] Add an inflation-adjusted view of the mortgage payment burden over time to the housing model
+1648. [P4] Build the two AI bots: Interceptor and the AI relationship bot
+1649. [P4] Create a deep, non-gameable psychological savings-discipline test for the housing tool
+1650. [P4] Model job and income insecurity (unemployment risk) using work history, like mortgage lenders do
+1651. [P4] [money-machine] Retrofit job-ops for scholarship and visa (japa) applications once it is done
+1652. [P4] Make all projects international from day one (local platform sources, local language translations)
+1653. [P4] Explore reports of Hermes, OpenClaw, Codex and Claude Code used for voice marketing calls
+1654. [P4] Create the interviewing tool by combining prompt 5 with grill-me-with-docs
+1655. [P4] [money-machine] Create the N30k tutorial package for all Hermes inbuilt features
+1656. [P4] Search my repos and online for more job-hunting skill files, workflows and templates
+1657. [P4] Compare Hermes self-improvement with Autoresearch (or a hybrid) and adopt the winner for the master plan
+1658. [P4] Do the web3 security work Mansa showed me
+1659. [P4] Add SearXNG and the tripartite search system (SearXNG, Camoufox) to replace Hermes default search
+1660. [P4] [money-machine] Build the 30k 'how to learn anything' plugin system with demo videos and comparisons
+1661. [P4] Add automated gift suggestions to the gift recommender (birthdays, life events, holidays, monitored factors)
+1662. [P4] [money-machine] Add sharing and network effects features across every point of the pipeline
+1663. [P4] Verify every point of Splendor's thread is integrated into the keyword, resume, cover letter and ATS skills
+1664. [P4] Coordinate all question bank research on the server using full QMD memory
+1665. [P4] [money-machine] Build the auto-trial marketing flow (week-3 add-on trial, then newsletter upsell reminders)
+1666. [P4] Build improved versions of every O*NET Center tool into Job-ops
+1667. [P4] Apply the self-improvement loop to security (track new vulns and prompt injections, patch constantly)
+1668. [P4] Build a separate case-study writing mode
+1669. [P4] Merge wayfinder into the career path planner and other skills
+1670. [P4] Plan the qmd scaling expansion for the growing STAR bank
+1671. [P4] Decide whether qmd and sqlite-vec cover disjoint corpora
+1672. [P4] List the suggested solutions for qmd's recency, urgency and importance gaps
+1673. [P4] Decide what OptMem supersedes in the current memory system
+1674. [P4] Solve the SQLite write throughput bottleneck
+1675. [P4] List every OpenRouter task intent classification with its top model
+1676. [P4] Add weekly laptop crawling to the memory bank for job ops
+1677. [P4] Run the xbrowser modification audit against the current base
+1678. [P4] Run the antagonistic comparison of wayfinder against my research tools
+1679. [P4] Create a career-focused simplified version of the inbox for job hunting
+1680. [P4] Expand the twitter tool postings to Reddit, Instagram and other platforms
+1681. [P4] Add a what-did-i-achieve-this-week feature to job hunting
+1682. [P4] [money-machine] Generate comparison articles for every tool against up to 100 competitors
+1683. [P4] Build the personal blog writing system on top of the career writing system
+1684. [P4] Build the central dashboard that routes any input to the right platform
+1685. [P4] [money-machine] Route the highest plan payments to Korapay instead of Paystack
+1686. [P4] Build the automated updater for all personal knowledgebases
+1687. [P4] List every end-to-end user flow for the docs and the demo
+1688. [P4] Build the network graph of every file, component, function and parameter
+1689. [P4] [money-machine] Factor the Selar affiliate program into social media marketing
+1690. [P4] [money-machine] Run a job-hunter instance over tweets and posts for factual outputs
+1691. [P4] Clean up the portfolio, LinkedIn and all other artifacts
+1692. [P4] [money-machine] Sell shared-VA service packages instead of selling VAs
+1693. [P4] Build money-making and adjacent-market mapping skills across all projects
+1694. [P4] Use the copywriting skills for all copy across projects
+1695. [P4] Learn static analysis and map all software metrics for user projects
+1696. [P4] Build the local laws and municipal codes alert bot
+1697. [P4] [money-machine] Apply all marketing and sales pipeline concepts to job hunting
+1698. [P4] Check whether rejected outputs and bad outcomes feed the self improvement loops
+1699. [P4] Build the reader extension that translates and explains complex pages
+1700. [P4] [money-machine] Extend career-path-planner to always search proactively from the user's state
+1701. [P4] [client-job] Build the AI music model for bougo's husband with blind tests
+1702. [P4] [client-job] Replace bougo's furniture business with AI-powered manufacturer concatenation
+1703. [P4] Run the unfuck skills then a hostile red team over the project and domain system
+1704. [P4] Switch modelapi to waterfall selection with the user's stated importance order
+1705. [P4] Replicate the WeaveOS code intelligence platform features
+1706. [P4] [money-machine] Build the trial email sequences with per-addon personalisation
+1707. [P4] [money-machine] Add intermittent in-chat ads for the remaining packages
+1708. [P4] [money-machine] Build the prediction market builder that replicates finance paper strategies
+1709. [P4] [money-machine] List exact services and features in the base packages and the 4 addons
+1710. [P4] Compile and compare every fix listed through the session
+1711. [P4] [money-machine] Use the Hermes inbuilt parsing as the first CV parsing step
+1712. [P4] Build the importance and marketing priority metric into the bookmarks tool
+1713. [P4] Try out the new Hermes plugin SDK
+1714. [P4] [money-machine] Build the recursive search framework for new opportunity types
+1715. [P4] [money-machine] Add manually curated posts for cold outreaches with later phone app pickup
+1716. [P4] Add weekly comparative project discovery to github-pia
+1717. [P4] Make xbrowser work on any platform and auto-run at every session start
+1718. [P4] Borrow the domain modeling skills to map industries before research
+1719. [P4] Add a tag system to the skill comparison tool
+1720. [P4] Compare individual skills, not just repos, in the skill comparison tool
+1721. [P4] Add the Chrome extension that injects skill scores and suggests better skills
+1722. [P4] Pass CDP (5-whys) through Codex for harsh red teaming and improvement
+1723. [P4] Retry linking Codex to a free OpenAI-compatible model via FreeAIFinder
+1724. [P4] Master Hermes Agent skill creation end to end
+1725. [P4] [money-machine] Build the deeper FreeAIFinder app
+1726. [P4] [money-machine] Redesign SolarSizer, gift recommender and adadvisor, and finish the AI therapist backend
+1727. [P4] [money-machine] Build the Twitter search Chrome extension
+1728. [P4] [money-machine] Begin marketing video generation with VEO 3.1 for the startups
+1729. [P4] [money-machine] Let signed-in calculator users store profiles, devices, analyses and quotes
+1730. [P4] [money-machine] Build the supplier crawler that auto-populates the hardware database
+1731. [P4] Start the blog using a GitHub AI writing tool plus the wdtmtm tool
+1732. [P4] Integrate Framework 2 into the hybrid framework and compare with the Claude framework
+1733. [P4] [money-machine] Generate card details, articles, comparison articles and hardware JSON from the tab specs
+1734. [P4] [money-machine] Add lead-acid support with warnings and comparison table, plus powerstation handling to the calculator
+1735. [P4] [money-machine] Adapt Prompt C to solar business website; turn solar calculator into SDK/API for central database use
+1736. [P4] Redesign, spec and implement all previously declined items
+1737. [P4] Do a deep dive on all Firecrawl features and identify which are free
+1738. [P4] Ask DeepSeek to build a lightweight Hermes that runs only on free models
+1739. [P4] [money-machine] Build the tweet virality pre-check and rewriter from the Twitter algorithm
+1740. [P4] Extract all agent chat sessions using the ai-data-extraction repo
+1741. [P4] Build the complete archetype taxonomy for the actor visual fit system
+1742. [P4] Generate deep fix techniques for Factor H general visual appeal
+1743. [P4] Generate deep fix techniques for the serious problem
+1744. [P4] [money-machine] Investigate why many models have infinity ratio values
+1745. [P4] [money-machine] Add fields to keep the picks or select your own brainstorm and execution models
+1746. [P4] [money-machine] Build the IDE plugin that tracks monthly usage against the chosen mix
+1747. [P4] [money-machine] Build the corporate eval feature that ranks the cheapest sufficient provider plans
+1748. [P4] Combine the evals-skills approach with Matt Schumer's tool
+1749. [P4] [money-machine] Rewrite all setting and parameter descriptions in plain language
+1750. [P4] [money-machine] Add brainstorm runs table with a token-per-run override
+1751. [P4] Try the locally hosted Colab video setup for TikTok
+1752. [P4] [money-machine] Build the full Remotion product video tool
+1753. [P4] Add full trace analysis and export of every generated output
+1754. [P4] [money-machine] Add deep intention mapping to the VC/high-value person analysis
+1755. [P4] [money-machine] Make salary and other settings per region
+1756. [P4] Go through bookmarks and follows for website-to-API and browser automation tools
+1757. [P4] Do a total clean and fresh reinstall of the skills bundle
+1758. [P4] [money-machine] Build the free tier hunter feature for the costing system
+1759. [P4] Use bookmarked site-building tweets as keywords to find more tutorials
+1760. [P4] [money-machine] Add optional average daily token fields for execution and brainstorm models
+1761. [P4] [money-machine] Show compact budget-coverage tables for the top brainstorm and execution picks
+1762. [P4] [money-machine] Make the runbook emit actual IaC (Terraform/Compose) from the final stack
+1763. [P4] [money-machine] Use qmd fully for the tool's ingestion and retrieval system
+1764. [P4] Explore autonomous tech-stack improvement using pi-autoresearch
+1765. [P4] [money-machine] Add the bookmarked methods to the cold outreach bot
+1766. [P4] [new-opportunity] Turn the dating/relationship rants into YouTube and TikTok stories
+1767. [P4] Add unlazy and port the Matt Pocock skills to Hermes agent
+1768. [P4] Build the lash out preventer variant of the PR tool for messaging platforms
+1769. [P4] Expand the all-messages collector with tiered notifications and a nuclear option
+1770. [P4] Copy Stanley's features into the Twitter tool
+1771. [P4] Make the casting tool fully language agnostic for cross-language casting
+1772. [P4] Apply the casting tool's measurement approach to analysing porn movies
+1773. [P4] Set up TikTok accounts with Hotmail addresses instead of phone numbers
+1774. [P4] Collate all graph tools and evaluate them for job-hunting-hermes and the Twitter tool
+1775. [P4] Build the workflow builder with two grilling agents plus a judge on preset constraints
+1776. [P4] Build the separate full pitch variant of job hunting
+1777. [P4] Build the open-ended money making opportunity search system
+1778. [P4] [new-opportunity] Build the AI hedge fund using the bookmarked open-source Grok bots
+1779. [P4] Add dynamic top bars showing the most used AI plans
+1780. [P4] Add a section with top picks plus second to fifth best picks
+1781. [P4] Build the batch social network graph scraping feature for the dating app
+1782. [P4] Note all the current reinforcement learning and AI model training companies
+1783. [P4] Back up appdata/job-hunter and install the CLI before the RAM upgrade
+1784. [P4] Build the research-papers app with a proactive Hermes-style agent
+1785. [P4] Solve when to mark voice user input as done for streaming voice models
+1786. [P4] Use skill evaluator to extract design details from app design directories
+1787. [P4] Acquire and index complete social profile data on a billion-plus people
+1788. [P4] Add matchmaker customization extensions to the dating app
+1789. [P4] Add all 80+ languages with local norms and translation to the dating app
+1790. [P4] Expand the matching tool to co-founders and business partners
+1791. [P4] Adapt the creative writing systems to the dating app's narrative functions
+1792. [P4] Turn the dating tool into AI boyfriends and girlfriends
+1793. [P4] Allow multiple social accounts and extend the network graph for small accounts
+1794. [P4] Build the Tinder scoring add-on as a chrome extension/mobile accessibility tool
+1795. [P4] Style the dating app like playful astrology/pop dating apps but with real science
+1796. [P4] Complete the Phase 1 interview flow with stakeholder identification
+1797. [P4] Experiment with replicating launch videos using Hyperframes
+1798. [P4] Add the Impro book status-interactions framework to the decision engine and interview prep
+1799. [P4] Build a natural-language and hook-based router for my tools
+1800. [P4] Add project-improvement claim posts with proof to the Twitter tool
+1801. [P4] [money-machine] Market the bestmodelpicker free mode through university students
+1802. [P4] [money-machine] Market the decision engine with data-backed decision-analysis tweets and case studies
+1803. [P4] Reverse-engineer the 5th writing filter from 60 samples
+1804. [P4] Add the ADHD task-cycling feature to the simple note app
+1805. [P4] Factor wireless versus Fibre services into the MTN check
+1806. [P4] Merge Ori real-time evals and SkillEvaluator into one skills-evaluation concept
+1807. [P4] Add skills support to the quick qmd knowledgebases and pick a harness
+1808. [P4] [money-machine] Make women-focused, women-branded versions of all the apps
+1809. [P4] Build recursive link crawling over notes, bookmarks, and history
+1810. [P4] Build an Instinct-style persistent iMessage agent
+1811. [P4] Connect all projects to Apple iMessage
+1812. [P4] Build the AI notetaking app with local STT
+1813. [P4] Run the powerful-agent checklist against all projects
+1814. [P4] Create a detailed skill bundle for the Cloudflare qmd knowledgebase
+1815. [P4] Find and compare every Google Maps lead scraper site
+1816. [P4] Add qmd RAG and self-improvement loops to the twitter tool
+1817. [P4] Discuss qmd as the job hunter career self-tracking system
+1818. [P4] Find the best smallest video and audio models from my notes
+1819. [P4] Search notes and chats for prior priority-tool work and decision-engine combination
+1820. [P4] Enrol in the 2 UGMC courses and search bookmarks for 'student'
+1821. [P4] [money-machine] Package the 'what should I send' tool as middleware with API endpoints
+1822. [P4] Create hooks that auto-run /ubiquitous-language and /teach at intervals
+1823. [P4] Add utility power comparison to the solarsizer app
+1824. [P4] Bake the Uber-style agent cost and ROI breakdown into bestmodelpicker
+1825. [P4] Route brainstorming, spec writing, and debugging through a cheap MoE council
+1826. [P4] Add zg (zvec-grep) to the memory stack comparison
+1827. [P4] Extend brand-system-skill to produce full brand manuals and assets
+1828. [P4] Research how chief-of-staff roles handle delegation
+1829. [P4] Research orchestrator systems' task prioritization for the priority tool
+1830. [P4] Add semantic-intent test-writing phase to GitHub-PIA comparisons
+1831. [P4] Add savable quality-check recipes to GitHub-PIA and other index projects
+1832. [P4] Build the hypocrisy RAG bot
+1833. [P4] Add a separate qmd silo for the Skills collection
+1834. [P4] Improve job-hunting to surface realistic analyses of job types and roles
+1835. [P4] Expand the network-effects advisor into a moats bot/bundle
+1836. [P4] Build the product launch video generation pipeline
+1837. [P4] Compare the final fit-to-brand ICP section against the bookmarked guide
+1838. [P4] Add the semantic-search chat to the prioritization engine
+1839. [P4] Analyze open-design versus fit-to-brand and merge or integrate
+1840. [P4] Switch the dating app anon messaging to social/chat with a match-only option
+1841. [P4] Build the break-the-ice starter system with the screen watcher
+1842. [P4] Adapt crypto copy-pasta and raids for MTN in the twitter tool
+1843. [P4] Research user and ex details only before the date they met for the ex-handle campaign
+1844. [P4] Run the recap prompts on all 3 branches of the old zengen chat
+1845. [P4] Summarize and compare the 3 prioritization versions
+1846. [P4] Copy the Firecrawl signup and free-credits pattern across all apps
+1847. [P4] Adapt AutoResearch to general research
+1848. [P4] Build the personal inflation indicator website
+1849. [P4] Build plugin or skill-bundle versions on top of assistant bots
+1850. [P4] Generate daily app-vs-assistant comparison examples as AEO articles
+1851. [P4] Analyze Boski as competition for the prioritization products
+1852. [P4] Harden with real Cloudflare Access (T01)
+1853. [P4] Master the process for researching winning hooks, formats and angles
+1854. [P4] Install ai-job-search and compare it against the job-hunting plugin
+1855. [P4] Build the fiction sensorium and craft packs
+1856. [P4] Build the asemota bots from the self-distillation guide
+1857. [P4] Red-team the training-data process and write the paper
+1858. [P4] Build the goal-definition pre-layer for the prioritization engine
+1859. [P4] Bond hypit with the viral-ICP feature as a two-stage pipeline
+1860. [P4] Use shock-value and fame niches tools for programmatic SEO sites
+1861. [P4] Combine pi-autoresearch with Jev
+1862. [P4] Run the Reddit research on matching Ahrefs and Semrush accuracy
+1863. [P4] Audit manual SEO steps for computer-use automation
+1864. [P4] Build the project knowledgegraph in fit-to-brand
+1865. [P4] Build the real-time fact checker Jamie
+1866. [P4] Use Jev to map its usecases onto project functions
+1867. [P4] Find a cheap fast way to search Instagram, TikTok and Facebook shops for the Chinese directories project
+1868. [P4] Upgrade the Jev-Moderation-Bot into a full customer service bot
+1869. [P4] Map the full incentives structure as a densely interconnected graph inside the tool
+1870. [P4] Build a quick agent that reads notes and email and adds things to Google Calendar
+1871. [P4] Design the central nodes manager to rotate resources across AI detectors, not just Pangram
+1872. [P4] Make the decision engine research Goodreads first instead of doing open-ended search
+1873. [P4] Test powering 12V fans and routers from powerbanks via pin-to-USB cords
+1874. [P4] Add industry-standard PDF report exports to AdAdvisor
+1875. [P4] Try clawflows workflow builder before native lobsterflow
+1876. [P4] Add the deanonymizer abilities to the Twitter PR tool
+1877. [P4] Use 5-Why with NotebookLM to mine bookmarks for new solutions when building
+1878. [P4] Add the 'best-before' expiring task type to the to-do app
+1879. [P4] Test the $20 Claude plan and a $10 alibaba/minimax/kimi plan before buying codex
+1880. [P4] [money-machine] Remove the 'export json' button on calculator results but keep its code for APIs
+1881. [P4] [money-machine] Add hours-per-day and fuel-price fields to the generator comparison table
+1882. [P4] Advance the sound manager app to automatic audio mixing for studios and live events
+1883. [P4] Work out surround sound handling across mono, stereo, 5.1 and 7.1 outputs
+1884. [P4] Build the 50/50 app feature set (groups, splits, balances, multi-currency)
+1885. [P4] [money-machine] Copy Suniqon features into the solar sizer tool
+1886. [P4] Run the 10k errand list (extension, wire, oil, charging port, food)
+1887. [P4] Buy 3 months of data and a gift for Amara from the 250k list
+1888. [P4] [money-machine] Look into Twitter mutuals for reta logistics backup
+1889. [P4] [money-machine] Add mppt or pwm field to inverter and controller
+1890. [P4] Load the Twitter archive into NotebookLM
+1891. [P4] Turn the Harness Engineer article into a NotebookLM
+1892. [P4] [money-machine] Generate placeholder marketing images with AI
+1893. [P4] Find IDEs that allow using own Gemini API key
+1894. [P4] [money-machine] Add the CPE plus ER605 internet combo to the site
+1895. [P4] Research how AI apps handle long-running chat memory
+1896. [P4] [promise] Give Amara 50k for registration
+1897. [P4] Download Viktoroddy's design tutorial videos
+1898. [P4] Add The Algorithm into the 5-Whys/CDPA system
+1899. [P4] Distill or RL a lightweight avoid-AI model for browser or server
+1900. [P4] Adapt my Antigravity dev process to Codex skills if the generated process disappoints
+1901. [P4] Feed prompt 0, A, B, C website design strategy and other strategies into the setup over time
+1902. [P4] Build a systematic way to find every benchmark and leaderboard and how to choose them
+1903. [P4] Reinstall Supabase and Vercel plugins so symlinks work
+1904. [P4] [money-machine] Borrow ideas for gift recommender and relationship assessment app from the thread
+1905. [P4] Build the WWJD advisor bot trained on the Gospels
+1906. [P4] Check whether autoresearch and RLM complement each other
+1907. [P4] Consider if autoresearch applies to companion/advisor bots
+1908. [P4] [to-save] Save up to buy a new standing fan
+1909. [P4] Write out today's call with Mansa
+1910. [P4] Collate phone coding-IDE options as backbone for mobile agent apps
+1911. [P4] Cut my hair
+1912. [P4] Write down all observations and theories about the big battery problem
+1913. [P4] [money-machine] Settle the strategy-creation dilemma: train AI straight from nodes vs build strategy then map it to nodes
+1914. [P4] [new-opportunity] Explore the AI music label build
+1915. [P4] Buy the remaining items: USB cable, earphones, pastries, drink
+1916. [P4] Find a carpenter for the nets
+1917. [P4] Find the solar person to mount the panel on the roof
+1918. [P4] [new-opportunity] Check recent Twitter bookmarks for the second startup idea
+1919. [P4] Review civilization simulation games for script writer world building
+1920. [P4] Fix or flush the sprayer bottle
+1921. [P4] [new-opportunity] Build my own MathAcademy
+1922. [P4] Buy a spray bottle under N1,500 at the malls
+1923. [P4] [money-machine] Scan for model-router companies and products with last30days
+1924. [P4] [new-opportunity] Build the nepotism-detection tool for new hires
+1925. [P4] [new-opportunity] Build the parenting-advice AI consultant on Hermes
+1926. [P4] [money-machine] Combine the Seun sourcing engine with the linked Gemini conversation
+1927. [P4] Evaluate honcho against the previously listed memory systems
+1928. [P4] Collect everything giyu writes and does
+1929. [P4] Search for all failures labeled preexisting
+1930. [P4] Audit the integration limits of the 100+ integration sites
+1931. [P4] Extend the GitHub extractor to download full repos, not just text files
+1932. [P4] [money-machine] Compare Cloudflare Email and Unosend against Brevo for outbound email
+1933. [P4] Make Hermes Agent the default scaffold for all projects
+1934. [P4] Visit 100 websites and collect their flowery copy
+1935. [P4] Build the Nigerian cheating-strategy advice bot
+1936. [P4] Preload only AGENTS.md and preload-skills.json in new sessions
+1937. [P4] Research how the AI routers work
+1938. [P4] Read the DeepSeek flash articles for usage tips
+1939. [P4] Study the linked prompt and skill file structure guide
+1940. [P4] Research how to prevent recurring node_modules problems
+1941. [P4] Add the gift-feedback survey to the gift recommender
+1942. [P4] Apply Constraints-Grill to system architecture design
+1943. [P4] Compare the sourcing engine and CDPA methodologies
+1944. [P4] Research advanced search algorithms for per-role job comparison
+1945. [P4] Use the Matt Pocock tweet to refine my skill usage
+1946. [P4] Build a Hermes bot to teach me the Anthropic course materials
+1947. [P4] Add adversarial model back-and-forth to the 5-whys process
+1948. [P4] Implement the mimic-fable repo in the opencode agent
+1949. [P4] Compare the OpenAI and Claude interview methods with nvidia
+1950. [P4] Integrate Wayfinder into the interview features
+1951. [P4] Make the tool catch impossible job requirements
+1952. [P4] Generate the complete job-ops network graph
+1953. [P4] Run the full Kimi code review and refactor
+1954. [P4] [money-machine] Share my Telegram and WhatsApp links and add the refreshed website for automation gigs
+1955. [P4] Add an email tracking system to the job pipeline
+1956. [P4] Check my skills repos for better alternatives to n8n for the social media mod bot before building it
+1957. [P4] Add @ParameterAI branding to my Twitter (name, Telegram/WhatsApp, email, portfolio)
+1958. [P4] Do the Claude trial and verify it works
+1959. [P4] Implement all remaining non-implemented suggestions from this chat session
+1960. [P4] Make cover letter hooks use quick company research
+1961. [P4] Make all tool interactions soft, starting with greetings and small talk
+1962. [P4] Map everywhere the user's location affects the package
+1963. [P4] Do a final pass for unimplemented suggestions from the chat
+1964. [P4] Triage the other chat's suggestion list against the current package
+1965. [P4] Decide if multi-machine DB safety is necessary for the use case
+1966. [P4] Use the grey card for the ChatGPT trial when the Claude trial expires, then try Kimi K3
+1967. [P4] Search for advanced Hermes setup guides
+1968. [P4] Log in to TouchVPN to reach Artificial Analysis and rank free models
+1969. [P4] Connect the opencode account in Hermes to use free DeepSeek Flash
+1970. [P4] Log into Outlook to access the second Claude account
+1971. [P4] Review the cold emailing thread for principles to adapt to job hunting
+1972. [P4] Merge the message concatenation idea into the twitter tool as the free feature
+1973. [P4] Try the AgentRouter token on opencode
+1974. [P4] [money-machine] Remove the accidentally added licence_client.py from the package
+1975. [P4] Crawl the networkfx website and all my skill repos
+1976. [P4] Check whether interview prep applies spaced repetition
+1977. [P4] Add the security review system to the skill comparison tool
+1978. [P4] Adapt my prompt 0/A/B/C process to the Codex setup skills
+1979. [P4] [money-machine] Add BCP for pain management and healing to the reatrutide website
+1980. [P4] [money-machine] Build the full peptide tracker as the first consulting feature
+1981. [P4] Give DeepSeek and Claude the SKILL (2).md and new combined HTML to design the OpenCode intelligence page
+1982. [P4] [money-machine] Consolidate and deduplicate every provider and model list, then finish the Claude list versions
+1983. [P4] Extract transcripts from the Codex/OpenCode tutorial videos and apply their settings
+1984. [P4] Finish installing SpecStory on both Codex and OpenCode
+1985. [P4] Find skills or plugins for product launch videos
+1986. [P4] [blocks-work] Sort out the Google and Amazon account issues
+1987. [P4] Search GitHub for other job hunting agents, skills and workflows
+1988. [P4] Look for AI-powered architectural drawing tools, skills and tutorials for Claude Code
+1989. [P4] Determine if edgeupdate can be safely disabled
+1990. [P4] [money-machine] Write first-version AI-generated case study articles for the projects
+1991. [P4] Copy out everything important from the two 5-whys input prompts via Claude
+1992. [P4] Ask Codex to safely optimise the system (space, apps, settings, hangs)
+1993. [P4] Decide my defaults: languages, packages, deployment stacks and payment plans
+1994. [P4] [money-machine] Create job-search skills and agents from the implemented strategies
+1995. [P4] Build the tax evasion chatbot
+1996. [P4] [money-machine] Finish the crypto telegram bot
+1997. [P4] [money-machine] Build the social media marketing automations
+1998. [P4] Set up a Gemini Pro trial on another account and warm a TikTok account
+1999. [P4] [money-machine] Find a comprehensive repository of devices and wattages for quick add
+2000. [P4] [money-machine] Build the vendor settings system: ranges, saved themes, marketplace and chat plugin
+2001. [P4] [money-machine] Add setup longevity metrics and the setup comparison feature
+2002. [P4] Ask Amara to teach me her cold DM and opportunity finding strategies on Threads
+2003. [P4] [new-opportunity] Look into the Outlier thing and registering accounts abroad
+2004. [P4] Collate and rate the fastest agentic coding approaches from Twitter bookmarks
+2005. [P4] [money-machine] Work on product modularity
+2006. [P4] [money-machine] Switch the BMS to a Bluetooth model synced to a single display
+2007. [P4] Get the hybrid prompts B and C from Claude
+2008. [P4] Update Prompt A using the homepage and tab copies
+2009. [P4] [money-machine] Create the average Nigerian personas and load them on the home page
+2010. [P4] [money-machine] Create the mobile app for the solar business
+2011. [P4] Research how Twitter-crawling agents, memory and knowledgebase systems work and compare them to RAG
+2012. [P4] Determine what causes the Cloudflare 120s timeouts and sidestep them
+2013. [P4] Gather at least 10 recently bookmarked opportunity-type tweets
+2014. [P4] Add technical blogs as a source type to all my projects
+2015. [P4] Strengthen platform_extractor.py repo selection criteria using /last30days
+2016. [P4] [promise] Set up my bot to send cold outreach messages for Amara
+2017. [P4] Find MengTo's website tutorials and the other bookmarked tutorials
+2018. [P4] Find good portfolio templates for the job hunter
+2019. [P4] [money-machine] Look for all harness benchmarks for FreeAIFinder
+2020. [P4] [outgoing-due] Send Amara the money for her birthday phone flex repair
+2021. [P4] Transfer the six GoDaddy domains to Cloudflare
+2022. [P4] [outgoing-due] Pay the Android app developer fee
+2023. [P4] Compare Unosend, Resend, Sendgrid, Mailgun and Postmark with the marketing usecases
+2024. [P4] Add opportunity cost calculation to the renter tool
+2025. [P4] [money-machine] Fix table styling so only labels, picks, reference and floored models keep colors
+2026. [P4] [money-machine] Add a note explaining what a 'dominated' model means
+2027. [P4] Find all sites like Refero that host DESIGN.md collections
+2028. [P4] [money-machine] Check whether the infinity slider and execution floor slider are redundant
+2029. [P4] [money-machine] Add image generation abilities to the Twitter tool for IG
+2030. [P4] [outgoing-due] Buy the $50 iPhone for US market targeting
+2031. [P4] [money-machine] Fix the Telegram system messages so only a few show
+2032. [P4] Look through the whole project for places where Hermes agent hooks fit
+2033. [P4] Turn the reply statements into clickable buttons
+2034. [P4] Sort out the starbank: what it needs and how to populate it
+2035. [P4] Create rules separating personal-account and corporate-account content types
+2036. [P4] Follow @HermesWatcher for Hermes feature news until the recommendation engine exists
+2037. [P4] Add the adult-mode system prompt to my chat custom instructions
+2038. [P4] [client-job] Finish the Orynth backlink task
+2039. [P4] Copy Cloudflare's dynamic AI routing into the twitter tool
+2040. [P4] Fill out the stardotfun form
+2041. [P4] Check GLM for newer datingelo chat sessions
+2042. [P4] Scan twitter bookmarks and GitHub repos for tool routers
+2043. [P4] Make github-pia option 2 match trendshift exactly
+2044. [P4] Test hosting all projects with here.now
+2045. [P4] Clear the tab of existing applications
+2046. [P4] Do QMD tasks new 55 and new 67
+2047. [P4] Optimize Windows with the ChatGPT chat and GitHub repo
+2048. [P4] Find tools and processes for every non-generation video format
+2049. [P4] Give the humor benchmarks and papers to the viral chat
+2050. [P4] Install the multiple-Gmail setup and get a Google Pro plan
+2051. [P4] Add the planning feature and skills/plugins to QMD
+2052. [P4] Check the tier-dominance override design in the prioritization specs document
+2053. [P4] Turn job-hunting into a plugin for Hermes
+2054. [P4] Test whether jev-browser-use or jev-computer-use is needed for job-hunting
+2055. [P4] Run a detailed adversarial red team comparison between my skill evaluator and skillranker
+2056. [P4] Clone the LaunchRepo.dev repo to get listed in 350+ free directories
+2057. [P4] Red team the chairmanlmao report and rebuild the small apps from the ground up
+2058. [P4] Check whether the QMD control plane can search only within a specific silo
+2059. [P4] Integrate /skillbox as the skill calling tool across all my projects
+2060. [P4] Add the typesafe jev key and install the typesafe-ai skill
+2061. [P4] Compare pi-autoresearch against karpathy autoresearch for gaps and new loops
+2062. [P4] Continue producing one real-life end-to-end example per turn across the listed domains
+2063. [P4] Point classifier.dev at a more accurate version of jev
+2064. [P4] Review every popular science book for the research it relies on and how it was interpreted
+2065. [P4] Deploy a QMD knowledgebase widget for users on ecommerce and marketing pages
+2066. [P4] Build the daily morning and evening context-aware mastery learning system as a free QMD add-on
+2067. [P4] Answer the framework corpus, framework cards and two-tier battery design questions individually
+2068. [P4] Find all AI skill files, skill.md files and bundles that perform red teaming
+2069. [P4] Identify the gaps Enzyme closes for LLM wikis and QMD
+2070. [P4] Task an agent to design and run an experiment from a paper's Future Work section
+2071. [P4] Try the ui.sh frontend UI design skills for the website if the tastemaker tool fails
+2072. [P4] Check whether jev can select the relevant benchmark combination and best model per request
+2073. [P4] Add the Daniel Coyle Talent Code book for sports red teaming
+2074. [P4] Add the ACE and toxic parenting books for the parenting domain
+2075. [P4] Find more books on how families can go wrong and how friendships are ruined
+2076. [P4] Decide whether the local architecture is still needed now that cloud embedding and reranking exist
+2077. [P4] Add enterprise multi-user multi-access and silo-ing systems
+2078. [P4] Replace deterministic code decisions in AHPAS with jev calls
+2079. [P4] Log all errors, not just some
+2080. [P4] Show where the saved webpage sent all its files and whether they landed correctly
+2081. [P4] Explain the difference between Pi Agent Autonomous Console and Interactive Search Tester
+2082. [P4] Show where users create the ReACT workflows on the control plane
+2083. [P4] Build a new Brainstorming folder holding all project specs, grilling skills and the stack
+2084. [P4] Design the red teaming and decision engine loop, whether full cycle or tight integration
+2085. [P4] Crosscheck whether the framework cards, corpuses and batteries are cross referenced on a single search
+2086. [P4] Create the strategist personality that comments on tweets with long threaded analysis
+2087. [P4] Apply the mastered marketing and lead gen skills aggressively to crypto companies
+2088. [P4] Search twitter bookmarks and twitter for all trading bots built with jev
+2089. [P4] Use the jev decision index to find which local jev model is powerful yet small enough for desktop apps
+2090. [P4] Find the chat for the storages and inbox and thoroughly extend it with multiple checks like jev
+2091. [P4] Build the personal 'how to be a good friend' tool merging the gift recommender and red teaming
+2092. [P4] Add self-improvement recipe and framework layering as goals on top of noteapp
+2093. [P4] Check whether the Relationships general communication category was built
+2094. [P4] Confirm Coming Apart and The Anxious Generation were fully included
+2095. [P4] Check whether the friendship deep-dive was folded into the specs as a research request
+2096. [P4] Find books on innovative and creative thinking to expand the creativity sub-phase
+2097. [P4] Add a creative, ungated generative pass at the start of the pipeline
+2098. [P4] Build the advanced individual Leverage calculator tool from the database of the wickedness model
+2099. [P4] Add the phone book list to the graph so Social Life and Community get their failure-of-society books
+2100. [P4] Get the phone book list pasted or screenshotted so it can be folded into the graph
+2101. [P4] Check whether business-failure podcasts and channels are valid AHPAS sources and ingestible
+2102. [P4] Decide whether to build 5000+ skills per life domain or a universal all-encompassing framework
+2103. [P4] Collate the comprehensive For Dummies business how-to books list, manually if claude will not
+2104. [P4] Define the design and architecture of the business plan skeletons layered together
+2105. [P4] Allow the LLM models freedom to free-associate while keeping the tool structure
+2106. [P4] Compare QMD to muse, instinct, grokbot, cloudflare's agent and every coding agent and harness
+2107. [P4] Focus on inference engineering after finishing the apps, evals and model training
+2108. [P4] Deep research trauma, extreme situations and how humans behave in them
+2109. [P4] Really check §6.1 Universal Analysis Structure against existing content before closing it
+2110. [P4] Install the poteto, dexhorthy and emilkowalski skills in Gemini
+2111. [P4] Build the Goodreads book-distillation research base for leverage and incentives
+2112. [P4] Check whether network graphs and network theory cover the gaps in the current process or system
+2113. [P4] Combine the deployment checker and the openship work into one skill-bundle or plugin
+2114. [P4] Explore the Grep plus Jev index and compare its performance against a full RAG
+2115. [P4] Find a way to experiment with and build plugins, profiles or bots for Muse, Grokbot and Instinct
+2116. [P4] Work out how to add leads to Sales Navigator and make first-level connections
+2117. [P4] Set the calendar agent up on Hermes
+2118. [P4] Find whether any Simplenote API endpoint exists
+2119. [P4] Find tools that turn any website into API, MCP or CLI endpoints
+2120. [P4] Do the quick Twitter character map tutorial and clear out Google Flow
+2121. [P4] Make the quick design tutorial for an Obsidian wrapper website, and the SEO and AEO tutorial
+2122. [P4] Start from Ahmad Oosman's open source tool and check whether HuggingFace's model selector is open source
+2123. [P4] Add the full field of game theory to the real politik delta spec
+2124. [P4] Produce detailed visual illustrations of the axis system turn by turn, with every factor shown
+2125. [P4] Add logistics and hospitality literature to the domain coverage, bridging with Christensen's book
+2126. [P4] Check whether more frameworks, criteria, domains, dimensions or models should become axes
+2127. [P4] Use the Gemini Pro plan in Smart Connections
+2128. [P4] Add a video type selector to fit-to-brand
+2129. [P4] Add the Palantir acting book and related books as a core framework of the real politik delta
+2130. [P4] See whether the YC outreach tool can be adapted for other sites, platforms and use cases
+2131. [P4] Cut hair
+2132. [P4] [outgoing-due] Send money via POS to the computer repair guy
+2133. [P4] Buy bread, spaghetti, indomie and eggs
+2134. [P4] Download the movie and TV adaptations of John le Carre's works, starting with The Night Manager
+2135. [P4] Add a panel of motivational messages to the prioritization bot
+2136. [P4] Download all The Black List screenplay movies not yet watched
+2137. [P4] Finish shows with only a few episodes left on phone and laptop (Ex Wife, Dark Wolf, detective season 6)
+2138. [P4] Meet with the barber
+2139. [P4] Download seasons 3 and 4 of Gomorrah
+2140. [P4] Download the movie from the linked X post
+2141. [P4] Export data usage for the NVIDIA API endpoint
