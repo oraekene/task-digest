@@ -25525,18 +25525,20 @@
       "source_title": "Job-hunting plugin",
       "quote": "Fix the browser use, likely with jev tools (try out the old hermes options first, check my twitter bookmarks",
       "status": "open",
-      "tier": 2,
+      "tier": 3,
       "impact": 0.2,
       "deadline": null,
       "first_seen": "2026-09-24",
       "completed": null,
-      "why": "explicit blocking bug in job-hunting",
+      "why": "explicit blocking bug in job-hunting | demoted: stale",
       "category": "none",
-      "checkin_state": "queued",
+      "checkin_state": "demoted",
       "checkin_due": "2026-11-08",
-      "checkin_at": "2026-11-08",
+      "checkin_at": "2026-11-23",
       "checkin_jev": 0.72,
-      "checkin_reason": "jev 0.72"
+      "checkin_reason": "no answer",
+      "demoted_from": 2,
+      "demoted_at": "2026-11-23"
     },
     {
       "id": "b1550",
@@ -26000,18 +26002,20 @@
       "source_title": "Tweets i have been seeing:",
       "quote": "My personal need: cheapest place to buy opus 5.5 and all other models (plus adapting BCWES to: i give it a list of models i want",
       "status": "open",
-      "tier": 2,
+      "tier": 3,
       "impact": 0.1,
       "deadline": null,
       "first_seen": "2026-09-25",
       "completed": null,
-      "why": "explicit personal cost-saving need",
+      "why": "explicit personal cost-saving need | demoted: stale",
       "category": "none",
-      "checkin_state": "queued",
+      "checkin_state": "demoted",
       "checkin_due": "2026-11-09",
-      "checkin_at": "2026-11-09",
+      "checkin_at": "2026-11-23",
       "checkin_jev": 0.81,
-      "checkin_reason": "jev 0.81"
+      "checkin_reason": "no answer",
+      "demoted_from": 2,
+      "demoted_at": "2026-11-23"
     },
     {
       "id": "b1572",
@@ -26042,18 +26046,20 @@
       "source_title": "Zengenbravo: ",
       "quote": "Borrow a lot of concepts amd insights and ideas from all the Agency topics and paragraphs and discussions in the paper, and all the books discussing agency.",
       "status": "open",
-      "tier": 2,
+      "tier": 3,
       "impact": 0.2,
       "deadline": null,
       "first_seen": "2026-09-25",
       "completed": null,
-      "why": "explicit central concept for the internal-personal delta domain",
+      "why": "explicit central concept for the internal-personal delta domain | demoted: stale",
       "category": "none",
-      "checkin_state": "queued",
+      "checkin_state": "demoted",
       "checkin_due": "2026-11-09",
-      "checkin_at": "2026-11-09",
+      "checkin_at": "2026-11-23",
       "checkin_jev": 0.79,
-      "checkin_reason": "jev 0.79"
+      "checkin_reason": "no answer",
+      "demoted_from": 2,
+      "demoted_at": "2026-11-23"
     },
     {
       "id": "b1574",
@@ -30883,7 +30889,12 @@
       "first_seen": "2026-10-08",
       "completed": null,
       "why": "Diagnostic step for the MTN bandwidth problem.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-22",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1800",
@@ -30898,7 +30909,12 @@
       "first_seen": "2026-10-08",
       "completed": null,
       "why": "Explicit feature for the cold-email tool.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-22",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1801",
@@ -30913,7 +30929,12 @@
       "first_seen": "2026-10-08",
       "completed": null,
       "why": "Explicit framework decision for a new product.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-22",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1802",
@@ -30928,7 +30949,12 @@
       "first_seen": "2026-10-08",
       "completed": null,
       "why": "Feeds content keywords and all marketing.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-22",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1803",
@@ -30943,7 +30969,12 @@
       "first_seen": "2026-10-08",
       "completed": null,
       "why": "Explicit build-or-adopt instruction.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-22",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1804",
@@ -30958,7 +30989,12 @@
       "first_seen": "2026-10-08",
       "completed": null,
       "why": "Named source additions; same instruction as adding notes sites in d6b3a5a065f84e9285ba1e9794f6617e.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-22",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1805",
@@ -30973,7 +31009,12 @@
       "first_seen": "2026-10-08",
       "completed": null,
       "why": "Unblocks four tools at once; the same crawlers are listed in af7e333710cb4a55aeab4d2427a2502d.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-22",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1806",
@@ -30988,7 +31029,12 @@
       "first_seen": "2026-10-08",
       "completed": null,
       "why": "Combines the engine with the marketing platform.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-22",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1807",
@@ -31003,7 +31049,12 @@
       "first_seen": "2026-10-08",
       "completed": null,
       "why": "Explicit named function.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-22",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1808",
@@ -31018,7 +31069,12 @@
       "first_seen": "2026-10-08",
       "completed": null,
       "why": "Explicit extension to build.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-22",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1809",
@@ -31033,7 +31089,12 @@
       "first_seen": "2026-10-08",
       "completed": null,
       "why": "Explicit open analysis task.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-22",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1810",
@@ -31048,7 +31109,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Today's list and the core income action; same as sending all cold emails in d6b3a5a065f84e9285ba1e9794f6617e.",
-      "category": "money-machine"
+      "category": "money-machine",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1811",
@@ -31063,7 +31129,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Today's list, and it unblocks the job alert sources.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1812",
@@ -31078,7 +31149,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Today's list and a blocker for context work.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1813",
@@ -31093,7 +31169,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Explicit step after finishing Obsidian.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1814",
@@ -31108,7 +31189,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Presentation layer for every application; LinkedIn also in 00eb9c1960ec48e48d4d8e1d859f93d2.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1815",
@@ -31123,7 +31209,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Explicit presentation requirement for funding.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1816",
@@ -31138,7 +31229,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Duplicate check before more build.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1817",
@@ -31153,7 +31249,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Sequenced plan for the joined tool.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1818",
@@ -31168,7 +31269,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "List to feed the funding applications.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1819",
@@ -31183,7 +31289,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Explicit feature decision.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1820",
@@ -31198,7 +31309,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Cost control the note requires.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1821",
@@ -31213,7 +31329,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Note says it would replace the social search of job-hunting.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1822",
@@ -31228,7 +31349,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Mobile scope for the engine.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1823",
@@ -31243,7 +31369,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Stated product direction, later stage.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1824",
@@ -31258,7 +31389,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Evidence needed before the outreach.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1825",
@@ -31273,7 +31409,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Concrete proof-of-taste deliverable.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1826",
@@ -31288,7 +31429,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "The end goal of the proof-of-work list.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1827",
@@ -31303,7 +31449,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Explicit refactor into a reusable module.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1828",
@@ -31318,7 +31469,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Follow-up scheduling ask.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1829",
@@ -31333,7 +31489,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Required UI for the combined tool.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1830",
@@ -31348,7 +31509,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Named new product direction with an open source start.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1831",
@@ -31363,7 +31529,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Note names it a gap in a working suite.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1832",
@@ -31378,7 +31549,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Explicit sweep across the whole portfolio.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1833",
@@ -31393,7 +31569,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Explicit next-project decision with a search step.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1834",
@@ -31408,7 +31589,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Explicit copy instruction on a proven model.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1835",
@@ -31423,7 +31609,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Explicit evaluation with a fallback ask.",
-      "category": "none"
+      "category": "none",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1836",
@@ -31438,7 +31629,12 @@
       "first_seen": "2026-10-09",
       "completed": null,
       "why": "Explicit market expansion with a named first account. | money: money-machine",
-      "category": "money-machine"
+      "category": "money-machine",
+      "checkin_state": "queued",
+      "checkin_due": "2026-11-23",
+      "checkin_at": "2026-11-23",
+      "checkin_jev": null,
+      "checkin_reason": "Jev unavailable"
     },
     {
       "id": "b1837",
