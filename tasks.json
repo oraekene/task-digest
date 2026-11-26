@@ -36561,9 +36561,9 @@
     {
       "id": "b2102",
       "title": "Add Visajobsdaily as a source to opportunity_desk",
-      "source_note": "5919e636-6e2b-4331-944c-4dfb135f6dcd",
-      "source_title": "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",
-      "quote": "add as a source to opportunity_desk: https://www.visajobsdaily.com/",
+      "source_note": "02733314-f0e4-4be5-a2eb-89949c3b950e",
+      "source_title": "treg job report: 6, 7 and 11 (and 12 maybe), implement useful parts in",
+      "quote": "ADD TO OPPORTUNITY DESK: - VisaJobsDaily",
       "status": "open",
       "tier": 3,
       "impact": 0.2,
@@ -36573,7 +36573,9 @@
       "completed": null,
       "category": "none",
       "why": "internal tooling: adding job source",
-      "effort": "M"
+      "effort": "M",
+      "last_seen": "2026-11-25",
+      "mention_count": 2
     },
     {
       "id": "b2103",
@@ -37408,6 +37410,40 @@
       "completed": null,
       "category": "money-machine",
       "why": "Daily deadlines reminder on the Solar Sizer desktop page; money-machine, existing income asset.",
+      "effort": "M"
+    },
+    {
+      "id": "b2152",
+      "title": "Implement useful parts of treg job report (6, 7, 11, 12) into job hunting process",
+      "source_note": "02733314-f0e4-4be5-a2eb-89949c3b950e",
+      "source_title": "treg job report: 6, 7 and 11 (and 12 maybe), implement useful parts in",
+      "quote": "treg job report: 6, 7 and 11 (and 12 maybe), implement useful parts into job hunting",
+      "status": "open",
+      "tier": 1,
+      "impact": 0.4,
+      "deadline": null,
+      "soft_deadline": null,
+      "first_seen": "2026-11-25",
+      "completed": null,
+      "category": "money-machine",
+      "why": "implement job report parts into job hunting process",
+      "effort": "M"
+    },
+    {
+      "id": "b2153",
+      "title": "Analyze full session exports for deletions and identified issues/risks",
+      "source_note": "02733314-f0e4-4be5-a2eb-89949c3b950e",
+      "source_title": "treg job report: 6, 7 and 11 (and 12 maybe), implement useful parts in",
+      "quote": "all sessions: (a) read full session export here: what were all the things you deleted in this session, and why? (b) give a complete list of all the problems/issues/risks you identified/observed",
+      "status": "open",
+      "tier": 3,
+      "impact": 0.2,
+      "deadline": null,
+      "soft_deadline": null,
+      "first_seen": "2026-11-25",
+      "completed": null,
+      "category": "none",
+      "why": "analyze session exports for deletions and issues",
       "effort": "M"
     }
   ]
